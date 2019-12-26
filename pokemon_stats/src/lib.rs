@@ -13,49 +13,53 @@ pub fn print_population_stats(pokemon: Vec<Pokemon>) {
         .map(|p| p.base_stats.hp as f32)
         .collect::<Vec<_>>();
     let (average, std) = average_and_stdev(vals.as_slice());
-    println!("average hp = {}, std = {}", average, std);
+    print_mean("hp", average, std);
 
     let vals = pokemon
         .iter()
         .map(|p| p.base_stats.attack as f32)
         .collect::<Vec<_>>();
     let (average, std) = average_and_stdev(vals.as_slice());
-    println!("average attack = {}, std = {}", average, std);
+    print_mean("attack", average, std);
 
     let vals = pokemon
         .iter()
         .map(|p| p.base_stats.defense as f32)
         .collect::<Vec<_>>();
     let (average, std) = average_and_stdev(vals.as_slice());
-    println!("average defense = {}, std = {}", average, std);
+    print_mean("defense", average, std);
 
     let vals = pokemon
         .iter()
         .map(|p| p.base_stats.sp_attack as f32)
         .collect::<Vec<_>>();
     let (average, std) = average_and_stdev(vals.as_slice());
-    println!("average special attack = {}, std = {}", average, std);
+    print_mean("special", average, std);
 
     let vals = pokemon
         .iter()
         .map(|p| p.base_stats.sp_defense as f32)
         .collect::<Vec<_>>();
     let (average, std) = average_and_stdev(vals.as_slice());
-    println!("average special defense = {}, std = {}", average, std);
+    print_mean("special", average, std);
 
     let vals = pokemon
         .iter()
         .map(|p| p.base_stats.speed as f32)
         .collect::<Vec<_>>();
     let (average, std) = average_and_stdev(vals.as_slice());
-    println!("average speed = {}, std = {}", average, std);
+    print_mean("speed", average, std);
 
     let vals = pokemon
         .iter()
         .map(|p| p.base_stats.total() as f32)
         .collect::<Vec<_>>();
     let (average, std) = average_and_stdev(vals.as_slice());
-    println!("average total = {}, std = {}", average, std);
+    print_mean("total", average, std);
+}
+
+fn print_mean<S: ToString>(measure: S, mean: f32, std_dev: f32) {
+    println!("{:<8} = {:>9.5} (σ = {:.5})", measure.to_string(), mean, std_dev);
 }
 
 fn average_and_stdev<T>(v: &[T]) -> (T, T)
