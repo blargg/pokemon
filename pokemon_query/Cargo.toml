@@ -1,0 +1,9 @@
+[package]
+name = "stats"
+version = "0.1.0"
+authors = ["blargg <tomjankauski@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+pokemon_stats = { path = "../pokemon_stats" }
+serde_json = "1.0.44"

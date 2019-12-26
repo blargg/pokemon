@@ -1,0 +1,1579 @@
+None ???
+Master Ball The best Poké Ball with the ultimate level of performance. With it, you will catch any wild Pokémon without fail.
+Ultra Ball An ultra-high-performance Poké Ball that provides a higher success rate for catching Pokémon than a Great Ball.
+Great Ball A good, high-performance Poké Ball that provides a higher success rate for catching Pokémon than a standard Poké Ball.
+Poké Ball A device for catching wild Pokémon. It’s thrown like a ball at a Pokémon, comfortably encapsulating its target.
+Safari Ball A special Poké Ball that is used only in the Great Marsh. It is recognizable by the camouflage pattern decorating it.
+Net Ball A somewhat different Poké Ball that is more effective when attempting to catch Water- or Bug-type Pokémon.
+Dive Ball A somewhat different Poké Ball that works especially well when catching Pokémon that live underwater.
+Nest Ball A somewhat different Poké Ball that becomes more effective the lower the level of the wild Pokémon.
+Repeat Ball A somewhat different Poké Ball that works especially well on a Pokémon species that has been caught before.
+Timer Ball A somewhat different Poké Ball that becomes progressively more effective at catching Pokémon the more turns that are taken in battle.
+Luxury Ball A particularly comfortable Poké Ball that makes a wild Pokémon quickly grow friendlier after being caught.
+Premier Ball A somewhat rare Poké Ball that was made as a commemorative item used to celebrate an event of some sort.
+Dusk Ball A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places such as caves.
+Heal Ball A remedial Poké Ball that restores the HP of a Pokémon caught with it and eliminates any status conditions.
+Quick Ball A somewhat different Poké Ball that has a more successful catch rate if used at the start of a wild encounter.
+Cherish Ball A quite rare Poké Ball that has been crafted in order to commemorate a special occasion of some sort.
+Potion A spray-type medicine for treating wounds. It can be used to restore 20 HP to a single Pokémon.
+Antidote A spray-type medicine for treating poisoning. It can be used to lift the effects of being poisoned from a single Pokémon.
+Burn Heal A spray-type medicine for treating burns. It can be used to heal a single Pokémon suffering from a burn.
+Ice Heal A spray-type medicine for treating freezing. It can be used to thaw out a single Pokémon that has been frozen solid.
+Awakening A spray-type medicine to wake the sleeping. It can be used to rouse a single Pokémon from the clutches of sleep.
+Paralyze Heal A spray-type medicine for treating paralysis. It can be used to free a single Pokémon that has been paralyzed.
+Full Restore A medicine that can be used to fully restore the HP of a single Pokémon and heal any status conditions it has.
+Max Potion A spray-type medicine for treating wounds. It can be used to completely restore the max HP of a single Pokémon.
+Hyper Potion A spray-type medicine for treating wounds. It can be used to restore 120 HP to a single Pokémon.
+Super Potion A spray-type medicine for treating wounds. It can be used to restore 60 HP to a single Pokémon.
+Full Heal A spray-type medicine that is broadly effective. It can be used to heal all the status conditions of a single Pokémon.
+Revive A medicine that can be used to revive a single Pokémon that has fainted. It also restores half of the Pokémon’s max HP.
+Max Revive A medicine that can be used to revive a single Pokémon that has fainted. It also fully restores the Pokémon’s max HP.
+Fresh Water Water with high mineral content. It can be used to restore 30 HP to a single Pokémon.
+Soda Pop A highly carbonated soda drink. It can be used to restore 50 HP to a single Pokémon.
+Lemonade A very sweet and refreshing drink. It can be used to restore 70 HP to a single Pokémon.
+Moomoo Milk A bottle of highly nutritious milk. It can be used to restore 100 HP to a single Pokémon.
+Energy Powder A very bitter medicinal powder. It can be used to restore 60 HP to a single Pokémon.
+Energy Root An extremely bitter medicinal root. It can be used to restore 120 HP to a single Pokémon.
+Heal Powder A very bitter medicinal powder. It can be used once to heal all the status conditions of a Pokémon.
+Revival Herb A terribly bitter medicinal herb. It revives a fainted Pokémon and fully restores its max HP.
+Ether This medicine can be used to restore 10 PP to a single selected move that has been learned by a Pokémon.
+Max Ether This medicine can be used to fully restore the PP of a single selected move that has been learned by a Pokémon.
+Elixir This medicine can be used to restore 10 PP to each of the moves that have been learned by a Pokémon.
+Max Elixir This medicine can be used to fully restore the PP of all of the moves that have been learned by a Pokémon.
+Lava Cookie Lavaridge Town’s local specialty. It can be used once to heal all the status conditions of a Pokémon.
+Berry Juice A 100 percent pure juice made of Berries. It can be used to restore 20 HP to a single Pokémon.
+Sacred Ash This rare ash can revive all fainted Pokémon in a party. In doing so, it also fully restores their max HP.
+HP Up A nutritious drink for Pokémon. When consumed, it raises the HP base points of a single Pokémon.
+Protein A nutritious drink for Pokémon. When consumed, it raises the Attack base points of a single Pokémon.
+Iron A nutritious drink for Pokémon. When consumed, it raises the Defense base points of a single Pokémon.
+Carbos A nutritious drink for Pokémon. When consumed, it raises the Speed base points of a single Pokémon.
+Calcium A nutritious drink for Pokémon. When consumed, it raises the Sp. Atk base points of a single Pokémon.
+Rare Candy A candy that is packed with energy. When consumed, it will instantly raise the level of a single Pokémon by one.
+PP Up A medicine that slightly raises the max PP of a single selected move that has been learned by a Pokémon.
+Zinc A nutritious drink for Pokémon. When consumed, it raises the Sp. Def base points of a single Pokémon.
+PP Max A medicine that optimally raises the max PP of a single selected move that has been learned by a Pokémon.
+Old Gateau The Old Chateau’s hidden specialty. It can be used once to heal all the status conditions of a Pokémon.
+Guard Spec. An item that prevents stat reduction among the Trainer’s party Pokémon for five turns after it is used in battle.
+Dire Hit An item that greatly raises the critical-hit ratio of a Pokémon during a battle. It can be used only once and wears off if the Pokémon is withdrawn.
+X Attack An item that sharply boosts the Attack stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
+X Defense An item that sharply boosts the Defense stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
+X Speed An item that sharply boosts the Speed stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
+X Accuracy An item that sharply boosts the accuracy of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
+X Sp. Atk An item that sharply boosts the Sp. Atk stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
+X Sp. Def An item that sharply boosts the Sp. Def stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.
+Poké Doll A doll that attracts the attention of a Pokémon. It guarantees escape from any battle with wild Pokémon.
+Fluffy Tail A toy that attracts the attention of a Pokémon. It guarantees escape from any battle with wild Pokémon.
+Blue Flute A flute made from blue glass. It awakens sleeping Pokémon.
+Yellow Flute A flute made from yellow glass. It snaps Pokémon out of confusion.
+Red Flute A flute made from red glass. It snaps Pokémon out of infatuation.
+Black Flute A flute made from black glass. It makes it easier to encounter strong Pokémon in the place you use it.
+White Flute A flute made from white glass. It makes it easier to encounter weak Pokémon in the place you use it.
+Shoal Salt Salt that you found inside Shoal Cave.
+Shoal Shell A seashell that you found inside Shoal Cave.
+Red Shard A small red shard. It appears to be a fragment of some sort of implement made long ago.
+Blue Shard A small blue shard. It appears to be a fragment of some sort of implement made long ago.
+Yellow Shard A small yellow shard. It appears to be a fragment of some sort of implement made long ago.
+Green Shard A small green shard. It appears to be a fragment of some sort of implement made long ago.
+Super Repel An item that prevents any low-level wild Pokémon from jumping out at you for a while. It lasts longer than Repel.
+Max Repel An item that prevents any low-level wild Pokémon from jumping out at you for a while. It lasts longer than Super Repel.
+Escape Rope A long and durable rope. Use it to escape instantly from locations like caves or dungeons. It can be used any number of times.
+Repel An item that prevents any low-level wild Pokémon from jumping out at you for a while.
+Sun Stone A peculiar stone that can make certain species of Pokémon evolve. It burns as red as the evening sun.
+Moon Stone A peculiar stone that can make certain species of Pokémon evolve. It is as black as the night sky.
+Fire Stone A peculiar stone that can make certain species of Pokémon evolve. The stone has a fiery orange heart.
+Thunder Stone A peculiar stone that can make certain species of Pokémon evolve. It has a distinct thunderbolt pattern.
+Water Stone A peculiar stone that can make certain species of Pokémon evolve. It is the blue of a pool of clear water.
+Leaf Stone A peculiar stone that can make certain species of Pokémon evolve. It has an unmistakable leaf pattern.
+Tiny Mushroom A very small and rare mushroom. It’s popular with a certain class of collectors.
+Big Mushroom A very large and rare mushroom. It’s popular with a certain class of collectors.
+Pearl A rather small pearl that has a very nice silvery sheen to it. It can be sold at a low price to shops.
+Big Pearl A rather large pearl that has a very nice silvery sheen. It can be sold at a high price to shops.
+Stardust Lovely red sand that flows between the fingers with a loose, silky feel. It can be sold at a low price to shops.
+Star Piece A small shard of a beautiful gem that gives off a distinctly red sparkle. It can be sold at a high price to shops.
+Nugget A nugget of the purest gold that gives off a lustrous gleam in direct light. It can be sold at a high price to shops.
+Heart Scale A pretty, heart-shaped scale that is extremely rare. Some people are happy to receive one.
+Honey A sweet honey collected by Pokémon. It has a lush aroma and can be sold at a low price to shops.
+Growth Mulch A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.
+Damp Mulch A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.
+Stable Mulch A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.
+Gooey Mulch A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.
+Root Fossil A fossil from a prehistoric Pokémon that once lived in the sea. It looks as if it could be part of a plant’s root.
+Claw Fossil A fossil from a prehistoric Pokémon that once lived in the sea. It appears to be a fragment of a claw.
+Helix Fossil A fossil from a prehistoric Pokémon that once lived in the sea. It might be a piece of a seashell.
+Dome Fossil A fossil from a prehistoric Pokémon that once lived in the sea. It could be a shell or carapace.
+Old Amber A piece of amber that still contains the genetic material of an ancient Pokémon. It’s clear with a tawny, reddish tint.
+Armor Fossil A fossil from a prehistoric Pokémon that once lived on the land. It looks to be from some kind of protective collar.
+Skull Fossil A fossil from a prehistoric Pokémon that once lived on the land. It appears as though it’s part of a head.
+Rare Bone A rare bone that is extremely valuable for the study of Pokémon archeology. It can be sold for a high price to shops.
+Shiny Stone A peculiar stone that can make certain species of Pokémon evolve. It shines with a dazzling light.
+Dusk Stone A peculiar stone that can make certain species of Pokémon evolve. It holds shadows as dark as can be.
+Dawn Stone A peculiar stone that can make certain species of Pokémon evolve. It sparkles like a glittering eye.
+Oval Stone A peculiar stone that can make certain species of Pokémon evolve. It’s as round as a Pokémon Egg.
+Odd Keystone A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.
+Griseous Orb A glowing orb to be held by Giratina. It boosts the power of Dragon- and Ghost-type moves when it is held.
+Tea Aromatic tea that has a slightly bitter taste. It soothes a dry throat.
+??? - - -
+Autograph The autograph you got from the Vermilion City Gym Leader, Lt. Surge. He wrote, “Good luck!”
+Douse Drive A cassette to be held by Genesect. It changes Genesect’s Techno Blast move so it becomes Water type.
+Shock Drive A cassette to be held by Genesect. It changes Genesect’s Techno Blast move so it becomes Electric type.
+Burn Drive A cassette to be held by Genesect. It changes Genesect’s Techno Blast move so it becomes Fire type.
+Chill Drive A cassette to be held by Genesect. It changes Genesect’s Techno Blast move so it becomes Ice type.
+??? - - -
+Pokémon Box Link - - -
+Medicine Pocket - - -
+TM Case - - -
+Candy Jar - - -
+Power-Up Pocket - - -
+Clothing Trunk A very light trunk that can carry clothing for you and your Pokémon.
+Catching Pocket - - -
+Battle Pocket - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+Sweet Heart A piece of cloyingly sweet chocolate. It can be used to restore 20 HP to a single Pokémon.
+Adamant Orb A brightly gleaming orb to be held by Dialga. It boosts the power of Dragon- and Steel-type moves when it is held.
+Lustrous Orb A beautifully glowing orb to be held by Palkia. It boosts the power of Dragon- and Water-type moves when it is held.
+Greet Mail Stationery designed to be easy to use when writing someone for the first time. Have a Pokémon hold it for delivery.
+Favored Mail Stationery designed to make it easier to write about your favorite things. Have a Pokémon hold it for delivery.
+RSVP Mail Stationery designed to allow you to extend an invitation to the recipient. Have a Pokémon hold it for delivery.
+Thanks Mail Stationery designed to make it easy for you to express thanks. Have a Pokémon hold it for delivery.
+Inquiry Mail Stationery designed to make it easier to pose a question about something. Have a Pokémon hold it for delivery.
+Like Mail Stationery designed to allow you to recommend something to the reader. Have a Pokémon hold it for delivery.
+Reply Mail Stationery designed to make it easy to respond to a letter you received. Have a Pokémon hold it for delivery.
+Bridge Mail S Stationery featuring an illustration of a bridge that seems to pierce the sky. Have a Pokémon hold it for delivery.
+Bridge Mail D Stationery featuring an illustration of a bright-red drawbridge. Have a Pokémon hold it for delivery.
+Bridge Mail T Stationery featuring an illustration of a high-tension steel suspension bridge. Have a Pokémon hold it for delivery.
+Bridge Mail V Stationery featuring an illustration of a vintage-looking brick bridge. Have a Pokémon hold it for delivery.
+Bridge Mail M Stationery featuring an illustration of a majestically arched bridge. Have a Pokémon hold it for delivery.
+Cheri Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from paralysis on its own in battle.
+Chesto Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from sleep on its own in battle.
+Pecha Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from poisoning on its own in battle.
+Rawst Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from a burn on its own in battle.
+Aspear Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from being frozen on its own in battle.
+Leppa Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, it can restore 10 PP to a depleted move during battle.
+Oran Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, it can restore its own HP by 10 points during battle.
+Persim Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from confusion on its own in battle.
+Lum Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from any status condition during battle.
+Sitrus Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, it can restore its own HP by a small amount during battle.
+Figy Berry If held by a Pokémon, it restores the user’s HP in a pinch, but it will cause confusion if the user hates the taste.
+Wiki Berry If held by a Pokémon, it restores the user’s HP in a pinch, but it will cause confusion if the user hates the taste.
+Mago Berry If held by a Pokémon, it restores the user’s HP in a pinch, but it will cause confusion if the user hates the taste.
+Aguav Berry If held by a Pokémon, it restores the user’s HP in a pinch, but it will cause confusion if the user hates the taste.
+Iapapa Berry If held by a Pokémon, it restores the user’s HP in a pinch, but it will cause confusion if the user hates the taste.
+Razz Berry Used to make Pokéblocks that will enhance your Coolness. Its red flesh is spicy when eaten.
+Bluk Berry Used to make Pokéblocks that will enhance your Beauty. Its blue flesh is dry when eaten.
+Nanab Berry Used to make Pokéblocks that will enhance your Cuteness. Its pink flesh is sweet when eaten.
+Wepear Berry Used to make Pokéblocks that will enhance your Cleverness. Its green flesh is bitter when eaten.
+Pinap Berry Used to make Pokéblocks that will enhance your Toughness. Its yellow flesh is sour when eaten.
+Pomeg Berry A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its HP base points.
+Kelpsy Berry A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its Attack base points.
+Qualot Berry A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its Defense base points.
+Hondew Berry A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its Sp. Atk base points.
+Grepa Berry A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its Sp. Def base points.
+Tamato Berry A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its Speed base points.
+Cornn Berry Used to make Pokéblocks that will enhance your Beauty, this Berry is rare in other regions.
+Magost Berry Used to make Pokéblocks that will enhance your Cuteness, this Berry is rare in other regions.
+Rabuta Berry Used to make Pokéblocks that will enhance your Cleverness, this Berry is rare in other regions.
+Nomel Berry Used to make Pokéblocks that will enhance your Toughness, this Berry is rare in other regions.
+Spelon Berry Used to make Pokéblocks that will enhance your Cuteness, this Berry is rare in other regions.
+Pamtre Berry Used to make Pokéblocks that will enhance your Beauty, this Berry is rare in other regions.
+Watmel Berry Used to make Pokéblocks that will enhance your Cleverness, this Berry is rare in other regions.
+Durin Berry Used to make Pokéblocks that will enhance your Cleverness, this Berry is rare in other regions.
+Belue Berry Used to make Pokéblocks that will enhance your Beauty, this Berry is rare in other regions.
+Occa Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fire-type attack.
+Passho Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Water-type attack.
+Wacan Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Electric-type attack.
+Rindo Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Grass-type attack.
+Yache Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Ice-type attack.
+Chople Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fighting-type attack.
+Kebia Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Poison-type attack.
+Shuca Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Ground-type attack.
+Coba Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Flying-type attack.
+Payapa Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Psychic-type attack.
+Tanga Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Bug-type attack.
+Charti Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Rock-type attack.
+Kasib Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Ghost-type attack.
+Haban Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Dragon-type attack.
+Colbur Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Dark-type attack.
+Babiri Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Steel-type attack.
+Chilan Berry If held by a Pokémon, this Berry will lessen the damage taken from one Normal-type attack.
+Liechi Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, its Attack stat will increase when it’s in a pinch.
+Ganlon Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, its Defense stat will increase when it’s in a pinch.
+Salac Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, its Speed stat will increase when it’s in a pinch.
+Petaya Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, its Sp. Atk stat will increase when it’s in a pinch.
+Apicot Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, its Sp. Def stat will increase when it’s in a pinch.
+Lansat Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, its critical-hit ratio will increase when it’s in a pinch.
+Starf Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, one of its stats will sharply increase when it’s in a pinch.
+Enigma Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, being hit by a supereffective attack will restore its HP.
+Micle Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, its accuracy will increase just once when it’s in a pinch.
+Custap Berry A Berry to be consumed by Pokémon. If a Pokémon holds one, it will be able to move first just once when it’s in a pinch.
+Jaboca Berry A Berry to be consumed by Pokémon. If a physical attack hits the Pokémon holding it, the attacker will also be hurt.
+Rowap Berry A Berry to be consumed by Pokémon. If a special attack hits the Pokémon holding it, the attacker will also be hurt.
+Bright Powder An item to be held by a Pokémon. It casts a tricky glare that lowers the opposing Pokémon’s accuracy.
+White Herb An item to be held by a Pokémon. It will restore any lowered stat in battle. It can be used only once.
+Macho Brace An item to be held by a Pokémon. This stiff, heavy brace helps Pokémon grow strong but cuts Speed in battle.
+Exp. Share Turning on this special device will allow all the Pokémon on your team to receive Exp. Points from battles.
+Quick Claw An item to be held by a Pokémon. This light, sharp claw lets the bearer move first occasionally.
+Soothe Bell An item to be held by a Pokémon. The comforting chime of this bell calms the holder, making it friendly.
+Mental Herb An item to be held by a Pokémon. The holder shakes off move-binding effects to move freely. It can be used only once.
+Choice Band An item to be held by a Pokémon. This curious headband boosts Attack but only allows the use of one move.
+King’s Rock An item to be held by a Pokémon. When the holder successfully inflicts damage, the target may also flinch.
+Silver Powder An item to be held by a Pokémon. It’s a shiny silver powder that will boost the power of Bug-type moves.
+Amulet Coin An item to be held by a Pokémon. It doubles any prize money received if the holding Pokémon joins a battle.
+Cleanse Tag An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the head of the party.
+Soul Dew A wondrous orb to be held by either Latios or Latias. It raises the power of Psychic- and Dragon-type moves.
+Deep Sea Tooth An item to be held by Clamperl. This fang gleams a sharp silver and raises the holder’s Sp. Atk stat.
+Deep Sea Scale An item to be held by Clamperl. This scale shines with a faint pink and raises the holder’s Sp. Def stat.
+Smoke Ball An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon encounter without fail.
+Everstone An item to be held by a Pokémon. A Pokémon holding this peculiar stone is prevented from evolving.
+Focus Band An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.
+Lucky Egg An item to be held by a Pokémon. It’s an egg filled with happiness that earns the holder extra Exp. Points in battle.
+Scope Lens An item to be held by a Pokémon. It’s a lens for scoping out weak points. It boosts the holder’s critical-hit ratio.
+Metal Coat An item to be held by a Pokémon. It’s a special metallic film that can boost the power of Steel-type moves.
+Leftovers An item to be held by a Pokémon. The holder’s HP is slowly but steadily restored throughout every battle.
+Dragon Scale A very tough and inflexible scale. Dragon-type Pokémon may be holding this item when caught.
+Light Ball An item to be held by Pikachu. It’s a puzzling orb that boosts its Attack and Sp. Atk stats.
+Soft Sand An item to be held by a Pokémon. It’s a loose, silky sand that boosts the power of Ground-type moves.
+Hard Stone An item to be held by a Pokémon. It’s a durable stone that boosts the power of Rock-type moves.
+Miracle Seed An item to be held by a Pokémon. It’s a seed imbued with life-force that boosts the power of Grass-type moves.
+Black Glasses An item to be held by a Pokémon. It’s a pair of shady-looking glasses that boost the power of Dark-type moves.
+Black Belt An item to be held by a Pokémon. This belt helps the wearer to focus and boosts the power of Fighting-type moves.
+Magnet An item to be held by a Pokémon. It’s a powerful magnet that boosts the power of Electric-type moves.
+Mystic Water An item to be held by a Pokémon. This teardrop-shaped gem boosts the power of Water-type moves.
+Sharp Beak An item to be held by a Pokémon. It’s a long, sharp beak that boosts the power of Flying-type moves.
+Poison Barb An item to be held by a Pokémon. This small, poisonous barb boosts the power of Poison-type moves.
+Never-Melt Ice An item to be held by a Pokémon. It’s a heat- repelling piece of ice that boosts the power of Ice-type moves.
+Spell Tag An item to be held by a Pokémon. It’s a sinister, eerie tag that boosts the power of Ghost-type moves.
+Twisted Spoon An item to be held by a Pokémon. This spoon is imbued with telekinetic power and boosts Psychic-type moves.
+Charcoal An item to be held by a Pokémon. It’s a combustible fuel that boosts the power of Fire-type moves.
+Dragon Fang An item to be held by a Pokémon. This hard and sharp fang boosts the power of Dragon-type moves.
+Silk Scarf An item to be held by a Pokémon. It’s a sumptuous scarf that boosts the power of Normal-type moves.
+Upgrade A transparent device somehow filled with all sorts of data. It was produced by Silph Co.
+Shell Bell An item to be held by a Pokémon. The holder restores a little HP every time it inflicts damage on others.
+Sea Incense An item to be held by a Pokémon. This incense has a curious aroma that boosts the power of Water-type moves.
+Lax Incense An item to be held by a Pokémon. The beguiling aroma of this incense may cause attacks to miss its holder.
+Lucky Punch An item to be held by Chansey. This pair of lucky boxing gloves will boost Chansey’s critical-hit ratio.
+Metal Powder An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Defense stat.
+Thick Club An item to be held by Cubone or Marowak. It’s a hard bone of some sort that boosts the Attack stat.
+Leek An item to be held by Farfetch’d. This very long and stiff stalk of leek boosts its critical-hit ratio.
+Red Scarf An item to be held by a Pokémon. During a contest, it raises the Cool aspect of the Pokémon holding it.
+Blue Scarf An item to be held by a Pokémon. During a contest, it raises the Beauty aspect of the Pokémon holding it.
+Pink Scarf An item to be held by a Pokémon. During a contest, it raises the Cute aspect of the Pokémon holding it.
+Green Scarf An item to be held by a Pokémon. During a contest, it raises the Clever aspect of the Pokémon holding it.
+Yellow Scarf An item to be held by a Pokémon. During a contest, it raises the Tough aspect of the Pokémon holding it.
+Wide Lens An item to be held by a Pokémon. It’s a magnifying lens that slightly boosts the accuracy of moves.
+Muscle Band An item to be held by a Pokémon. This headband exudes strength, slightly boosting the power of physical moves.
+Wise Glasses An item to be held by a Pokémon. This thick pair of glasses slightly boosts the power of special moves.
+Expert Belt An item to be held by a Pokémon. It’s a well-worn belt that slightly boosts the power of supereffective moves.
+Light Clay An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective longer.
+Life Orb An item to be held by a Pokémon. It boosts the power of moves but at the cost of some HP on each hit.
+Power Herb A single-use item to be held by a Pokémon. It allows the holder to immediately use a move that normally requires a turn to charge.
+Toxic Orb An item to be held by a Pokémon. It’s a bizarre orb that will badly poison the holder during battle.
+Flame Orb An item to be held by a Pokémon. It’s a bizarre orb that will afflict the holder with a burn during battle.
+Quick Powder An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Speed stat.
+Focus Sash An item to be held by a Pokémon. If the holder has full HP, it will endure a potential KO attack with 1 HP. The item then disappears.
+Zoom Lens An item to be held by a Pokémon. If the holder moves after its target moves, its accuracy will be boosted.
+Metronome An item to be held by a Pokémon. It boosts moves used consecutively but only until a different move is used.
+Iron Ball An item to be held by a Pokémon. It lowers Speed and allows Ground-type moves to hit Flying types and holders that are levitating.
+Lagging Tail An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.
+Destiny Knot An item to be held by a Pokémon. If the holder becomes infatuated, the opposing Pokémon will be, too.
+Black Sludge An item to be held by a Pokémon. It gradually restores HP to Poison-type Pokémon. It damages any other type.
+Icy Rock An item to be held by a Pokémon. It extends the duration of the move Hail when used by the holder.
+Smooth Rock An item to be held by a Pokémon. It extends the duration of the move Sandstorm when used by the holder.
+Heat Rock An item to be held by a Pokémon. It extends the duration of the move Sunny Day when used by the holder.
+Damp Rock An item to be held by a Pokémon. It extends the duration of the move Rain Dance when used by the holder.
+Grip Claw An item to be held by a Pokémon. It extends the duration of multi-turn attacks, such as Bind and Wrap.
+Choice Scarf An item to be held by a Pokémon. This curious scarf boosts Speed but only allows the use of one move.
+Sticky Barb An item to be held by a Pokémon. It damages the holder every turn and may latch on to Pokémon that touch the holder.
+Power Bracer An item to be held by a Pokémon. It reduces Speed but allows the holder’s Attack stat to grow more after battling.
+Power Belt An item to be held by a Pokémon. It reduces Speed but allows the holder’s Defense stat to grow more after battling.
+Power Lens An item to be held by a Pokémon. It reduces Speed but allows the holder’s Sp. Atk stat to grow more after battling.
+Power Band An item to be held by a Pokémon. It reduces Speed but allows the holder’s Sp. Def stat to grow more after battling.
+Power Anklet An item to be held by a Pokémon. It reduces Speed but allows the holder’s Speed stat to grow more after battling.
+Power Weight An item to be held by a Pokémon. It reduces Speed but allows the holder’s max HP to grow more after battling.
+Shed Shell An item to be held by a Pokémon. This discarded carapace enables the holder to switch out of battle without fail.
+Big Root An item to be held by a Pokémon. It boosts the amount of HP the holder restores from HP-stealing moves.
+Choice Specs An item to be held by a Pokémon. These curious glasses boost Sp. Atk but only allow the use of one move.
+Flame Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Fire-type moves.
+Splash Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Water-type moves.
+Zap Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Electric-type moves.
+Meadow Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Grass-type moves.
+Icicle Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Ice-type moves.
+Fist Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Fighting-type moves.
+Toxic Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Poison-type moves.
+Earth Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Ground-type moves.
+Sky Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Flying-type moves.
+Mind Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Psychic-type moves.
+Insect Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Bug-type moves.
+Stone Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Rock-type moves.
+Spooky Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Ghost-type moves.
+Draco Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Dragon-type moves.
+Dread Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Dark-type moves.
+Iron Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Steel-type moves.
+Odd Incense An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Psychic-type moves.
+Rock Incense An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Rock-type moves.
+Full Incense An item to be held by a Pokémon. This exotic-smelling incense makes the holder bloated and slow moving.
+Wave Incense An item to be held by a Pokémon. This incense has a curious aroma that boosts the power of Water-type moves.
+Rose Incense An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Grass-type moves.
+Luck Incense An item to be held by a Pokémon. It doubles any prize money received if the holding Pokémon joins a battle.
+Pure Incense An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the head of the party.
+Protector A protective item of some sort. It is extremely stiff and heavy. It’s loved by a certain Pokémon.
+Electirizer A box packed with a tremendous amount of electric energy. It’s loved by a certain Pokémon.
+Magmarizer A box packed with a tremendous amount of magma energy. It’s loved by a certain Pokémon.
+Dubious Disc A transparent device overflowing with dubious data. Its producer is unknown.
+Reaper Cloth A cloth imbued with horrifyingly strong spiritual energy. It’s loved by a certain Pokémon.
+Razor Claw An item to be held by a Pokémon. This sharply hooked claw increases the holder’s critical-hit ratio.
+Razor Fang An item to be held by a Pokémon. When the holder successfully inflicts damage, the target may also flinch.
+TM01 The target is attacked by a kick launched with muscle-packed power.
+TM02 Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.
+TM03 The target is punched with a fiery fist. This may also leave the target with a burn.
+TM04 The target is punched with an icy fist. This may also leave the target frozen.
+TM05 The target is punched with an electrified fist. This may also leave the target with paralysis.
+TM06 The user flies up into the sky and then strikes its target on the next turn.
+TM07 Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.
+TM08 The target is attacked with a powerful beam. The user can’t move on the next turn.
+TM09 The user charges at the target using every bit of its power. The user can’t move on the next turn.
+TM10 The user scatters curious leaves that chase the target. This attack never misses.
+TM11 In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn.
+TM12 In this two-turn attack, the user gathers light and fills a blade with the light’s energy, attacking the target on the next turn.
+TM13 The target becomes trapped within a fierce vortex of fire that rages for four to five turns.
+TM14 The user launches a weak jolt of electricity that paralyzes the target.
+TM15 The user burrows into the ground, then attacks on the next turn.
+TM16 An earsplitting screech harshly lowers the target’s Defense stat.
+TM17 A wondrous wall of light is put up to reduce damage from special attacks for five turns.
+TM18 A wondrous wall of light is put up to reduce damage from physical attacks for five turns.
+TM19 The user creates a protective field that prevents status conditions for five turns.
+TM20 The user attacks everything around it by causing an explosion. The user faints upon using this move.
+TM21 The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.
+TM22 Large boulders are hurled at opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.
+TM23 The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.
+TM24 This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.
+TM25 This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.
+TM26 The user frightens the target with a scary face to harshly lower its Speed stat.
+TM27 The user attacks with a gust of chilled air. This also lowers opposing Pokémon’s Speed stats.
+TM28 A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.
+TM29 The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target’s Attack stat.
+TM30 The target is hit with wings of steel. This may also raise the user’s Defense stat.
+TM31 If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.
+TM32 A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types.
+TM33 The user summons a heavy rain that falls for five turns, powering up Water-type moves. It lowers the power of Fire-type moves.
+TM34 The user intensifies the sun for five turns, powering up Fire-type moves. It lowers the power of Water-type moves.
+TM35 The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types.
+TM36 The user traps the target in a violent swirling whirlpool for four to five turns.
+TM37 The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.
+TM38 The user shoots a sinister flame at the target to inflict a burn.
+TM39 This attack move doubles its power if the user is poisoned, burned, or paralyzed.
+TM40 Star-shaped rays are shot at opposing Pokémon. This attack never misses.
+TM41 The user assists an ally by boosting the power of that ally’s attack.
+TM42 This attack move’s power is doubled if the user has been hurt by the opponent in the same turn.
+TM43 The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.
+TM44 If opposing Pokémon know any move also known by the user, they are prevented from using it.
+TM45 Diving on the first turn, the user floats up and attacks on the next turn.
+TM46 This attack move varies in power and type depending on the weather.
+TM47 The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.
+TM48 Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.
+TM49 The user traps the target inside a harshly raging sandstorm for four to five turns.
+TM50 The user forcefully shoots seeds at the target two to five times in a row.
+TM51 The user launches sharp icicles at the target two to five times in a row.
+TM52 The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.
+TM53 The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.
+TM54 The user hurls hard rocks at the target. Two to five rocks are launched in a row.
+TM55 If the target’s HP is half or less, this attack will hit with double the power.
+TM56 After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+TM57 The user stores power, then attacks. If the user moves after the target, this attack’s power will be doubled.
+TM58 If the target has already taken some damage in the same turn, this attack’s power is doubled.
+TM59 The user flings its held item at the target to attack. This move’s power and effects depend on the item.
+TM60 The user employs its psychic power to switch changes to its Attack and Sp. Atk stats with the target.
+TM61 The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.
+TM62 The user exchanges Speed stats with the target.
+TM63 An energy-draining punch. The user’s HP is restored by half the damage taken by the target.
+TM64 The power of this attack move is doubled if the user has been hurt by the target in the same turn.
+TM65 The user slashes with a sharp claw made from shadows. Critical hits land more easily.
+TM66 The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.
+TM67 The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.
+TM68 The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn.
+TM69 The user tears at the target with blades formed by psychic power. Critical hits land more easily.
+TM70 The user creates a bizarre area in which slower Pokémon get to move first for five turns.
+TM71 The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.
+TM72 The user creates a bizarre area in which Pokémon’s held items lose their effects for five turns.
+TM73 A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.
+TM74 The user drenches the target in a special poisonous liquid. This move’s power is doubled if the target is poisoned.
+TM75 The user makes a swift attack on the target’s legs, which lowers the target’s Speed stat.
+TM76 The user attacks the target with a song. Others can join in the Round to increase the power of the attack.
+TM77 This relentless attack does massive damage to a target affected by status conditions.
+TM78 The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.
+TM79 The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this move’s power is increased.
+TM80 After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+TM81 The user strikes everything around it by stomping down on the ground. This lowers the Speed stats of those hit.
+TM82 The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stats.
+TM83 The user cuts its target with sharp shells. This may also lower the target’s Defense stat.
+TM84 The user attacks by striking the target with its hard tail. It hits the target two to five times in a row.
+TM85 The user yells as if it’s ranting about something, which lowers the Sp. Atk stats of opposing Pokémon.
+TM86 The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.
+TM87 The user steals the target’s HP with a kiss. The user’s HP is restored by over half of the damage taken by the target.
+TM88 The user turns the ground to grass for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass-type moves.
+TM89 This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.
+TM90 The user electrifies the ground for five turns, powering up Electric-type moves. Pokémon on the ground no longer fall asleep.
+TM91 This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns.
+TM92 The user attacks by breathing a special, hot fire. This also lowers the target’s Sp. Atk stat.
+HM01 - - -
+HM02 - - -
+HM03 - - -
+HM04 - - -
+HM05 - - -
+HM06 - - -
+??? - - -
+??? - - -
+Explorer Kit A bag filled with convenient tools for exploring. It provides access to the Underground in the Sinnoh region.
+Loot Sack A sturdy, spacious bag that is used to carry any treasures or loot obtained in the coal mine.
+Rule Book It lists the rules for holding battles. For Link Battles, you may choose which set of rules you wish to use.
+Poké Radar A tool that can search out Pokémon that are hiding in the tall grass. Its battery is recharged as you walk.
+Point Card A card that lists how many Battle Points you have earned.
+Journal A notebook that keeps a day-to-day record of your adventure so far.
+Seal Case A case for storing Seals that can be applied to the exteriors of Poké Balls.
+Fashion Case A lovely case to store colorful Props for your Pokémon to wear in a musical.
+Seal Bag A tiny bag that can hold 10 Seals for decorating Poké Balls.
+Pal Pad A convenient notepad that is used to register your friends and friend codes and keep a record of your gameplay.
+Works Key A large key for operating the doors of the Valley Windworks in the canyon. It was held by a Team Galactic Grunt.
+Old Charm An ancient good-luck charm made of Pokémon bones to be taken to the elder of Celestic Town.
+Galactic Key A card key for disengaging the security systems in the Galactic HQ. Losing it can result in punishment, apparently.
+Red Chain A mythical chain that is said to link the Legendary Pokémon that created the Sinnoh region.
+Town Map A very convenient map that can be viewed anytime. It even shows you your present location in the region.
+Vs. Seeker A device that indicates Trainers who want to battle. Its battery charges while you walk.
+Coin Case A case for holding coins obtained at the Game Corner. It can hold up to 50,000 coins.
+Old Rod An old and beat-up fishing rod. Use it at any body of water to fish for wild aquatic Pokémon.
+Good Rod A new, good-quality fishing rod. Use it at any body of water to fish for wild aquatic Pokémon.
+Super Rod An awesome, high-tech fishing rod. Use it at any body of water to fish for wild aquatic Pokémon.
+Sprayduck A watering can shaped like a Psyduck. It helps promote the healthy growth of any Berries planted in good, soft soil.
+Poffin Case A case for storing Poffins cooked from Berries.
+Bike A folding bike that enables a rider to get around much faster than with Running Shoes.
+Suite Key A key to one of the suites at a certain luxury hotel by a lake. For some odd reason, it often disappears.
+Oak’s Letter A letter from Professor Oak. Written in it is a request for you to go to Route 224.
+Lunar Wing A feather that glows like the moon. It’s said to possess the power to dispel nightmares.
+Member Card A card needed for entering the inn in Canalave City. Oddly, the last date marked on it was 50 years ago.
+Azure Flute A flute that puts out echoing sounds that do not seem to be of this world. No one knows who made it.
+S.S. Ticket A ticket required for sailing on the ferry S.S. Aqua. It has a drawing of a ship on its front.
+Contest Pass A pass required for entering Pokémon Contests. It has a drawing of an award ribbon on its front.
+Magma Stone A stone formed by boulders melting in intensely hot magma, then hardening. Magma remains sealed inside it.
+Parcel A parcel entrusted into your care. You’re supposed to deliver it to your childhood friend who left Twinleaf Town.
+Coupon 1 A coupon to be exchanged for a Pokémon Watch— Pokétch for short. Three coupons are needed.
+Coupon 2 A coupon to be exchanged for a Pokémon Watch— Pokétch for short. Three coupons are needed.
+Coupon 3 A coupon to be exchanged for a Pokémon Watch— Pokétch for short. Three coupons are needed.
+Storage Key The key to Team Galactic’s sinister warehouse located at the edge of Veilstone City.
+Secret Potion A fantastic medicine dispensed by the pharmacy in Cianwood City. It fully heals a Pokémon of any ailment.
+Vs. Recorder An amazing device that can record a battle between friends or the battles at certain special battle facilities.
+Gracidea A flower sometimes bundled in bouquets to convey gratitude on special occasions, such as birthdays.
+Secret Key A high-tech key that has to be used at a specific location. It emits a special electronic signal to open a door.
+Apricorn Box A handy box where you can store up to 99 of each kind of Apricorn.
+Unown Report A report of all the discovered kinds of Unown.
+Berry Pots Handy containers for cultivating Berries wherever you go.
+Dowsing Machine A high-tech machine that shows the location of invisible items. It’s attached to the head when in use.
+Blue Card A card to save points for the Buena’s Password show.
+Slowpoke Tail A very tasty tail of something. It can be sold at a high price to shops.
+Clear Bell A very old-fashioned bell that makes a gentle ringing sound.
+Card Key A card key that opens a shutter in the Radio Tower.
+Basement Key A key that opens a door in the Goldenrod Tunnel.
+Squirt Bottle A bottle used for watering plants in the Berry Pots.
+Red Scale A scale from a red Gyarados. It glows red like a flame.
+Lost Item The Mime Jr. doll that was lost by the Copycat.
+Pass A pass required for riding the Magnet Train. It allows you to ride whenever and however much you’d like.
+Machine Part An important part of a machine that was stolen from the Power Plant.
+Silver Wing A strange, silvery feather that sparkles.
+Rainbow Wing A mystical rainbow feather that sparkles.
+Mystery Egg A mysterious Egg obtained from Mr. Pokémon. What is in the Egg is unknown.
+Red Apricorn A red Apricorn. It assails your nostrils.
+Blue Apricorn A blue Apricorn. It smells a bit like grass.
+Yellow Apricorn A yellow Apricorn. It has an invigorating scent.
+Green Apricorn A green Apricorn. It has a mysterious, aromatic scent.
+Pink Apricorn A pink Apricorn. It has a nice, sweet scent.
+White Apricorn A white Apricorn. It doesn’t smell like anything.
+Black Apricorn A black Apricorn. It has a scent beyond one’s experience.
+Fast Ball A Poké Ball that makes it easier to catch Pokémon that are usually very quick to run away.
+Level Ball A Poké Ball that makes it easier to catch Pokémon that are at a lower level than your own Pokémon.
+Lure Ball A Poké Ball that is good for catching Pokémon that you reel in with a rod while out fishing.
+Heavy Ball A Poké Ball that is better than usual at catching very heavy Pokémon.
+Love Ball A Poké Ball that works best when catching a Pokémon that is of the opposite gender of your Pokémon.
+Friend Ball A strange Poké Ball that will make the wild Pokémon caught with it more friendly toward you immediately.
+Moon Ball A Poké Ball that will make it easier to catch Pokémon that can evolve using a Moon Stone.
+Sport Ball A special Poké Ball that is used during the Bug-Catching Contest.
+Park Ball A special Poké Ball for the Pal Park.
+Photo Album A nice photo album for storing all the photos taken along your adventure.
+GB Sounds A music player that allows you to listen to nostalgic songs. It’s operated with the flip of a single switch.
+Tidal Bell A very old-fashioned bell that makes a gentle ringing sound.
+Rage Candy Bar Mahogany Town’s famous candy. It can be used once to heal all the status conditions of a Pokémon.
+Data Card 01 It holds Pokéathlon records. It is a card that shows how many victories you have had in the Pokéathlon.
+Data Card 02 It holds Pokéathlon records. It is a card that shows how many losses you have had in the Pokéathlon.
+Data Card 03 It holds Pokéathlon records. It is a card that shows how many times your Pokémon dashed in the Pokéathlon.
+Data Card 04 It holds Pokéathlon records. It is a card that shows how many times your Pokémon jumped in the Pokéathlon.
+Data Card 05 It holds Pokéathlon records. It is a card that shows how many times you won the Pokéathlon’s Hurdle Dash.
+Data Card 06 It holds Pokéathlon records. It is a card that shows how many times you won the Pokéathlon’s Relay Run.
+Data Card 07 It holds Pokéathlon records. It is a card that shows how many times you won the Pokéathlon’s Pennant Capture.
+Data Card 08 It holds Pokéathlon records. It is a card that shows how many times you won the Pokéathlon’s Block Smash.
+Data Card 09 It holds Pokéathlon records. It is a card that shows how many times you won the Pokéathlon’s Disc Catch.
+Data Card 10 It holds Pokéathlon records. It is a card that shows how many times you won the Pokéathlon’s Snow Throw.
+Data Card 11 It holds Pokéathlon records. It is a card that shows how many points your Pokémon scored in the Pokéathlon.
+Data Card 12 It holds Pokéathlon records. It is a card that shows how many times your Pokémon failed in the Pokéathlon.
+Data Card 13 It holds Pokéathlon records. It is a card that shows how many times your Pokémon impeded themselves.
+Data Card 14 It holds Pokéathlon records. It is a card that shows how many times your Pokémon tackled in the Pokéathlon.
+Data Card 15 It holds Pokéathlon records. It is a card that shows how many times your Pokémon fell down in the Pokéathlon.
+Data Card 16 It holds Pokéathlon records. It is a card that shows how many times you won the Pokéathlon’s Ring Drop.
+Data Card 17 It holds Pokéathlon records. It is a card that shows how many times you won the Pokéathlon’s Lamp Jump.
+Data Card 18 It holds Pokéathlon records. It is a card that shows how many times you won the Pokéathlon’s Circle Push.
+Data Card 19 It holds Pokéathlon records. It is a card that shows how many Link Pokéathlon wins you have had.
+Data Card 20 It holds Pokéathlon records. It is a card that shows how many Link Pokéathlon losses you have had.
+Data Card 21 It holds Pokéathlon records. It is a card that shows how many times you have won a Pokéathlon event.
+Data Card 22 It holds Pokéathlon records. It is a card that shows how many times you have lost a Pokéathlon event.
+Data Card 23 It holds Pokéathlon records. It is a card that shows how many times you switched Pokémon in the Pokéathlon.
+Data Card 24 It holds Pokéathlon records. It is a card that shows how many times you won the Pokéathlon’s Goal Roll.
+Data Card 25 It holds Pokéathlon records. It is a card that shows how many times your Pokémon won individual prizes.
+Data Card 26 It holds Pokéathlon records. It is a card that shows how many times you instructed your Pokémon.
+Data Card 27 It holds Pokéathlon records. It is a card that shows how much time you spent participating in the Pokéathlon.
+Jade Orb A shiny green orb that is said to have a legend tied to it. It’s known to have a deep connection with the Hoenn region.
+Lock Capsule A sturdy Capsule that can only be opened with a special key.
+Red Orb A shiny red orb that is said to have a legend tied to it. It’s known to have a deep connection with the Hoenn region.
+Blue Orb A shiny blue orb that is said to have a legend tied to it. It’s known to have a deep connection with the Hoenn region.
+Enigma Stone A crystal ball that was excavated from the ground. It’s a very beautiful stone that is covered with bits of rock and earth.
+Prism Scale A mysterious scale that causes a certain Pokémon to evolve. It shines in rainbow colors.
+Eviolite A mysterious evolutionary lump. When held by a Pokémon that can still evolve, it raises both Defense and Sp. Def.
+Float Stone An item to be held by a Pokémon. This very light stone reduces the weight of a Pokémon when held.
+Rocky Helmet An item to be held by a Pokémon. If the holder is hit, the attacker will also be damaged upon contact.
+Air Balloon An item to be held by a Pokémon. The holder will float in the air until hit. Once the holder is hit, this item will burst.
+Red Card An item to be held by a Pokémon. When the holder is hit by an attack, the attacker is removed from battle.
+Ring Target An item to be held by a Pokémon. Moves that normally have no effect will land on a Pokémon holding it.
+Binding Band An item to be held by a Pokémon. It’s a band that increases the power of binding moves used by the holder.
+Absorb Bulb An item to be held by a Pokémon. It boosts Sp. Atk if the holder is hit with a Water-type attack. It can only be used once.
+Cell Battery An item to be held by a Pokémon. It boosts Attack if the holder is hit with an Electric-type attack. It can only be used once.
+Eject Button An item to be held by a Pokémon. If the holder is hit by an attack, it will be switched out of battle.
+Fire Gem A gem with an essence of fire. When held, it strengthens the power of a Fire-type move one time.
+Water Gem A gem with an essence of water. When held, it strengthens the power of a Water-type move one time.
+Electric Gem A gem with an essence of electricity. When held, it strengthens the power of an Electric-type move one time.
+Grass Gem A gem with an essence of nature. When held, it strengthens the power of a Grass-type move one time.
+Ice Gem A gem with an essence of ice. When held, it strengthens the power of an Ice-type move one time.
+Fighting Gem A gem with an essence of combat. When held, it strengthens the power of a Fighting-type move one time.
+Poison Gem A gem with an essence of poison. When held, it strengthens the power of a Poison-type move one time.
+Ground Gem A gem with an essence of land. When held, it strengthens the power of a Ground-type move one time.
+Flying Gem A gem with an essence of air. When held, it strengthens the power of a Flying-type move one time.
+Psychic Gem A gem with an essence of the mind. When held, it strengthens the power of a Psychic-type move one time.
+Bug Gem A gem with an insect-like essence. When held, it strengthens the power of a Bug-type move one time.
+Rock Gem A gem with an essence of rock. When held, it strengthens the power of a Rock-type move one time.
+Ghost Gem A gem with a spectral essence. When held, it strengthens the power of a Ghost-type move one time.
+Dragon Gem A gem with a draconic essence. When held, it strengthens the power of a Dragon-type move one time.
+Dark Gem A gem with an essence of darkness. When held, it strengthens the power of a Dark-type move one time.
+Steel Gem A gem with an essence of steel. When held, it strengthens the power of a Steel-type move one time.
+Normal Gem A gem with an ordinary essence. When held, it strengthens the power of a Normal-type move one time.
+Health Feather An item for use on a Pokémon. It slightly increases the HP base points of a single Pokémon.
+Muscle Feather An item for use on a Pokémon. It slightly increases the Attack base points of a single Pokémon.
+Resist Feather An item for use on a Pokémon. It slightly increases the Defense base points of a single Pokémon.
+Genius Feather An item for use on a Pokémon. It slightly increases the Sp. Atk base points of a single Pokémon.
+Clever Feather An item for use on a Pokémon. It slightly increases the Sp. Def base points of a single Pokémon.
+Swift Feather An item for use on a Pokémon. It slightly increases the Speed base points of a single Pokémon.
+Pretty Feather Though this feather is beautiful, it’s just a regular feather and has no effect.
+Cover Fossil A fossil from a prehistoric Pokémon that once lived in the sea. It appears as though it could be part of its back.
+Plume Fossil A fossil from a prehistoric Pokémon that once lived in the sky. It looks as if it could come from part of its wing.
+Liberty Pass A special pass to go to Liberty Garden. Board the ship in Castelia City.
+Pass Orb A mysterious orb containing the power of the Unova region, to be used when generating Pass Power.
+Dream Ball A somewhat different Poké Ball that makes it easier to catch wild Pokémon while they’re asleep.
+Poké Toy A toy that attracts the attention of a Pokémon. It guarantees escape from any battle with wild Pokémon.
+Prop Case A lovely case to store colorful Props for your Pokémon to wear in a musical.
+Dragon Skull A skull of a Pokémon that was said to have braved the angry waters to fly around the world.
+Balm Mushroom A rare mushroom that gives off a nice fragrance. It can be sold at a high price to shops.
+Big Nugget A big nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.
+Pearl String Very large pearls that sparkle in a pretty silver color. They can be sold at a high price to shops.
+Comet Shard A shard that fell to the ground when a comet approached. It can be sold at a high price to shops.
+Relic Copper A copper coin used by an ancient civilization about three thousand years ago.
+Relic Silver A silver coin used by an ancient civilization about three thousand years ago.
+Relic Gold A gold coin used by an ancient civilization about three thousand years ago.
+Relic Vase A fragile vase made by an ancient civilization about three thousand years ago.
+Relic Band A heavy bracelet made by an ancient civilization about three thousand years ago.
+Relic Statue A stone figurine made by an ancient civilization about three thousand years ago.
+Relic Crown A heavy crown made by an ancient civilization about three thousand years ago.
+Casteliacone Castelia City’s specialty, soft-serve ice cream. It can be used once to heal all the status conditions of a Pokémon.
+Dire Hit 2 It can be used many times to raise the critical-hit ratio of one Pokémon. It wears off if the Pokémon is withdrawn.
+X Speed 2 It sharply raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+X Sp. Atk 2 It sharply raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+X Sp. Def 2 It sharply raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+X Defense 2 It sharply raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+X Attack 2 It sharply raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+X Accuracy 2 It sharply raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+X Speed 3 It drastically raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+X Sp. Atk 3 It drastically raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+X Sp. Def 3 It drastically raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+X Defense 3 It drastically raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+X Attack 3 It drastically raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+X Accuracy 3 It drastically raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+X Speed 6 It raises the Speed stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.
+X Sp. Atk 6 It raises the Sp. Atk stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.
+X Sp. Def 6 It raises the Sp. Def stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.
+X Defense 6 It raises the Defense stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.
+X Attack 6 It raises the Attack stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.
+X Accuracy 6 It raises the accuracy of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.
+Ability Urge When used, it activates the Ability of an ally Pokémon.
+Item Drop When used, it causes an ally Pokémon to drop a held item.
+Item Urge When used, it causes an ally Pokémon to use its held item.
+Reset Urge When used, it restores any stat changes of an ally Pokémon.
+Dire Hit 3 It can be used many times to greatly raise a Pokémon’s critical-hit ratio. It wears off if the Pokémon is withdrawn.
+Light Stone Reshiram’s body was destroyed and changed into this stone. It is said to be waiting for the emergence of a hero.
+Dark Stone Zekrom’s body was destroyed and changed into this stone. It is said to be waiting for the emergence of a hero.
+TM93 The user’s body generates an eerie impulse. Exposing the target to it harshly lowers the target’s Sp. Atk stat.
+TM94 A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
+TM95 The user attacks with a blade of air that slices even the sky. This may also make the target flinch.
+Xtransceiver A high-tech transceiver with a camera function. It allows up to four-way calls.
+??? A rare stone.
+Gram 1 An important letter that Wingull delivers.
+Gram 2 An important letter that Wingull delivers.
+Gram 3 An important letter that Wingull delivers.
+Xtransceiver A high-tech transceiver with a camera function. It allows up to four-way calls.
+Medal Box A box-shaped machine that stores Medals and Medal information.
+DNA Splicers A splicer that fuses Kyurem and a certain Pokémon. They are said to have been one in the beginning.
+DNA Splicers A splicer that separates Kyurem and a certain Pokémon when they have been fused.
+Permit A permit that is needed to enter the Nature Preserve. Not many know about it.
+Oval Charm An oval charm said to increase the chance of Pokémon Eggs being found at the Nursery.
+Shiny Charm A shiny charm said to increase the chance of finding a Shiny Pokémon in the wild.
+Plasma Card A card key needed to enter the password inside the Plasma Frigate.
+Grubby Hanky A handkerchief dropped by a regular at Café Warehouse. It smells faintly like a Pokémon.
+Colress Machine A special device that wrings out the potential of Pokémon. It’s an imperfect prototype.
+Dropped Item The Xtransceiver found at the Nimbasa City amusement park. It seems it belongs to a boy.
+Dropped Item The Xtransceiver found at the Nimbasa City amusement park. It seems it belongs to a girl.
+Reveal Glass A looking glass that reveals the truth. It’s a mysterious glass that returns a Pokémon to its original shape.
+Weakness Policy An item to be held by a Pokémon. Attack and Sp. Atk sharply increase if the holder is hit with a move it’s weak to.
+Assault Vest An item to be held by a Pokémon. This offensive vest raises Sp. Def but prevents the use of status moves.
+Holo Caster A device that allows users to receive and view hologram clips at any time. It’s also used to chat with others.
+Prof’s Letter A letter that Professor Sycamore wrote to your mother. A faint but pleasant perfume seems to cling to the paper.
+Roller Skates Attaches roller skates to the bottom of your shoes, allowing you to glide quickly around and perform tricks.
+Pixie Plate An item to be held by a Pokémon. It’s a stone tablet that boosts the power of Fairy-type moves.
+Ability Capsule A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used.
+Whipped Dream A soft and sweet treat made of fluffy, puffy, whipped, and whirled cream. It’s loved by a certain Pokémon.
+Sachet A sachet filled with fragrant perfumes that are just slightly too overwhelming. Yet it’s loved by a certain Pokémon.
+Luminous Moss An item to be held by a Pokémon. It boosts Sp. Def if the holder is hit with a Water-type attack. It can only be used once.
+Snowball An item to be held by a Pokémon. It boosts Attack if the holder is hit with an Ice-type attack. It can only be used once.
+Safety Goggles An item to be held by a Pokémon. These goggles protect the holder from both weather-related damage and powder.
+Poké Flute A flute that can play with such a beautiful tone that even sleeping Pokémon find themselves woken up.
+Rich Mulch A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.
+Surprise Mulch A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.
+Boost Mulch A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.
+Amaze Mulch A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.
+Gengarite One of a variety of mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve during battle.
+Gardevoirite One of a variety of mysterious Mega Stones. Have Gardevoir hold it, and this stone will enable it to Mega Evolve during battle.
+Ampharosite One of a variety of mysterious Mega Stones. Have Ampharos hold it, and this stone will enable it to Mega Evolve during battle.
+Venusaurite One of a variety of mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve during battle.
+Charizardite X One of a variety of mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve during battle.
+Blastoisinite One of a variety of mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve during battle.
+Mewtwonite X One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve during battle.
+Mewtwonite Y One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve during battle.
+Blazikenite One of a variety of mysterious Mega Stones. Have Blaziken hold it, and this stone will enable it to Mega Evolve during battle.
+Medichamite One of a variety of mysterious Mega Stones. Have Medicham hold it, and this stone will enable it to Mega Evolve during battle.
+Houndoominite One of a variety of mysterious Mega Stones. Have Houndoom hold it, and this stone will enable it to Mega Evolve during battle.
+Aggronite One of a variety of mysterious Mega Stones. Have Aggron hold it, and this stone will enable it to Mega Evolve during battle.
+Banettite One of a variety of mysterious Mega Stones. Have Banette hold it, and this stone will enable it to Mega Evolve during battle.
+Tyranitarite One of a variety of mysterious Mega Stones. Have Tyranitar hold it, and this stone will enable it to Mega Evolve during battle.
+Scizorite One of a variety of mysterious Mega Stones. Have Scizor hold it, and this stone will enable it to Mega Evolve during battle.
+Pinsirite One of a variety of mysterious Mega Stones. Have Pinsir hold it, and this stone will enable it to Mega Evolve during battle.
+Aerodactylite One of a variety of mysterious Mega Stones. Have Aerodactyl hold it, and this stone will enable it to Mega Evolve during battle.
+Lucarionite One of a variety of mysterious Mega Stones. Have Lucario hold it, and this stone will enable it to Mega Evolve during battle.
+Abomasite One of a variety of mysterious Mega Stones. Have Abomasnow hold it, and this stone will enable it to Mega Evolve during battle.
+Kangaskhanite One of a variety of mysterious Mega Stones. Have Kangaskhan hold it, and this stone will enable it to Mega Evolve during battle.
+Gyaradosite One of a variety of mysterious Mega Stones. Have Gyarados hold it, and this stone will enable it to Mega Evolve during battle.
+Absolite One of a variety of mysterious Mega Stones. Have Absol hold it, and this stone will enable it to Mega Evolve during battle.
+Charizardite Y One of a variety of mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve during battle.
+Alakazite One of a variety of mysterious Mega Stones. Have Alakazam hold it, and this stone will enable it to Mega Evolve during battle.
+Heracronite One of a variety of mysterious Mega Stones. Have Heracross hold it, and this stone will enable it to Mega Evolve during battle.
+Mawilite One of a variety of mysterious Mega Stones. Have Mawile hold it, and this stone will enable it to Mega Evolve during battle.
+Manectite One of a variety of mysterious Mega Stones. Have Manectric hold it, and this stone will enable it to Mega Evolve during battle.
+Garchompite One of a variety of mysterious Mega Stones. Have Garchomp hold it, and this stone will enable it to Mega Evolve during battle.
+Latiasite One of a variety of mysterious Mega Stones. Have Latias hold it, and this stone will enable it to Mega Evolve during battle.
+Latiosite One of a variety of mysterious Mega Stones. Have Latios hold it, and this stone will enable it to Mega Evolve during battle.
+Roseli Berry If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fairy-type attack.
+Kee Berry If held by a Pokémon, this Berry will increase the holder’s Defense if it’s hit with a physical move.
+Maranga Berry If held by a Pokémon, this Berry will increase the holder’s Sp. Def if it’s hit with a special move.
+Sprinklotad A watering can shaped like a Lotad. It helps promote the healthy growth of any Berries planted in good, soft soil.
+TM96 The user stabs the target with a sharp horn. This attack never misses.
+TM97 The user swings its body around violently to inflict damage on everything in its vicinity.
+TM98 Driven by frustration, the user attacks the target. If the user’s previous move has failed, the power of this move doubles.
+TM99 The user swings its tough tail wildly and attacks opposing Pokémon. This also lowers their Attack stats.
+TM100 The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target’s Sp. Atk stat.
+Power Plant Pass This pass serves as an ID card for gaining access to the Power Plant that lies along Route 13.
+Mega Ring This ring contains an untold power that somehow enables Pokémon carrying Mega Stones to Mega Evolve in battle.
+Intriguing Stone A rather curious stone that might appear valuable to some. It’s all in the eye of the beholder.
+Common Stone A perfectly normal stone that might appear to be valuable to some. It’s all in the eye of the beholder.
+Discount Coupon This special coupon allows you to buy items at a discount when you are shopping at a boutique.
+Elevator Key A card key that activates the elevator in Lysandre Labs. It is emblazoned with Team Flare’s logo.
+TMV Pass A commuter pass that allows the holder to ride the TMV between Lumiose City and Kiloude City at any time.
+Honor of Kalos A precious symbol that is awarded only to an individual who has done great things for the Kalos region.
+Adventure Guide A compact device that automatically collects and records advice when a Trainer is out on an adventure.
+Strange Souvenir An ornament depicting a mysterious Pokémon that has been venerated as a guardian deity for an extremely long time in the Alola region.
+Lens Case A rather chic-looking case for carrying contact lenses.
+Makeup Bag A rather chic-looking case for carrying lipsticks.
+Travel Trunk A light and yet incredibly effective trunk, which can contain every last piece of clothing that can be bought.
+Lumiose Galette A popular treat in Lumiose City. It can be used once to heal all the status conditions of a Pokémon.
+Shalour Sable Shalour City’s famous shortbread. It can be used once to heal all the status conditions of a Pokémon.
+Jaw Fossil A fossil from a prehistoric Pokémon that once lived on the land. It looks as if it could be a piece of a large jaw.
+Sail Fossil A fossil from a prehistoric Pokémon that once lived on the land. It looks like the impression from a skin sail.
+Looker Ticket A ticket that was handmade by Looker. It’s decorated with a liberal amount of glittery paint.
+Bike A folding bike that enables a rider to get around much faster than with Running Shoes.
+Holo Caster A device that allows users to receive and view hologram clips at any time. It’s also used to chat with others.
+Fairy Gem A gem with an essence of the fey. When held, it strengthens the power of a Fairy-type move one time.
+Mega Charm This charm contains an untold power that somehow enables Pokémon carrying Mega Stones to Mega Evolve in battle.
+Mega Glove This glove contains an untold power that somehow enables Pokémon carrying Mega Stones to Mega Evolve in battle.
+Mach Bike This folding bike more than doubles your movement speed.
+Acro Bike This folding bike allows you to perform actions such as wheelies and bunny hops.
+Wailmer Pail This is a tool for watering Berries you planted to make them grow more quickly.
+Devon Parts A case that contains mechanical parts of some sort made by the Devon Corporation.
+Soot Sack A sack used to gather and hold volcanic ash.
+Basement Key The key to New Mauville, which was constructed beneath Mauville City.
+Pokéblock Kit A set containing a Berry Blender for making Pokéblocks and a Pokéblock Case for storing Pokéblocks.
+Letter An extremely important letter to Steven from the president of Devon Corporation.
+Eon Ticket The ticket required for sailing on a ferry to the Southern Island. Does Norman, the Petalburg Gym Leader, know a secret?!
+Scanner A device found inside Sea Mauville.
+Go-Goggles Nifty goggles to protect eyes from desert sandstorms.
+Meteorite A Meteorite originally found at Meteor Falls. You got it at Mt. Chimney.
+Key to Room 1 A key that opens a door inside Sea Mauville.
+Key to Room 2 A key that opens a door inside Sea Mauville.
+Key to Room 4 A key that opens a door inside Sea Mauville.
+Key to Room 6 A key that opens a door inside Sea Mauville.
+Storage Key A key that opens the storage hold inside Sea Mauville.
+Devon Scope A special device made by Devon Corporation that signals the presence of any unseen Pokémon.
+S.S. Ticket Ticket required for sailing on a ferry.
+HM07 Diving on the first turn, the user floats up and attacks on the next turn.
+Devon Scuba Gear A device made by Devon Corporation that provides oxygen to users during the use of Dive.
+Contest Costume A very cool suit to be worn during the Contest Spectacular.
+Contest Costume A very cute dress to be worn during the Contest Spectacular.
+Magma Suit A suit made with the collective technological know-how of Team Magma. It can withstand any impact.
+Aqua Suit A suit made with the collective technological know-how of Team Aqua. It can withstand any impact.
+Pair of Tickets Tickets for two to the astronomical show being held at the Mossdeep Space Center.
+Mega Bracelet This cuff contains an untold power that somehow enables Pokémon carrying a Mega Stone to Mega Evolve in battle.
+Mega Pendant This necklace contains an untold power that somehow enables Pokémon carrying a Mega Stone to Mega Evolve in battle.
+Mega Glasses These glasses contain an untold power that somehow enables Pokémon carrying a Mega Stone to Mega Evolve in battle.
+Mega Anchor This anchor contains an untold power that somehow enables Pokémon carrying a Mega Stone to Mega Evolve in battle.
+Mega Stickpin This stickpin contains an untold power that somehow enables Pokémon carrying a Mega Stone to Mega Evolve in battle.
+Mega Tiara This tiara contains an untold power that somehow enables Pokémon carrying a Mega Stone to Mega Evolve in battle.
+Mega Anklet This anklet contains an untold power that somehow enables Pokémon carrying a Mega Stone to Mega Evolve in battle.
+Meteorite A Meteorite that you got at Mt. Chimney. It gives off a faint glow.
+Swampertite One of a variety of mysterious Mega Stones. Have Swampert hold it, and this stone will enable it to Mega Evolve during battle.
+Sceptilite One of a variety of mysterious Mega Stones. Have Sceptile hold it, and this stone will enable it to Mega Evolve during battle.
+Sablenite One of a variety of mysterious Mega Stones. Have Sableye hold it, and this stone will enable it to Mega Evolve during battle.
+Altarianite One of a variety of mysterious Mega Stones. Have Altaria hold it, and this stone will enable it to Mega Evolve during battle.
+Galladite One of a variety of mysterious Mega Stones. Have Gallade hold it, and this stone will enable it to Mega Evolve during battle.
+Audinite One of a variety of mysterious Mega Stones. Have Audino hold it, and this stone will enable it to Mega Evolve during battle.
+Metagrossite One of a variety of mysterious Mega Stones. Have Metagross hold it, and this stone will enable it to Mega Evolve during battle.
+Sharpedonite One of a variety of mysterious Mega Stones. Have Sharpedo hold it, and this stone will enable it to Mega Evolve during battle.
+Slowbronite One of a variety of mysterious Mega Stones. Have Slowbro hold it, and this stone will enable it to Mega Evolve during battle.
+Steelixite One of a variety of mysterious Mega Stones. Have Steelix hold it, and this stone will enable it to Mega Evolve during battle.
+Pidgeotite One of a variety of mysterious Mega Stones. Have Pidgeot hold it, and this stone will enable it to Mega Evolve during battle.
+Glalitite One of a variety of mysterious Mega Stones. Have Glalie hold it, and this stone will enable it to Mega Evolve during battle.
+Diancite One of a variety of mysterious Mega Stones. Have Diancie hold it, and this stone will enable it to Mega Evolve during battle.
+Prison Bottle A bottle believed to have been used to seal away the power of a certain Pokémon long, long ago.
+Mega Cuff This bracelet contains an untold power that somehow enables Pokémon carrying a Mega Stone to Mega Evolve in battle.
+Cameruptite One of a variety of mysterious Mega Stones. Have Camerupt hold it, and this stone will enable it to Mega Evolve during battle.
+Lopunnite One of a variety of mysterious Mega Stones. Have Lopunny hold it, and this stone will enable it to Mega Evolve during battle.
+Salamencite One of a variety of mysterious Mega Stones. Have Salamence hold it, and this stone will enable it to Mega Evolve during battle.
+Beedrillite One of a variety of mysterious Mega Stones. Have Beedrill hold it, and this stone will enable it to Mega Evolve during battle.
+Meteorite A Meteorite that you got at Mt. Chimney. It continues to give off a faint glow and is slightly warm to the touch.
+Meteorite A Meteorite that you got at Mt. Chimney. Some sort of pattern has risen to the surface, and it’s shining with seven colors of light.
+Key Stone A stone filled with an unexplained power. It makes Pokémon that battle with a Mega Stone Mega Evolve.
+Meteorite Shard One of the fragments of a Meteorite from Granite Cave. It’s faintly warm to the touch.
+Eon Flute A flute that can be used to summon Latios or Latias no matter where you are.
+Normalium Z This is a crystallized form of Z-Power. It upgrades Normal-type moves to Z-Moves.
+Firium Z This is a crystallized form of Z-Power. It upgrades Fire-type moves to Z-Moves.
+Waterium Z This is a crystallized form of Z-Power. It upgrades Water-type moves to Z-Moves.
+Electrium Z This is a crystallized form of Z-Power. It upgrades Electric-type moves to Z-Moves.
+Grassium Z This is a crystallized form of Z-Power. It upgrades Grass-type moves to Z-Moves.
+Icium Z This is a crystallized form of Z-Power. It upgrades Ice-type moves to Z-Moves.
+Fightinium Z This is a crystallized form of Z-Power. It upgrades Fighting-type moves to Z-Moves.
+Poisonium Z This is a crystallized form of Z-Power. It upgrades Poison-type moves to Z-Moves.
+Groundium Z This is a crystallized form of Z-Power. It upgrades Ground-type moves to Z-Moves.
+Flyinium Z This is a crystallized form of Z-Power. It upgrades Flying-type moves to Z-Moves.
+Psychium Z This is a crystallized form of Z-Power. It upgrades Psychic-type moves to Z-Moves.
+Buginium Z This is a crystallized form of Z-Power. It upgrades Bug-type moves to Z-Moves.
+Rockium Z This is a crystallized form of Z-Power. It upgrades Rock-type moves to Z-Moves.
+Ghostium Z This is a crystallized form of Z-Power. It upgrades Ghost-type moves to Z-Moves.
+Dragonium Z This is a crystallized form of Z-Power. It upgrades Dragon-type moves to Z-Moves.
+Darkinium Z This is a crystallized form of Z-Power. It upgrades Dark-type moves to Z-Moves.
+Steelium Z This is a crystallized form of Z-Power. It upgrades Steel-type moves to Z-Moves.
+Fairium Z This is a crystallized form of Z-Power. It upgrades Fairy-type moves to Z-Moves.
+Pikanium Z This is a crystallized form of Z-Power. It upgrades Pikachu’s Volt Tackle to a Z-Move.
+Bottle Cap A beautiful bottle cap that gives off a silver gleam. Some people are happy to receive one.
+Gold Bottle Cap A beautiful bottle cap that gives off a golden gleam. Some people are happy to receive one.
+Z-Ring A mysterious ring that enables Pokémon to use Z-Power. It requires both the willpower and the physical power of the Trainer wearing it.
+Decidium Z This is a crystallized form of Z-Power. It upgrades Decidueye’s Spirit Shackle to a Z-Move.
+Incinium Z This is a crystallized form of Z-Power. It upgrades Incineroar’s Darkest Lariat to a Z-Move.
+Primarium Z This is a crystallized form of Z-Power. It upgrades Primarina’s Sparkling Aria to a Z-Move.
+Tapunium Z This is a crystallized form of Z-Power. It upgrades the tapu’s Nature’s Madness to a Z-Move.
+Marshadium Z This is a crystallized form of Z-Power. It upgrades Marshadow’s Spectral Thief to a Z-Move.
+Aloraichium Z This is a crystallized form of Z-Power. It upgrades Alolan Raichu’s Thunderbolt to a Z-Move.
+Snorlium Z This is a crystallized form of Z-Power. It upgrades Snorlax’s Giga Impact to a Z-Move.
+Eevium Z This is a crystallized form of Z-Power. It upgrades Eevee’s Last Resort to a Z-Move.
+Mewnium Z This is a crystallized form of Z-Power. It upgrades Mew’s Psychic to a Z-Move.
+Normalium Z It converts Z-Power into crystals that upgrade Normal-type moves to Normal-type Z-Moves.
+Firium Z It converts Z-Power into crystals that upgrade Fire-type moves to Fire-type Z-Moves.
+Waterium Z It converts Z-Power into crystals that upgrade Water-type moves to Water-type Z-Moves.
+Electrium Z It converts Z-Power into crystals that upgrade Electric-type moves to Electric-type Z-Moves.
+Grassium Z It converts Z-Power into crystals that upgrade Grass-type moves to Grass-type Z-Moves.
+Icium Z It converts Z-Power into crystals that upgrade Ice-type moves to Ice-type Z-Moves.
+Fightinium Z It converts Z-Power into crystals that upgrade Fighting-type moves to Fighting-type Z-Moves.
+Poisonium Z It converts Z-Power into crystals that upgrade Poison-type moves to Poison-type Z-Moves.
+Groundium Z It converts Z-Power into crystals that upgrade Ground-type moves to Ground-type Z-Moves.
+Flyinium Z It converts Z-Power into crystals that upgrade Flying-type moves to Flying-type Z-Moves.
+Psychium Z It converts Z-Power into crystals that upgrade Psychic-type moves to Psychic-type Z-Moves.
+Buginium Z It converts Z-Power into crystals that upgrade Bug-type moves to Bug-type Z-Moves.
+Rockium Z It converts Z-Power into crystals that upgrade Rock-type moves to Rock-type Z-Moves.
+Ghostium Z It converts Z-Power into crystals that upgrade Ghost-type moves to Ghost-type Z-Moves.
+Dragonium Z It converts Z-Power into crystals that upgrade Dragon-type moves to Dragon-type Z-Moves.
+Darkinium Z It converts Z-Power into crystals that upgrade Dark-type moves to Dark-type Z-Moves.
+Steelium Z It converts Z-Power into crystals that upgrade Steel-type moves to Steel-type Z-Moves.
+Fairium Z It converts Z-Power into crystals that upgrade Fairy-type moves to Fairy-type Z-Moves.
+Pikanium Z It converts Z-Power into crystals that upgrade Pikachu’s Volt Tackle to an exclusive Z-Move.
+Decidium Z It converts Z-Power into crystals that upgrade Decidueye’s Spirit Shackle to an exclusive Z-Move.
+Incinium Z It converts Z-Power into crystals that upgrade Incineroar’s Darkest Lariat to an exclusive Z-Move.
+Primarium Z It converts Z-Power into crystals that upgrade Primarina’s Sparkling Aria to an exclusive Z-Move.
+Tapunium Z It converts Z-Power into crystals that upgrade the tapu’s Nature’s Madness to an exclusive Z-Move.
+Marshadium Z It converts Z-Power into crystals that upgrade Marshadow’s Spectral Thief to an exclusive Z-Move.
+Aloraichium Z It converts Z-Power into crystals that upgrade Alolan Raichu’s Thunderbolt to an exclusive Z-Move.
+Snorlium Z It converts Z-Power into crystals that upgrade Snorlax’s Giga Impact to an exclusive Z-Move.
+Eevium Z It converts Z-Power into crystals that upgrade Eevee’s Last Resort to an exclusive Z-Move.
+Mewnium Z It converts Z-Power into crystals that upgrade Mew’s Psychic to an exclusive Z-Move.
+Pikashunium Z It converts Z-Power into crystals that upgrade a Thunderbolt by Pikachu in a cap to an exclusive Z-Move.
+Pikashunium Z This is a crystallized form of Z-Power. It upgrades a Thunderbolt by Pikachu in a cap to a Z-Move.
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+Forage Bag A bag to carry ingredients gathered during Mallow’s trial in the jungle.
+Fishing Rod A fishing rod made by Captain Lana. Cast a line over piles of underwater rocks to fish for wild aquatic Pokémon.
+Professor’s Mask The mask that belongs to The Masked Royal. This pro wrestler apparently sews his mask on a machine himself.
+Festival Ticket A ticket that allows you to host a mission in Festival Plaza.
+Sparkling Stone A stone entrusted by a Pokémon that has been venerated as a guardian deity in the Alola region. There is said to be some secret in how it sparkles.
+Adrenaline Orb If held by a Pokémon, it boosts Speed when intimidated.
+Zygarde Cube An item to store Zygarde Cores and Cells. You can also use it to teach Zygarde moves.
+??? - - -
+Ice Stone A peculiar stone that can make certain species of Pokémon evolve. It has an unmistakable snowflake pattern.
+Ride Pager By entering certain numbers on this pager, you can summon Ride Pokémon in an instant.
+Beast Ball A somewhat different Poké Ball that has a low success rate for catching a Pokémon.
+Big Malasada The Alola region’s local specialty—fried bread. It can be used once to heal all the status conditions of a Pokémon.
+Red Nectar A flower nectar obtained at Ula’ula Meadow. It changes the form of certain species of Pokémon.
+Yellow Nectar A flower nectar obtained at Melemele Meadow. It changes the form of certain species of Pokémon.
+Pink Nectar A flower nectar obtained from the flowering shrubs on Royal Avenue. It changes the form of certain species of Pokémon.
+Purple Nectar A flower nectar obtained at Poni Meadow. It changes the form of certain species of Pokémon.
+Sun Flute It is said that the tones it produces were offered up as an expression of gratitude to the Legendary Pokémon of the sun.
+Moon Flute It is said that the tones it produces were offered up as an expression of gratitude to the Legendary Pokémon of the moon.
+??? - - -
+Enigmatic Card A mysterious card. Written on it is a request for you to go to a guest room in an Akala motel on Route 8.
+Silver Razz Berry A Berry that makes it easier to catch Pokémon when given to them.
+Golden Razz Berry A Berry that makes it drastically easier to catch Pokémon when given to them.
+Silver Nanab Berry A Berry that calms wild Pokémon you’re trying to catch when given to them.
+Golden Nanab Berry A Berry that calms wild Pokémon you’re trying to catch drastically when given to them.
+Silver Pinap Berry A Berry that makes you more likely to get an item when given to Pokémon you’re trying to catch.
+Golden Pinap Berry A Berry that makes you drastically more likely to get an item when given to Pokémon you’re trying to catch.
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+Secret Key The key that unlocks the front door of the Pokémon Gym on Cinnabar Island. It has a red decoration.
+S.S. Ticket The ticket required to board the S.S. Anne. It has a drawing of a ship on it.
+Silph Scope A scope that lets you see what cannot usually be seen. It is made by Silph Co.
+Parcel A parcel to be delivered to Professor Oak from Viridian City’s Poké Mart.
+Card Key A card key that unlocks doors in Silph Co.’s head office in Saffron City.
+Gold Teeth A set of golden false teeth lost by the Safari Zone’s warden. They make his smile sparkle.
+Lift Key A key that operates the elevator in the Team Rocket Hideout. It bears the Team Rocket logo.
+Terrain Extender An item to be held by a Pokémon. It extends the duration of the terrain caused by the holder’s move or Ability.
+Protective Pads An item to be held by a Pokémon. These pads protect the holder from effects caused by making direct contact with the target.
+Electric Seed An item to be held by a Pokémon. It boosts Defense on Electric Terrain. It can only be used once.
+Psychic Seed An item to be held by a Pokémon. It boosts Sp. Def on Psychic Terrain. It can only be used once.
+Misty Seed An item to be held by a Pokémon. It boosts Sp. Def on Misty Terrain. It can only be used once.
+Grassy Seed An item to be held by a Pokémon. It boosts Defense on Grassy Terrain. It can only be used once.
+Stretchy Spring A thin small spring. It’s totally stretched out, and what it’s used for is unknown.
+Chalky Stone A small whitish stone picked up at the edge of the road.
+Marble A round glass marble. You can see colored glass inside the transparent marble.
+Lone Earring A single earring that somebody dropped.
+Beach Glass A piece of colored glass. Waves have rounded its edges. It’s slightly rough to the touch.
+Gold Leaf A mysterious gold leaf. No trees with this leaf have been found yet.
+Silver Leaf A mysterious silver leaf. No trees with this leaf have been found yet.
+Polished Mud Ball A ball made of mud. It had been polished for such a long time that the surface is very shiny.
+Tropical Shell A beautiful white shell that may have drifted from a sea in a warm region.
+Leaf Letter A letter written on a leaf. Something is written using Pikachu’s footprints.
+Leaf Letter A letter written on a leaf. Something is written using Eevee’s footprints.
+Small Bouquet A small bouquet that was made with heart and soul for a single Trainer.
+??? - - -
+??? - - -
+??? - - -
+Lure A glass bottle of perfume that makes rare Pokémon more likely to appear.
+Super Lure A glass bottle of perfume that makes rare Pokémon more likely to appear. It lasts longer than a Lure.
+Max Lure A glass bottle of perfume that makes rare Pokémon more likely to appear. It lasts longer than a Super Lure.
+Pewter Crunchies Pewter City’s famous crunchy snack. They can be used to heal all status conditions of a single Pokémon.
+Fighting Memory A memory disc that contains Fighting-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Flying Memory A memory disc that contains Flying-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Poison Memory A memory disc that contains Poison-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Ground Memory A memory disc that contains Ground-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Rock Memory A memory disc that contains Rock-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Bug Memory A memory disc that contains Bug-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Ghost Memory A memory disc that contains Ghost-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Steel Memory A memory disc that contains Steel-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Fire Memory A memory disc that contains Fire-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Water Memory A memory disc that contains Water-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Grass Memory A memory disc that contains Grass-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Electric Memory A memory disc that contains Electric-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Psychic Memory A memory disc that contains Psychic-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Ice Memory A memory disc that contains Ice-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Dragon Memory A memory disc that contains Dragon-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Dark Memory A memory disc that contains Dark-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Fairy Memory A memory disc that contains Fairy-type data. It changes the type of the holder if held by a certain species of Pokémon.
+Solganium Z This is a crystallized form of Z-Power. It upgrades Solgaleo’s Sunsteel Strike to a Z-Move.
+Lunalium Z This is a crystallized form of Z-Power. It upgrades Lunala’s Moongeist Beam to a Z-Move.
+Ultranecrozium Z This is a crystallized form of Z-Power. It upgrades Necrozma’s Photon Geyser to a Z-Move.
+Mimikium Z This is a crystallized form of Z-Power. It upgrades Mimikyu’s Play Rough to a Z-Move.
+Lycanium Z This is a crystallized form of Z-Power. It upgrades Lycanroc’s Stone Edge to a Z-Move.
+Kommonium Z This is a crystallized form of Z-Power. It upgrades Kommo-o’s Clanging Scales to a Z-Move.
+Solganium Z It converts Z-Power into crystals that upgrade Solgaleo’s Sunsteel Strike to an exclusive Z-Move.
+Lunalium Z It converts Z-Power into crystals that upgrade Lunala’s Moongeist Beam to an exclusive Z-Move.
+Ultranecrozium Z It’s a crystal that turns Necrozma fused with Solgaleo or Lunala into a new form.
+Mimikium Z It converts Z-Power into crystals that upgrade Mimikyu’s Play Rough to an exclusive Z-Move.
+Lycanium Z It converts Z-Power into crystals that upgrade Lycanroc’s Stone Edge to an exclusive Z-Move.
+Kommonium Z It converts Z-Power into crystals that upgrade Kommo-o’s Clanging Scales to an exclusive Z-Move.
+Z-Power Ring A mysterious ring that enables Pokémon to use Z-Power. It requires both the willpower and the physical power of the Trainer wearing it.
+Pink Petal A pressed flower petal you receive from Mina during Mina’s trial. The goal is to collect seven different kinds of petals.
+Orange Petal A pressed flower petal you receive from Ilima during Mina’s trial. The goal is to collect seven different kinds of petals.
+Blue Petal A pressed flower petal you receive from Lana during Mina’s trial. The goal is to collect seven different kinds of petals.
+Red Petal A pressed flower petal you receive from Kiawe during Mina’s trial. The goal is to collect seven different kinds of petals.
+Green Petal A pressed flower petal you receive from Mallow during Mina’s trial. The goal is to collect seven different kinds of petals.
+Yellow Petal A pressed flower petal you receive from Sophocles during Mina’s trial. The goal is to collect seven different kinds of petals.
+Purple Petal A pressed flower petal you receive from Nanu during Mina’s trial. The goal is to collect seven different kinds of petals.
+Rainbow Flower A flower made of the petals you received from captains. It’s proof that your growth has been recognized by them.
+Surge Badge A novelty badge that you can receive at the Kantonian Gym. Rumor has it that it imitates the Badge of a Gym somewhere.
+N-Solarizer A machine to fuse Necrozma, which needs light, and Solgaleo.
+N-Lunarizer A machine to fuse Necrozma, which needs light, and Lunala.
+N-Solarizer A machine to separate Necrozma, which needed light, from Solgaleo.
+N-Lunarizer A machine to separate Necrozma, which needed light, from Lunala.
+Ilima Normalium Z The Normalium Z you were entrusted with by Ilima. You were asked to place it on the pedestal at the back of Verdant Cavern.
+Left Poké Ball A Poké Ball with a Pokémon that lost its Trainer inside. It seems to be from Ula’ula Island.
+Roto Hatch One of the Rotom Powers. It helps Eggs hatch faster.
+Roto Bargain One of the Rotom Powers. It reduces the prices of products at Poké Marts by half.
+Roto Prize Money One of the Rotom Powers. It triples the prize money you receive after battle.
+Roto Exp. Points One of the Rotom Powers. It increases the Exp. Points your Pokémon receive after battle a little.
+Roto Friendship One of the Rotom Powers. It helps Pokémon in your party grow friendly faster.
+Roto Encounter One of the Rotom Powers. It increases the chance of encountering high-level wild Pokémon a lot for a certain period of time.
+Roto Stealth One of the Rotom Powers. It prevents you from encountering wild Pokémon for a certain period of time.
+Roto HP Restore One of the Rotom Powers. It fully restores the HP of your battling Pokémon.
+Roto PP Restore One of the Rotom Powers. It fully restores the PP of your battling Pokémon.
+Roto Boost One of the Rotom Powers. It raises all stats of your battling Pokémon.
+Roto Catch One of the Rotom Powers. It increases the chance to catch Pokémon a lot.
+Health Candy A candy that is packed with energy. When given to a Pokémon, it will increase that Pokémon’s HP.
+Mighty Candy A candy that is packed with energy. When given to a Pokémon, it will increase that Pokémon’s Attack stat.
+Tough Candy A candy that is packed with energy. When given to a Pokémon, it will increase that Pokémon’s Defense stat.
+Smart Candy A candy that is packed with energy. When given to a Pokémon, it will increase that Pokémon’s Sp. Atk stat.
+Courage Candy A candy that is packed with energy. When given to a Pokémon, it will increase that Pokémon’s Sp. Def stat.
+Quick Candy A candy that is packed with energy. When given to a Pokémon, it will increase that Pokémon’s Speed stat.
+Health Candy L A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon’s HP.
+Mighty Candy L A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon’s Attack stat.
+Tough Candy L A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon’s Defense stat.
+Smart Candy L A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon’s Sp. Atk stat.
+Courage Candy L A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon’s Sp. Def stat.
+Quick Candy L A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon’s Speed stat.
+Health Candy XL A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon’s HP.
+Mighty Candy XL A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon’s Attack stat.
+Tough Candy XL A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon’s Defense stat.
+Smart Candy XL A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon’s Sp. Atk stat.
+Courage Candy XL A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon’s Sp. Def stat.
+Quick Candy XL A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon’s Speed stat.
+Bulbasaur Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Charmander Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Squirtle Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Caterpie Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Weedle Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Pidgey Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Rattata Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Spearow Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Ekans Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Pikachu Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Sandshrew Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Nidoran♀ Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Nidoran♂ Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Clefairy Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Vulpix Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Jigglypuff Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Zubat Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Oddish Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Paras Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Venonat Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Diglett Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Meowth Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Psyduck Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Mankey Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Growlithe Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Poliwag Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Abra Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Machop Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Bellsprout Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Tentacool Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Geodude Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Ponyta Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Slowpoke Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Magnemite Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Farfetch’d Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Doduo Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Seel Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Grimer Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Shellder Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Gastly Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Onix Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Drowzee Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Krabby Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Voltorb Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Exeggcute Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Cubone Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Hitmonlee Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Hitmonchan Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Lickitung Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Koffing Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Rhyhorn Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Chansey Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Tangela Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Kangaskhan Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Horsea Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Goldeen Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Staryu Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Mr. Mime Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Scyther Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Jynx Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Electabuzz Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Pinsir Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Tauros Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Magikarp Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Lapras Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Ditto Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Eevee Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Porygon Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Omanyte Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Kabuto Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Aerodactyl Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Snorlax Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Articuno Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Zapdos Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Moltres Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Dratini Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Mewtwo Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Mew Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Meltan Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+Magmar Candy A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once.
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+Endorsement A letter of recommendation that you’ll need in order to participate in the Gym Challenge.
+Pokémon Box Link A device that allows you to access the Pokémon storage system. There are some places where it won’t work.
+Wishing Star A stone found in the Galar region with a mysterious power. It’s said that your dreams come true if you find one.
+Dynamax Band A Wishing Star has been affixed to it. It lets out a light that allows Pokémon to Dynamax when at a Power Spot.
+??? - - -
+??? - - -
+Fishing Rod Use it by the water to fish up various kinds of Pokémon.
+Rotom Bike This bike can be combined with the Pokémon Rotom to use a turbo boost.
+??? - - -
+??? - - -
+Sausages One of the many ingredients that can be used for cooking at your camp. These sausages should be boiled before eating.
+Bob’s Food Tin One of the many ingredients that can be used for cooking at your camp. The tinned food that Bob sells is curiously popular in Galar.
+Bach’s Food Tin One of the many ingredients that can be used for cooking at your camp. The tinned food that Bach sells is curiously popular in Galar.
+Tin of Beans One of the many ingredients that can be used for cooking at your camp. When simmered, the beans suffuse a dish with their mild flavor.
+Bread One of the many ingredients that can be used for cooking at your camp. An indispensable tool for mopping up that extra curry left on your plate.
+Pasta One of the many ingredients that can be used for cooking at your camp. These flour noodles make for a surprisingly good match with curry.
+Mixed Mushrooms One of the many ingredients that can be used for cooking at your camp. The chewy texture of the mushrooms transforms any dish they’re added to.
+Smoke-Poke Tail One of the many ingredients that can be used for cooking at your camp. When a Slowpoke’s tail falls off, it grows back quickly.
+Large Leek One of the many ingredients that can be used for cooking at your camp. Whether this is the kind of vegetable stalk that Farfetch’d like is unknown.
+Fancy Apple One of the many ingredients that can be used for cooking at your camp. An apple chosen above others. It has spectacular form and a brilliant sheen.
+Brittle Bones One of the many ingredients that can be used for cooking at your camp. The taste boiled off from the bones is sure to give a dish a light umami taste.
+Pack of Potatoes One of the many ingredients that can be used for cooking at your camp. Potatoes help mellow out a spicy taste, to make a dish more mild.
+Pungent Root One of the many ingredients that can be used for cooking at your camp. Though carelessly picked, these herbs can add a fragrant accent to a dish.
+Salad Mix One of the many ingredients that can be used for cooking at your camp. The assortment of vegetables looks quite appealing and healthy.
+Fried Food One of the many ingredients that can be used for cooking at your camp. It’s been a while since it was fried, so it’s gotten greasy.
+Boiled Egg One of the many ingredients that can be used for cooking at your camp. Even just one boiled egg can really enhance a dish.
+Camping Gear Everything you need to set up a tent and get cooking in a Wild Area or at a camping spot.
+??? - - -
+??? - - -
+Rusted Sword It is said that a hero used this sword to halt a terrible disaster in ancient times. But it’s grown rusty and worn.
+Rusted Shield It is said that a hero used this shield to halt a terrible disaster in ancient times. But it’s grown rusty and worn.
+Fossilized Bird The fossil of an ancient Pokémon that once soared through the sky. What it looked like is a mystery.
+Fossilized Fish The fossil of an ancient Pokémon that once lived in the sea. What it looked like is a mystery.
+Fossilized Drake The fossil of an ancient Pokémon that once roamed the land. What it looked like is a mystery.
+Fossilized Dino The fossil of an ancient Pokémon that once lived in the sea. What it looked like is a mystery.
+Strawberry Sweet A strawberry-shaped sweet. When a Milcery holds this, it will spin around happily.
+Love Sweet A heart-shaped sweet. When a Milcery holds this, it spins around happily.
+Berry Sweet A berry-shaped sweet. When a Milcery holds this, it spins around happily.
+Clover Sweet A clover-shaped sweet. When a Milcery holds this, it spins around happily.
+Flower Sweet A flower-shaped sweet. When a Milcery holds this, it spins around happily.
+Star Sweet A star-shaped sweet. When a Milcery holds this, it spins around happily.
+Ribbon Sweet A ribbon-shaped sweet. When a Milcery holds this, it spins around happily.
+Sweet Apple A peculiar apple that can make a certain species of Pokémon evolve. It’s exceptionally sweet.
+Tart Apple A peculiar apple that can make a certain species of Pokémon evolve. It’s exceptionally tart.
+Throat Spray Raises Sp. Atk when a Pokémon uses a sound-based move.
+Eject Pack An item to be held by a Pokémon. When the holder’s stats are lowered, it will be switched out of battle.
+Heavy-Duty Boots These boots prevent the effects of traps set on the battlefield.
+Blunder Policy Raises Speed sharply when a Pokémon misses with a move because of accuracy.
+Room Service An item to be held by a Pokémon. Lowers Speed when Trick Room takes effect.
+Utility Umbrella An item to be held by a Pokémon. This sturdy umbrella protects the holder from the effects of weather.
+Exp. Candy XS A candy that is packed with energy. When consumed, it will grant a single Pokémon a very small amount of Exp. Points.
+Exp. Candy S A candy that is packed with energy. When consumed, it will grant a single Pokémon a small amount of Exp. Points.
+Exp. Candy M A candy that is packed with energy. When consumed, it will grant a single Pokémon a moderate amount of Exp. Points.
+Exp. Candy L A candy that is packed with energy. When consumed, it will grant a single Pokémon a large amount of Exp. Points.
+Exp. Candy XL A candy that is packed with energy. When consumed, it will grant a single Pokémon a very large amount of Exp. Points.
+Dynamax Candy A candy that is packed with energy. When consumed, it will raise the Dynamax Level of a single Pokémon by one. A higher level means higher HP when Dynamaxed.
+TR00 A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.
+TR01 The user drops onto the target with its full body weight. This may also leave the target with paralysis.
+TR02 The target is scorched with an intense blast of fire. This may also leave the target with a burn.
+TR03 The target is blasted by a huge volume of water launched under great pressure.
+TR04 The user attacks everything around it by swamping its surroundings with a giant wave.
+TR05 The target is struck with an icy-cold beam of energy. This may also leave the target frozen.
+TR06 A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.
+TR07 A powerful low kick that makes the target fall over. The heavier the target, the greater the move’s power.
+TR08 A strong electric blast crashes down on the target. This may also leave the target with paralysis.
+TR09 A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.
+TR10 The user sets off an earthquake that strikes every Pokémon around it.
+TR11 The target is hit by a strong telekinetic force. This may also lower the target’s Sp. Def stat.
+TR12 The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.
+TR13 The user takes a deep breath and focuses so that critical hits land more easily.
+TR14 The user waggles a finger and stimulates its brain into randomly using nearly any move.
+TR15 The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.
+TR16 The user charges at the target and may make it flinch.
+TR17 The user temporarily empties its mind to forget its concerns. This sharply raises the user’s Sp. Def stat.
+TR18 The user drains the target’s blood. The user’s HP is restored by half the damage taken by the target.
+TR19 The user strikes with a simultaneous three-beam attack. This may also burn, freeze, or paralyze the target.
+TR20 The user creates a substitute for itself using some of its HP. The substitute serves as the user’s decoy.
+TR21 An all-out attack that becomes more powerful the less HP the user has.
+TR22 Unsanitary sludge is hurled at the target. This may also poison the target.
+TR23 The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.
+TR24 The user rampages and attacks for two to three turns. The user then becomes confused.
+TR25 The user materializes an odd psychic wave to attack the target. This attack does physical damage.
+TR26 The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.
+TR27 While it is asleep, the user randomly uses one of the moves it knows.
+TR28 Using its tough and impressive horn, the user rams into the target with no letup.
+TR29 The user switches places with a party Pokémon in waiting and passes along any stat changes.
+TR30 The user compels the target to keep using the move it encored for three turns.
+TR31 The target is slammed with a steel-hard tail. This may also lower the target’s Defense stat.
+TR32 The user crunches up the target with sharp fangs. This may also lower the target’s Defense stat.
+TR33 The user hurls a shadowy blob at the target. This may also lower the target’s Sp. Def stat.
+TR34 Two turns after this move is used, a hunk of psychic energy attacks the target.
+TR35 The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.
+TR36 The user attacks by exhaling hot breath on opposing Pokémon. This may also leave those Pokémon with a burn.
+TR37 The target is taunted into a rage that allows it to use only attack moves for three turns.
+TR38 The user catches the target off guard and swaps its held item with its own.
+TR39 The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.
+TR40 The user employs its psychic power to exchange Abilities with the target.
+TR41 The user launches a kick that lands a critical hit more easily. This may also leave the target with a burn.
+TR42 The user lets loose a horribly echoing shout with the power to inflict damage.
+TR43 The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.
+TR44 The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.
+TR45 The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy.
+TR46 The user hardens its body’s surface like iron, sharply raising its Defense stat.
+TR47 The user slashes the target with huge sharp claws.
+TR48 The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.
+TR49 The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
+TR50 The user handles a sharp leaf like a sword and attacks by cutting its target. Critical hits land more easily.
+TR51 The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.
+TR52 The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power.
+TR53 The user fights the target up close without guarding itself. This also lowers the user’s Defense and Sp. Def stats.
+TR54 The user lays a trap of poison spikes at the feet of the opposing team. The spikes will poison opposing Pokémon that switch into battle.
+TR55 The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn.
+TR56 The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.
+TR57 The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison the target.
+TR58 The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.
+TR59 The user slams a barrage of hard-shelled seeds down on the target from above.
+TR60 The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.
+TR61 The user generates a damaging sound wave by vibration. This may also lower the target’s Sp. Def stat.
+TR62 The target is attacked with a shock wave generated by the user’s gaping mouth.
+TR63 The user attacks with a ray of light that sparkles as if it were made of gemstones.
+TR64 The user heightens its mental focus and unleashes its power. This may also lower the target’s Sp. Def stat.
+TR65 The user draws power from nature and fires it at the target. This may also lower the target’s Sp. Def stat.
+TR66 The user tucks in its wings and charges from a low altitude. This also damages the user quite a lot.
+TR67 The user makes the ground under the target erupt with power. This may also lower the target’s Sp. Def stat.
+TR68 The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk stat.
+TR69 The user focuses its willpower to its head and attacks the target. This may also make the target flinch.
+TR70 The user gathers all its light energy and releases it all at once. This may also lower the target’s Sp. Def stat.
+TR71 The user whips up a storm of leaves around the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.
+TR72 The user violently whirls its vines, tentacles, or the like to harshly lash the target.
+TR73 The user shoots filthy garbage at the target to attack. This may also poison the target.
+TR74 The user slams the target with its steel-hard head. This may also make the target flinch.
+TR75 The user stabs the target from below with sharpened stones. Critical hits land more easily.
+TR76 The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.
+TR77 The user snares the target with grass and trips it. The heavier the target, the greater the move’s power.
+TR78 The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.
+TR79 The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move’s power.
+TR80 The user hurls an electric orb at the target. The faster the user is than the target, the greater the move’s power.
+TR81 The user turns the target’s power against it. The higher the target’s Attack stat, the greater the damage it deals.
+TR82 The user attacks the target with stored power. The more the user’s stats are raised, the greater the move’s power.
+TR83 The user teleports using a strange power and switches places with one of its allies.
+TR84 The user shoots boiling hot water at its target. This may also leave the target with a burn.
+TR85 The user is roused, and its Attack and Sp. Atk stats increase.
+TR86 The user shrouds itself in electricity and smashes into its target. This also damages the user a little.
+TR87 The user crashes into its target while rotating its body like a drill. Critical hits land more easily.
+TR88 The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the move’s power.
+TR89 The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. This may also confuse the target.
+TR90 The user plays rough with the target and attacks it. This may also lower the target’s Attack stat.
+TR91 Opposing Pokémon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.
+TR92 The user damages opposing Pokémon by emitting a powerful flash.
+TR93 The user swings both arms and hits the target. The target’s stat changes don’t affect this attack’s damage.
+TR94 The user fiercely attacks the target using its entire body.
+TR95 The user attacks the target’s throat, and the resultant suffering prevents the target from using moves that emit sound for two turns.
+TR96 The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead.
+TR97 The user bites the target with its psychic capabilities. This can also destroy Light Screen and Reflect.
+TR98 The user slams into the target using a full-force blast of water. This may also lower the target’s Defense stat.
+TR99 The user attacks by slamming its body into the target. The higher the user’s Defense, the more damage it can inflict on the target.
+TM00 The target is slugged by a punch thrown with muscle-packed power.
+Lonely Mint When a Pokémon smells this mint, its Attack will grow more easily, but its Defense will grow more slowly.
+Adamant Mint When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Atk will grow more slowly.
+Naughty Mint When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Def will grow more slowly.
+Brave Mint When a Pokémon smells this mint, its Attack will grow more easily, but its Speed will grow more slowly.
+Bold Mint When a Pokémon smells this mint, its Defense will grow more easily, but its Attack will grow more slowly.
+Impish Mint When a Pokémon smells this mint, its Defense will grow more easily, but its Sp. Atk will grow more slowly.
+Lax Mint When a Pokémon smells this mint, its Defense will grow more easily, but its Sp. Def will grow more slowly.
+Relaxed Mint When a Pokémon smells this mint, its Defense will grow more easily, but its Speed will grow more slowly.
+Modest Mint When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Attack will grow more slowly.
+Mild Mint When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Defense will grow more slowly.
+Rash Mint When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Sp. Def will grow more slowly.
+Quiet Mint When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Speed will grow more slowly.
+Calm Mint When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Attack will grow more slowly.
+Gentle Mint When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Defense will grow more slowly.
+Careful Mint When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Sp. Atk will grow more slowly.
+Sassy Mint When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Speed will grow more slowly.
+Timid Mint When a Pokémon smells this mint, its Speed will grow more easily, but its Attack will grow more slowly.
+Hasty Mint When a Pokémon smells this mint, its Speed will grow more easily, but its Defense will grow more slowly.
+Jolly Mint When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Atk will grow more slowly.
+Naive Mint When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Def will grow more slowly.
+Serious Mint When a Pokémon smells this mint, all of its stats will grow at an equal rate.
+Wishing Piece Throw one into a Pokémon Den to attract a wild Dynamax Pokémon.
+Cracked Pot A peculiar teapot that can make a certain species of Pokémon evolve. It may be cracked, but tea poured from it is delicious.
+Chipped Pot A peculiar teapot that can make a certain species of Pokémon evolve. It may be chipped, but tea poured from it is delicious.
+Hi-tech Earbuds Strange earbuds that allow you to freely control the volume of various sounds.
+Fruit Bunch One of the many ingredients that can be used for cooking at your camp. The syrupy fruits give off a strong tropical feel.
+Moomoo Cheese One of the many ingredients that can be used for cooking at your camp. Melted cheese can really give a curry some richness.
+Spice Mix One of the many ingredients that can be used for cooking at your camp. There are over fifty spices contained within this ingredient’s hot flavor.
+Fresh Cream One of the many ingredients that can be used for cooking at your camp. Add some whipped cream to a spicy curry to give it some sweetness.
+Packaged Curry One of the many ingredients that can be used for cooking at your camp. Using packaged curry helps make sure there are no slipups when cooking.
+Coconut Milk One of the many ingredients that can be used for cooking at your camp. The refined sweetness of this coconut milk makes it quite popular.
+Instant Noodles One of the many ingredients that can be used for cooking at your camp. It has a junk-food sort of taste, but it goes well with curry.
+Precooked Burger One of the many ingredients that can be used for cooking at your camp. If you’re unsure about what to cook, you can’t go wrong with some burger.
+Gigantamix One of the many ingredients that can be used for cooking at your camp. A mysterious spice. Even a tiny sprinkle is sure to make a curry gigantic.
+Wishing Chip Toss a number of them into a Pokémon Den for the chance to attract a wild Dynamax Pokémon.
+Rotom Bike This bike can be combined with the Pokémon Rotom to not only do a turbo boost but also run on the water.
+Catching Charm Holding it is said to increase the chance of getting a critical catch. Curiously, the charm doesn’t shake much.
+??? - - -
+Old Letter A letter entrusted to you by a girl, to be delivered to a boy. Strangely, it looks old to you.
+Band Autograph It’s signed by all members of the Galar region’s most charismatic band, the Maximizers.
+Sonia’s Book Professor Sonia’s published writings. Her new discoveries about the Galar region’s legends are recorded in this enjoyable read.
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+??? - - -
+Rotom Catalog A catalog of devices that Rotom like. Use the catalog to have Rotom hop in and out of the various devices listed within.
+★And458 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★And15 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★And337 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★And603 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★And390 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr6879 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr6859 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr6913 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr7348 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr7121 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr6746 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr7194 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr7337 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr7343 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr6812 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr7116 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr7264 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sgr7597 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Del7882 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Del7906 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Del7852 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Psc596 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Psc361 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Psc510 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Psc437 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Psc8773 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Lep1865 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Lep1829 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Boo5340 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Boo5506 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Boo5435 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Boo5602 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Boo5733 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Boo5235 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Boo5351 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Hya3748 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Hya3903 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Hya3418 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Hya3482 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Hya3845 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Eri1084 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Eri472 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Eri1666 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Eri897 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Eri1231 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Eri874 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Eri1298 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Eri1325 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Eri984 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Eri1464 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Eri1393 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Eri850 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Tau1409 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Tau1457 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Tau1165 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Tau1791 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Tau1910 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Tau1346 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Tau1373 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Tau1412 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CMa2491 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CMa2693 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CMa2294 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CMa2827 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CMa2282 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CMa2618 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CMa2657 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CMa2646 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa4905 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa4301 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa5191 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa5054 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa4295 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa4660 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa4554 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa4069 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa3569 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa3323 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa4033 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa4377 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa4375 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa4518 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMa3594 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vir5056 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vir4825 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vir4932 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vir4540 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vir4689 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vir5338 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vir4910 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vir5315 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vir5359 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vir5409 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vir5107 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ari617 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ari553 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ari546 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ari951 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ori1713 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ori2061 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ori1790 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ori1903 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ori1948 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ori2004 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ori1852 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ori1879 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ori1899 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ori1543 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cas21 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cas168 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cas403 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cas153 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cas542 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cas219 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cas265 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cnc3572 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cnc3208 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cnc3461 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cnc3449 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cnc3429 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cnc3627 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cnc3268 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cnc3249 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Com4968 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Crv4757 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Crv4623 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Crv4662 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Crv4786 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aur1708 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aur2088 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aur1605 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aur2095 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aur1577 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aur1641 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aur1612 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Pav7790 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cet911 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cet681 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cet188 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cet539 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cet804 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cep8974 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cep8162 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cep8238 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cep8417 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cen5267 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cen5288 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cen551 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cen5459 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cen5460 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CMi2943 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CMi2845 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Equ8131 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vul7405 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMi424 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMi5563 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMi5735 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★UMi6789 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Crt4287 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Lyr7001 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Lyr7178 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Lyr7106 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Lyr7298 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ara6585 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco6134 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco6527 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco6553 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco5953 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco5984 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco6508 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco6084 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco5944 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco6630 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco6027 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco6247 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco6252 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco5928 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco6241 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sco6165 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Tri544 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Leo3982 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Leo4534 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Leo4357 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Leo4057 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Leo4359 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Leo4031 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Leo3852 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Leo3905 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Leo3773 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gru8425 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gru8636 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gru8353 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Lib5685 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Lib5531 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Lib5787 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Lib5603 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Pup3165 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Pup3185 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Pup3045 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cyg7924 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cyg7417 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cyg7796 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cyg8301 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cyg7949 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cyg7528 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Oct7228 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Col1956 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Col2040 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Col2177 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gem2990 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gem2891 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gem2421 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gem2473 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gem2216 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gem2777 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gem2650 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gem2286 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gem2484 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Gem2930 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Peg8775 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Peg8781 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Peg39 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Peg8308 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Peg8650 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Peg8634 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Peg8684 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Peg8450 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Peg8880 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Peg8905 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Oph6556 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Oph6378 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Oph6603 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Oph6149 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Oph6056 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Oph6075 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ser5854 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ser7141 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Ser5879 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Her6406 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Her6148 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Her6410 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Her6526 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Her6117 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Her6008 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Per936 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Per1017 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Per1131 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Per1228 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Per834 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Per941 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Phe99 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Phe338 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vel3634 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vel3485 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Vel3734 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aqr8232 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aqr8414 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aqr8709 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aqr8518 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aqr7950 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aqr8499 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aqr8610 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aqr8264 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cru4853 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cru4730 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cru4763 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cru4700 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cru4656 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★PsA8728 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★TrA6217 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cap7776 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cap7754 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cap8278 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cap8322 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Cap7773 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Sge7479 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Car2326 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Car3685 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Car3307 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Car3699 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Dra5744 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Dra5291 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Dra6705 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Dra6536 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Dra7310 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Dra6688 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Dra4434 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Dra6370 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Dra7462 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Dra6396 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Dra6132 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Dra6636 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CVn4915 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CVn4785 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★CVn4846 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aql7595 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aql7557 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aql7525 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aql7602 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.
+★Aql7235 An item that causes [VAR 0101(0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day.

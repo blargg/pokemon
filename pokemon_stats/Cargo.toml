@@ -1,0 +1,12 @@
+[package]
+name = "pokemon_stats"
+version = "0.1.0"
+authors = ["blargg <tomjankauski@gmail.com>"]
+edition = "2018"
+
+[lib]
+
+[dependencies]
+num = "0.2.0"
+serde_json = "1.0.44"
+statistical = "1.0.0"

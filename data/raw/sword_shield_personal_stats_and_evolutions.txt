@@ -1,0 +1,8102 @@
+======
+001 - Bulbasaur (Stage: 1)
+======
+Galar Dex: Foreign
+Base Stats: 45.49.49.65.65.45 (BST: 318)
+EV Yield: 0.0.0.1.0.0
+Abilities: Overgrow (1) | Overgrow (2) | Chlorophyll (H)
+Type: Grass / Poison
+Items: None
+EXP Group: MediumSlow
+Egg Group: Monster / Grass
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 006.9 kg, Color: Green
+Evolves into Ivysaur-0 @ 16 (LevelUp) [0]
+
+
+======
+002 - Ivysaur (Stage: 2)
+======
+Galar Dex: Foreign
+Base Stats: 60.62.63.80.80.60 (BST: 405)
+EV Yield: 0.0.0.1.1.0
+Abilities: Overgrow (1) | Overgrow (2) | Chlorophyll (H)
+Type: Grass / Poison
+Items: None
+EXP Group: MediumSlow
+Egg Group: Monster / Grass
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 013.0 kg, Color: Green
+Evolves into Venusaur-0 @ 32 (LevelUp) [0]
+
+
+======
+003 - Venusaur (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 80.82.83.100.100.80 (BST: 525)
+EV Yield: 0.0.0.2.1.0
+Abilities: Overgrow (1) | Overgrow (2) | Chlorophyll (H)
+Type: Grass / Poison
+Items: None
+EXP Group: MediumSlow
+Egg Group: Monster / Grass
+Hatch Cycles: 20
+Height: 02.00 m, Weight: 100.0 kg, Color: Green
+
+======
+004 - Charmander (Stage: 1)
+======
+Galar Dex: #378
+Base Stats: 39.52.43.60.50.65 (BST: 309)
+EV Yield: 0.0.0.0.0.1
+Abilities: Blaze (1) | Blaze (2) | Solar Power (H)
+Type: Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Monster / Dragon
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 008.5 kg, Color: Red
+Evolves into Charmeleon-0 @ 16 (LevelUp) [0]
+
+
+======
+005 - Charmeleon (Stage: 2)
+======
+Galar Dex: #379
+Base Stats: 58.64.58.80.65.80 (BST: 405)
+EV Yield: 0.0.0.1.0.1
+Abilities: Blaze (1) | Blaze (2) | Solar Power (H)
+Type: Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Monster / Dragon
+Hatch Cycles: 20
+Height: 01.10 m, Weight: 019.0 kg, Color: Red
+Evolves into Charizard-0 @ 36 (LevelUp) [0]
+
+
+======
+006 - Charizard (Stage: 3)
+======
+Galar Dex: #380
+Base Stats: 78.84.78.109.85.100 (BST: 534)
+EV Yield: 0.0.0.3.0.0
+Abilities: Blaze (1) | Blaze (2) | Solar Power (H)
+Type: Fire / Flying
+Items: None
+EXP Group: MediumSlow
+Egg Group: Monster / Dragon
+Hatch Cycles: 20
+Height: 01.70 m, Weight: 090.5 kg, Color: Red
+
+======
+007 - Squirtle (Stage: 1)
+======
+Galar Dex: Foreign
+Base Stats: 44.48.65.50.64.43 (BST: 314)
+EV Yield: 0.0.1.0.0.0
+Abilities: Torrent (1) | Torrent (2) | Rain Dish (H)
+Type: Water
+Items: None
+EXP Group: MediumSlow
+Egg Group: Monster / Water1
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 009.0 kg, Color: Blue
+Evolves into Wartortle-0 @ 16 (LevelUp) [0]
+
+
+======
+008 - Wartortle (Stage: 2)
+======
+Galar Dex: Foreign
+Base Stats: 59.63.80.65.80.58 (BST: 405)
+EV Yield: 0.0.1.0.1.0
+Abilities: Torrent (1) | Torrent (2) | Rain Dish (H)
+Type: Water
+Items: None
+EXP Group: MediumSlow
+Egg Group: Monster / Water1
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 022.5 kg, Color: Blue
+Evolves into Blastoise-0 @ 36 (LevelUp) [0]
+
+
+======
+009 - Blastoise (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 79.83.100.85.105.78 (BST: 530)
+EV Yield: 0.0.0.0.3.0
+Abilities: Torrent (1) | Torrent (2) | Rain Dish (H)
+Type: Water
+Items: None
+EXP Group: MediumSlow
+Egg Group: Monster / Water1
+Hatch Cycles: 20
+Height: 01.60 m, Weight: 085.5 kg, Color: Blue
+
+======
+010 - Caterpie (Stage: 1)
+======
+Galar Dex: #13
+Base Stats: 45.30.35.20.20.45 (BST: 195)
+EV Yield: 1.0.0.0.0.0
+Abilities: Shield Dust (1) | Shield Dust (2) | Run Away (H)
+Type: Bug
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.30 m, Weight: 002.9 kg, Color: Green
+Evolves into Metapod-0 @ 7 (LevelUp) [0]
+
+
+======
+011 - Metapod (Stage: 2)
+======
+Galar Dex: #14
+Base Stats: 50.20.55.25.25.30 (BST: 205)
+EV Yield: 0.0.2.0.0.0
+Abilities: Shed Skin (1) | Shed Skin (2) | Shed Skin (H)
+Type: Bug
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.70 m, Weight: 009.9 kg, Color: Green
+Evolves into Butterfree-0 @ 10 (LevelUp) [0]
+
+
+======
+012 - Butterfree (Stage: 3)
+======
+Galar Dex: #15
+Base Stats: 60.45.50.90.80.70 (BST: 395)
+EV Yield: 0.0.0.2.1.0
+Abilities: Compound Eyes (1) | Compound Eyes (2) | Tinted Lens (H)
+Type: Bug / Flying
+Item 1 (50%): None
+Item 2 (5%): Silver Powder
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 01.10 m, Weight: 032.0 kg, Color: White
+
+======
+025 - Pikachu (Stage: 2)
+======
+Galar Dex: #194
+Base Stats: 35.55.40.50.50.90 (BST: 320)
+EV Yield: 0.0.0.0.0.2
+Abilities: Static (1) | Static (2) | Lightning Rod (H)
+Type: Electric
+Item 1 (50%): None
+Item 2 (5%): Light Ball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field / Fairy
+Hatch Cycles: 10
+Height: 00.40 m, Weight: 006.0 kg, Color: Yellow
+Evolves into Raichu-0 @ 0 (UseItem) [83]
+
+
+======
+893 - Pikachu 1 (Stage: 2)
+======
+Galar Dex: #194
+Base Stats: 35.55.40.50.50.90 (BST: 320)
+EV Yield: 0.0.0.0.0.2
+Abilities: Static (1) | Static (2) | Lightning Rod (H)
+Type: Electric
+Item 1 (50%): None
+Item 2 (5%): Light Ball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Undiscovered
+Hatch Cycles: 10
+Height: 00.40 m, Weight: 006.0 kg, Color: Yellow
+
+======
+894 - Pikachu 2 (Stage: 2)
+======
+Galar Dex: #194
+Base Stats: 35.55.40.50.50.90 (BST: 320)
+EV Yield: 0.0.0.0.0.2
+Abilities: Static (1) | Static (2) | Lightning Rod (H)
+Type: Electric
+Item 1 (50%): None
+Item 2 (5%): Light Ball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Undiscovered
+Hatch Cycles: 10
+Height: 00.40 m, Weight: 006.0 kg, Color: Yellow
+
+======
+895 - Pikachu 3 (Stage: 2)
+======
+Galar Dex: #194
+Base Stats: 35.55.40.50.50.90 (BST: 320)
+EV Yield: 0.0.0.0.0.2
+Abilities: Static (1) | Static (2) | Lightning Rod (H)
+Type: Electric
+Item 1 (50%): None
+Item 2 (5%): Light Ball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Undiscovered
+Hatch Cycles: 10
+Height: 00.40 m, Weight: 006.0 kg, Color: Yellow
+
+======
+896 - Pikachu 4 (Stage: 2)
+======
+Galar Dex: #194
+Base Stats: 35.55.40.50.50.90 (BST: 320)
+EV Yield: 0.0.0.0.0.2
+Abilities: Static (1) | Static (2) | Lightning Rod (H)
+Type: Electric
+Item 1 (50%): None
+Item 2 (5%): Light Ball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Undiscovered
+Hatch Cycles: 10
+Height: 00.40 m, Weight: 006.0 kg, Color: Yellow
+
+======
+897 - Pikachu 5 (Stage: 2)
+======
+Galar Dex: #194
+Base Stats: 35.55.40.50.50.90 (BST: 320)
+EV Yield: 0.0.0.0.0.2
+Abilities: Static (1) | Static (2) | Lightning Rod (H)
+Type: Electric
+Item 1 (50%): None
+Item 2 (5%): Light Ball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Undiscovered
+Hatch Cycles: 10
+Height: 00.40 m, Weight: 006.0 kg, Color: Yellow
+
+======
+898 - Pikachu 6 (Stage: 2)
+======
+Galar Dex: #194
+Base Stats: 35.55.40.50.50.90 (BST: 320)
+EV Yield: 0.0.0.0.0.2
+Abilities: Static (1) | Static (2) | Lightning Rod (H)
+Type: Electric
+Item 1 (50%): None
+Item 2 (5%): Light Ball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Undiscovered
+Hatch Cycles: 10
+Height: 00.40 m, Weight: 006.0 kg, Color: Yellow
+
+======
+899 - Pikachu 7 (Stage: 2)
+======
+Galar Dex: #194
+Base Stats: 35.55.40.50.50.90 (BST: 320)
+EV Yield: 0.0.0.0.0.2
+Abilities: Static (1) | Static (2) | Lightning Rod (H)
+Type: Electric
+Item 1 (50%): None
+Item 2 (5%): Light Ball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Undiscovered
+Hatch Cycles: 10
+Height: 00.40 m, Weight: 006.0 kg, Color: Yellow
+
+======
+026 - Raichu (Stage: 3)
+======
+Galar Dex: #195
+Base Stats: 60.90.55.90.80.110 (BST: 485)
+EV Yield: 0.0.0.0.0.3
+Abilities: Static (1) | Static (2) | Lightning Rod (H)
+Type: Electric
+Items: None
+EXP Group: MediumFast
+Egg Group: Field / Fairy
+Hatch Cycles: 10
+Height: 00.80 m, Weight: 030.0 kg, Color: Yellow
+
+======
+900 - Raichu 1 (Stage: 3)
+======
+Galar Dex: #195
+Base Stats: 60.85.50.95.85.110 (BST: 485)
+EV Yield: 0.0.0.0.0.3
+Abilities: Surge Surfer (1) | Surge Surfer (2) | Surge Surfer (H)
+Type: Electric / Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: Field / Fairy
+Hatch Cycles: 10
+Height: 00.70 m, Weight: 021.0 kg, Color: Brown
+
+======
+035 - Clefairy (Stage: 2)
+======
+Galar Dex: #255
+Base Stats: 70.45.48.60.65.35 (BST: 323)
+EV Yield: 2.0.0.0.0.0
+Abilities: Cute Charm (1) | Magic Guard (2) | Friend Guard (H)
+Type: Fairy
+Item 1 (50%): None
+Item 2 (5%): Moon Stone
+Item 3 (1%): None
+EXP Group: Fast
+Egg Group: Fairy
+Hatch Cycles: 10
+Height: 00.60 m, Weight: 007.5 kg, Color: Pink
+Evolves into Clefable-0 @ 0 (UseItem) [81]
+
+
+======
+036 - Clefable (Stage: 3)
+======
+Galar Dex: #256
+Base Stats: 95.70.73.95.90.60 (BST: 483)
+EV Yield: 3.0.0.0.0.0
+Abilities: Cute Charm (1) | Magic Guard (2) | Unaware (H)
+Type: Fairy
+Item 1 (50%): None
+Item 2 (5%): Moon Stone
+Item 3 (1%): None
+EXP Group: Fast
+Egg Group: Fairy
+Hatch Cycles: 10
+Height: 01.30 m, Weight: 040.0 kg, Color: Pink
+
+======
+037 - Vulpix (Stage: 1)
+======
+Galar Dex: #68
+Base Stats: 38.41.40.50.65.65 (BST: 299)
+EV Yield: 0.0.0.0.0.1
+Abilities: Flash Fire (1) | Flash Fire (2) | Drought (H)
+Type: Fire
+Item 1 (50%): None
+Item 2 (5%): Charcoal
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 009.9 kg, Color: Brown
+Evolves into Ninetales-0 @ 0 (UseItem) [82]
+
+
+======
+903 - Vulpix 1 (Stage: 1)
+======
+Galar Dex: #68
+Base Stats: 38.41.40.50.65.65 (BST: 299)
+EV Yield: 0.0.0.0.0.1
+Abilities: Snow Cloak (1) | Snow Cloak (2) | Snow Warning (H)
+Type: Ice
+Item 1 (50%): None
+Item 2 (5%): Snowball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 009.9 kg, Color: White
+Evolves into Ninetales-1 @ 0 (UseItem) [849]
+
+
+======
+038 - Ninetales (Stage: 2)
+======
+Galar Dex: #69
+Base Stats: 73.76.75.81.100.100 (BST: 505)
+EV Yield: 0.0.0.0.1.1
+Abilities: Flash Fire (1) | Flash Fire (2) | Drought (H)
+Type: Fire
+Item 1 (50%): None
+Item 2 (5%): Charcoal
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.10 m, Weight: 019.9 kg, Color: Yellow
+
+======
+904 - Ninetales 1 (Stage: 2)
+======
+Galar Dex: #69
+Base Stats: 73.67.75.81.100.109 (BST: 505)
+EV Yield: 0.0.0.0.0.2
+Abilities: Snow Cloak (1) | Snow Cloak (2) | Snow Warning (H)
+Type: Ice / Fairy
+Item 1 (50%): None
+Item 2 (5%): Snowball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.10 m, Weight: 019.9 kg, Color: Blue
+
+======
+043 - Oddish (Stage: 1)
+======
+Galar Dex: #55
+Base Stats: 45.50.55.75.65.30 (BST: 320)
+EV Yield: 0.0.0.1.0.0
+Abilities: Chlorophyll (1) | Chlorophyll (2) | Run Away (H)
+Type: Grass / Poison
+Item 1 (50%): None
+Item 2 (5%): Absorb Bulb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Grass
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 005.4 kg, Color: Blue
+Evolves into Gloom-0 @ 21 (LevelUp) [0]
+
+
+======
+044 - Gloom (Stage: 2)
+======
+Galar Dex: #56
+Base Stats: 60.65.70.85.75.40 (BST: 395)
+EV Yield: 0.0.0.2.0.0
+Abilities: Chlorophyll (1) | Chlorophyll (2) | Stench (H)
+Type: Grass / Poison
+Item 1 (50%): None
+Item 2 (5%): Absorb Bulb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Grass
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 008.6 kg, Color: Blue
+Evolves into Vileplume-0 @ 0 (UseItem) [85]
+Evolves into Bellossom-0 @ 0 (UseItem) [80]
+
+
+======
+045 - Vileplume (Stage: 3)
+======
+Galar Dex: #57
+Base Stats: 75.80.85.110.90.50 (BST: 490)
+EV Yield: 0.0.0.3.0.0
+Abilities: Chlorophyll (1) | Chlorophyll (2) | Effect Spore (H)
+Type: Grass / Poison
+Item 1 (50%): None
+Item 2 (5%): Absorb Bulb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Grass
+Hatch Cycles: 20
+Height: 01.20 m, Weight: 018.6 kg, Color: Red
+
+======
+050 - Diglett (Stage: 1)
+======
+Galar Dex: #164
+Base Stats: 10.55.25.35.45.95 (BST: 265)
+EV Yield: 0.0.0.0.0.1
+Abilities: Sand Veil (1) | Arena Trap (2) | Sand Force (H)
+Type: Ground
+Item 1 (50%): None
+Item 2 (5%): Soft Sand
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 000.8 kg, Color: Brown
+Evolves into Dugtrio-0 @ 26 (LevelUp) [0]
+
+
+======
+905 - Diglett 1 (Stage: 1)
+======
+Galar Dex: #164
+Base Stats: 10.55.30.35.45.90 (BST: 265)
+EV Yield: 0.0.0.0.0.1
+Abilities: Sand Veil (1) | Tangling Hair (2) | Sand Force (H)
+Type: Ground / Steel
+Item 1 (50%): None
+Item 2 (5%): Soft Sand
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 001.0 kg, Color: Brown
+Evolves into Dugtrio-1 @ 26 (LevelUp) [0]
+
+
+======
+051 - Dugtrio (Stage: 2)
+======
+Galar Dex: #165
+Base Stats: 35.100.50.50.70.120 (BST: 425)
+EV Yield: 0.0.0.0.0.2
+Abilities: Sand Veil (1) | Arena Trap (2) | Sand Force (H)
+Type: Ground
+Item 1 (50%): None
+Item 2 (5%): Soft Sand
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 033.3 kg, Color: Brown
+
+======
+906 - Dugtrio 1 (Stage: 2)
+======
+Galar Dex: #165
+Base Stats: 35.100.60.50.70.110 (BST: 425)
+EV Yield: 0.2.0.0.0.0
+Abilities: Sand Veil (1) | Tangling Hair (2) | Sand Force (H)
+Type: Ground / Steel
+Item 1 (50%): None
+Item 2 (5%): Soft Sand
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 066.6 kg, Color: Brown
+
+======
+052 - Meowth (Stage: 1)
+======
+Galar Dex: #182
+Base Stats: 40.45.35.40.40.90 (BST: 290)
+EV Yield: 0.0.0.0.0.1
+Abilities: Pickup (1) | Technician (2) | Unnerve (H)
+Type: Normal
+Item 1 (50%): None
+Item 2 (5%): Quick Claw
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 004.2 kg, Color: Yellow
+Evolves into Persian-0 @ 28 (LevelUp) [0]
+
+
+======
+907 - Meowth 1 (Stage: 1)
+======
+Galar Dex: #182
+Base Stats: 40.35.35.50.40.90 (BST: 290)
+EV Yield: 0.0.0.0.0.1
+Abilities: Pickup (1) | Technician (2) | Rattled (H)
+Type: Dark
+Item 1 (50%): None
+Item 2 (5%): Quick Claw
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 004.2 kg, Color: Blue
+Evolves into Persian-1 @ 0 (LevelUpFriendship) [0]
+
+
+======
+908 - Meowth 2 (Stage: 1)
+======
+Galar Dex: #182
+Base Stats: 50.65.55.40.40.40 (BST: 290)
+EV Yield: 0.1.0.0.0.0
+Abilities: Pickup (1) | Tough Claws (2) | Unnerve (H)
+Type: Steel
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 007.5 kg, Color: Brown
+Evolves into Perrserker-0 @ 28 (LevelUp) [0]
+
+
+======
+053 - Persian (Stage: 2)
+======
+Galar Dex: #184
+Base Stats: 65.70.60.65.65.115 (BST: 440)
+EV Yield: 0.0.0.0.0.2
+Abilities: Limber (1) | Technician (2) | Unnerve (H)
+Type: Normal
+Item 1 (50%): None
+Item 2 (5%): Quick Claw
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 032.0 kg, Color: Yellow
+
+======
+909 - Persian 1 (Stage: 2)
+======
+Galar Dex: #184
+Base Stats: 65.60.60.75.65.115 (BST: 440)
+EV Yield: 0.0.0.0.0.2
+Abilities: Fur Coat (1) | Technician (2) | Rattled (H)
+Type: Dark
+Item 1 (50%): None
+Item 2 (5%): Quick Claw
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.10 m, Weight: 033.0 kg, Color: Blue
+
+======
+058 - Growlithe (Stage: 1)
+======
+Galar Dex: #70
+Base Stats: 55.70.45.70.50.60 (BST: 350)
+EV Yield: 0.1.0.0.0.0
+Abilities: Intimidate (1) | Flash Fire (2) | Justified (H)
+Type: Fire
+Items: None
+EXP Group: Slow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 019.0 kg, Color: Brown
+Evolves into Arcanine-0 @ 0 (UseItem) [82]
+
+
+======
+059 - Arcanine (Stage: 2)
+======
+Galar Dex: #71
+Base Stats: 90.110.80.100.80.95 (BST: 555)
+EV Yield: 0.2.0.0.0.0
+Abilities: Intimidate (1) | Flash Fire (2) | Justified (H)
+Type: Fire
+Items: None
+EXP Group: Slow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.90 m, Weight: 155.0 kg, Color: Brown
+
+======
+066 - Machop (Stage: 1)
+======
+Galar Dex: #138
+Base Stats: 70.80.50.35.35.35 (BST: 305)
+EV Yield: 0.1.0.0.0.0
+Abilities: Guts (1) | No Guard (2) | Steadfast (H)
+Type: Fighting
+Item 1 (50%): None
+Item 2 (5%): Focus Band
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 019.5 kg, Color: Gray
+Evolves into Machoke-0 @ 28 (LevelUp) [0]
+
+
+======
+067 - Machoke (Stage: 2)
+======
+Galar Dex: #139
+Base Stats: 80.100.70.50.60.45 (BST: 405)
+EV Yield: 0.2.0.0.0.0
+Abilities: Guts (1) | No Guard (2) | Steadfast (H)
+Type: Fighting
+Item 1 (50%): None
+Item 2 (5%): Focus Band
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 070.5 kg, Color: Gray
+Evolves into Machamp-0 @ 0 (Trade) [0]
+
+
+======
+068 - Machamp (Stage: 3)
+======
+Galar Dex: #140
+Base Stats: 90.130.80.65.85.55 (BST: 505)
+EV Yield: 0.3.0.0.0.0
+Abilities: Guts (1) | No Guard (2) | Steadfast (H)
+Type: Fighting
+Item 1 (50%): None
+Item 2 (5%): Focus Band
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 01.60 m, Weight: 130.0 kg, Color: Gray
+
+======
+077 - Ponyta (Stage: 1)
+======
+Galar Dex: #333
+Base Stats: 50.85.55.65.65.90 (BST: 410)
+EV Yield: 0.0.0.0.0.1
+Abilities: Run Away (1) | Flash Fire (2) | Flame Body (H)
+Type: Fire
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 030.0 kg, Color: Yellow
+Evolves into Rapidash-0 @ 40 (LevelUp) [0]
+
+
+======
+913 - Ponyta 1 (Stage: 1)
+======
+Galar Dex: #333
+Base Stats: 50.85.55.65.65.90 (BST: 410)
+EV Yield: 0.0.0.0.0.1
+Abilities: Run Away (1) | Pastel Veil (2) | Anticipation (H)
+Type: Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 024.0 kg, Color: White
+Evolves into Rapidash-1 @ 40 (LevelUp) [0]
+
+
+======
+078 - Rapidash (Stage: 2)
+======
+Galar Dex: #334
+Base Stats: 65.100.70.80.80.105 (BST: 500)
+EV Yield: 0.0.0.0.0.2
+Abilities: Run Away (1) | Flash Fire (2) | Flame Body (H)
+Type: Fire
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.70 m, Weight: 095.0 kg, Color: Yellow
+
+======
+914 - Rapidash 1 (Stage: 2)
+======
+Galar Dex: #334
+Base Stats: 65.100.70.80.80.105 (BST: 500)
+EV Yield: 0.0.0.0.0.2
+Abilities: Run Away (1) | Pastel Veil (2) | Anticipation (H)
+Type: Psychic / Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.70 m, Weight: 080.0 kg, Color: White
+
+======
+083 - Farfetch’d (Stage: 2)
+======
+Galar Dex: #218
+Base Stats: 52.90.55.58.62.60 (BST: 377)
+EV Yield: 0.1.0.0.0.0
+Abilities: Keen Eye (1) | Inner Focus (2) | Defiant (H)
+Type: Normal / Flying
+Item 1 (50%): None
+Item 2 (5%): Leek
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Flying / Field
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 015.0 kg, Color: Brown
+
+======
+915 - Farfetch’d 1 (Stage: 2)
+======
+Galar Dex: #218
+Base Stats: 52.95.55.58.62.55 (BST: 377)
+EV Yield: 0.1.0.0.0.0
+Abilities: Steadfast (1) | Steadfast (2) | Scrappy (H)
+Type: Fighting
+Item 1 (50%): Leek
+Item 2 (5%): None
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Flying / Field
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 042.0 kg, Color: Brown
+Evolves into Sirfetch’d-0 @ 0 (U43) [3]
+
+
+======
+090 - Shellder (Stage: 1)
+======
+Galar Dex: #150
+Base Stats: 30.65.100.45.25.40 (BST: 305)
+EV Yield: 0.0.1.0.0.0
+Abilities: Shell Armor (1) | Skill Link (2) | Overcoat (H)
+Type: Water
+Item 1 (50%): Pearl
+Item 2 (5%): Big Pearl
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Water3
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 004.0 kg, Color: Purple
+Evolves into Cloyster-0 @ 0 (UseItem) [84]
+
+
+======
+091 - Cloyster (Stage: 2)
+======
+Galar Dex: #151
+Base Stats: 50.95.180.85.45.70 (BST: 525)
+EV Yield: 0.0.2.0.0.0
+Abilities: Shell Armor (1) | Skill Link (2) | Overcoat (H)
+Type: Water / Ice
+Item 1 (50%): Pearl
+Item 2 (5%): Big Pearl
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Water3
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 132.5 kg, Color: Purple
+
+======
+092 - Gastly (Stage: 1)
+======
+Galar Dex: #141
+Base Stats: 30.35.30.100.35.80 (BST: 310)
+EV Yield: 0.0.0.1.0.0
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Ghost / Poison
+Items: None
+EXP Group: MediumSlow
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 000.1 kg, Color: Purple
+Evolves into Haunter-0 @ 25 (LevelUp) [0]
+
+
+======
+093 - Haunter (Stage: 2)
+======
+Galar Dex: #142
+Base Stats: 45.50.45.115.55.95 (BST: 405)
+EV Yield: 0.0.0.2.0.0
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Ghost / Poison
+Items: None
+EXP Group: MediumSlow
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 01.60 m, Weight: 000.1 kg, Color: Purple
+Evolves into Gengar-0 @ 0 (Trade) [0]
+
+
+======
+094 - Gengar (Stage: 3)
+======
+Galar Dex: #143
+Base Stats: 60.65.60.130.75.110 (BST: 500)
+EV Yield: 0.0.0.3.0.0
+Abilities: Cursed Body (1) | Cursed Body (2) | Cursed Body (H)
+Type: Ghost / Poison
+Items: None
+EXP Group: MediumSlow
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 040.5 kg, Color: Purple
+
+======
+095 - Onix (Stage: 1)
+======
+Galar Dex: #178
+Base Stats: 35.45.160.30.45.70 (BST: 385)
+EV Yield: 0.0.1.0.0.0
+Abilities: Rock Head (1) | Sturdy (2) | Weak Armor (H)
+Type: Rock / Ground
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 25
+Height: 08.80 m, Weight: 210.0 kg, Color: Gray
+Evolves into Steelix-0 @ 0 (TradeHeldItem) [233]
+
+
+======
+098 - Krabby (Stage: 1)
+======
+Galar Dex: #98
+Base Stats: 30.105.90.25.25.50 (BST: 325)
+EV Yield: 0.1.0.0.0.0
+Abilities: Hyper Cutter (1) | Shell Armor (2) | Sheer Force (H)
+Type: Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water3
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 006.5 kg, Color: Red
+Evolves into Kingler-0 @ 28 (LevelUp) [0]
+
+
+======
+099 - Kingler (Stage: 2)
+======
+Galar Dex: #99
+Base Stats: 55.130.115.50.50.75 (BST: 475)
+EV Yield: 0.2.0.0.0.0
+Abilities: Hyper Cutter (1) | Shell Armor (2) | Sheer Force (H)
+Type: Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water3
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 060.0 kg, Color: Red
+
+======
+106 - Hitmonlee (Stage: 2)
+======
+Galar Dex: #108
+Base Stats: 50.120.53.35.110.87 (BST: 455)
+EV Yield: 0.2.0.0.0.0
+Abilities: Limber (1) | Reckless (2) | Unburden (H)
+Type: Fighting
+Items: None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 25
+Height: 01.50 m, Weight: 049.8 kg, Color: Brown
+
+======
+107 - Hitmonchan (Stage: 2)
+======
+Galar Dex: #109
+Base Stats: 50.105.79.35.110.76 (BST: 455)
+EV Yield: 0.0.0.0.2.0
+Abilities: Keen Eye (1) | Iron Fist (2) | Inner Focus (H)
+Type: Fighting
+Items: None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 25
+Height: 01.40 m, Weight: 050.2 kg, Color: Brown
+
+======
+109 - Koffing (Stage: 1)
+======
+Galar Dex: #250
+Base Stats: 40.65.95.60.45.35 (BST: 340)
+EV Yield: 0.0.1.0.0.0
+Abilities: Levitate (1) | Neutralizing Gas (2) | Stench (H)
+Type: Poison
+Item 1 (50%): None
+Item 2 (5%): Smoke Ball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 001.0 kg, Color: Purple
+Evolves into Weezing-1 @ 35 (LevelUp) [0]
+
+
+======
+110 - Weezing (Stage: 2)
+======
+Galar Dex: #251
+Base Stats: 65.90.120.85.70.60 (BST: 490)
+EV Yield: 0.0.2.0.0.0
+Abilities: Levitate (1) | Neutralizing Gas (2) | Stench (H)
+Type: Poison
+Item 1 (50%): None
+Item 2 (5%): Smoke Ball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 01.20 m, Weight: 009.5 kg, Color: Purple
+
+======
+920 - Weezing 1 (Stage: 2)
+======
+Galar Dex: #251
+Base Stats: 65.90.120.85.70.60 (BST: 490)
+EV Yield: 0.0.2.0.0.0
+Abilities: Levitate (1) | Neutralizing Gas (2) | Misty Surge (H)
+Type: Poison / Fairy
+Item 1 (50%): None
+Item 2 (5%): Misty Seed
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 03.00 m, Weight: 016.0 kg, Color: Gray
+
+======
+111 - Rhyhorn (Stage: 1)
+======
+Galar Dex: #264
+Base Stats: 80.85.95.30.30.25 (BST: 345)
+EV Yield: 0.0.1.0.0.0
+Abilities: Lightning Rod (1) | Rock Head (2) | Reckless (H)
+Type: Ground / Rock
+Items: None
+EXP Group: Slow
+Egg Group: Monster / Field
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 115.0 kg, Color: Gray
+Evolves into Rhydon-0 @ 42 (LevelUp) [0]
+
+
+======
+112 - Rhydon (Stage: 2)
+======
+Galar Dex: #265
+Base Stats: 105.130.120.45.45.40 (BST: 485)
+EV Yield: 0.2.0.0.0.0
+Abilities: Lightning Rod (1) | Rock Head (2) | Reckless (H)
+Type: Ground / Rock
+Items: None
+EXP Group: Slow
+Egg Group: Monster / Field
+Hatch Cycles: 20
+Height: 01.90 m, Weight: 120.0 kg, Color: Gray
+Evolves into Rhyperior-0 @ 0 (TradeHeldItem) [321]
+
+
+======
+118 - Goldeen (Stage: 1)
+======
+Galar Dex: #146
+Base Stats: 45.67.60.35.50.63 (BST: 320)
+EV Yield: 0.1.0.0.0.0
+Abilities: Swift Swim (1) | Water Veil (2) | Lightning Rod (H)
+Type: Water
+Item 1 (50%): None
+Item 2 (5%): Mystic Water
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Water2
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 015.0 kg, Color: Red
+Evolves into Seaking-0 @ 33 (LevelUp) [0]
+
+
+======
+119 - Seaking (Stage: 2)
+======
+Galar Dex: #147
+Base Stats: 80.92.65.65.80.68 (BST: 450)
+EV Yield: 0.2.0.0.0.0
+Abilities: Swift Swim (1) | Water Veil (2) | Lightning Rod (H)
+Type: Water
+Item 1 (50%): None
+Item 2 (5%): Mystic Water
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Water2
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 039.0 kg, Color: Red
+
+======
+122 - Mr. Mime (Stage: 2)
+======
+Galar Dex: #365
+Base Stats: 40.45.65.100.120.90 (BST: 460)
+EV Yield: 0.0.0.0.2.0
+Abilities: Soundproof (1) | Filter (2) | Technician (H)
+Type: Psychic / Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 25
+Height: 01.30 m, Weight: 054.5 kg, Color: Pink
+
+======
+921 - Mr. Mime 1 (Stage: 2)
+======
+Galar Dex: #365
+Base Stats: 50.65.65.90.90.100 (BST: 460)
+EV Yield: 0.0.0.0.0.2
+Abilities: Vital Spirit (1) | Screen Cleaner (2) | Ice Body (H)
+Type: Ice / Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 25
+Height: 01.40 m, Weight: 056.8 kg, Color: White
+Evolves into Mr. Rime-0 @ 42 (LevelUp) [0]
+
+
+======
+129 - Magikarp (Stage: 1)
+======
+Galar Dex: #144
+Base Stats: 20.10.55.15.20.80 (BST: 200)
+EV Yield: 0.0.0.0.0.1
+Abilities: Swift Swim (1) | Swift Swim (2) | Rattled (H)
+Type: Water
+Items: None
+EXP Group: Slow
+Egg Group: Water2 / Dragon
+Hatch Cycles: 5
+Height: 00.90 m, Weight: 010.0 kg, Color: Red
+Evolves into Gyarados-0 @ 20 (LevelUp) [0]
+
+
+======
+130 - Gyarados (Stage: 2)
+======
+Galar Dex: #145
+Base Stats: 95.125.79.60.100.81 (BST: 540)
+EV Yield: 0.2.0.0.0.0
+Abilities: Intimidate (1) | Intimidate (2) | Moxie (H)
+Type: Water / Flying
+Items: None
+EXP Group: Slow
+Egg Group: Water2 / Dragon
+Hatch Cycles: 5
+Height: 06.50 m, Weight: 235.0 kg, Color: Blue
+
+======
+131 - Lapras (Stage: 2)
+======
+Galar Dex: #361
+Base Stats: 130.85.80.85.95.60 (BST: 535)
+EV Yield: 2.0.0.0.0.0
+Abilities: Water Absorb (1) | Shell Armor (2) | Hydration (H)
+Type: Water / Ice
+Item 1 (50%): Mystic Water
+Item 2 (5%): Mystic Water
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Monster / Water1
+Hatch Cycles: 40
+Height: 02.50 m, Weight: 220.0 kg, Color: Blue
+
+======
+132 - Ditto (Stage: 2)
+======
+Galar Dex: #373
+Base Stats: 48.48.48.48.48.48 (BST: 288)
+EV Yield: 1.0.0.0.0.0
+Abilities: Limber (1) | Limber (2) | Imposter (H)
+Type: Normal
+Item 1 (50%): Quick Powder
+Item 2 (5%): Metal Powder
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Ditto
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 004.0 kg, Color: Purple
+
+======
+133 - Eevee (Stage: 1)
+======
+Galar Dex: #196
+Base Stats: 55.55.50.45.65.55 (BST: 325)
+EV Yield: 0.0.0.0.1.0
+Abilities: Run Away (1) | Adaptability (2) | Anticipation (H)
+Type: Normal
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 35
+Height: 00.30 m, Weight: 006.5 kg, Color: Brown
+Evolves into Leafeon-0 @ 0 (UseItem) [85]
+Evolves into Glaceon-0 @ 0 (UseItem) [849]
+Evolves into Jolteon-0 @ 0 (UseItem) [83]
+Evolves into Vaporeon-0 @ 0 (UseItem) [84]
+Evolves into Flareon-0 @ 0 (UseItem) [82]
+Evolves into Sylveon-0 @ 0 (LevelUpAffection50MoveType) [17]
+Evolves into Espeon-0 @ 0 (LevelUpFriendshipMorning) [0]
+Evolves into Umbreon-0 @ 0 (LevelUpFriendshipNight) [0]
+
+
+======
+134 - Vaporeon (Stage: 2)
+======
+Galar Dex: #197
+Base Stats: 130.65.60.110.95.65 (BST: 525)
+EV Yield: 2.0.0.0.0.0
+Abilities: Water Absorb (1) | Water Absorb (2) | Hydration (H)
+Type: Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 35
+Height: 01.00 m, Weight: 029.0 kg, Color: Blue
+
+======
+135 - Jolteon (Stage: 2)
+======
+Galar Dex: #198
+Base Stats: 65.65.60.110.95.130 (BST: 525)
+EV Yield: 0.0.0.0.0.2
+Abilities: Volt Absorb (1) | Volt Absorb (2) | Quick Feet (H)
+Type: Electric
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 35
+Height: 00.80 m, Weight: 024.5 kg, Color: Yellow
+
+======
+136 - Flareon (Stage: 2)
+======
+Galar Dex: #199
+Base Stats: 65.130.60.95.110.65 (BST: 525)
+EV Yield: 0.2.0.0.0.0
+Abilities: Flash Fire (1) | Flash Fire (2) | Guts (H)
+Type: Fire
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 35
+Height: 00.90 m, Weight: 025.0 kg, Color: Red
+
+======
+143 - Snorlax (Stage: 2)
+======
+Galar Dex: #261
+Base Stats: 160.110.65.65.110.30 (BST: 540)
+EV Yield: 2.0.0.0.0.0
+Abilities: Immunity (1) | Thick Fat (2) | Gluttony (H)
+Type: Normal
+Item 1 (50%): Leftovers
+Item 2 (5%): Leftovers
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Monster
+Hatch Cycles: 40
+Height: 02.10 m, Weight: 460.0 kg, Color: Black
+
+======
+150 - Mewtwo (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 106.110.90.154.90.130 (BST: 680)
+EV Yield: 0.0.0.3.0.0
+Abilities: Pressure (1) | Pressure (2) | Unnerve (H)
+Type: Psychic
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.00 m, Weight: 122.0 kg, Color: Purple
+
+======
+151 - Mew (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 100.100.100.100.100.100 (BST: 600)
+EV Yield: 3.0.0.0.0.0
+Abilities: Synchronize (1) | Synchronize (2) | Synchronize (H)
+Type: Psychic
+Item 1 (50%): Lum Berry
+Item 2 (5%): Lum Berry
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 00.40 m, Weight: 004.0 kg, Color: Pink
+
+======
+163 - Hoothoot (Stage: 1)
+======
+Galar Dex: #19
+Base Stats: 60.30.30.36.56.50 (BST: 262)
+EV Yield: 1.0.0.0.0.0
+Abilities: Insomnia (1) | Keen Eye (2) | Tinted Lens (H)
+Type: Normal / Flying
+Items: None
+EXP Group: MediumFast
+Egg Group: Flying
+Hatch Cycles: 15
+Height: 00.70 m, Weight: 021.2 kg, Color: Brown
+Evolves into Noctowl-0 @ 20 (LevelUp) [0]
+
+
+======
+164 - Noctowl (Stage: 2)
+======
+Galar Dex: #20
+Base Stats: 100.50.50.86.96.70 (BST: 452)
+EV Yield: 2.0.0.0.0.0
+Abilities: Insomnia (1) | Keen Eye (2) | Tinted Lens (H)
+Type: Normal / Flying
+Items: None
+EXP Group: MediumFast
+Egg Group: Flying
+Hatch Cycles: 15
+Height: 01.60 m, Weight: 040.8 kg, Color: Brown
+
+======
+170 - Chinchou (Stage: 1)
+======
+Galar Dex: #220
+Base Stats: 75.38.38.56.56.67 (BST: 330)
+EV Yield: 1.0.0.0.0.0
+Abilities: Volt Absorb (1) | Illuminate (2) | Water Absorb (H)
+Type: Water / Electric
+Items: None
+EXP Group: Slow
+Egg Group: Water2
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 012.0 kg, Color: Blue
+Evolves into Lanturn-0 @ 27 (LevelUp) [0]
+
+
+======
+171 - Lanturn (Stage: 2)
+======
+Galar Dex: #221
+Base Stats: 125.58.58.76.76.67 (BST: 460)
+EV Yield: 2.0.0.0.0.0
+Abilities: Volt Absorb (1) | Illuminate (2) | Water Absorb (H)
+Type: Water / Electric
+Items: None
+EXP Group: Slow
+Egg Group: Water2
+Hatch Cycles: 20
+Height: 01.20 m, Weight: 022.5 kg, Color: Blue
+
+======
+172 - Pichu (Stage: 1)
+======
+Galar Dex: #193
+Base Stats: 20.40.15.35.35.60 (BST: 205)
+EV Yield: 0.0.0.0.0.1
+Abilities: Static (1) | Static (2) | Lightning Rod (H)
+Type: Electric
+Items: None
+EXP Group: MediumFast
+Egg Group: Undiscovered
+Hatch Cycles: 10
+Height: 00.30 m, Weight: 002.0 kg, Color: Yellow
+Evolves into Pikachu-0 @ 0 (LevelUpFriendship) [0]
+
+
+======
+173 - Cleffa (Stage: 1)
+======
+Galar Dex: #254
+Base Stats: 50.25.28.45.55.15 (BST: 218)
+EV Yield: 0.0.0.0.1.0
+Abilities: Cute Charm (1) | Magic Guard (2) | Friend Guard (H)
+Type: Fairy
+Item 1 (50%): None
+Item 2 (5%): Moon Stone
+Item 3 (1%): None
+EXP Group: Fast
+Egg Group: Undiscovered
+Hatch Cycles: 10
+Height: 00.30 m, Weight: 003.0 kg, Color: Pink
+Evolves into Clefairy-0 @ 0 (LevelUpFriendship) [0]
+
+
+======
+175 - Togepi (Stage: 1)
+======
+Galar Dex: #257
+Base Stats: 35.20.65.40.65.20 (BST: 245)
+EV Yield: 0.0.0.0.1.0
+Abilities: Hustle (1) | Serene Grace (2) | Super Luck (H)
+Type: Fairy
+Items: None
+EXP Group: Fast
+Egg Group: Undiscovered
+Hatch Cycles: 10
+Height: 00.30 m, Weight: 001.5 kg, Color: White
+Evolves into Togetic-0 @ 0 (LevelUpFriendship) [0]
+
+
+======
+176 - Togetic (Stage: 2)
+======
+Galar Dex: #258
+Base Stats: 55.40.85.80.105.40 (BST: 405)
+EV Yield: 0.0.0.0.2.0
+Abilities: Hustle (1) | Serene Grace (2) | Super Luck (H)
+Type: Fairy / Flying
+Items: None
+EXP Group: Fast
+Egg Group: Flying / Fairy
+Hatch Cycles: 10
+Height: 00.60 m, Weight: 003.2 kg, Color: White
+Evolves into Togekiss-0 @ 0 (UseItem) [107]
+
+
+======
+177 - Natu (Stage: 1)
+======
+Galar Dex: #92
+Base Stats: 40.50.45.70.45.70 (BST: 320)
+EV Yield: 0.0.0.1.0.0
+Abilities: Synchronize (1) | Early Bird (2) | Magic Bounce (H)
+Type: Psychic / Flying
+Items: None
+EXP Group: MediumFast
+Egg Group: Flying
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 002.0 kg, Color: Green
+Evolves into Xatu-0 @ 25 (LevelUp) [0]
+
+
+======
+178 - Xatu (Stage: 2)
+======
+Galar Dex: #93
+Base Stats: 65.75.70.95.70.95 (BST: 470)
+EV Yield: 0.0.0.1.0.1
+Abilities: Synchronize (1) | Early Bird (2) | Magic Bounce (H)
+Type: Psychic / Flying
+Items: None
+EXP Group: MediumFast
+Egg Group: Flying
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 015.0 kg, Color: Green
+
+======
+182 - Bellossom (Stage: 3)
+======
+Galar Dex: #58
+Base Stats: 75.80.95.90.100.50 (BST: 490)
+EV Yield: 0.0.0.0.3.0
+Abilities: Chlorophyll (1) | Chlorophyll (2) | Healer (H)
+Type: Grass
+Item 1 (50%): None
+Item 2 (5%): Absorb Bulb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Grass
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 005.8 kg, Color: Green
+
+======
+185 - Sudowoodo (Stage: 2)
+======
+Galar Dex: #253
+Base Stats: 70.100.115.30.65.30 (BST: 410)
+EV Yield: 0.0.2.0.0.0
+Abilities: Sturdy (1) | Rock Head (2) | Rattled (H)
+Type: Rock
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 01.20 m, Weight: 038.0 kg, Color: Brown
+
+======
+194 - Wooper (Stage: 1)
+======
+Galar Dex: #100
+Base Stats: 55.45.45.25.25.15 (BST: 210)
+EV Yield: 1.0.0.0.0.0
+Abilities: Damp (1) | Water Absorb (2) | Unaware (H)
+Type: Water / Ground
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Field
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 008.5 kg, Color: Blue
+Evolves into Quagsire-0 @ 20 (LevelUp) [0]
+
+
+======
+195 - Quagsire (Stage: 2)
+======
+Galar Dex: #101
+Base Stats: 95.85.85.65.65.35 (BST: 430)
+EV Yield: 2.0.0.0.0.0
+Abilities: Damp (1) | Water Absorb (2) | Unaware (H)
+Type: Water / Ground
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Field
+Hatch Cycles: 20
+Height: 01.40 m, Weight: 075.0 kg, Color: Blue
+
+======
+196 - Espeon (Stage: 2)
+======
+Galar Dex: #200
+Base Stats: 65.65.60.130.95.110 (BST: 525)
+EV Yield: 0.0.0.2.0.0
+Abilities: Synchronize (1) | Synchronize (2) | Magic Bounce (H)
+Type: Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 35
+Height: 00.90 m, Weight: 026.5 kg, Color: Purple
+
+======
+197 - Umbreon (Stage: 2)
+======
+Galar Dex: #201
+Base Stats: 95.65.110.60.130.65 (BST: 525)
+EV Yield: 0.0.0.0.2.0
+Abilities: Synchronize (1) | Synchronize (2) | Inner Focus (H)
+Type: Dark
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 35
+Height: 01.00 m, Weight: 027.0 kg, Color: Black
+
+======
+202 - Wobbuffet (Stage: 2)
+======
+Galar Dex: #217
+Base Stats: 190.33.58.33.58.33 (BST: 405)
+EV Yield: 2.0.0.0.0.0
+Abilities: Shadow Tag (1) | Shadow Tag (2) | Telepathy (H)
+Type: Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 028.5 kg, Color: Blue
+
+======
+208 - Steelix (Stage: 2)
+======
+Galar Dex: #179
+Base Stats: 75.85.200.55.65.30 (BST: 510)
+EV Yield: 0.0.2.0.0.0
+Abilities: Rock Head (1) | Sturdy (2) | Sheer Force (H)
+Type: Steel / Ground
+Item 1 (50%): None
+Item 2 (5%): Metal Coat
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 25
+Height: 09.20 m, Weight: 400.0 kg, Color: Gray
+
+======
+211 - Qwilfish (Stage: 1)
+======
+Galar Dex: #304
+Base Stats: 65.95.85.55.55.85 (BST: 440)
+EV Yield: 0.1.0.0.0.0
+Abilities: Poison Point (1) | Swift Swim (2) | Intimidate (H)
+Type: Water / Poison
+Item 1 (50%): None
+Item 2 (5%): Poison Barb
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Water2
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 003.9 kg, Color: Gray
+
+======
+213 - Shuckle (Stage: 2)
+======
+Galar Dex: #227
+Base Stats: 20.10.230.10.230.5 (BST: 505)
+EV Yield: 0.0.1.0.1.0
+Abilities: Sturdy (1) | Gluttony (2) | Contrary (H)
+Type: Bug / Rock
+Item 1 (50%): Berry Juice
+Item 2 (5%): Berry Juice
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Bug
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 020.5 kg, Color: Yellow
+
+======
+215 - Sneasel (Stage: 1)
+======
+Galar Dex: #292
+Base Stats: 55.95.55.35.75.115 (BST: 430)
+EV Yield: 0.0.0.0.0.1
+Abilities: Inner Focus (1) | Keen Eye (2) | Pickpocket (H)
+Type: Dark / Ice
+Item 1 (50%): None
+Item 2 (5%): Quick Claw
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.90 m, Weight: 028.0 kg, Color: Black
+Evolves into Weavile-0 @ 0 (LevelUpHeldItemNight) [326]
+
+
+======
+220 - Swinub (Stage: 1)
+======
+Galar Dex: #75
+Base Stats: 50.50.40.30.30.50 (BST: 250)
+EV Yield: 0.1.0.0.0.0
+Abilities: Oblivious (1) | Snow Cloak (2) | Thick Fat (H)
+Type: Ice / Ground
+Items: None
+EXP Group: Slow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 006.5 kg, Color: Brown
+Evolves into Piloswine-0 @ 33 (LevelUp) [0]
+
+
+======
+221 - Piloswine (Stage: 2)
+======
+Galar Dex: #76
+Base Stats: 100.100.80.60.60.50 (BST: 450)
+EV Yield: 1.1.0.0.0.0
+Abilities: Oblivious (1) | Snow Cloak (2) | Thick Fat (H)
+Type: Ice / Ground
+Items: None
+EXP Group: Slow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.10 m, Weight: 055.8 kg, Color: Brown
+Evolves into Mamoswine-0 @ 0 (LevelUpKnowMove) [246]
+
+
+======
+222 - Corsola (Stage: 2)
+======
+Galar Dex: #236
+Base Stats: 65.55.95.65.95.35 (BST: 410)
+EV Yield: 0.0.1.0.1.0
+Abilities: Hustle (1) | Natural Cure (2) | Regenerator (H)
+Type: Water / Rock
+Item 1 (50%): None
+Item 2 (5%): Luminous Moss
+Item 3 (1%): None
+EXP Group: Fast
+Egg Group: Water1 / Water3
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 005.0 kg, Color: Pink
+
+======
+949 - Corsola 1 (Stage: 2)
+======
+Galar Dex: #236
+Base Stats: 60.55.100.65.100.30 (BST: 410)
+EV Yield: 0.0.0.0.1.0
+Abilities: Weak Armor (1) | Weak Armor (2) | Cursed Body (H)
+Type: Ghost
+Items: None
+EXP Group: Fast
+Egg Group: Water1 / Water3
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 000.5 kg, Color: White
+Evolves into Cursola-0 @ 38 (LevelUp) [0]
+
+
+======
+223 - Remoraid (Stage: 1)
+======
+Galar Dex: #148
+Base Stats: 35.65.35.65.35.65 (BST: 300)
+EV Yield: 0.0.0.1.0.0
+Abilities: Hustle (1) | Sniper (2) | Moody (H)
+Type: Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Water2
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 012.0 kg, Color: Gray
+Evolves into Octillery-0 @ 25 (LevelUp) [0]
+
+
+======
+224 - Octillery (Stage: 2)
+======
+Galar Dex: #149
+Base Stats: 75.105.75.105.75.45 (BST: 480)
+EV Yield: 0.1.0.1.0.0
+Abilities: Suction Cups (1) | Sniper (2) | Moody (H)
+Type: Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Water2
+Hatch Cycles: 20
+Height: 00.90 m, Weight: 028.5 kg, Color: Red
+
+======
+225 - Delibird (Stage: 2)
+======
+Galar Dex: #78
+Base Stats: 45.55.45.65.45.75 (BST: 330)
+EV Yield: 0.0.0.0.0.1
+Abilities: Vital Spirit (1) | Hustle (2) | Insomnia (H)
+Type: Ice / Flying
+Items: None
+EXP Group: Fast
+Egg Group: Water1 / Field
+Hatch Cycles: 20
+Height: 00.90 m, Weight: 016.0 kg, Color: Red
+
+======
+226 - Mantine (Stage: 2)
+======
+Galar Dex: #355
+Base Stats: 85.40.70.80.140.70 (BST: 485)
+EV Yield: 0.0.0.0.2.0
+Abilities: Swift Swim (1) | Water Absorb (2) | Water Veil (H)
+Type: Water / Flying
+Items: None
+EXP Group: Slow
+Egg Group: Water1
+Hatch Cycles: 25
+Height: 02.10 m, Weight: 220.0 kg, Color: Purple
+
+======
+236 - Tyrogue (Stage: 1)
+======
+Galar Dex: #107
+Base Stats: 35.35.35.35.35.35 (BST: 210)
+EV Yield: 0.1.0.0.0.0
+Abilities: Guts (1) | Steadfast (2) | Vital Spirit (H)
+Type: Fighting
+Items: None
+EXP Group: MediumFast
+Egg Group: Undiscovered
+Hatch Cycles: 25
+Height: 00.70 m, Weight: 021.0 kg, Color: Purple
+Evolves into Hitmonchan-0 @ 20 (LevelUpAeqD) [0]
+Evolves into Hitmonlee-0 @ 20 (LevelUpATK) [0]
+Evolves into Hitmontop-0 @ 20 (LevelUpDEF) [0]
+
+
+======
+237 - Hitmontop (Stage: 2)
+======
+Galar Dex: #110
+Base Stats: 50.95.95.35.110.70 (BST: 455)
+EV Yield: 0.0.0.0.2.0
+Abilities: Intimidate (1) | Technician (2) | Steadfast (H)
+Type: Fighting
+Items: None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 25
+Height: 01.40 m, Weight: 048.0 kg, Color: Brown
+
+======
+246 - Larvitar (Stage: 1)
+======
+Galar Dex: #383
+Base Stats: 50.64.50.45.50.41 (BST: 300)
+EV Yield: 0.1.0.0.0.0
+Abilities: Guts (1) | Guts (2) | Sand Veil (H)
+Type: Rock / Ground
+Items: None
+EXP Group: Slow
+Egg Group: Monster
+Hatch Cycles: 40
+Height: 00.60 m, Weight: 072.0 kg, Color: Green
+Evolves into Pupitar-0 @ 30 (LevelUp) [0]
+
+
+======
+247 - Pupitar (Stage: 2)
+======
+Galar Dex: #384
+Base Stats: 70.84.70.65.70.51 (BST: 410)
+EV Yield: 0.2.0.0.0.0
+Abilities: Shed Skin (1) | Shed Skin (2) | Shed Skin (H)
+Type: Rock / Ground
+Items: None
+EXP Group: Slow
+Egg Group: Monster
+Hatch Cycles: 40
+Height: 01.20 m, Weight: 152.0 kg, Color: Gray
+Evolves into Tyranitar-0 @ 55 (LevelUp) [0]
+
+
+======
+248 - Tyranitar (Stage: 3)
+======
+Galar Dex: #385
+Base Stats: 100.134.110.95.100.61 (BST: 600)
+EV Yield: 0.3.0.0.0.0
+Abilities: Sand Stream (1) | Sand Stream (2) | Unnerve (H)
+Type: Rock / Dark
+Items: None
+EXP Group: Slow
+Egg Group: Monster
+Hatch Cycles: 40
+Height: 02.00 m, Weight: 202.0 kg, Color: Green
+
+======
+251 - Celebi (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 100.100.100.100.100.100 (BST: 600)
+EV Yield: 3.0.0.0.0.0
+Abilities: Natural Cure (1) | Natural Cure (2) | Natural Cure (H)
+Type: Psychic / Grass
+Item 1 (50%): Lum Berry
+Item 2 (5%): Lum Berry
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 00.60 m, Weight: 005.0 kg, Color: Green
+
+======
+263 - Zigzagoon (Stage: 1)
+======
+Galar Dex: #31
+Base Stats: 38.30.41.30.41.60 (BST: 240)
+EV Yield: 0.0.0.0.0.1
+Abilities: Pickup (1) | Gluttony (2) | Quick Feet (H)
+Type: Normal
+Item 1 (50%): Potion
+Item 2 (5%): Revive
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 017.5 kg, Color: Brown
+Evolves into Linoone-0 @ 20 (LevelUp) [0]
+
+
+======
+950 - Zigzagoon 1 (Stage: 1)
+======
+Galar Dex: #31
+Base Stats: 38.30.41.30.41.60 (BST: 240)
+EV Yield: 0.0.0.0.0.1
+Abilities: Pickup (1) | Gluttony (2) | Quick Feet (H)
+Type: Dark / Normal
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 017.5 kg, Color: White
+Evolves into Linoone-1 @ 20 (LevelUp) [0]
+
+
+======
+264 - Linoone (Stage: 2)
+======
+Galar Dex: #32
+Base Stats: 78.70.61.50.61.100 (BST: 420)
+EV Yield: 0.0.0.0.0.2
+Abilities: Pickup (1) | Gluttony (2) | Quick Feet (H)
+Type: Normal
+Item 1 (50%): Potion
+Item 2 (5%): Max Revive
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 00.50 m, Weight: 032.5 kg, Color: White
+
+======
+951 - Linoone 1 (Stage: 2)
+======
+Galar Dex: #32
+Base Stats: 78.70.61.50.61.100 (BST: 420)
+EV Yield: 0.0.0.0.0.2
+Abilities: Pickup (1) | Gluttony (2) | Quick Feet (H)
+Type: Dark / Normal
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 00.50 m, Weight: 032.5 kg, Color: White
+Evolves into Obstagoon-0 @ 35 (LevelUpNight) [0]
+
+
+======
+270 - Lotad (Stage: 1)
+======
+Galar Dex: #36
+Base Stats: 40.30.30.40.50.30 (BST: 220)
+EV Yield: 0.0.0.0.1.0
+Abilities: Swift Swim (1) | Rain Dish (2) | Own Tempo (H)
+Type: Water / Grass
+Item 1 (50%): None
+Item 2 (5%): Mental Herb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Water1 / Grass
+Hatch Cycles: 15
+Height: 00.50 m, Weight: 002.6 kg, Color: Green
+Evolves into Lombre-0 @ 14 (LevelUp) [0]
+
+
+======
+271 - Lombre (Stage: 2)
+======
+Galar Dex: #37
+Base Stats: 60.50.50.60.70.50 (BST: 340)
+EV Yield: 0.0.0.0.2.0
+Abilities: Swift Swim (1) | Rain Dish (2) | Own Tempo (H)
+Type: Water / Grass
+Item 1 (50%): None
+Item 2 (5%): Mental Herb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Water1 / Grass
+Hatch Cycles: 15
+Height: 01.20 m, Weight: 032.5 kg, Color: Green
+Evolves into Ludicolo-0 @ 0 (UseItem) [84]
+
+
+======
+272 - Ludicolo (Stage: 3)
+======
+Galar Dex: #38
+Base Stats: 80.70.70.90.100.70 (BST: 480)
+EV Yield: 0.0.0.0.3.0
+Abilities: Swift Swim (1) | Rain Dish (2) | Own Tempo (H)
+Type: Water / Grass
+Item 1 (50%): None
+Item 2 (5%): Mental Herb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Water1 / Grass
+Hatch Cycles: 15
+Height: 01.50 m, Weight: 055.0 kg, Color: Green
+
+======
+273 - Seedot (Stage: 1)
+======
+Galar Dex: #39
+Base Stats: 40.40.50.30.30.30 (BST: 220)
+EV Yield: 0.0.1.0.0.0
+Abilities: Chlorophyll (1) | Early Bird (2) | Pickpocket (H)
+Type: Grass
+Item 1 (50%): None
+Item 2 (5%): Power Herb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Field / Grass
+Hatch Cycles: 15
+Height: 00.50 m, Weight: 004.0 kg, Color: Brown
+Evolves into Nuzleaf-0 @ 14 (LevelUp) [0]
+
+
+======
+274 - Nuzleaf (Stage: 2)
+======
+Galar Dex: #40
+Base Stats: 70.70.40.60.40.60 (BST: 340)
+EV Yield: 0.2.0.0.0.0
+Abilities: Chlorophyll (1) | Early Bird (2) | Pickpocket (H)
+Type: Grass / Dark
+Item 1 (50%): None
+Item 2 (5%): Power Herb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Field / Grass
+Hatch Cycles: 15
+Height: 01.00 m, Weight: 028.0 kg, Color: Brown
+Evolves into Shiftry-0 @ 0 (UseItem) [85]
+
+
+======
+275 - Shiftry (Stage: 3)
+======
+Galar Dex: #41
+Base Stats: 90.100.60.90.60.80 (BST: 480)
+EV Yield: 0.3.0.0.0.0
+Abilities: Chlorophyll (1) | Early Bird (2) | Pickpocket (H)
+Type: Grass / Dark
+Item 1 (50%): None
+Item 2 (5%): Power Herb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Field / Grass
+Hatch Cycles: 15
+Height: 01.30 m, Weight: 059.6 kg, Color: Brown
+
+======
+278 - Wingull (Stage: 1)
+======
+Galar Dex: #62
+Base Stats: 40.30.30.55.30.85 (BST: 270)
+EV Yield: 0.0.0.0.0.1
+Abilities: Keen Eye (1) | Hydration (2) | Rain Dish (H)
+Type: Water / Flying
+Item 1 (50%): Pretty Feather
+Item 2 (5%): None
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Water1 / Flying
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 009.5 kg, Color: White
+Evolves into Pelipper-0 @ 25 (LevelUp) [0]
+
+
+======
+279 - Pelipper (Stage: 2)
+======
+Galar Dex: #63
+Base Stats: 60.50.100.95.70.65 (BST: 440)
+EV Yield: 0.0.2.0.0.0
+Abilities: Keen Eye (1) | Drizzle (2) | Rain Dish (H)
+Type: Water / Flying
+Item 1 (50%): Pretty Feather
+Item 2 (5%): None
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Water1 / Flying
+Hatch Cycles: 20
+Height: 01.20 m, Weight: 028.0 kg, Color: Yellow
+
+======
+280 - Ralts (Stage: 1)
+======
+Galar Dex: #120
+Base Stats: 28.25.25.45.35.40 (BST: 198)
+EV Yield: 0.0.0.1.0.0
+Abilities: Synchronize (1) | Trace (2) | Telepathy (H)
+Type: Psychic / Fairy
+Items: None
+EXP Group: Slow
+Egg Group: HumanLike / Amorphous
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 006.6 kg, Color: White
+Evolves into Kirlia-0 @ 20 (LevelUp) [0]
+
+
+======
+281 - Kirlia (Stage: 2)
+======
+Galar Dex: #121
+Base Stats: 38.35.35.65.55.50 (BST: 278)
+EV Yield: 0.0.0.2.0.0
+Abilities: Synchronize (1) | Trace (2) | Telepathy (H)
+Type: Psychic / Fairy
+Items: None
+EXP Group: Slow
+Egg Group: HumanLike / Amorphous
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 020.2 kg, Color: White
+Evolves into Gardevoir-0 @ 30 (LevelUp) [0]
+Evolves into Gallade-0 @ 30 (UseItemMale) [109]
+
+
+======
+282 - Gardevoir (Stage: 3)
+======
+Galar Dex: #122
+Base Stats: 68.65.65.125.115.80 (BST: 518)
+EV Yield: 0.0.0.3.0.0
+Abilities: Synchronize (1) | Trace (2) | Telepathy (H)
+Type: Psychic / Fairy
+Items: None
+EXP Group: Slow
+Egg Group: HumanLike / Amorphous
+Hatch Cycles: 20
+Height: 01.60 m, Weight: 048.4 kg, Color: White
+
+======
+290 - Nincada (Stage: 1)
+======
+Galar Dex: #104
+Base Stats: 31.45.90.30.30.40 (BST: 266)
+EV Yield: 0.0.1.0.0.0
+Abilities: Compound Eyes (1) | Compound Eyes (2) | Run Away (H)
+Type: Bug / Ground
+Item 1 (50%): None
+Item 2 (5%): Soft Sand
+Item 3 (1%): None
+EXP Group: Erratic
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.50 m, Weight: 005.5 kg, Color: Gray
+Evolves into Ninjask-0 @ 20 (LevelUpNinjask) [0]
+
+
+======
+291 - Ninjask (Stage: 2)
+======
+Galar Dex: #105
+Base Stats: 61.90.45.50.50.160 (BST: 456)
+EV Yield: 0.0.0.0.0.2
+Abilities: Speed Boost (1) | Speed Boost (2) | Infiltrator (H)
+Type: Bug / Flying
+Items: None
+EXP Group: Erratic
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.80 m, Weight: 012.0 kg, Color: Yellow
+
+======
+292 - Shedinja (Stage: 2)
+======
+Galar Dex: #106
+Base Stats: 1.90.45.30.30.40 (BST: 236)
+EV Yield: 2.0.0.0.0.0
+Abilities: Wonder Guard (1) | Wonder Guard (2) | Wonder Guard (H)
+Type: Bug / Ghost
+Items: None
+EXP Group: Erratic
+Egg Group: Mineral
+Hatch Cycles: 15
+Height: 00.80 m, Weight: 001.2 kg, Color: Brown
+
+======
+302 - Sableye (Stage: 2)
+======
+Galar Dex: #294
+Base Stats: 50.75.75.65.65.50 (BST: 380)
+EV Yield: 0.1.1.0.0.0
+Abilities: Keen Eye (1) | Stall (2) | Prankster (H)
+Type: Dark / Ghost
+Item 1 (50%): None
+Item 2 (5%): Wide Lens
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: HumanLike
+Hatch Cycles: 25
+Height: 00.50 m, Weight: 011.0 kg, Color: Purple
+
+======
+303 - Mawile (Stage: 2)
+======
+Galar Dex: #295
+Base Stats: 50.85.85.55.55.50 (BST: 380)
+EV Yield: 0.1.1.0.0.0
+Abilities: Hyper Cutter (1) | Intimidate (2) | Sheer Force (H)
+Type: Steel / Fairy
+Item 1 (50%): None
+Item 2 (5%): Iron Ball
+Item 3 (1%): None
+EXP Group: Fast
+Egg Group: Field / Fairy
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 011.5 kg, Color: Black
+
+======
+309 - Electrike (Stage: 1)
+======
+Galar Dex: #66
+Base Stats: 40.45.40.65.40.65 (BST: 295)
+EV Yield: 0.0.0.0.0.1
+Abilities: Static (1) | Lightning Rod (2) | Minus (H)
+Type: Electric
+Items: None
+EXP Group: Slow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 015.2 kg, Color: Green
+Evolves into Manectric-0 @ 26 (LevelUp) [0]
+
+
+======
+310 - Manectric (Stage: 2)
+======
+Galar Dex: #67
+Base Stats: 70.75.60.105.60.105 (BST: 475)
+EV Yield: 0.0.0.0.0.2
+Abilities: Static (1) | Lightning Rod (2) | Minus (H)
+Type: Electric
+Items: None
+EXP Group: Slow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 040.2 kg, Color: Yellow
+
+======
+315 - Roselia (Stage: 2)
+======
+Galar Dex: #60
+Base Stats: 50.60.45.100.80.65 (BST: 400)
+EV Yield: 0.0.0.2.0.0
+Abilities: Natural Cure (1) | Poison Point (2) | Leaf Guard (H)
+Type: Grass / Poison
+Item 1 (50%): None
+Item 2 (5%): Poison Barb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Fairy / Grass
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 002.0 kg, Color: Green
+Evolves into Roserade-0 @ 0 (UseItem) [107]
+
+
+======
+320 - Wailmer (Stage: 1)
+======
+Galar Dex: #356
+Base Stats: 130.70.35.70.35.60 (BST: 400)
+EV Yield: 1.0.0.0.0.0
+Abilities: Water Veil (1) | Oblivious (2) | Pressure (H)
+Type: Water
+Items: None
+EXP Group: Fluctuating
+Egg Group: Field / Water2
+Hatch Cycles: 40
+Height: 02.00 m, Weight: 130.0 kg, Color: Blue
+Evolves into Wailord-0 @ 40 (LevelUp) [0]
+
+
+======
+321 - Wailord (Stage: 2)
+======
+Galar Dex: #357
+Base Stats: 170.90.45.90.45.60 (BST: 500)
+EV Yield: 2.0.0.0.0.0
+Abilities: Water Veil (1) | Oblivious (2) | Pressure (H)
+Type: Water
+Items: None
+EXP Group: Fluctuating
+Egg Group: Field / Water2
+Hatch Cycles: 40
+Height: 14.50 m, Weight: 398.0 kg, Color: Blue
+
+======
+324 - Torkoal (Stage: 2)
+======
+Galar Dex: #300
+Base Stats: 70.85.140.85.70.20 (BST: 470)
+EV Yield: 0.0.2.0.0.0
+Abilities: White Smoke (1) | Drought (2) | Shell Armor (H)
+Type: Fire
+Item 1 (50%): None
+Item 2 (5%): Charcoal
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 080.4 kg, Color: Brown
+
+======
+328 - Trapinch (Stage: 1)
+======
+Galar Dex: #321
+Base Stats: 45.100.45.45.45.10 (BST: 290)
+EV Yield: 0.1.0.0.0.0
+Abilities: Hyper Cutter (1) | Arena Trap (2) | Sheer Force (H)
+Type: Ground
+Item 1 (50%): None
+Item 2 (5%): Soft Sand
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Bug / Dragon
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 015.0 kg, Color: Brown
+Evolves into Vibrava-0 @ 35 (LevelUp) [0]
+
+
+======
+329 - Vibrava (Stage: 2)
+======
+Galar Dex: #322
+Base Stats: 50.70.50.50.50.70 (BST: 340)
+EV Yield: 0.1.0.0.0.1
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Ground / Dragon
+Items: None
+EXP Group: MediumSlow
+Egg Group: Bug / Dragon
+Hatch Cycles: 20
+Height: 01.10 m, Weight: 015.3 kg, Color: Green
+Evolves into Flygon-0 @ 45 (LevelUp) [0]
+
+
+======
+330 - Flygon (Stage: 3)
+======
+Galar Dex: #323
+Base Stats: 80.100.80.80.80.100 (BST: 520)
+EV Yield: 0.1.0.0.0.2
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Ground / Dragon
+Items: None
+EXP Group: MediumSlow
+Egg Group: Bug / Dragon
+Hatch Cycles: 20
+Height: 02.00 m, Weight: 082.0 kg, Color: Green
+
+======
+337 - Lunatone (Stage: 2)
+======
+Galar Dex: #362
+Base Stats: 90.55.65.95.85.70 (BST: 460)
+EV Yield: 0.0.0.2.0.0
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Rock / Psychic
+Item 1 (50%): Stardust
+Item 2 (5%): Moon Stone
+Item 3 (1%): None
+EXP Group: Fast
+Egg Group: Mineral
+Hatch Cycles: 25
+Height: 01.00 m, Weight: 168.0 kg, Color: Yellow
+
+======
+338 - Solrock (Stage: 2)
+======
+Galar Dex: #363
+Base Stats: 90.95.85.55.65.70 (BST: 460)
+EV Yield: 0.2.0.0.0.0
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Rock / Psychic
+Item 1 (50%): Stardust
+Item 2 (5%): Sun Stone
+Item 3 (1%): None
+EXP Group: Fast
+Egg Group: Mineral
+Hatch Cycles: 25
+Height: 01.20 m, Weight: 154.0 kg, Color: Red
+
+======
+339 - Barboach (Stage: 1)
+======
+Galar Dex: #228
+Base Stats: 50.48.43.46.41.60 (BST: 288)
+EV Yield: 1.0.0.0.0.0
+Abilities: Oblivious (1) | Anticipation (2) | Hydration (H)
+Type: Water / Ground
+Items: None
+EXP Group: MediumFast
+Egg Group: Water2
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 001.9 kg, Color: Gray
+Evolves into Whiscash-0 @ 30 (LevelUp) [0]
+
+
+======
+340 - Whiscash (Stage: 2)
+======
+Galar Dex: #229
+Base Stats: 110.78.73.76.71.60 (BST: 468)
+EV Yield: 2.0.0.0.0.0
+Abilities: Oblivious (1) | Anticipation (2) | Hydration (H)
+Type: Water / Ground
+Items: None
+EXP Group: MediumFast
+Egg Group: Water2
+Hatch Cycles: 20
+Height: 00.90 m, Weight: 023.6 kg, Color: Blue
+
+======
+341 - Corphish (Stage: 1)
+======
+Galar Dex: #102
+Base Stats: 43.80.65.50.35.35 (BST: 308)
+EV Yield: 0.1.0.0.0.0
+Abilities: Hyper Cutter (1) | Shell Armor (2) | Adaptability (H)
+Type: Water
+Items: None
+EXP Group: Fluctuating
+Egg Group: Water1 / Water3
+Hatch Cycles: 15
+Height: 00.60 m, Weight: 011.5 kg, Color: Red
+Evolves into Crawdaunt-0 @ 30 (LevelUp) [0]
+
+
+======
+342 - Crawdaunt (Stage: 2)
+======
+Galar Dex: #103
+Base Stats: 63.120.85.90.55.55 (BST: 468)
+EV Yield: 0.2.0.0.0.0
+Abilities: Hyper Cutter (1) | Shell Armor (2) | Adaptability (H)
+Type: Water / Dark
+Items: None
+EXP Group: Fluctuating
+Egg Group: Water1 / Water3
+Hatch Cycles: 15
+Height: 01.10 m, Weight: 032.8 kg, Color: Red
+
+======
+343 - Baltoy (Stage: 1)
+======
+Galar Dex: #82
+Base Stats: 40.40.55.40.70.55 (BST: 300)
+EV Yield: 0.0.0.0.1.0
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Ground / Psychic
+Item 1 (50%): None
+Item 2 (5%): Light Clay
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 021.5 kg, Color: Brown
+Evolves into Claydol-0 @ 36 (LevelUp) [0]
+
+
+======
+344 - Claydol (Stage: 2)
+======
+Galar Dex: #83
+Base Stats: 60.70.105.70.120.75 (BST: 500)
+EV Yield: 0.0.0.0.2.0
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Ground / Psychic
+Item 1 (50%): None
+Item 2 (5%): Light Clay
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 108.0 kg, Color: Black
+
+======
+349 - Feebas (Stage: 1)
+======
+Galar Dex: #152
+Base Stats: 20.15.20.10.55.80 (BST: 200)
+EV Yield: 0.0.0.0.0.1
+Abilities: Swift Swim (1) | Oblivious (2) | Adaptability (H)
+Type: Water
+Items: None
+EXP Group: Erratic
+Egg Group: Water1 / Dragon
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 007.4 kg, Color: Brown
+Evolves into Milotic-0 @ 0 (LevelUpBeauty) [170]
+Evolves into Milotic-0 @ 0 (TradeHeldItem) [537]
+
+
+======
+350 - Milotic (Stage: 2)
+======
+Galar Dex: #153
+Base Stats: 95.60.79.100.125.81 (BST: 540)
+EV Yield: 0.0.0.0.2.0
+Abilities: Marvel Scale (1) | Competitive (2) | Cute Charm (H)
+Type: Water
+Items: None
+EXP Group: Erratic
+Egg Group: Water1 / Dragon
+Hatch Cycles: 20
+Height: 06.20 m, Weight: 162.0 kg, Color: Pink
+
+======
+355 - Duskull (Stage: 1)
+======
+Galar Dex: #135
+Base Stats: 20.40.90.30.90.25 (BST: 295)
+EV Yield: 0.0.0.0.1.0
+Abilities: Levitate (1) | Levitate (2) | Frisk (H)
+Type: Ghost
+Item 1 (50%): None
+Item 2 (5%): Spell Tag
+Item 3 (1%): None
+EXP Group: Fast
+Egg Group: Amorphous
+Hatch Cycles: 25
+Height: 00.80 m, Weight: 015.0 kg, Color: Black
+Evolves into Dusclops-0 @ 37 (LevelUp) [0]
+
+
+======
+356 - Dusclops (Stage: 2)
+======
+Galar Dex: #136
+Base Stats: 40.70.130.60.130.25 (BST: 455)
+EV Yield: 0.0.1.0.1.0
+Abilities: Pressure (1) | Pressure (2) | Frisk (H)
+Type: Ghost
+Item 1 (50%): None
+Item 2 (5%): Spell Tag
+Item 3 (1%): None
+EXP Group: Fast
+Egg Group: Amorphous
+Hatch Cycles: 25
+Height: 01.60 m, Weight: 030.6 kg, Color: Black
+Evolves into Dusknoir-0 @ 0 (TradeHeldItem) [325]
+
+
+======
+360 - Wynaut (Stage: 1)
+======
+Galar Dex: #216
+Base Stats: 95.23.48.23.48.23 (BST: 260)
+EV Yield: 1.0.0.0.0.0
+Abilities: Shadow Tag (1) | Shadow Tag (2) | Telepathy (H)
+Type: Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: Undiscovered
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 014.0 kg, Color: Blue
+Evolves into Wobbuffet-0 @ 15 (LevelUp) [0]
+
+
+======
+361 - Snorunt (Stage: 1)
+======
+Galar Dex: #79
+Base Stats: 50.50.50.50.50.50 (BST: 300)
+EV Yield: 1.0.0.0.0.0
+Abilities: Inner Focus (1) | Ice Body (2) | Moody (H)
+Type: Ice
+Item 1 (50%): None
+Item 2 (5%): Snowball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Fairy / Mineral
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 016.8 kg, Color: Gray
+Evolves into Glalie-0 @ 42 (LevelUp) [0]
+Evolves into Froslass-0 @ 42 (UseItemFemale) [109]
+
+
+======
+362 - Glalie (Stage: 2)
+======
+Galar Dex: #80
+Base Stats: 80.80.80.80.80.80 (BST: 480)
+EV Yield: 2.0.0.0.0.0
+Abilities: Inner Focus (1) | Ice Body (2) | Moody (H)
+Type: Ice
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Mineral
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 256.5 kg, Color: Gray
+
+======
+385 - Jirachi (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 100.100.100.100.100.100 (BST: 600)
+EV Yield: 3.0.0.0.0.0
+Abilities: Serene Grace (1) | Serene Grace (2) | Serene Grace (H)
+Type: Steel / Psychic
+Item 1 (50%): Star Piece
+Item 2 (5%): Star Piece
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 00.30 m, Weight: 001.1 kg, Color: Yellow
+
+======
+406 - Budew (Stage: 1)
+======
+Galar Dex: #59
+Base Stats: 40.30.35.50.70.55 (BST: 280)
+EV Yield: 0.0.0.1.0.0
+Abilities: Natural Cure (1) | Poison Point (2) | Leaf Guard (H)
+Type: Grass / Poison
+Item 1 (50%): None
+Item 2 (5%): Poison Barb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Undiscovered
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 001.2 kg, Color: Green
+Evolves into Roselia-0 @ 0 (LevelUpFriendshipMorning) [0]
+
+
+======
+407 - Roserade (Stage: 3)
+======
+Galar Dex: #61
+Base Stats: 60.70.65.125.105.90 (BST: 515)
+EV Yield: 0.0.0.3.0.0
+Abilities: Natural Cure (1) | Poison Point (2) | Technician (H)
+Type: Grass / Poison
+Item 1 (50%): None
+Item 2 (5%): Poison Barb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Fairy / Grass
+Hatch Cycles: 20
+Height: 00.90 m, Weight: 014.5 kg, Color: Green
+
+======
+415 - Combee (Stage: 1)
+======
+Galar Dex: #116
+Base Stats: 30.30.42.30.42.70 (BST: 244)
+EV Yield: 0.0.0.0.0.1
+Abilities: Honey Gather (1) | Honey Gather (2) | Hustle (H)
+Type: Bug / Flying
+Item 1 (50%): None
+Item 2 (5%): Honey
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.30 m, Weight: 005.5 kg, Color: Yellow
+Evolves into Vespiquen-0 @ 21 (LevelUpFemale) [0]
+
+
+======
+416 - Vespiquen (Stage: 2)
+======
+Galar Dex: #117
+Base Stats: 70.80.102.80.102.40 (BST: 474)
+EV Yield: 0.0.1.0.1.0
+Abilities: Pressure (1) | Pressure (2) | Unnerve (H)
+Type: Bug / Flying
+Item 1 (50%): None
+Item 2 (5%): Poison Barb
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 01.20 m, Weight: 038.5 kg, Color: Yellow
+
+======
+420 - Cherubi (Stage: 1)
+======
+Galar Dex: #128
+Base Stats: 45.35.45.62.53.35 (BST: 275)
+EV Yield: 0.0.0.1.0.0
+Abilities: Chlorophyll (1) | Chlorophyll (2) | Chlorophyll (H)
+Type: Grass
+Item 1 (50%): None
+Item 2 (5%): Miracle Seed
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Fairy / Grass
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 003.3 kg, Color: Pink
+Evolves into Cherrim-0 @ 25 (LevelUp) [0]
+
+
+======
+421 - Cherrim (Stage: 2)
+======
+Galar Dex: #129
+Base Stats: 70.60.70.87.78.85 (BST: 450)
+EV Yield: 0.0.0.2.0.0
+Abilities: Flower Gift (1) | Flower Gift (2) | Flower Gift (H)
+Type: Grass
+Item 1 (50%): None
+Item 2 (5%): Miracle Seed
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Fairy / Grass
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 009.3 kg, Color: Purple
+
+======
+965 - Cherrim 1 (Stage: 2)
+======
+Galar Dex: #129
+Base Stats: 70.60.70.87.78.85 (BST: 450)
+EV Yield: 0.0.0.2.0.0
+Abilities: Flower Gift (1) | Flower Gift (2) | Flower Gift (H)
+Type: Grass
+Item 1 (50%): None
+Item 2 (5%): Miracle Seed
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Fairy / Grass
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 009.3 kg, Color: Pink
+
+======
+422 - Shellos (Stage: 1)
+======
+Galar Dex: #230
+Base Stats: 76.48.48.57.62.34 (BST: 325)
+EV Yield: 1.0.0.0.0.0
+Abilities: Sticky Hold (1) | Storm Drain (2) | Sand Force (H)
+Type: Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 006.3 kg, Color: Purple
+Evolves into Gastrodon-0 @ 30 (LevelUp) [0]
+
+
+======
+966 - Shellos 1 (Stage: 1)
+======
+Galar Dex: #230
+Base Stats: 76.48.48.57.62.34 (BST: 325)
+EV Yield: 1.0.0.0.0.0
+Abilities: Sticky Hold (1) | Storm Drain (2) | Sand Force (H)
+Type: Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 006.3 kg, Color: Blue
+Evolves into Gastrodon-1 @ 30 (LevelUp) [0]
+
+
+======
+423 - Gastrodon (Stage: 2)
+======
+Galar Dex: #231
+Base Stats: 111.83.68.92.82.39 (BST: 475)
+EV Yield: 2.0.0.0.0.0
+Abilities: Sticky Hold (1) | Storm Drain (2) | Sand Force (H)
+Type: Water / Ground
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Amorphous
+Hatch Cycles: 20
+Height: 00.90 m, Weight: 029.9 kg, Color: Purple
+
+======
+967 - Gastrodon 1 (Stage: 2)
+======
+Galar Dex: #231
+Base Stats: 111.83.68.92.82.39 (BST: 475)
+EV Yield: 2.0.0.0.0.0
+Abilities: Sticky Hold (1) | Storm Drain (2) | Sand Force (H)
+Type: Water / Ground
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Amorphous
+Hatch Cycles: 20
+Height: 00.90 m, Weight: 029.9 kg, Color: Blue
+
+======
+425 - Drifloon (Stage: 1)
+======
+Galar Dex: #124
+Base Stats: 90.50.34.60.44.70 (BST: 348)
+EV Yield: 1.0.0.0.0.0
+Abilities: Aftermath (1) | Unburden (2) | Flare Boost (H)
+Type: Ghost / Flying
+Items: None
+EXP Group: Fluctuating
+Egg Group: Amorphous
+Hatch Cycles: 30
+Height: 00.40 m, Weight: 001.2 kg, Color: Purple
+Evolves into Drifblim-0 @ 28 (LevelUp) [0]
+
+
+======
+426 - Drifblim (Stage: 2)
+======
+Galar Dex: #125
+Base Stats: 150.80.44.90.54.80 (BST: 498)
+EV Yield: 2.0.0.0.0.0
+Abilities: Aftermath (1) | Unburden (2) | Flare Boost (H)
+Type: Ghost / Flying
+Items: None
+EXP Group: Fluctuating
+Egg Group: Amorphous
+Hatch Cycles: 30
+Height: 01.20 m, Weight: 015.0 kg, Color: Purple
+
+======
+434 - Stunky (Stage: 1)
+======
+Galar Dex: #130
+Base Stats: 63.63.47.41.41.74 (BST: 329)
+EV Yield: 0.0.0.0.0.1
+Abilities: Stench (1) | Aftermath (2) | Keen Eye (H)
+Type: Poison / Dark
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 019.2 kg, Color: Purple
+Evolves into Skuntank-0 @ 34 (LevelUp) [0]
+
+
+======
+435 - Skuntank (Stage: 2)
+======
+Galar Dex: #131
+Base Stats: 103.93.67.71.61.84 (BST: 479)
+EV Yield: 2.0.0.0.0.0
+Abilities: Stench (1) | Aftermath (2) | Keen Eye (H)
+Type: Poison / Dark
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 038.0 kg, Color: Purple
+
+======
+436 - Bronzor (Stage: 1)
+======
+Galar Dex: #118
+Base Stats: 57.24.86.24.86.23 (BST: 300)
+EV Yield: 0.0.1.0.0.0
+Abilities: Levitate (1) | Heatproof (2) | Heavy Metal (H)
+Type: Steel / Psychic
+Item 1 (50%): None
+Item 2 (5%): Metal Coat
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 060.5 kg, Color: Green
+Evolves into Bronzong-0 @ 33 (LevelUp) [0]
+
+
+======
+437 - Bronzong (Stage: 2)
+======
+Galar Dex: #119
+Base Stats: 67.89.116.79.116.33 (BST: 500)
+EV Yield: 0.0.1.0.1.0
+Abilities: Levitate (1) | Heatproof (2) | Heavy Metal (H)
+Type: Steel / Psychic
+Item 1 (50%): None
+Item 2 (5%): Metal Coat
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 187.0 kg, Color: Green
+
+======
+438 - Bonsly (Stage: 1)
+======
+Galar Dex: #252
+Base Stats: 50.80.95.10.45.10 (BST: 290)
+EV Yield: 0.0.1.0.0.0
+Abilities: Sturdy (1) | Rock Head (2) | Rattled (H)
+Type: Rock
+Items: None
+EXP Group: MediumFast
+Egg Group: Undiscovered
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 015.0 kg, Color: Brown
+Evolves into Sudowoodo-0 @ 0 (LevelUpKnowMove) [102]
+
+
+======
+439 - Mime Jr. (Stage: 1)
+======
+Galar Dex: #364
+Base Stats: 20.25.45.70.90.60 (BST: 310)
+EV Yield: 0.0.0.0.1.0
+Abilities: Soundproof (1) | Filter (2) | Technician (H)
+Type: Psychic / Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Undiscovered
+Hatch Cycles: 25
+Height: 00.60 m, Weight: 013.0 kg, Color: Pink
+Evolves into Mr. Mime-1 @ 0 (LevelUpKnowMove) [102]
+
+
+======
+446 - Munchlax (Stage: 1)
+======
+Galar Dex: #260
+Base Stats: 135.85.40.40.85.5 (BST: 390)
+EV Yield: 1.0.0.0.0.0
+Abilities: Pickup (1) | Thick Fat (2) | Gluttony (H)
+Type: Normal
+Item 1 (50%): Leftovers
+Item 2 (5%): Leftovers
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 40
+Height: 00.60 m, Weight: 105.0 kg, Color: Black
+Evolves into Snorlax-0 @ 0 (LevelUpFriendship) [0]
+
+
+======
+447 - Riolu (Stage: 1)
+======
+Galar Dex: #298
+Base Stats: 40.70.40.35.40.60 (BST: 285)
+EV Yield: 0.1.0.0.0.0
+Abilities: Steadfast (1) | Inner Focus (2) | Prankster (H)
+Type: Fighting
+Items: None
+EXP Group: MediumSlow
+Egg Group: Undiscovered
+Hatch Cycles: 25
+Height: 00.70 m, Weight: 020.2 kg, Color: Blue
+Evolves into Lucario-0 @ 0 (LevelUpFriendshipMorning) [0]
+
+
+======
+448 - Lucario (Stage: 2)
+======
+Galar Dex: #299
+Base Stats: 70.110.70.115.70.90 (BST: 525)
+EV Yield: 0.1.0.1.0.0
+Abilities: Steadfast (1) | Inner Focus (2) | Justified (H)
+Type: Fighting / Steel
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field / HumanLike
+Hatch Cycles: 25
+Height: 01.20 m, Weight: 054.0 kg, Color: Blue
+
+======
+449 - Hippopotas (Stage: 1)
+======
+Galar Dex: #314
+Base Stats: 68.72.78.38.42.32 (BST: 330)
+EV Yield: 0.0.1.0.0.0
+Abilities: Sand Stream (1) | Sand Stream (2) | Sand Force (H)
+Type: Ground
+Items: None
+EXP Group: Slow
+Egg Group: Field
+Hatch Cycles: 30
+Height: 00.80 m, Weight: 049.5 kg, Color: Brown
+Evolves into Hippowdon-0 @ 34 (LevelUp) [0]
+
+
+======
+450 - Hippowdon (Stage: 2)
+======
+Galar Dex: #315
+Base Stats: 108.112.118.68.72.47 (BST: 525)
+EV Yield: 0.0.2.0.0.0
+Abilities: Sand Stream (1) | Sand Stream (2) | Sand Force (H)
+Type: Ground
+Items: None
+EXP Group: Slow
+Egg Group: Field
+Hatch Cycles: 30
+Height: 02.00 m, Weight: 300.0 kg, Color: Brown
+
+======
+451 - Skorupi (Stage: 1)
+======
+Galar Dex: #285
+Base Stats: 40.50.90.30.55.65 (BST: 330)
+EV Yield: 0.0.1.0.0.0
+Abilities: Battle Armor (1) | Sniper (2) | Keen Eye (H)
+Type: Poison / Bug
+Item 1 (50%): None
+Item 2 (5%): Poison Barb
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Bug / Water3
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 012.0 kg, Color: Purple
+Evolves into Drapion-0 @ 40 (LevelUp) [0]
+
+
+======
+452 - Drapion (Stage: 2)
+======
+Galar Dex: #286
+Base Stats: 70.90.110.60.75.95 (BST: 500)
+EV Yield: 0.0.2.0.0.0
+Abilities: Battle Armor (1) | Sniper (2) | Keen Eye (H)
+Type: Poison / Dark
+Item 1 (50%): None
+Item 2 (5%): Poison Barb
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Bug / Water3
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 061.5 kg, Color: Purple
+
+======
+453 - Croagunk (Stage: 1)
+======
+Galar Dex: #222
+Base Stats: 48.61.40.61.40.50 (BST: 300)
+EV Yield: 0.1.0.0.0.0
+Abilities: Anticipation (1) | Dry Skin (2) | Poison Touch (H)
+Type: Poison / Fighting
+Item 1 (50%): None
+Item 2 (5%): Black Sludge
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 10
+Height: 00.70 m, Weight: 023.0 kg, Color: Blue
+Evolves into Toxicroak-0 @ 37 (LevelUp) [0]
+
+
+======
+454 - Toxicroak (Stage: 2)
+======
+Galar Dex: #223
+Base Stats: 83.106.65.86.65.85 (BST: 490)
+EV Yield: 0.2.0.0.0.0
+Abilities: Anticipation (1) | Dry Skin (2) | Poison Touch (H)
+Type: Poison / Fighting
+Item 1 (50%): None
+Item 2 (5%): Black Sludge
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 044.4 kg, Color: Blue
+
+======
+458 - Mantyke (Stage: 1)
+======
+Galar Dex: #354
+Base Stats: 45.20.50.60.120.50 (BST: 345)
+EV Yield: 0.0.0.0.1.0
+Abilities: Swift Swim (1) | Water Absorb (2) | Water Veil (H)
+Type: Water / Flying
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 25
+Height: 01.00 m, Weight: 065.0 kg, Color: Blue
+Evolves into Mantine-0 @ 0 (LevelUpWithTeammate) [223]
+
+
+======
+459 - Snover (Stage: 1)
+======
+Galar Dex: #96
+Base Stats: 60.62.50.62.60.40 (BST: 334)
+EV Yield: 0.1.0.0.0.0
+Abilities: Snow Warning (1) | Snow Warning (2) | Soundproof (H)
+Type: Grass / Ice
+Item 1 (50%): None
+Item 2 (5%): Never-Melt Ice
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Monster / Grass
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 050.5 kg, Color: White
+Evolves into Abomasnow-0 @ 40 (LevelUp) [0]
+
+
+======
+460 - Abomasnow (Stage: 2)
+======
+Galar Dex: #97
+Base Stats: 90.92.75.92.85.60 (BST: 494)
+EV Yield: 0.1.0.1.0.0
+Abilities: Snow Warning (1) | Snow Warning (2) | Soundproof (H)
+Type: Grass / Ice
+Item 1 (50%): None
+Item 2 (5%): Never-Melt Ice
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Monster / Grass
+Hatch Cycles: 20
+Height: 02.20 m, Weight: 135.5 kg, Color: White
+
+======
+461 - Weavile (Stage: 2)
+======
+Galar Dex: #293
+Base Stats: 70.120.65.45.85.125 (BST: 510)
+EV Yield: 0.1.0.0.0.1
+Abilities: Pressure (1) | Pressure (2) | Pickpocket (H)
+Type: Dark / Ice
+Item 1 (50%): None
+Item 2 (5%): Quick Claw
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.10 m, Weight: 034.0 kg, Color: Black
+
+======
+464 - Rhyperior (Stage: 3)
+======
+Galar Dex: #266
+Base Stats: 115.140.130.55.55.40 (BST: 535)
+EV Yield: 0.3.0.0.0.0
+Abilities: Lightning Rod (1) | Solid Rock (2) | Reckless (H)
+Type: Ground / Rock
+Items: None
+EXP Group: Slow
+Egg Group: Monster / Field
+Hatch Cycles: 20
+Height: 02.40 m, Weight: 282.8 kg, Color: Gray
+
+======
+468 - Togekiss (Stage: 3)
+======
+Galar Dex: #259
+Base Stats: 85.50.95.120.115.80 (BST: 545)
+EV Yield: 0.0.0.2.1.0
+Abilities: Hustle (1) | Serene Grace (2) | Super Luck (H)
+Type: Fairy / Flying
+Items: None
+EXP Group: Fast
+Egg Group: Flying / Fairy
+Hatch Cycles: 10
+Height: 01.50 m, Weight: 038.0 kg, Color: White
+
+======
+470 - Leafeon (Stage: 2)
+======
+Galar Dex: #202
+Base Stats: 65.110.130.60.65.95 (BST: 525)
+EV Yield: 0.0.2.0.0.0
+Abilities: Leaf Guard (1) | Leaf Guard (2) | Chlorophyll (H)
+Type: Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 35
+Height: 01.00 m, Weight: 025.5 kg, Color: Green
+
+======
+471 - Glaceon (Stage: 2)
+======
+Galar Dex: #203
+Base Stats: 65.60.110.130.95.65 (BST: 525)
+EV Yield: 0.0.0.2.0.0
+Abilities: Snow Cloak (1) | Snow Cloak (2) | Ice Body (H)
+Type: Ice
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 35
+Height: 00.80 m, Weight: 025.9 kg, Color: Blue
+
+======
+473 - Mamoswine (Stage: 3)
+======
+Galar Dex: #77
+Base Stats: 110.130.80.70.60.80 (BST: 530)
+EV Yield: 0.3.0.0.0.0
+Abilities: Oblivious (1) | Snow Cloak (2) | Thick Fat (H)
+Type: Ice / Ground
+Items: None
+EXP Group: Slow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 02.50 m, Weight: 291.0 kg, Color: Brown
+
+======
+475 - Gallade (Stage: 3)
+======
+Galar Dex: #123
+Base Stats: 68.125.65.65.115.80 (BST: 518)
+EV Yield: 0.3.0.0.0.0
+Abilities: Steadfast (1) | Steadfast (2) | Justified (H)
+Type: Psychic / Fighting
+Items: None
+EXP Group: Slow
+Egg Group: HumanLike / Amorphous
+Hatch Cycles: 20
+Height: 01.60 m, Weight: 052.0 kg, Color: White
+
+======
+477 - Dusknoir (Stage: 3)
+======
+Galar Dex: #137
+Base Stats: 45.100.135.65.135.45 (BST: 525)
+EV Yield: 0.0.1.0.2.0
+Abilities: Pressure (1) | Pressure (2) | Frisk (H)
+Type: Ghost
+Item 1 (50%): None
+Item 2 (5%): Spell Tag
+Item 3 (1%): None
+EXP Group: Fast
+Egg Group: Amorphous
+Hatch Cycles: 25
+Height: 02.20 m, Weight: 106.6 kg, Color: Black
+
+======
+478 - Froslass (Stage: 2)
+======
+Galar Dex: #81
+Base Stats: 70.80.70.80.70.110 (BST: 480)
+EV Yield: 0.0.0.0.0.2
+Abilities: Snow Cloak (1) | Snow Cloak (2) | Cursed Body (H)
+Type: Ice / Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Mineral
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 026.6 kg, Color: White
+
+======
+479 - Rotom (Stage: 2)
+======
+Galar Dex: #372
+Base Stats: 50.50.77.95.77.91 (BST: 440)
+EV Yield: 0.0.0.1.0.1
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Electric / Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.3 kg, Color: Red
+
+======
+968 - Rotom 1 (Stage: 2)
+======
+Galar Dex: #372
+Base Stats: 50.65.107.105.107.86 (BST: 520)
+EV Yield: 0.0.0.1.0.1
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Electric / Fire
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.3 kg, Color: Red
+
+======
+969 - Rotom 2 (Stage: 2)
+======
+Galar Dex: #372
+Base Stats: 50.65.107.105.107.86 (BST: 520)
+EV Yield: 0.0.0.1.0.1
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Electric / Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.3 kg, Color: Red
+
+======
+970 - Rotom 3 (Stage: 2)
+======
+Galar Dex: #372
+Base Stats: 50.65.107.105.107.86 (BST: 520)
+EV Yield: 0.0.0.1.0.1
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Electric / Ice
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.3 kg, Color: Red
+
+======
+971 - Rotom 4 (Stage: 2)
+======
+Galar Dex: #372
+Base Stats: 50.65.107.105.107.86 (BST: 520)
+EV Yield: 0.0.0.1.0.1
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Electric / Flying
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.3 kg, Color: Red
+
+======
+972 - Rotom 5 (Stage: 2)
+======
+Galar Dex: #372
+Base Stats: 50.65.107.105.107.86 (BST: 520)
+EV Yield: 0.0.0.1.0.1
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Electric / Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.3 kg, Color: Red
+
+======
+509 - Purrloin (Stage: 1)
+======
+Galar Dex: #44
+Base Stats: 41.50.37.50.37.66 (BST: 281)
+EV Yield: 0.0.0.0.0.1
+Abilities: Limber (1) | Unburden (2) | Prankster (H)
+Type: Dark
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 010.1 kg, Color: Purple
+Evolves into Liepard-0 @ 20 (LevelUp) [0]
+
+
+======
+510 - Liepard (Stage: 2)
+======
+Galar Dex: #45
+Base Stats: 64.88.50.88.50.106 (BST: 446)
+EV Yield: 0.0.0.0.0.2
+Abilities: Limber (1) | Unburden (2) | Prankster (H)
+Type: Dark
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.10 m, Weight: 037.5 kg, Color: Purple
+
+======
+517 - Munna (Stage: 1)
+======
+Galar Dex: #90
+Base Stats: 76.25.45.67.55.24 (BST: 292)
+EV Yield: 1.0.0.0.0.0
+Abilities: Forewarn (1) | Synchronize (2) | Telepathy (H)
+Type: Psychic
+Items: None
+EXP Group: Fast
+Egg Group: Field
+Hatch Cycles: 10
+Height: 00.60 m, Weight: 023.3 kg, Color: Pink
+Evolves into Musharna-0 @ 0 (UseItem) [81]
+
+
+======
+518 - Musharna (Stage: 2)
+======
+Galar Dex: #91
+Base Stats: 116.55.85.107.95.29 (BST: 487)
+EV Yield: 2.0.0.0.0.0
+Abilities: Forewarn (1) | Synchronize (2) | Telepathy (H)
+Type: Psychic
+Items: None
+EXP Group: Fast
+Egg Group: Field
+Hatch Cycles: 10
+Height: 01.10 m, Weight: 060.5 kg, Color: Pink
+
+======
+519 - Pidove (Stage: 1)
+======
+Galar Dex: #26
+Base Stats: 50.55.50.36.30.43 (BST: 264)
+EV Yield: 0.1.0.0.0.0
+Abilities: Big Pecks (1) | Super Luck (2) | Rivalry (H)
+Type: Normal / Flying
+Items: None
+EXP Group: MediumSlow
+Egg Group: Flying
+Hatch Cycles: 15
+Height: 00.30 m, Weight: 002.1 kg, Color: Gray
+Evolves into Tranquill-0 @ 21 (LevelUp) [0]
+
+
+======
+520 - Tranquill (Stage: 2)
+======
+Galar Dex: #27
+Base Stats: 62.77.62.50.42.65 (BST: 358)
+EV Yield: 0.2.0.0.0.0
+Abilities: Big Pecks (1) | Super Luck (2) | Rivalry (H)
+Type: Normal / Flying
+Items: None
+EXP Group: MediumSlow
+Egg Group: Flying
+Hatch Cycles: 15
+Height: 00.60 m, Weight: 015.0 kg, Color: Gray
+Evolves into Unfezant-0 @ 32 (LevelUp) [0]
+
+
+======
+521 - Unfezant (Stage: 3)
+======
+Galar Dex: #28
+Base Stats: 80.115.80.65.55.93 (BST: 488)
+EV Yield: 0.3.0.0.0.0
+Abilities: Big Pecks (1) | Super Luck (2) | Rivalry (H)
+Type: Normal / Flying
+Items: None
+EXP Group: MediumSlow
+Egg Group: Flying
+Hatch Cycles: 15
+Height: 01.20 m, Weight: 029.0 kg, Color: Gray
+
+======
+524 - Roggenrola (Stage: 1)
+======
+Galar Dex: #168
+Base Stats: 55.75.85.25.25.15 (BST: 280)
+EV Yield: 0.0.1.0.0.0
+Abilities: Sturdy (1) | Weak Armor (2) | Sand Force (H)
+Type: Rock
+Item 1 (50%): Everstone
+Item 2 (5%): Hard Stone
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Mineral
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 018.0 kg, Color: Blue
+Evolves into Boldore-0 @ 25 (LevelUp) [0]
+
+
+======
+525 - Boldore (Stage: 2)
+======
+Galar Dex: #169
+Base Stats: 70.105.105.50.40.20 (BST: 390)
+EV Yield: 0.1.1.0.0.0
+Abilities: Sturdy (1) | Weak Armor (2) | Sand Force (H)
+Type: Rock
+Item 1 (50%): Everstone
+Item 2 (5%): Hard Stone
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Mineral
+Hatch Cycles: 15
+Height: 00.90 m, Weight: 102.0 kg, Color: Blue
+Evolves into Gigalith-0 @ 0 (Trade) [0]
+
+
+======
+526 - Gigalith (Stage: 3)
+======
+Galar Dex: #170
+Base Stats: 85.135.130.60.80.25 (BST: 515)
+EV Yield: 0.3.0.0.0.0
+Abilities: Sturdy (1) | Sand Stream (2) | Sand Force (H)
+Type: Rock
+Item 1 (50%): Everstone
+Item 2 (5%): Hard Stone
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Mineral
+Hatch Cycles: 15
+Height: 01.70 m, Weight: 260.0 kg, Color: Blue
+
+======
+527 - Woobat (Stage: 1)
+======
+Galar Dex: #174
+Base Stats: 65.45.43.55.43.72 (BST: 323)
+EV Yield: 0.0.0.0.0.1
+Abilities: Unaware (1) | Klutz (2) | Simple (H)
+Type: Psychic / Flying
+Items: None
+EXP Group: MediumFast
+Egg Group: Field / Flying
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 002.1 kg, Color: Blue
+Evolves into Swoobat-0 @ 0 (LevelUpFriendship) [0]
+
+
+======
+528 - Swoobat (Stage: 2)
+======
+Galar Dex: #175
+Base Stats: 67.57.55.77.55.114 (BST: 425)
+EV Yield: 0.0.0.0.0.2
+Abilities: Unaware (1) | Klutz (2) | Simple (H)
+Type: Psychic / Flying
+Items: None
+EXP Group: MediumFast
+Egg Group: Field / Flying
+Hatch Cycles: 15
+Height: 00.90 m, Weight: 010.5 kg, Color: Blue
+
+======
+529 - Drilbur (Stage: 1)
+======
+Galar Dex: #166
+Base Stats: 60.85.40.30.45.68 (BST: 328)
+EV Yield: 0.1.0.0.0.0
+Abilities: Sand Rush (1) | Sand Force (2) | Mold Breaker (H)
+Type: Ground
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 008.5 kg, Color: Gray
+Evolves into Excadrill-0 @ 31 (LevelUp) [0]
+
+
+======
+530 - Excadrill (Stage: 2)
+======
+Galar Dex: #167
+Base Stats: 110.135.60.50.65.88 (BST: 508)
+EV Yield: 0.2.0.0.0.0
+Abilities: Sand Rush (1) | Sand Force (2) | Mold Breaker (H)
+Type: Ground / Steel
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 040.4 kg, Color: Gray
+
+======
+532 - Timburr (Stage: 1)
+======
+Galar Dex: #171
+Base Stats: 75.80.55.25.35.35 (BST: 305)
+EV Yield: 0.1.0.0.0.0
+Abilities: Guts (1) | Sheer Force (2) | Iron Fist (H)
+Type: Fighting
+Items: None
+EXP Group: MediumSlow
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 012.5 kg, Color: Gray
+Evolves into Gurdurr-0 @ 25 (LevelUp) [0]
+
+
+======
+533 - Gurdurr (Stage: 2)
+======
+Galar Dex: #172
+Base Stats: 85.105.85.40.50.40 (BST: 405)
+EV Yield: 0.2.0.0.0.0
+Abilities: Guts (1) | Sheer Force (2) | Iron Fist (H)
+Type: Fighting
+Items: None
+EXP Group: MediumSlow
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 01.20 m, Weight: 040.0 kg, Color: Gray
+Evolves into Conkeldurr-0 @ 0 (Trade) [0]
+
+
+======
+534 - Conkeldurr (Stage: 3)
+======
+Galar Dex: #173
+Base Stats: 105.140.95.55.65.45 (BST: 505)
+EV Yield: 0.3.0.0.0.0
+Abilities: Guts (1) | Sheer Force (2) | Iron Fist (H)
+Type: Fighting
+Items: None
+EXP Group: MediumSlow
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 01.40 m, Weight: 087.0 kg, Color: Brown
+
+======
+535 - Tympole (Stage: 1)
+======
+Galar Dex: #132
+Base Stats: 50.50.40.50.40.64 (BST: 294)
+EV Yield: 0.0.0.0.0.1
+Abilities: Swift Swim (1) | Hydration (2) | Water Absorb (H)
+Type: Water
+Items: None
+EXP Group: MediumSlow
+Egg Group: Water1
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 004.5 kg, Color: Blue
+Evolves into Palpitoad-0 @ 25 (LevelUp) [0]
+
+
+======
+536 - Palpitoad (Stage: 2)
+======
+Galar Dex: #133
+Base Stats: 75.65.55.65.55.69 (BST: 384)
+EV Yield: 2.0.0.0.0.0
+Abilities: Swift Swim (1) | Hydration (2) | Water Absorb (H)
+Type: Water / Ground
+Items: None
+EXP Group: MediumSlow
+Egg Group: Water1
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 017.0 kg, Color: Blue
+Evolves into Seismitoad-0 @ 36 (LevelUp) [0]
+
+
+======
+537 - Seismitoad (Stage: 3)
+======
+Galar Dex: #134
+Base Stats: 105.95.75.85.75.74 (BST: 509)
+EV Yield: 3.0.0.0.0.0
+Abilities: Swift Swim (1) | Poison Touch (2) | Water Absorb (H)
+Type: Water / Ground
+Items: None
+EXP Group: MediumSlow
+Egg Group: Water1
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 062.0 kg, Color: Blue
+
+======
+538 - Throh (Stage: 2)
+======
+Galar Dex: #248
+Base Stats: 120.100.85.30.85.45 (BST: 465)
+EV Yield: 2.0.0.0.0.0
+Abilities: Guts (1) | Inner Focus (2) | Mold Breaker (H)
+Type: Fighting
+Item 1 (50%): None
+Item 2 (5%): Black Belt
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 055.5 kg, Color: Red
+
+======
+539 - Sawk (Stage: 2)
+======
+Galar Dex: #249
+Base Stats: 75.125.75.30.75.85 (BST: 465)
+EV Yield: 0.2.0.0.0.0
+Abilities: Sturdy (1) | Inner Focus (2) | Mold Breaker (H)
+Type: Fighting
+Item 1 (50%): None
+Item 2 (5%): Black Belt
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 01.40 m, Weight: 051.0 kg, Color: Blue
+
+======
+546 - Cottonee (Stage: 1)
+======
+Galar Dex: #262
+Base Stats: 40.27.60.37.50.66 (BST: 280)
+EV Yield: 0.0.0.0.0.1
+Abilities: Prankster (1) | Infiltrator (2) | Chlorophyll (H)
+Type: Grass / Fairy
+Item 1 (50%): None
+Item 2 (5%): Absorb Bulb
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Grass / Fairy
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.6 kg, Color: Green
+Evolves into Whimsicott-0 @ 0 (UseItem) [80]
+
+
+======
+547 - Whimsicott (Stage: 2)
+======
+Galar Dex: #263
+Base Stats: 60.67.85.77.75.116 (BST: 480)
+EV Yield: 0.0.0.0.0.2
+Abilities: Prankster (1) | Infiltrator (2) | Chlorophyll (H)
+Type: Grass / Fairy
+Item 1 (50%): None
+Item 2 (5%): Absorb Bulb
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Grass / Fairy
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 006.6 kg, Color: Green
+
+======
+550 - Basculin (Stage: 2)
+======
+Galar Dex: #154
+Base Stats: 70.92.65.80.55.98 (BST: 460)
+EV Yield: 0.0.0.0.0.2
+Abilities: Reckless (1) | Adaptability (2) | Mold Breaker (H)
+Type: Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water2
+Hatch Cycles: 40
+Height: 01.00 m, Weight: 018.0 kg, Color: Green
+
+======
+992 - Basculin 1 (Stage: 2)
+======
+Galar Dex: #154
+Base Stats: 70.92.65.80.55.98 (BST: 460)
+EV Yield: 0.0.0.0.0.2
+Abilities: Rock Head (1) | Adaptability (2) | Mold Breaker (H)
+Type: Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water2
+Hatch Cycles: 40
+Height: 01.00 m, Weight: 018.0 kg, Color: Green
+
+======
+554 - Darumaka (Stage: 1)
+======
+Galar Dex: #367
+Base Stats: 70.90.45.15.45.50 (BST: 315)
+EV Yield: 0.1.0.0.0.0
+Abilities: Hustle (1) | Hustle (2) | Inner Focus (H)
+Type: Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 037.5 kg, Color: Red
+Evolves into Darmanitan-0 @ 35 (LevelUp) [0]
+
+
+======
+993 - Darumaka 1 (Stage: 1)
+======
+Galar Dex: #367
+Base Stats: 70.90.45.15.45.50 (BST: 315)
+EV Yield: 0.1.0.0.0.0
+Abilities: Hustle (1) | Hustle (2) | Inner Focus (H)
+Type: Ice
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 040.0 kg, Color: White
+Evolves into Darmanitan-2 @ 0 (UseItem) [849]
+
+
+======
+555 - Darmanitan (Stage: 2)
+======
+Galar Dex: #368
+Base Stats: 105.140.55.30.55.95 (BST: 480)
+EV Yield: 0.2.0.0.0.0
+Abilities: Sheer Force (1) | Sheer Force (2) | Zen Mode (H)
+Type: Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 092.9 kg, Color: Red
+
+======
+994 - Darmanitan 1 (Stage: 2)
+======
+Galar Dex: #368
+Base Stats: 105.30.105.140.105.55 (BST: 540)
+EV Yield: 0.0.0.2.0.0
+Abilities: Sheer Force (1) | Sheer Force (2) | Zen Mode (H)
+Type: Fire / Psychic
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 092.9 kg, Color: Blue
+
+======
+995 - Darmanitan 2 (Stage: 2)
+======
+Galar Dex: #368
+Base Stats: 105.140.55.30.55.95 (BST: 480)
+EV Yield: 0.2.0.0.0.0
+Abilities: Gorilla Tactics (1) | Gorilla Tactics (2) | Zen Mode (H)
+Type: Ice
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.70 m, Weight: 120.0 kg, Color: White
+
+======
+996 - Darmanitan 3 (Stage: 2)
+======
+Galar Dex: #368
+Base Stats: 105.160.55.30.55.135 (BST: 540)
+EV Yield: 0.0.0.2.0.0
+Abilities: Gorilla Tactics (1) | Gorilla Tactics (2) | Zen Mode (H)
+Type: Ice / Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.70 m, Weight: 120.0 kg, Color: White
+
+======
+556 - Maractus (Stage: 2)
+======
+Galar Dex: #296
+Base Stats: 75.86.67.106.67.60 (BST: 461)
+EV Yield: 0.0.0.2.0.0
+Abilities: Water Absorb (1) | Chlorophyll (2) | Storm Drain (H)
+Type: Grass
+Item 1 (50%): None
+Item 2 (5%): Miracle Seed
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Grass
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 028.0 kg, Color: Green
+
+======
+557 - Dwebble (Stage: 1)
+======
+Galar Dex: #86
+Base Stats: 50.65.85.35.35.55 (BST: 325)
+EV Yield: 0.0.1.0.0.0
+Abilities: Sturdy (1) | Shell Armor (2) | Weak Armor (H)
+Type: Bug / Rock
+Item 1 (50%): None
+Item 2 (5%): Hard Stone
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Bug / Mineral
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 014.5 kg, Color: Red
+Evolves into Crustle-0 @ 34 (LevelUp) [0]
+
+
+======
+558 - Crustle (Stage: 2)
+======
+Galar Dex: #87
+Base Stats: 70.105.125.65.75.45 (BST: 485)
+EV Yield: 0.0.2.0.0.0
+Abilities: Sturdy (1) | Shell Armor (2) | Weak Armor (H)
+Type: Bug / Rock
+Item 1 (50%): None
+Item 2 (5%): Hard Stone
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Bug / Mineral
+Hatch Cycles: 20
+Height: 01.40 m, Weight: 200.0 kg, Color: Red
+
+======
+559 - Scraggy (Stage: 1)
+======
+Galar Dex: #224
+Base Stats: 50.75.70.35.70.48 (BST: 348)
+EV Yield: 0.1.0.0.0.0
+Abilities: Shed Skin (1) | Moxie (2) | Intimidate (H)
+Type: Dark / Fighting
+Item 1 (50%): None
+Item 2 (5%): Shed Shell
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field / Dragon
+Hatch Cycles: 15
+Height: 00.60 m, Weight: 011.8 kg, Color: Yellow
+Evolves into Scrafty-0 @ 39 (LevelUp) [0]
+
+
+======
+560 - Scrafty (Stage: 2)
+======
+Galar Dex: #225
+Base Stats: 65.90.115.45.115.58 (BST: 488)
+EV Yield: 0.0.1.0.1.0
+Abilities: Shed Skin (1) | Moxie (2) | Intimidate (H)
+Type: Dark / Fighting
+Item 1 (50%): None
+Item 2 (5%): Shed Shell
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field / Dragon
+Hatch Cycles: 15
+Height: 01.10 m, Weight: 030.0 kg, Color: Red
+
+======
+561 - Sigilyph (Stage: 2)
+======
+Galar Dex: #297
+Base Stats: 72.58.80.103.80.97 (BST: 490)
+EV Yield: 0.0.0.2.0.0
+Abilities: Wonder Skin (1) | Magic Guard (2) | Tinted Lens (H)
+Type: Psychic / Flying
+Items: None
+EXP Group: MediumFast
+Egg Group: Flying
+Hatch Cycles: 20
+Height: 01.40 m, Weight: 014.0 kg, Color: Black
+
+======
+562 - Yamask (Stage: 1)
+======
+Galar Dex: #327
+Base Stats: 38.30.85.55.65.30 (BST: 303)
+EV Yield: 0.0.1.0.0.0
+Abilities: Mummy (1) | Mummy (2) | Mummy (H)
+Type: Ghost
+Item 1 (50%): None
+Item 2 (5%): Spell Tag
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Mineral / Amorphous
+Hatch Cycles: 25
+Height: 00.50 m, Weight: 001.5 kg, Color: Black
+Evolves into Cofagrigus-0 @ 34 (LevelUp) [0]
+
+
+======
+997 - Yamask 1 (Stage: 1)
+======
+Galar Dex: #327
+Base Stats: 38.55.85.30.65.30 (BST: 303)
+EV Yield: 0.0.1.0.0.0
+Abilities: Wandering Spirit (1) | Wandering Spirit (2) | Wandering Spirit (H)
+Type: Ground / Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral / Amorphous
+Hatch Cycles: 25
+Height: 00.50 m, Weight: 001.5 kg, Color: Black
+Evolves into Runerigus-0 @ 0 (U44) [49]
+
+
+======
+563 - Cofagrigus (Stage: 2)
+======
+Galar Dex: #329
+Base Stats: 58.50.145.95.105.30 (BST: 483)
+EV Yield: 0.0.2.0.0.0
+Abilities: Mummy (1) | Mummy (2) | Mummy (H)
+Type: Ghost
+Item 1 (50%): None
+Item 2 (5%): Spell Tag
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Mineral / Amorphous
+Hatch Cycles: 25
+Height: 01.70 m, Weight: 076.5 kg, Color: Yellow
+
+======
+568 - Trubbish (Stage: 1)
+======
+Galar Dex: #157
+Base Stats: 50.50.62.40.62.65 (BST: 329)
+EV Yield: 0.0.0.0.0.1
+Abilities: Stench (1) | Sticky Hold (2) | Aftermath (H)
+Type: Poison
+Item 1 (50%): None
+Item 2 (5%): Silk Scarf
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 031.0 kg, Color: Green
+Evolves into Garbodor-0 @ 36 (LevelUp) [0]
+
+
+======
+569 - Garbodor (Stage: 2)
+======
+Galar Dex: #158
+Base Stats: 80.95.82.60.82.75 (BST: 474)
+EV Yield: 0.2.0.0.0.0
+Abilities: Stench (1) | Weak Armor (2) | Aftermath (H)
+Type: Poison
+Item 1 (50%): Silk Scarf
+Item 2 (5%): Black Sludge
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 01.90 m, Weight: 107.3 kg, Color: Green
+
+======
+572 - Minccino (Stage: 1)
+======
+Galar Dex: #50
+Base Stats: 55.50.40.40.40.75 (BST: 300)
+EV Yield: 0.0.0.0.0.1
+Abilities: Cute Charm (1) | Technician (2) | Skill Link (H)
+Type: Normal
+Items: None
+EXP Group: Fast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 005.8 kg, Color: Gray
+Evolves into Cinccino-0 @ 0 (UseItem) [107]
+
+
+======
+573 - Cinccino (Stage: 2)
+======
+Galar Dex: #51
+Base Stats: 75.95.60.65.60.115 (BST: 470)
+EV Yield: 0.0.0.0.0.2
+Abilities: Cute Charm (1) | Technician (2) | Skill Link (H)
+Type: Normal
+Items: None
+EXP Group: Fast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 00.50 m, Weight: 007.5 kg, Color: Gray
+
+======
+574 - Gothita (Stage: 1)
+======
+Galar Dex: #267
+Base Stats: 45.30.50.55.65.45 (BST: 290)
+EV Yield: 0.0.0.0.1.0
+Abilities: Frisk (1) | Competitive (2) | Shadow Tag (H)
+Type: Psychic
+Items: None
+EXP Group: MediumSlow
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 005.8 kg, Color: Purple
+Evolves into Gothorita-0 @ 32 (LevelUp) [0]
+
+
+======
+575 - Gothorita (Stage: 2)
+======
+Galar Dex: #268
+Base Stats: 60.45.70.75.85.55 (BST: 390)
+EV Yield: 0.0.0.0.2.0
+Abilities: Frisk (1) | Competitive (2) | Shadow Tag (H)
+Type: Psychic
+Items: None
+EXP Group: MediumSlow
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 018.0 kg, Color: Purple
+Evolves into Gothitelle-0 @ 41 (LevelUp) [0]
+
+
+======
+576 - Gothitelle (Stage: 3)
+======
+Galar Dex: #269
+Base Stats: 70.55.95.95.110.65 (BST: 490)
+EV Yield: 0.0.0.0.3.0
+Abilities: Frisk (1) | Competitive (2) | Shadow Tag (H)
+Type: Psychic
+Items: None
+EXP Group: MediumSlow
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 044.0 kg, Color: Purple
+
+======
+577 - Solosis (Stage: 1)
+======
+Galar Dex: #270
+Base Stats: 45.30.40.105.50.20 (BST: 290)
+EV Yield: 0.0.0.1.0.0
+Abilities: Overcoat (1) | Magic Guard (2) | Regenerator (H)
+Type: Psychic
+Items: None
+EXP Group: MediumSlow
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 001.0 kg, Color: Green
+Evolves into Duosion-0 @ 32 (LevelUp) [0]
+
+
+======
+578 - Duosion (Stage: 2)
+======
+Galar Dex: #271
+Base Stats: 65.40.50.125.60.30 (BST: 370)
+EV Yield: 0.0.0.2.0.0
+Abilities: Overcoat (1) | Magic Guard (2) | Regenerator (H)
+Type: Psychic
+Items: None
+EXP Group: MediumSlow
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 008.0 kg, Color: Green
+Evolves into Reuniclus-0 @ 41 (LevelUp) [0]
+
+
+======
+579 - Reuniclus (Stage: 3)
+======
+Galar Dex: #272
+Base Stats: 110.65.75.125.85.30 (BST: 490)
+EV Yield: 0.0.0.3.0.0
+Abilities: Overcoat (1) | Magic Guard (2) | Regenerator (H)
+Type: Psychic
+Items: None
+EXP Group: MediumSlow
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 020.1 kg, Color: Green
+
+======
+582 - Vanillite (Stage: 1)
+======
+Galar Dex: #72
+Base Stats: 36.50.50.65.60.44 (BST: 305)
+EV Yield: 0.0.0.1.0.0
+Abilities: Ice Body (1) | Snow Cloak (2) | Weak Armor (H)
+Type: Ice
+Item 1 (50%): None
+Item 2 (5%): Never-Melt Ice
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 005.7 kg, Color: White
+Evolves into Vanillish-0 @ 35 (LevelUp) [0]
+
+
+======
+583 - Vanillish (Stage: 2)
+======
+Galar Dex: #73
+Base Stats: 51.65.65.80.75.59 (BST: 395)
+EV Yield: 0.0.0.2.0.0
+Abilities: Ice Body (1) | Snow Cloak (2) | Weak Armor (H)
+Type: Ice
+Item 1 (50%): None
+Item 2 (5%): Never-Melt Ice
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 01.10 m, Weight: 041.0 kg, Color: White
+Evolves into Vanilluxe-0 @ 47 (LevelUp) [0]
+
+
+======
+584 - Vanilluxe (Stage: 3)
+======
+Galar Dex: #74
+Base Stats: 71.95.85.110.95.79 (BST: 535)
+EV Yield: 0.0.0.3.0.0
+Abilities: Ice Body (1) | Snow Warning (2) | Weak Armor (H)
+Type: Ice
+Item 1 (50%): Never-Melt Ice
+Item 2 (5%): None
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 057.5 kg, Color: White
+
+======
+588 - Karrablast (Stage: 1)
+======
+Galar Dex: #273
+Base Stats: 50.75.45.40.45.60 (BST: 315)
+EV Yield: 0.1.0.0.0.0
+Abilities: Swarm (1) | Shed Skin (2) | No Guard (H)
+Type: Bug
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.50 m, Weight: 005.9 kg, Color: Blue
+Evolves into Escavalier-0 @ 0 (TradeSpecies) [0]
+
+
+======
+589 - Escavalier (Stage: 2)
+======
+Galar Dex: #274
+Base Stats: 70.135.105.60.105.20 (BST: 495)
+EV Yield: 0.2.0.0.0.0
+Abilities: Swarm (1) | Shell Armor (2) | Overcoat (H)
+Type: Bug / Steel
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 01.00 m, Weight: 033.0 kg, Color: Gray
+
+======
+592 - Frillish (Stage: 1)
+======
+Galar Dex: #305
+Base Stats: 55.40.50.65.85.40 (BST: 335)
+EV Yield: 0.0.0.0.1.0
+Abilities: Water Absorb (1) | Cursed Body (2) | Damp (H)
+Type: Water / Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 01.20 m, Weight: 033.0 kg, Color: White
+Evolves into Jellicent-0 @ 40 (LevelUp) [0]
+
+
+======
+593 - Jellicent (Stage: 2)
+======
+Galar Dex: #306
+Base Stats: 100.60.70.85.105.60 (BST: 480)
+EV Yield: 0.0.0.0.2.0
+Abilities: Water Absorb (1) | Cursed Body (2) | Damp (H)
+Type: Water / Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 02.20 m, Weight: 135.0 kg, Color: White
+
+======
+595 - Joltik (Stage: 1)
+======
+Galar Dex: #64
+Base Stats: 50.47.50.57.50.65 (BST: 319)
+EV Yield: 0.0.0.0.0.1
+Abilities: Compound Eyes (1) | Unnerve (2) | Swarm (H)
+Type: Bug / Electric
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 20
+Height: 00.10 m, Weight: 000.6 kg, Color: Yellow
+Evolves into Galvantula-0 @ 36 (LevelUp) [0]
+
+
+======
+596 - Galvantula (Stage: 2)
+======
+Galar Dex: #65
+Base Stats: 70.77.60.97.60.108 (BST: 472)
+EV Yield: 0.0.0.0.0.2
+Abilities: Compound Eyes (1) | Unnerve (2) | Swarm (H)
+Type: Bug / Electric
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 014.3 kg, Color: Yellow
+
+======
+597 - Ferroseed (Stage: 1)
+======
+Galar Dex: #189
+Base Stats: 44.50.91.24.86.10 (BST: 305)
+EV Yield: 0.0.1.0.0.0
+Abilities: Iron Barbs (1) | Iron Barbs (2) | Iron Barbs (H)
+Type: Grass / Steel
+Item 1 (50%): None
+Item 2 (5%): Sticky Barb
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Grass / Mineral
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 018.8 kg, Color: Gray
+Evolves into Ferrothorn-0 @ 40 (LevelUp) [0]
+
+
+======
+598 - Ferrothorn (Stage: 2)
+======
+Galar Dex: #190
+Base Stats: 74.94.131.54.116.20 (BST: 489)
+EV Yield: 0.0.2.0.0.0
+Abilities: Iron Barbs (1) | Iron Barbs (2) | Anticipation (H)
+Type: Grass / Steel
+Item 1 (50%): None
+Item 2 (5%): Sticky Barb
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Grass / Mineral
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 110.0 kg, Color: Gray
+
+======
+599 - Klink (Stage: 1)
+======
+Galar Dex: #113
+Base Stats: 40.55.70.45.60.30 (BST: 300)
+EV Yield: 0.0.1.0.0.0
+Abilities: Plus (1) | Minus (2) | Clear Body (H)
+Type: Steel
+Items: None
+EXP Group: MediumSlow
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 021.0 kg, Color: Gray
+Evolves into Klang-0 @ 38 (LevelUp) [0]
+
+
+======
+600 - Klang (Stage: 2)
+======
+Galar Dex: #114
+Base Stats: 60.80.95.70.85.50 (BST: 440)
+EV Yield: 0.0.2.0.0.0
+Abilities: Plus (1) | Minus (2) | Clear Body (H)
+Type: Steel
+Items: None
+EXP Group: MediumSlow
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 051.0 kg, Color: Gray
+Evolves into Klinklang-0 @ 49 (LevelUp) [0]
+
+
+======
+601 - Klinklang (Stage: 3)
+======
+Galar Dex: #115
+Base Stats: 60.100.115.70.85.90 (BST: 520)
+EV Yield: 0.0.3.0.0.0
+Abilities: Plus (1) | Minus (2) | Clear Body (H)
+Type: Steel
+Items: None
+EXP Group: MediumSlow
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 081.0 kg, Color: Gray
+
+======
+605 - Elgyem (Stage: 1)
+======
+Galar Dex: #277
+Base Stats: 55.55.55.85.55.30 (BST: 335)
+EV Yield: 0.0.0.1.0.0
+Abilities: Telepathy (1) | Synchronize (2) | Analytic (H)
+Type: Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 009.0 kg, Color: Blue
+Evolves into Beheeyem-0 @ 42 (LevelUp) [0]
+
+
+======
+606 - Beheeyem (Stage: 2)
+======
+Galar Dex: #278
+Base Stats: 75.75.75.125.95.40 (BST: 485)
+EV Yield: 0.0.0.2.0.0
+Abilities: Telepathy (1) | Synchronize (2) | Analytic (H)
+Type: Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 034.5 kg, Color: Brown
+
+======
+607 - Litwick (Stage: 1)
+======
+Galar Dex: #287
+Base Stats: 50.30.55.65.55.20 (BST: 275)
+EV Yield: 0.0.0.1.0.0
+Abilities: Flash Fire (1) | Flame Body (2) | Infiltrator (H)
+Type: Ghost / Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 003.1 kg, Color: White
+Evolves into Lampent-0 @ 41 (LevelUp) [0]
+
+
+======
+608 - Lampent (Stage: 2)
+======
+Galar Dex: #288
+Base Stats: 60.40.60.95.60.55 (BST: 370)
+EV Yield: 0.0.0.2.0.0
+Abilities: Flash Fire (1) | Flame Body (2) | Infiltrator (H)
+Type: Ghost / Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 013.0 kg, Color: Black
+Evolves into Chandelure-0 @ 0 (UseItem) [108]
+
+
+======
+609 - Chandelure (Stage: 3)
+======
+Galar Dex: #289
+Base Stats: 60.55.90.145.90.80 (BST: 520)
+EV Yield: 0.0.0.3.0.0
+Abilities: Flash Fire (1) | Flame Body (2) | Infiltrator (H)
+Type: Ghost / Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 034.3 kg, Color: Black
+
+======
+610 - Axew (Stage: 1)
+======
+Galar Dex: #324
+Base Stats: 46.87.60.30.40.57 (BST: 320)
+EV Yield: 0.1.0.0.0.0
+Abilities: Rivalry (1) | Mold Breaker (2) | Unnerve (H)
+Type: Dragon
+Items: None
+EXP Group: Slow
+Egg Group: Monster / Dragon
+Hatch Cycles: 40
+Height: 00.60 m, Weight: 018.0 kg, Color: Green
+Evolves into Fraxure-0 @ 38 (LevelUp) [0]
+
+
+======
+611 - Fraxure (Stage: 2)
+======
+Galar Dex: #325
+Base Stats: 66.117.70.40.50.67 (BST: 410)
+EV Yield: 0.2.0.0.0.0
+Abilities: Rivalry (1) | Mold Breaker (2) | Unnerve (H)
+Type: Dragon
+Items: None
+EXP Group: Slow
+Egg Group: Monster / Dragon
+Hatch Cycles: 40
+Height: 01.00 m, Weight: 036.0 kg, Color: Green
+Evolves into Haxorus-0 @ 48 (LevelUp) [0]
+
+
+======
+612 - Haxorus (Stage: 3)
+======
+Galar Dex: #326
+Base Stats: 76.147.90.60.70.97 (BST: 540)
+EV Yield: 0.3.0.0.0.0
+Abilities: Rivalry (1) | Mold Breaker (2) | Unnerve (H)
+Type: Dragon
+Items: None
+EXP Group: Slow
+Egg Group: Monster / Dragon
+Hatch Cycles: 40
+Height: 01.80 m, Weight: 105.5 kg, Color: Yellow
+
+======
+613 - Cubchoo (Stage: 1)
+======
+Galar Dex: #279
+Base Stats: 55.70.40.60.40.40 (BST: 305)
+EV Yield: 0.1.0.0.0.0
+Abilities: Snow Cloak (1) | Slush Rush (2) | Rattled (H)
+Type: Ice
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 008.5 kg, Color: White
+Evolves into Beartic-0 @ 37 (LevelUp) [0]
+
+
+======
+614 - Beartic (Stage: 2)
+======
+Galar Dex: #280
+Base Stats: 95.130.80.70.80.50 (BST: 505)
+EV Yield: 0.2.0.0.0.0
+Abilities: Snow Cloak (1) | Slush Rush (2) | Swift Swim (H)
+Type: Ice
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 02.60 m, Weight: 260.0 kg, Color: White
+
+======
+616 - Shelmet (Stage: 1)
+======
+Galar Dex: #275
+Base Stats: 50.40.85.40.65.25 (BST: 305)
+EV Yield: 0.0.1.0.0.0
+Abilities: Hydration (1) | Shell Armor (2) | Overcoat (H)
+Type: Bug
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 007.7 kg, Color: Red
+Evolves into Accelgor-0 @ 0 (TradeSpecies) [0]
+
+
+======
+617 - Accelgor (Stage: 2)
+======
+Galar Dex: #276
+Base Stats: 80.70.40.100.60.145 (BST: 495)
+EV Yield: 0.0.0.0.0.2
+Abilities: Hydration (1) | Sticky Hold (2) | Unburden (H)
+Type: Bug
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.80 m, Weight: 025.3 kg, Color: Red
+
+======
+618 - Stunfisk (Stage: 2)
+======
+Galar Dex: #226
+Base Stats: 109.66.84.81.99.32 (BST: 471)
+EV Yield: 2.0.0.0.0.0
+Abilities: Static (1) | Limber (2) | Sand Veil (H)
+Type: Ground / Electric
+Item 1 (50%): None
+Item 2 (5%): Soft Sand
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Water1 / Amorphous
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 011.0 kg, Color: Brown
+
+======
+1004 - Stunfisk 1 (Stage: 2)
+======
+Galar Dex: #226
+Base Stats: 109.81.99.66.84.32 (BST: 471)
+EV Yield: 2.0.0.0.0.0
+Abilities: Mimicry (1) | Mimicry (2) | Mimicry (H)
+Type: Ground / Steel
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Amorphous
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 020.5 kg, Color: Green
+
+======
+622 - Golett (Stage: 1)
+======
+Galar Dex: #88
+Base Stats: 59.74.50.35.50.35 (BST: 303)
+EV Yield: 0.1.0.0.0.0
+Abilities: Iron Fist (1) | Klutz (2) | No Guard (H)
+Type: Ground / Ghost
+Item 1 (50%): None
+Item 2 (5%): Light Clay
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 25
+Height: 01.00 m, Weight: 092.0 kg, Color: Green
+Evolves into Golurk-0 @ 43 (LevelUp) [0]
+
+
+======
+623 - Golurk (Stage: 2)
+======
+Galar Dex: #89
+Base Stats: 89.124.80.55.80.55 (BST: 483)
+EV Yield: 0.2.0.0.0.0
+Abilities: Iron Fist (1) | Klutz (2) | No Guard (H)
+Type: Ground / Ghost
+Item 1 (50%): None
+Item 2 (5%): Light Clay
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 25
+Height: 02.80 m, Weight: 330.0 kg, Color: Green
+
+======
+624 - Pawniard (Stage: 1)
+======
+Galar Dex: #246
+Base Stats: 45.85.70.40.40.60 (BST: 340)
+EV Yield: 0.1.0.0.0.0
+Abilities: Defiant (1) | Inner Focus (2) | Pressure (H)
+Type: Dark / Steel
+Items: None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 010.2 kg, Color: Red
+Evolves into Bisharp-0 @ 52 (LevelUp) [0]
+
+
+======
+625 - Bisharp (Stage: 2)
+======
+Galar Dex: #247
+Base Stats: 65.125.100.60.70.70 (BST: 490)
+EV Yield: 0.2.0.0.0.0
+Abilities: Defiant (1) | Inner Focus (2) | Pressure (H)
+Type: Dark / Steel
+Items: None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 20
+Height: 01.60 m, Weight: 070.0 kg, Color: Red
+
+======
+627 - Rufflet (Stage: 1)
+======
+Galar Dex: #281
+Base Stats: 70.83.50.37.50.60 (BST: 350)
+EV Yield: 0.1.0.0.0.0
+Abilities: Keen Eye (1) | Sheer Force (2) | Hustle (H)
+Type: Normal / Flying
+Items: None
+EXP Group: Slow
+Egg Group: Flying
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 010.5 kg, Color: White
+Evolves into Braviary-0 @ 54 (LevelUp) [0]
+
+
+======
+628 - Braviary (Stage: 2)
+======
+Galar Dex: #282
+Base Stats: 100.123.75.57.75.80 (BST: 510)
+EV Yield: 0.2.0.0.0.0
+Abilities: Keen Eye (1) | Sheer Force (2) | Defiant (H)
+Type: Normal / Flying
+Items: None
+EXP Group: Slow
+Egg Group: Flying
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 041.0 kg, Color: Red
+
+======
+629 - Vullaby (Stage: 1)
+======
+Galar Dex: #283
+Base Stats: 70.55.75.45.65.60 (BST: 370)
+EV Yield: 0.0.1.0.0.0
+Abilities: Big Pecks (1) | Overcoat (2) | Weak Armor (H)
+Type: Dark / Flying
+Items: None
+EXP Group: Slow
+Egg Group: Flying
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 009.0 kg, Color: Brown
+Evolves into Mandibuzz-0 @ 54 (LevelUp) [0]
+
+
+======
+630 - Mandibuzz (Stage: 2)
+======
+Galar Dex: #284
+Base Stats: 110.65.105.55.95.80 (BST: 510)
+EV Yield: 0.0.0.2.0.0
+Abilities: Big Pecks (1) | Overcoat (2) | Weak Armor (H)
+Type: Dark / Flying
+Items: None
+EXP Group: Slow
+Egg Group: Flying
+Hatch Cycles: 20
+Height: 01.20 m, Weight: 039.5 kg, Color: Brown
+
+======
+631 - Heatmor (Stage: 2)
+======
+Galar Dex: #317
+Base Stats: 85.97.66.105.66.65 (BST: 484)
+EV Yield: 0.0.0.2.0.0
+Abilities: Gluttony (1) | Flash Fire (2) | White Smoke (H)
+Type: Fire
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.40 m, Weight: 058.0 kg, Color: Red
+
+======
+632 - Durant (Stage: 2)
+======
+Galar Dex: #316
+Base Stats: 58.109.112.48.48.109 (BST: 484)
+EV Yield: 0.0.2.0.0.0
+Abilities: Swarm (1) | Hustle (2) | Truant (H)
+Type: Bug / Steel
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 033.0 kg, Color: Gray
+
+======
+633 - Deino (Stage: 1)
+======
+Galar Dex: #386
+Base Stats: 52.65.50.45.50.38 (BST: 300)
+EV Yield: 0.1.0.0.0.0
+Abilities: Hustle (1) | Hustle (2) | Hustle (H)
+Type: Dark / Dragon
+Items: None
+EXP Group: Slow
+Egg Group: Dragon
+Hatch Cycles: 40
+Height: 00.80 m, Weight: 017.3 kg, Color: Blue
+Evolves into Zweilous-0 @ 50 (LevelUp) [0]
+
+
+======
+634 - Zweilous (Stage: 2)
+======
+Galar Dex: #387
+Base Stats: 72.85.70.65.70.58 (BST: 420)
+EV Yield: 0.2.0.0.0.0
+Abilities: Hustle (1) | Hustle (2) | Hustle (H)
+Type: Dark / Dragon
+Items: None
+EXP Group: Slow
+Egg Group: Dragon
+Hatch Cycles: 40
+Height: 01.40 m, Weight: 050.0 kg, Color: Blue
+Evolves into Hydreigon-0 @ 64 (LevelUp) [0]
+
+
+======
+635 - Hydreigon (Stage: 3)
+======
+Galar Dex: #388
+Base Stats: 92.105.90.125.90.98 (BST: 600)
+EV Yield: 0.0.0.3.0.0
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Dark / Dragon
+Items: None
+EXP Group: Slow
+Egg Group: Dragon
+Hatch Cycles: 40
+Height: 01.80 m, Weight: 160.0 kg, Color: Blue
+
+======
+638 - Cobalion (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 91.90.129.90.72.108 (BST: 580)
+EV Yield: 0.0.3.0.0.0
+Abilities: Justified (1) | Justified (2) | Justified (H)
+Type: Steel / Fighting
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 80
+Height: 02.10 m, Weight: 250.0 kg, Color: Blue
+
+======
+639 - Terrakion (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 91.129.90.72.90.108 (BST: 580)
+EV Yield: 0.3.0.0.0.0
+Abilities: Justified (1) | Justified (2) | Justified (H)
+Type: Rock / Fighting
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 80
+Height: 01.90 m, Weight: 260.0 kg, Color: Gray
+
+======
+640 - Virizion (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 91.90.72.90.129.108 (BST: 580)
+EV Yield: 0.0.0.0.3.0
+Abilities: Justified (1) | Justified (2) | Justified (H)
+Type: Grass / Fighting
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 80
+Height: 02.00 m, Weight: 200.0 kg, Color: Green
+
+======
+643 - Reshiram (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 100.120.100.150.120.90 (BST: 680)
+EV Yield: 0.0.0.3.0.0
+Abilities: Turboblaze (1) | Turboblaze (2) | Turboblaze (H)
+Type: Dragon / Fire
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 03.20 m, Weight: 330.0 kg, Color: White
+
+======
+644 - Zekrom (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 100.150.120.120.100.90 (BST: 680)
+EV Yield: 0.3.0.0.0.0
+Abilities: Teravolt (1) | Teravolt (2) | Teravolt (H)
+Type: Dragon / Electric
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.90 m, Weight: 345.0 kg, Color: Black
+
+======
+646 - Kyurem (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 125.130.90.130.90.95 (BST: 660)
+EV Yield: 1.1.0.1.0.0
+Abilities: Pressure (1) | Pressure (2) | Pressure (H)
+Type: Dragon / Ice
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 03.00 m, Weight: 325.0 kg, Color: Gray
+
+======
+1008 - Kyurem 1 (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 125.120.90.170.100.95 (BST: 700)
+EV Yield: 0.0.0.3.0.0
+Abilities: Turboblaze (1) | Turboblaze (2) | Turboblaze (H)
+Type: Dragon / Ice
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 03.60 m, Weight: 325.0 kg, Color: Gray
+
+======
+1009 - Kyurem 2 (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 125.170.100.120.90.95 (BST: 700)
+EV Yield: 0.3.0.0.0.0
+Abilities: Teravolt (1) | Teravolt (2) | Teravolt (H)
+Type: Dragon / Ice
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 03.30 m, Weight: 325.0 kg, Color: Gray
+
+======
+647 - Keldeo (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 91.72.90.129.90.108 (BST: 580)
+EV Yield: 0.0.0.3.0.0
+Abilities: Justified (1) | Justified (2) | Justified (H)
+Type: Water / Fighting
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 80
+Height: 01.40 m, Weight: 048.5 kg, Color: Yellow
+
+======
+1010 - Keldeo 1 (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 91.72.90.129.90.108 (BST: 580)
+EV Yield: 0.0.0.3.0.0
+Abilities: Justified (1) | Justified (2) | Justified (H)
+Type: Water / Fighting
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 80
+Height: 01.40 m, Weight: 048.5 kg, Color: Yellow
+
+======
+659 - Bunnelby (Stage: 1)
+======
+Galar Dex: #48
+Base Stats: 38.36.38.32.36.57 (BST: 237)
+EV Yield: 0.0.0.0.0.1
+Abilities: Pickup (1) | Cheek Pouch (2) | Huge Power (H)
+Type: Normal
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 005.0 kg, Color: Brown
+Evolves into Diggersby-0 @ 20 (LevelUp) [0]
+
+
+======
+660 - Diggersby (Stage: 2)
+======
+Galar Dex: #49
+Base Stats: 85.56.77.50.77.78 (BST: 423)
+EV Yield: 2.0.0.0.0.0
+Abilities: Pickup (1) | Cheek Pouch (2) | Huge Power (H)
+Type: Normal / Ground
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 01.00 m, Weight: 042.4 kg, Color: Brown
+
+======
+674 - Pancham (Stage: 1)
+======
+Galar Dex: #111
+Base Stats: 67.82.62.46.48.43 (BST: 348)
+EV Yield: 0.1.0.0.0.0
+Abilities: Iron Fist (1) | Mold Breaker (2) | Scrappy (H)
+Type: Fighting
+Item 1 (50%): None
+Item 2 (5%): Mental Herb
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field / HumanLike
+Hatch Cycles: 25
+Height: 00.60 m, Weight: 008.0 kg, Color: White
+Evolves into Pangoro-0 @ 32 (LevelUpMoveType) [0]
+
+
+======
+675 - Pangoro (Stage: 2)
+======
+Galar Dex: #112
+Base Stats: 95.124.78.69.71.58 (BST: 495)
+EV Yield: 0.2.0.0.0.0
+Abilities: Iron Fist (1) | Mold Breaker (2) | Scrappy (H)
+Type: Fighting / Dark
+Item 1 (50%): None
+Item 2 (5%): Mental Herb
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field / HumanLike
+Hatch Cycles: 25
+Height: 02.10 m, Weight: 136.0 kg, Color: White
+
+======
+677 - Espurr (Stage: 1)
+======
+Galar Dex: #208
+Base Stats: 62.48.54.63.60.68 (BST: 355)
+EV Yield: 0.0.0.0.0.1
+Abilities: Keen Eye (1) | Infiltrator (2) | Own Tempo (H)
+Type: Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 003.5 kg, Color: Gray
+Evolves into Meowstic-0 @ 25 (LevelUpMale) [0]
+Evolves into Meowstic-1 @ 25 (LevelUpFormFemale1) [0]
+
+
+======
+678 - Meowstic (Stage: 2)
+======
+Galar Dex: #209
+Base Stats: 74.48.76.83.81.104 (BST: 466)
+EV Yield: 0.0.0.0.0.2
+Abilities: Keen Eye (1) | Infiltrator (2) | Prankster (H)
+Type: Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 008.5 kg, Color: Blue
+
+======
+1097 - Meowstic 1 (Stage: 2)
+======
+Galar Dex: #209
+Base Stats: 74.48.76.83.81.104 (BST: 466)
+EV Yield: 0.0.0.0.0.2
+Abilities: Keen Eye (1) | Infiltrator (2) | Competitive (H)
+Type: Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 008.5 kg, Color: White
+
+======
+679 - Honedge (Stage: 1)
+======
+Galar Dex: #330
+Base Stats: 45.80.100.35.37.28 (BST: 325)
+EV Yield: 0.0.1.0.0.0
+Abilities: No Guard (1) | No Guard (2) | No Guard (H)
+Type: Steel / Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 002.0 kg, Color: Brown
+Evolves into Doublade-0 @ 35 (LevelUp) [0]
+
+
+======
+680 - Doublade (Stage: 2)
+======
+Galar Dex: #331
+Base Stats: 59.110.150.45.49.35 (BST: 448)
+EV Yield: 0.0.2.0.0.0
+Abilities: No Guard (1) | No Guard (2) | No Guard (H)
+Type: Steel / Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 004.5 kg, Color: Brown
+Evolves into Aegislash-0 @ 0 (UseItem) [108]
+
+
+======
+681 - Aegislash (Stage: 3)
+======
+Galar Dex: #332
+Base Stats: 60.50.140.50.140.60 (BST: 500)
+EV Yield: 0.0.2.0.1.0
+Abilities: Stance Change (1) | Stance Change (2) | Stance Change (H)
+Type: Steel / Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 01.70 m, Weight: 053.0 kg, Color: Brown
+
+======
+1098 - Aegislash 1 (Stage: 3)
+======
+Galar Dex: #332
+Base Stats: 60.140.50.140.50.60 (BST: 500)
+EV Yield: 0.2.0.1.0.0
+Abilities: Stance Change (1) | Stance Change (2) | Stance Change (H)
+Type: Steel / Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 20
+Height: 01.70 m, Weight: 053.0 kg, Color: Brown
+
+======
+682 - Spritzee (Stage: 1)
+======
+Galar Dex: #212
+Base Stats: 78.52.60.63.65.23 (BST: 341)
+EV Yield: 1.0.0.0.0.0
+Abilities: Healer (1) | Healer (2) | Aroma Veil (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 000.5 kg, Color: Pink
+Evolves into Aromatisse-0 @ 0 (TradeHeldItem) [647]
+
+
+======
+683 - Aromatisse (Stage: 2)
+======
+Galar Dex: #213
+Base Stats: 101.72.72.99.89.29 (BST: 462)
+EV Yield: 2.0.0.0.0.0
+Abilities: Healer (1) | Healer (2) | Aroma Veil (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 015.5 kg, Color: Pink
+
+======
+684 - Swirlix (Stage: 1)
+======
+Galar Dex: #210
+Base Stats: 62.48.66.59.57.49 (BST: 341)
+EV Yield: 0.0.1.0.0.0
+Abilities: Sweet Veil (1) | Sweet Veil (2) | Unburden (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 003.5 kg, Color: White
+Evolves into Slurpuff-0 @ 0 (TradeHeldItem) [646]
+
+
+======
+685 - Slurpuff (Stage: 2)
+======
+Galar Dex: #211
+Base Stats: 82.80.86.85.75.72 (BST: 480)
+EV Yield: 0.0.2.0.0.0
+Abilities: Sweet Veil (1) | Sweet Veil (2) | Unburden (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 005.0 kg, Color: White
+
+======
+686 - Inkay (Stage: 1)
+======
+Galar Dex: #290
+Base Stats: 53.54.53.37.46.45 (BST: 288)
+EV Yield: 0.1.0.0.0.0
+Abilities: Contrary (1) | Suction Cups (2) | Infiltrator (H)
+Type: Dark / Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Water2
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 003.5 kg, Color: Blue
+Evolves into Malamar-0 @ 30 (LevelUpInverted) [0]
+
+
+======
+687 - Malamar (Stage: 2)
+======
+Galar Dex: #291
+Base Stats: 86.92.88.68.75.73 (BST: 482)
+EV Yield: 0.2.0.0.0.0
+Abilities: Contrary (1) | Suction Cups (2) | Infiltrator (H)
+Type: Dark / Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Water2
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 047.0 kg, Color: Blue
+
+======
+688 - Binacle (Stage: 1)
+======
+Galar Dex: #234
+Base Stats: 42.52.67.39.56.50 (BST: 306)
+EV Yield: 0.1.0.0.0.0
+Abilities: Tough Claws (1) | Sniper (2) | Pickpocket (H)
+Type: Rock / Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water3
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 031.0 kg, Color: Brown
+Evolves into Barbaracle-0 @ 39 (LevelUp) [0]
+
+
+======
+689 - Barbaracle (Stage: 2)
+======
+Galar Dex: #235
+Base Stats: 72.105.115.54.86.68 (BST: 500)
+EV Yield: 0.2.0.0.0.0
+Abilities: Tough Claws (1) | Sniper (2) | Pickpocket (H)
+Type: Rock / Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water3
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 096.0 kg, Color: Brown
+
+======
+694 - Helioptile (Stage: 1)
+======
+Galar Dex: #318
+Base Stats: 44.38.33.61.43.70 (BST: 289)
+EV Yield: 0.0.0.0.0.1
+Abilities: Dry Skin (1) | Sand Veil (2) | Solar Power (H)
+Type: Electric / Normal
+Items: None
+EXP Group: MediumFast
+Egg Group: Monster / Dragon
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 006.0 kg, Color: Yellow
+Evolves into Heliolisk-0 @ 0 (UseItem) [80]
+
+
+======
+695 - Heliolisk (Stage: 2)
+======
+Galar Dex: #319
+Base Stats: 62.55.52.109.94.109 (BST: 481)
+EV Yield: 0.0.0.1.0.1
+Abilities: Dry Skin (1) | Sand Veil (2) | Solar Power (H)
+Type: Electric / Normal
+Items: None
+EXP Group: MediumFast
+Egg Group: Monster / Dragon
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 021.0 kg, Color: Yellow
+
+======
+700 - Sylveon (Stage: 2)
+======
+Galar Dex: #204
+Base Stats: 95.65.65.110.130.60 (BST: 525)
+EV Yield: 0.0.0.0.2.0
+Abilities: Cute Charm (1) | Cute Charm (2) | Pixilate (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 35
+Height: 01.00 m, Weight: 023.5 kg, Color: Pink
+
+======
+701 - Hawlucha (Stage: 2)
+======
+Galar Dex: #320
+Base Stats: 78.92.75.74.63.118 (BST: 500)
+EV Yield: 0.2.0.0.0.0
+Abilities: Limber (1) | Unburden (2) | Mold Breaker (H)
+Type: Fighting / Flying
+Item 1 (50%): None
+Item 2 (5%): King’s Rock
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Flying / HumanLike
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 021.5 kg, Color: Green
+
+======
+704 - Goomy (Stage: 1)
+======
+Galar Dex: #389
+Base Stats: 45.50.35.55.75.40 (BST: 300)
+EV Yield: 0.0.0.0.1.0
+Abilities: Sap Sipper (1) | Hydration (2) | Gooey (H)
+Type: Dragon
+Item 1 (50%): None
+Item 2 (5%): Shed Shell
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Dragon
+Hatch Cycles: 40
+Height: 00.30 m, Weight: 002.8 kg, Color: Purple
+Evolves into Sliggoo-0 @ 40 (LevelUp) [0]
+
+
+======
+705 - Sliggoo (Stage: 2)
+======
+Galar Dex: #390
+Base Stats: 68.75.53.83.113.60 (BST: 452)
+EV Yield: 0.0.0.0.2.0
+Abilities: Sap Sipper (1) | Hydration (2) | Gooey (H)
+Type: Dragon
+Item 1 (50%): None
+Item 2 (5%): Shed Shell
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Dragon
+Hatch Cycles: 40
+Height: 00.80 m, Weight: 017.5 kg, Color: Purple
+Evolves into Goodra-0 @ 50 (LevelUpWeather) [0]
+
+
+======
+706 - Goodra (Stage: 3)
+======
+Galar Dex: #391
+Base Stats: 90.100.70.110.150.80 (BST: 600)
+EV Yield: 0.0.0.0.3.0
+Abilities: Sap Sipper (1) | Hydration (2) | Gooey (H)
+Type: Dragon
+Items: None
+EXP Group: Slow
+Egg Group: Dragon
+Hatch Cycles: 40
+Height: 02.00 m, Weight: 150.5 kg, Color: Purple
+
+======
+708 - Phantump (Stage: 1)
+======
+Galar Dex: #338
+Base Stats: 43.70.48.50.60.38 (BST: 309)
+EV Yield: 0.1.0.0.0.0
+Abilities: Natural Cure (1) | Frisk (2) | Harvest (H)
+Type: Ghost / Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Grass / Amorphous
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 007.0 kg, Color: Brown
+Evolves into Trevenant-0 @ 0 (Trade) [0]
+
+
+======
+709 - Trevenant (Stage: 2)
+======
+Galar Dex: #339
+Base Stats: 85.110.76.65.82.56 (BST: 474)
+EV Yield: 0.2.0.0.0.0
+Abilities: Natural Cure (1) | Frisk (2) | Harvest (H)
+Type: Ghost / Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Grass / Amorphous
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 071.0 kg, Color: Brown
+
+======
+710 - Pumpkaboo (Stage: 1)
+======
+Galar Dex: #191
+Base Stats: 49.66.70.44.55.51 (BST: 335)
+EV Yield: 0.0.1.0.0.0
+Abilities: Pickup (1) | Frisk (2) | Insomnia (H)
+Type: Ghost / Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 005.0 kg, Color: Brown
+Evolves into Gourgeist-0 @ 0 (Trade) [0]
+
+
+======
+1099 - Pumpkaboo 1 (Stage: 1)
+======
+Galar Dex: #191
+Base Stats: 44.66.70.44.55.56 (BST: 335)
+EV Yield: 0.0.1.0.0.0
+Abilities: Pickup (1) | Frisk (2) | Insomnia (H)
+Type: Ghost / Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 003.5 kg, Color: Brown
+Evolves into Gourgeist-1 @ 0 (Trade) [0]
+
+
+======
+1100 - Pumpkaboo 2 (Stage: 1)
+======
+Galar Dex: #191
+Base Stats: 54.66.70.44.55.46 (BST: 335)
+EV Yield: 0.0.1.0.0.0
+Abilities: Pickup (1) | Frisk (2) | Insomnia (H)
+Type: Ghost / Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 007.5 kg, Color: Brown
+Evolves into Gourgeist-2 @ 0 (Trade) [0]
+
+
+======
+1101 - Pumpkaboo 3 (Stage: 1)
+======
+Galar Dex: #191
+Base Stats: 59.66.70.44.55.41 (BST: 335)
+EV Yield: 0.0.1.0.0.0
+Abilities: Pickup (1) | Frisk (2) | Insomnia (H)
+Type: Ghost / Grass
+Item 1 (50%): Miracle Seed
+Item 2 (5%): Miracle Seed
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 015.0 kg, Color: Brown
+Evolves into Gourgeist-3 @ 0 (Trade) [0]
+
+
+======
+711 - Gourgeist (Stage: 2)
+======
+Galar Dex: #192
+Base Stats: 65.90.122.58.75.84 (BST: 494)
+EV Yield: 0.0.2.0.0.0
+Abilities: Pickup (1) | Frisk (2) | Insomnia (H)
+Type: Ghost / Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.90 m, Weight: 012.5 kg, Color: Brown
+
+======
+1102 - Gourgeist 1 (Stage: 2)
+======
+Galar Dex: #192
+Base Stats: 55.85.122.58.75.99 (BST: 494)
+EV Yield: 0.0.2.0.0.0
+Abilities: Pickup (1) | Frisk (2) | Insomnia (H)
+Type: Ghost / Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 009.5 kg, Color: Brown
+
+======
+1103 - Gourgeist 2 (Stage: 2)
+======
+Galar Dex: #192
+Base Stats: 75.95.122.58.75.69 (BST: 494)
+EV Yield: 0.0.2.0.0.0
+Abilities: Pickup (1) | Frisk (2) | Insomnia (H)
+Type: Ghost / Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 01.10 m, Weight: 014.0 kg, Color: Brown
+
+======
+1104 - Gourgeist 3 (Stage: 2)
+======
+Galar Dex: #192
+Base Stats: 85.100.122.58.75.54 (BST: 494)
+EV Yield: 0.0.2.0.0.0
+Abilities: Pickup (1) | Frisk (2) | Insomnia (H)
+Type: Ghost / Grass
+Item 1 (50%): Miracle Seed
+Item 2 (5%): Miracle Seed
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 01.70 m, Weight: 039.0 kg, Color: Brown
+
+======
+712 - Bergmite (Stage: 1)
+======
+Galar Dex: #358
+Base Stats: 55.69.85.32.35.28 (BST: 304)
+EV Yield: 0.0.1.0.0.0
+Abilities: Own Tempo (1) | Ice Body (2) | Sturdy (H)
+Type: Ice
+Items: None
+EXP Group: MediumFast
+Egg Group: Monster / Mineral
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 099.5 kg, Color: Blue
+Evolves into Avalugg-0 @ 37 (LevelUp) [0]
+
+
+======
+713 - Avalugg (Stage: 2)
+======
+Galar Dex: #359
+Base Stats: 95.117.184.44.46.28 (BST: 514)
+EV Yield: 0.0.2.0.0.0
+Abilities: Own Tempo (1) | Ice Body (2) | Sturdy (H)
+Type: Ice
+Items: None
+EXP Group: MediumFast
+Egg Group: Monster / Mineral
+Hatch Cycles: 20
+Height: 02.00 m, Weight: 505.0 kg, Color: Blue
+
+======
+714 - Noibat (Stage: 1)
+======
+Galar Dex: #176
+Base Stats: 40.30.35.45.40.55 (BST: 245)
+EV Yield: 0.0.0.0.0.1
+Abilities: Frisk (1) | Infiltrator (2) | Telepathy (H)
+Type: Flying / Dragon
+Items: None
+EXP Group: MediumFast
+Egg Group: Flying / Dragon
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 008.0 kg, Color: Purple
+Evolves into Noivern-0 @ 48 (LevelUp) [0]
+
+
+======
+715 - Noivern (Stage: 2)
+======
+Galar Dex: #177
+Base Stats: 85.70.80.97.80.123 (BST: 535)
+EV Yield: 0.0.0.0.0.2
+Abilities: Frisk (1) | Infiltrator (2) | Telepathy (H)
+Type: Flying / Dragon
+Items: None
+EXP Group: MediumFast
+Egg Group: Flying / Dragon
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 085.0 kg, Color: Purple
+
+======
+722 - Rowlet (Stage: 1)
+======
+Galar Dex: Foreign
+Base Stats: 68.55.55.50.50.42 (BST: 320)
+EV Yield: 1.0.0.0.0.0
+Abilities: Overgrow (1) | Overgrow (2) | Long Reach (H)
+Type: Grass / Flying
+Items: None
+EXP Group: MediumSlow
+Egg Group: Flying
+Hatch Cycles: 15
+Height: 00.30 m, Weight: 001.5 kg, Color: Brown
+Evolves into Dartrix-0 @ 17 (LevelUp) [0]
+
+
+======
+723 - Dartrix (Stage: 2)
+======
+Galar Dex: Foreign
+Base Stats: 78.75.75.70.70.52 (BST: 420)
+EV Yield: 2.0.0.0.0.0
+Abilities: Overgrow (1) | Overgrow (2) | Long Reach (H)
+Type: Grass / Flying
+Items: None
+EXP Group: MediumSlow
+Egg Group: Flying
+Hatch Cycles: 15
+Height: 00.70 m, Weight: 016.0 kg, Color: Brown
+Evolves into Decidueye-0 @ 34 (LevelUp) [0]
+
+
+======
+724 - Decidueye (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 78.107.75.100.100.70 (BST: 530)
+EV Yield: 0.3.0.0.0.0
+Abilities: Overgrow (1) | Overgrow (2) | Long Reach (H)
+Type: Grass / Ghost
+Items: None
+EXP Group: MediumSlow
+Egg Group: Flying
+Hatch Cycles: 15
+Height: 01.60 m, Weight: 036.6 kg, Color: Brown
+
+======
+725 - Litten (Stage: 1)
+======
+Galar Dex: Foreign
+Base Stats: 45.65.40.60.40.70 (BST: 320)
+EV Yield: 0.0.0.0.0.1
+Abilities: Blaze (1) | Blaze (2) | Intimidate (H)
+Type: Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 004.3 kg, Color: Red
+Evolves into Torracat-0 @ 17 (LevelUp) [0]
+
+
+======
+726 - Torracat (Stage: 2)
+======
+Galar Dex: Foreign
+Base Stats: 65.85.50.80.50.90 (BST: 420)
+EV Yield: 0.0.0.0.0.2
+Abilities: Blaze (1) | Blaze (2) | Intimidate (H)
+Type: Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field
+Hatch Cycles: 15
+Height: 00.70 m, Weight: 025.0 kg, Color: Red
+Evolves into Incineroar-0 @ 34 (LevelUp) [0]
+
+
+======
+727 - Incineroar (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 95.115.90.80.90.60 (BST: 530)
+EV Yield: 0.3.0.0.0.0
+Abilities: Blaze (1) | Blaze (2) | Intimidate (H)
+Type: Fire / Dark
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field
+Hatch Cycles: 15
+Height: 01.80 m, Weight: 083.0 kg, Color: Red
+
+======
+728 - Popplio (Stage: 1)
+======
+Galar Dex: Foreign
+Base Stats: 50.54.54.66.56.40 (BST: 320)
+EV Yield: 0.0.0.1.0.0
+Abilities: Torrent (1) | Torrent (2) | Liquid Voice (H)
+Type: Water
+Items: None
+EXP Group: MediumSlow
+Egg Group: Water1 / Field
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 007.5 kg, Color: Blue
+Evolves into Brionne-0 @ 17 (LevelUp) [0]
+
+
+======
+729 - Brionne (Stage: 2)
+======
+Galar Dex: Foreign
+Base Stats: 60.69.69.91.81.50 (BST: 420)
+EV Yield: 0.0.0.2.0.0
+Abilities: Torrent (1) | Torrent (2) | Liquid Voice (H)
+Type: Water
+Items: None
+EXP Group: MediumSlow
+Egg Group: Water1 / Field
+Hatch Cycles: 15
+Height: 00.60 m, Weight: 017.5 kg, Color: Blue
+Evolves into Primarina-0 @ 34 (LevelUp) [0]
+
+
+======
+730 - Primarina (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 80.74.74.126.116.60 (BST: 530)
+EV Yield: 0.0.0.3.0.0
+Abilities: Torrent (1) | Torrent (2) | Liquid Voice (H)
+Type: Water / Fairy
+Items: None
+EXP Group: MediumSlow
+Egg Group: Water1 / Field
+Hatch Cycles: 15
+Height: 01.80 m, Weight: 044.0 kg, Color: Blue
+
+======
+736 - Grubbin (Stage: 1)
+======
+Galar Dex: #16
+Base Stats: 47.62.45.55.45.46 (BST: 300)
+EV Yield: 0.1.0.0.0.0
+Abilities: Swarm (1) | Swarm (2) | Swarm (H)
+Type: Bug
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 004.4 kg, Color: Gray
+Evolves into Charjabug-0 @ 20 (LevelUp) [0]
+
+
+======
+737 - Charjabug (Stage: 2)
+======
+Galar Dex: #17
+Base Stats: 57.82.95.55.75.36 (BST: 400)
+EV Yield: 0.0.2.0.0.0
+Abilities: Battery (1) | Battery (2) | Battery (H)
+Type: Bug / Electric
+Item 1 (50%): None
+Item 2 (5%): Cell Battery
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.50 m, Weight: 010.5 kg, Color: Green
+Evolves into Vikavolt-0 @ 0 (UseItem) [83]
+
+
+======
+738 - Vikavolt (Stage: 3)
+======
+Galar Dex: #18
+Base Stats: 77.70.90.145.75.43 (BST: 500)
+EV Yield: 0.0.0.3.0.0
+Abilities: Levitate (1) | Levitate (2) | Levitate (H)
+Type: Bug / Electric
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 01.50 m, Weight: 045.0 kg, Color: Blue
+
+======
+742 - Cutiefly (Stage: 1)
+======
+Galar Dex: #187
+Base Stats: 40.45.40.55.40.84 (BST: 304)
+EV Yield: 0.0.0.0.0.1
+Abilities: Honey Gather (1) | Shield Dust (2) | Sweet Veil (H)
+Type: Bug / Fairy
+Item 1 (50%): None
+Item 2 (5%): Honey
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Bug / Fairy
+Hatch Cycles: 20
+Height: 00.10 m, Weight: 000.2 kg, Color: Yellow
+Evolves into Ribombee-0 @ 25 (LevelUp) [0]
+
+
+======
+743 - Ribombee (Stage: 2)
+======
+Galar Dex: #188
+Base Stats: 60.55.60.95.70.124 (BST: 464)
+EV Yield: 0.0.0.0.0.2
+Abilities: Honey Gather (1) | Shield Dust (2) | Sweet Veil (H)
+Type: Bug / Fairy
+Item 1 (50%): None
+Item 2 (5%): Honey
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Bug / Fairy
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 000.5 kg, Color: Yellow
+
+======
+746 - Wishiwashi (Stage: 2)
+======
+Galar Dex: #155
+Base Stats: 45.20.20.25.25.40 (BST: 175)
+EV Yield: 1.0.0.0.0.0
+Abilities: Schooling (1) | Schooling (2) | Schooling (H)
+Type: Water
+Items: None
+EXP Group: Fast
+Egg Group: Water2
+Hatch Cycles: 15
+Height: 00.20 m, Weight: 000.3 kg, Color: Blue
+
+======
+1117 - Wishiwashi 1 (Stage: 2)
+======
+Galar Dex: #155
+Base Stats: 45.140.130.140.135.30 (BST: 620)
+EV Yield: 1.0.0.0.0.0
+Abilities: Schooling (1) | Schooling (2) | Schooling (H)
+Type: Water
+Items: None
+EXP Group: Fast
+Egg Group: Water2
+Hatch Cycles: 15
+Height: 08.20 m, Weight: 078.6 kg, Color: Blue
+
+======
+747 - Mareanie (Stage: 1)
+======
+Galar Dex: #307
+Base Stats: 50.53.62.43.52.45 (BST: 305)
+EV Yield: 0.0.1.0.0.0
+Abilities: Merciless (1) | Limber (2) | Regenerator (H)
+Type: Poison / Water
+Item 1 (50%): None
+Item 2 (5%): Poison Barb
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Water1
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 008.0 kg, Color: Blue
+Evolves into Toxapex-0 @ 38 (LevelUp) [0]
+
+
+======
+748 - Toxapex (Stage: 2)
+======
+Galar Dex: #308
+Base Stats: 50.63.152.53.142.35 (BST: 495)
+EV Yield: 0.0.2.0.0.0
+Abilities: Merciless (1) | Limber (2) | Regenerator (H)
+Type: Poison / Water
+Item 1 (50%): None
+Item 2 (5%): Poison Barb
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Water1
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 014.5 kg, Color: Blue
+
+======
+749 - Mudbray (Stage: 1)
+======
+Galar Dex: #84
+Base Stats: 70.100.70.45.55.45 (BST: 385)
+EV Yield: 0.1.0.0.0.0
+Abilities: Own Tempo (1) | Stamina (2) | Inner Focus (H)
+Type: Ground
+Item 1 (50%): None
+Item 2 (5%): Light Clay
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 110.0 kg, Color: Brown
+Evolves into Mudsdale-0 @ 30 (LevelUp) [0]
+
+
+======
+750 - Mudsdale (Stage: 2)
+======
+Galar Dex: #85
+Base Stats: 100.125.100.55.85.35 (BST: 500)
+EV Yield: 0.2.0.0.0.0
+Abilities: Own Tempo (1) | Stamina (2) | Inner Focus (H)
+Type: Ground
+Item 1 (50%): None
+Item 2 (5%): Light Clay
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 02.50 m, Weight: 920.0 kg, Color: Brown
+
+======
+751 - Dewpider (Stage: 1)
+======
+Galar Dex: #214
+Base Stats: 38.40.52.40.72.27 (BST: 269)
+EV Yield: 0.0.0.0.1.0
+Abilities: Water Bubble (1) | Water Bubble (2) | Water Absorb (H)
+Type: Water / Bug
+Item 1 (50%): None
+Item 2 (5%): Mystic Water
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Water1 / Bug
+Hatch Cycles: 15
+Height: 00.30 m, Weight: 004.0 kg, Color: Green
+Evolves into Araquanid-0 @ 22 (LevelUp) [0]
+
+
+======
+752 - Araquanid (Stage: 2)
+======
+Galar Dex: #215
+Base Stats: 68.70.92.50.132.42 (BST: 454)
+EV Yield: 0.0.0.0.2.0
+Abilities: Water Bubble (1) | Water Bubble (2) | Water Absorb (H)
+Type: Water / Bug
+Item 1 (50%): None
+Item 2 (5%): Mystic Water
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Water1 / Bug
+Hatch Cycles: 15
+Height: 01.80 m, Weight: 082.0 kg, Color: Green
+
+======
+755 - Morelull (Stage: 1)
+======
+Galar Dex: #340
+Base Stats: 40.35.55.65.75.15 (BST: 285)
+EV Yield: 0.0.0.0.1.0
+Abilities: Illuminate (1) | Effect Spore (2) | Rain Dish (H)
+Type: Grass / Fairy
+Item 1 (50%): Tiny Mushroom
+Item 2 (5%): Big Mushroom
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Grass
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 001.5 kg, Color: Purple
+Evolves into Shiinotic-0 @ 24 (LevelUp) [0]
+
+
+======
+756 - Shiinotic (Stage: 2)
+======
+Galar Dex: #341
+Base Stats: 60.45.80.90.100.30 (BST: 405)
+EV Yield: 0.0.0.0.2.0
+Abilities: Illuminate (1) | Effect Spore (2) | Rain Dish (H)
+Type: Grass / Fairy
+Item 1 (50%): Tiny Mushroom
+Item 2 (5%): Big Mushroom
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Grass
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 011.5 kg, Color: Purple
+
+======
+757 - Salandit (Stage: 1)
+======
+Galar Dex: #244
+Base Stats: 48.44.40.71.40.77 (BST: 320)
+EV Yield: 0.0.0.0.0.1
+Abilities: Corrosion (1) | Corrosion (2) | Oblivious (H)
+Type: Poison / Fire
+Item 1 (50%): None
+Item 2 (5%): Smoke Ball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Monster / Dragon
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 004.8 kg, Color: Black
+Evolves into Salazzle-0 @ 33 (LevelUpFemale) [0]
+
+
+======
+758 - Salazzle (Stage: 2)
+======
+Galar Dex: #245
+Base Stats: 68.64.60.111.60.117 (BST: 480)
+EV Yield: 0.0.0.0.0.2
+Abilities: Corrosion (1) | Corrosion (2) | Oblivious (H)
+Type: Poison / Fire
+Item 1 (50%): None
+Item 2 (5%): Smoke Ball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Monster / Dragon
+Hatch Cycles: 20
+Height: 01.20 m, Weight: 022.2 kg, Color: Black
+
+======
+759 - Stufful (Stage: 1)
+======
+Galar Dex: #94
+Base Stats: 70.75.50.45.50.50 (BST: 340)
+EV Yield: 0.1.0.0.0.0
+Abilities: Fluffy (1) | Klutz (2) | Cute Charm (H)
+Type: Normal / Fighting
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 00.50 m, Weight: 006.8 kg, Color: Pink
+Evolves into Bewear-0 @ 27 (LevelUp) [0]
+
+
+======
+760 - Bewear (Stage: 2)
+======
+Galar Dex: #95
+Base Stats: 120.125.80.55.60.60 (BST: 500)
+EV Yield: 0.2.0.0.0.0
+Abilities: Fluffy (1) | Klutz (2) | Unnerve (H)
+Type: Normal / Fighting
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 02.10 m, Weight: 135.0 kg, Color: Pink
+
+======
+761 - Bounsweet (Stage: 1)
+======
+Galar Dex: #52
+Base Stats: 42.30.38.30.38.32 (BST: 210)
+EV Yield: 1.0.0.0.0.0
+Abilities: Leaf Guard (1) | Oblivious (2) | Sweet Veil (H)
+Type: Grass
+Item 1 (50%): None
+Item 2 (5%): Grassy Seed
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Grass
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 003.2 kg, Color: Purple
+Evolves into Steenee-0 @ 18 (LevelUp) [0]
+
+
+======
+762 - Steenee (Stage: 2)
+======
+Galar Dex: #53
+Base Stats: 52.40.48.40.48.62 (BST: 290)
+EV Yield: 0.0.0.0.0.2
+Abilities: Leaf Guard (1) | Oblivious (2) | Sweet Veil (H)
+Type: Grass
+Item 1 (50%): None
+Item 2 (5%): Grassy Seed
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Grass
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 008.2 kg, Color: Purple
+Evolves into Tsareena-0 @ 0 (LevelUpKnowMove) [23]
+
+
+======
+763 - Tsareena (Stage: 3)
+======
+Galar Dex: #54
+Base Stats: 72.120.98.50.98.72 (BST: 510)
+EV Yield: 0.3.0.0.0.0
+Abilities: Leaf Guard (1) | Queenly Majesty (2) | Sweet Veil (H)
+Type: Grass
+Item 1 (50%): Grassy Seed
+Item 2 (5%): None
+Item 3 (1%): None
+EXP Group: MediumSlow
+Egg Group: Grass
+Hatch Cycles: 20
+Height: 01.20 m, Weight: 021.4 kg, Color: Purple
+
+======
+765 - Oranguru (Stage: 2)
+======
+Galar Dex: #342
+Base Stats: 90.60.80.90.110.60 (BST: 490)
+EV Yield: 0.0.0.0.2.0
+Abilities: Inner Focus (1) | Telepathy (2) | Symbiosis (H)
+Type: Normal / Psychic
+Items: None
+EXP Group: Slow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 076.0 kg, Color: White
+
+======
+766 - Passimian (Stage: 2)
+======
+Galar Dex: #343
+Base Stats: 100.120.90.40.60.80 (BST: 490)
+EV Yield: 0.2.0.0.0.0
+Abilities: Receiver (1) | Receiver (2) | Defiant (H)
+Type: Fighting
+Items: None
+EXP Group: Slow
+Egg Group: Field
+Hatch Cycles: 20
+Height: 02.00 m, Weight: 082.8 kg, Color: White
+
+======
+767 - Wimpod (Stage: 1)
+======
+Galar Dex: #232
+Base Stats: 25.35.40.20.30.80 (BST: 230)
+EV Yield: 0.0.0.0.0.1
+Abilities: Wimp Out (1) | Wimp Out (2) | Wimp Out (H)
+Type: Bug / Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug / Water3
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 012.0 kg, Color: Gray
+Evolves into Golisopod-0 @ 30 (LevelUp) [0]
+
+
+======
+768 - Golisopod (Stage: 2)
+======
+Galar Dex: #233
+Base Stats: 75.125.140.60.90.40 (BST: 530)
+EV Yield: 0.0.2.0.0.0
+Abilities: Emergency Exit (1) | Emergency Exit (2) | Emergency Exit (H)
+Type: Bug / Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug / Water3
+Hatch Cycles: 20
+Height: 02.00 m, Weight: 108.0 kg, Color: Gray
+
+======
+771 - Pyukumuku (Stage: 2)
+======
+Galar Dex: #156
+Base Stats: 55.60.130.30.130.5 (BST: 410)
+EV Yield: 0.0.0.0.2.0
+Abilities: Innards Out (1) | Innards Out (2) | Unaware (H)
+Type: Water
+Items: None
+EXP Group: Fast
+Egg Group: Water1
+Hatch Cycles: 15
+Height: 00.30 m, Weight: 001.2 kg, Color: Black
+
+======
+772 - Type: Null (Stage: 1)
+======
+Galar Dex: #381
+Base Stats: 95.95.95.95.95.59 (BST: 534)
+EV Yield: 2.0.0.0.0.0
+Abilities: Battle Armor (1) | Battle Armor (2) | Battle Armor (H)
+Type: Normal
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 01.90 m, Weight: 120.5 kg, Color: Gray
+Evolves into Silvally-0 @ 0 (LevelUpFriendship) [0]
+
+
+======
+773 - Silvally (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Normal
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1118 - Silvally 1 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Fighting
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1119 - Silvally 2 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Flying
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1120 - Silvally 3 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Poison
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1121 - Silvally 4 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Ground
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1122 - Silvally 5 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Rock
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1123 - Silvally 6 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Bug
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1124 - Silvally 7 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Ghost
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1125 - Silvally 8 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Steel
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1126 - Silvally 9 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Fire
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1127 - Silvally 10 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Water
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1128 - Silvally 11 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Grass
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1129 - Silvally 12 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Electric
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1130 - Silvally 13 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Psychic
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1131 - Silvally 14 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Ice
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1132 - Silvally 15 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Dragon
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1133 - Silvally 16 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Dark
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+1134 - Silvally 17 (Stage: 3)
+======
+Galar Dex: #382
+Base Stats: 95.95.95.95.95.95 (BST: 570)
+EV Yield: 3.0.0.0.0.0
+Abilities: RKS System (1) | RKS System (2) | RKS System (H)
+Type: Fairy
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.30 m, Weight: 100.5 kg, Color: Gray
+
+======
+776 - Turtonator (Stage: 2)
+======
+Galar Dex: #347
+Base Stats: 60.78.135.91.85.36 (BST: 485)
+EV Yield: 0.0.2.0.0.0
+Abilities: Shell Armor (1) | Shell Armor (2) | Shell Armor (H)
+Type: Fire / Dragon
+Item 1 (50%): None
+Item 2 (5%): Charcoal
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Monster / Dragon
+Hatch Cycles: 20
+Height: 02.00 m, Weight: 212.0 kg, Color: Red
+
+======
+777 - Togedemaru (Stage: 2)
+======
+Galar Dex: #348
+Base Stats: 65.98.63.40.73.96 (BST: 435)
+EV Yield: 0.2.0.0.0.0
+Abilities: Iron Barbs (1) | Lightning Rod (2) | Sturdy (H)
+Type: Electric / Steel
+Item 1 (50%): None
+Item 2 (5%): Electric Seed
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field / Fairy
+Hatch Cycles: 10
+Height: 00.30 m, Weight: 003.3 kg, Color: Gray
+
+======
+778 - Mimikyu (Stage: 2)
+======
+Galar Dex: #301
+Base Stats: 55.90.80.50.105.96 (BST: 476)
+EV Yield: 0.0.0.0.2.0
+Abilities: Disguise (1) | Disguise (2) | Disguise (H)
+Type: Ghost / Fairy
+Item 1 (50%): None
+Item 2 (5%): Chesto Berry
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 000.7 kg, Color: Yellow
+
+======
+1148 - Mimikyu 1 (Stage: 2)
+======
+Galar Dex: #301
+Base Stats: 55.90.80.50.105.96 (BST: 476)
+EV Yield: 0.0.0.0.2.0
+Abilities: Disguise (1) | Disguise (2) | Disguise (H)
+Type: Ghost / Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Amorphous
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 000.7 kg, Color: Yellow
+
+======
+780 - Drampa (Stage: 2)
+======
+Galar Dex: #346
+Base Stats: 78.60.85.135.91.36 (BST: 485)
+EV Yield: 0.0.0.2.0.0
+Abilities: Berserk (1) | Sap Sipper (2) | Cloud Nine (H)
+Type: Normal / Dragon
+Item 1 (50%): None
+Item 2 (5%): Persim Berry
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Monster / Dragon
+Hatch Cycles: 20
+Height: 03.00 m, Weight: 185.0 kg, Color: White
+
+======
+781 - Dhelmise (Stage: 2)
+======
+Galar Dex: #360
+Base Stats: 70.131.100.86.90.40 (BST: 517)
+EV Yield: 0.2.0.0.0.0
+Abilities: Steelworker (1) | Steelworker (2) | Steelworker (H)
+Type: Ghost / Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral
+Hatch Cycles: 25
+Height: 03.90 m, Weight: 210.0 kg, Color: Green
+
+======
+782 - Jangmo-o (Stage: 1)
+======
+Galar Dex: #392
+Base Stats: 45.55.65.45.45.45 (BST: 300)
+EV Yield: 0.0.1.0.0.0
+Abilities: Bulletproof (1) | Soundproof (2) | Overcoat (H)
+Type: Dragon
+Item 1 (50%): None
+Item 2 (5%): Razor Claw
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Dragon
+Hatch Cycles: 40
+Height: 00.60 m, Weight: 029.7 kg, Color: Gray
+Evolves into Hakamo-o-0 @ 35 (LevelUp) [0]
+
+
+======
+783 - Hakamo-o (Stage: 2)
+======
+Galar Dex: #393
+Base Stats: 55.75.90.65.70.65 (BST: 420)
+EV Yield: 0.0.2.0.0.0
+Abilities: Bulletproof (1) | Soundproof (2) | Overcoat (H)
+Type: Dragon / Fighting
+Item 1 (50%): None
+Item 2 (5%): Razor Claw
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Dragon
+Hatch Cycles: 40
+Height: 01.20 m, Weight: 047.0 kg, Color: Gray
+Evolves into Kommo-o-0 @ 45 (LevelUp) [0]
+
+
+======
+784 - Kommo-o (Stage: 3)
+======
+Galar Dex: #394
+Base Stats: 75.110.125.100.105.85 (BST: 600)
+EV Yield: 0.0.3.0.0.0
+Abilities: Bulletproof (1) | Soundproof (2) | Overcoat (H)
+Type: Dragon / Fighting
+Item 1 (50%): Razor Claw
+Item 2 (5%): None
+Item 3 (1%): None
+EXP Group: Slow
+Egg Group: Dragon
+Hatch Cycles: 40
+Height: 01.60 m, Weight: 078.2 kg, Color: Gray
+
+======
+789 - Cosmog (Stage: 1)
+======
+Galar Dex: Foreign
+Base Stats: 43.29.31.29.31.37 (BST: 200)
+EV Yield: 1.0.0.0.0.0
+Abilities: Unaware (1) | Unaware (2) | Unaware (H)
+Type: Psychic
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 00.20 m, Weight: 000.1 kg, Color: Blue
+Evolves into Cosmoem-0 @ 43 (LevelUp) [0]
+
+
+======
+790 - Cosmoem (Stage: 2)
+======
+Galar Dex: Foreign
+Base Stats: 43.29.131.29.131.37 (BST: 400)
+EV Yield: 0.0.1.0.1.0
+Abilities: Sturdy (1) | Sturdy (2) | Sturdy (H)
+Type: Psychic
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 00.10 m, Weight: 999.9 kg, Color: Blue
+Evolves into Solgaleo-0 @ 53 (LevelUpVersion) [44]
+Evolves into Lunala-0 @ 53 (LevelUpVersion) [45]
+
+
+======
+791 - Solgaleo (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 137.137.107.113.89.97 (BST: 680)
+EV Yield: 0.3.0.0.0.0
+Abilities: Full Metal Body (1) | Full Metal Body (2) | Full Metal Body (H)
+Type: Psychic / Steel
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 03.40 m, Weight: 230.0 kg, Color: White
+
+======
+792 - Lunala (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 137.113.89.137.107.97 (BST: 680)
+EV Yield: 0.0.0.3.0.0
+Abilities: Shadow Shield (1) | Shadow Shield (2) | Shadow Shield (H)
+Type: Psychic / Ghost
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 04.00 m, Weight: 120.0 kg, Color: Purple
+
+======
+800 - Necrozma (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 97.107.101.127.89.79 (BST: 600)
+EV Yield: 0.1.0.2.0.0
+Abilities: Prism Armor (1) | Prism Armor (2) | Prism Armor (H)
+Type: Psychic
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.40 m, Weight: 230.0 kg, Color: Black
+
+======
+1149 - Necrozma 1 (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 97.157.127.113.109.77 (BST: 680)
+EV Yield: 0.3.0.0.0.0
+Abilities: Prism Armor (1) | Prism Armor (2) | Prism Armor (H)
+Type: Psychic / Steel
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 03.80 m, Weight: 460.0 kg, Color: Yellow
+
+======
+1150 - Necrozma 2 (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 97.113.109.157.127.77 (BST: 680)
+EV Yield: 0.0.0.3.0.0
+Abilities: Prism Armor (1) | Prism Armor (2) | Prism Armor (H)
+Type: Psychic / Ghost
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 04.20 m, Weight: 350.0 kg, Color: Blue
+
+======
+802 - Marshadow (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 90.125.80.90.90.125 (BST: 600)
+EV Yield: 0.2.0.0.0.1
+Abilities: Technician (1) | Technician (2) | Technician (H)
+Type: Fighting / Ghost
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 00.70 m, Weight: 022.2 kg, Color: Gray
+
+======
+807 - Zeraora (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 88.112.75.102.80.143 (BST: 600)
+EV Yield: 0.0.0.0.0.3
+Abilities: Volt Absorb (1) | Volt Absorb (2) | Volt Absorb (H)
+Type: Electric
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 01.50 m, Weight: 044.5 kg, Color: Yellow
+
+======
+808 - Meltan (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 46.65.65.55.35.34 (BST: 300)
+EV Yield: 0.1.0.0.0.0
+Abilities: Magnet Pull (1) | Magnet Pull (2) | Magnet Pull (H)
+Type: Steel
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 00.20 m, Weight: 008.0 kg, Color: Gray
+
+======
+809 - Melmetal (Stage: 3)
+======
+Galar Dex: Foreign
+Base Stats: 135.143.143.80.65.34 (BST: 600)
+EV Yield: 0.3.0.0.0.0
+Abilities: Iron Fist (1) | Iron Fist (2) | Iron Fist (H)
+Type: Steel
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.50 m, Weight: 800.0 kg, Color: Gray
+
+======
+810 - Grookey (Stage: 1)
+======
+Galar Dex: #1
+Base Stats: 50.65.50.40.40.65 (BST: 310)
+EV Yield: 0.1.0.0.0.0
+Abilities: Overgrow (1) | Overgrow (2) | Grassy Surge (H)
+Type: Grass
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field / Grass
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 005.0 kg, Color: Green
+Evolves into Thwackey-0 @ 16 (LevelUp) [0]
+
+
+======
+811 - Thwackey (Stage: 2)
+======
+Galar Dex: #2
+Base Stats: 70.85.70.55.60.80 (BST: 420)
+EV Yield: 0.2.0.0.0.0
+Abilities: Overgrow (1) | Overgrow (2) | Grassy Surge (H)
+Type: Grass
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field / Grass
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 014.0 kg, Color: Green
+Evolves into Rillaboom-0 @ 35 (LevelUp) [0]
+
+
+======
+812 - Rillaboom (Stage: 3)
+======
+Galar Dex: #3
+Base Stats: 100.125.90.60.70.85 (BST: 530)
+EV Yield: 0.3.0.0.0.0
+Abilities: Overgrow (1) | Overgrow (2) | Grassy Surge (H)
+Type: Grass
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field / Grass
+Hatch Cycles: 20
+Height: 02.10 m, Weight: 090.0 kg, Color: Green
+
+======
+813 - Scorbunny (Stage: 1)
+======
+Galar Dex: #4
+Base Stats: 50.71.40.40.40.69 (BST: 310)
+EV Yield: 0.0.0.0.0.1
+Abilities: Blaze (1) | Blaze (2) | Libero (H)
+Type: Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field / HumanLike
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 004.5 kg, Color: White
+Evolves into Raboot-0 @ 16 (LevelUp) [0]
+
+
+======
+814 - Raboot (Stage: 2)
+======
+Galar Dex: #5
+Base Stats: 65.86.60.55.60.94 (BST: 420)
+EV Yield: 0.0.0.0.0.2
+Abilities: Blaze (1) | Blaze (2) | Libero (H)
+Type: Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field / HumanLike
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 009.0 kg, Color: Gray
+Evolves into Cinderace-0 @ 35 (LevelUp) [0]
+
+
+======
+815 - Cinderace (Stage: 3)
+======
+Galar Dex: #6
+Base Stats: 80.116.75.65.75.119 (BST: 530)
+EV Yield: 0.0.0.0.0.3
+Abilities: Blaze (1) | Blaze (2) | Libero (H)
+Type: Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Field / HumanLike
+Hatch Cycles: 20
+Height: 01.40 m, Weight: 033.0 kg, Color: White
+
+======
+816 - Sobble (Stage: 1)
+======
+Galar Dex: #7
+Base Stats: 50.40.40.70.40.70 (BST: 310)
+EV Yield: 0.0.0.0.1.1
+Abilities: Torrent (1) | Torrent (2) | Sniper (H)
+Type: Water
+Items: None
+EXP Group: MediumSlow
+Egg Group: Water1 / Field
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 004.0 kg, Color: Blue
+Evolves into Drizzile-0 @ 16 (LevelUp) [0]
+
+
+======
+817 - Drizzile (Stage: 2)
+======
+Galar Dex: #8
+Base Stats: 65.60.55.95.55.90 (BST: 420)
+EV Yield: 0.0.0.2.0.0
+Abilities: Torrent (1) | Torrent (2) | Sniper (H)
+Type: Water
+Items: None
+EXP Group: MediumSlow
+Egg Group: Water1 / Field
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 011.5 kg, Color: Blue
+Evolves into Inteleon-0 @ 35 (LevelUp) [0]
+
+
+======
+818 - Inteleon (Stage: 3)
+======
+Galar Dex: #9
+Base Stats: 70.85.65.125.65.120 (BST: 530)
+EV Yield: 0.0.0.0.0.3
+Abilities: Torrent (1) | Torrent (2) | Sniper (H)
+Type: Water
+Items: None
+EXP Group: MediumSlow
+Egg Group: Water1 / Field
+Hatch Cycles: 20
+Height: 01.90 m, Weight: 045.2 kg, Color: Blue
+
+======
+819 - Skwovet (Stage: 1)
+======
+Galar Dex: #24
+Base Stats: 70.55.55.35.35.25 (BST: 275)
+EV Yield: 1.0.0.0.0.0
+Abilities: Cheek Pouch (1) | Cheek Pouch (2) | Gluttony (H)
+Type: Normal
+Item 1 (50%): None
+Item 2 (5%): Oran Berry
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 002.5 kg, Color: Brown
+Evolves into Greedent-0 @ 24 (LevelUp) [0]
+
+
+======
+820 - Greedent (Stage: 2)
+======
+Galar Dex: #25
+Base Stats: 120.95.95.55.75.20 (BST: 460)
+EV Yield: 2.0.0.0.0.0
+Abilities: Cheek Pouch (1) | Cheek Pouch (2) | Gluttony (H)
+Type: Normal
+Item 1 (50%): None
+Item 2 (5%): Sitrus Berry
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 006.0 kg, Color: Brown
+
+======
+821 - Rookidee (Stage: 1)
+======
+Galar Dex: #21
+Base Stats: 38.47.35.33.35.57 (BST: 245)
+EV Yield: 0.0.0.0.0.1
+Abilities: Keen Eye (1) | Unnerve (2) | Big Pecks (H)
+Type: Flying
+Items: None
+EXP Group: MediumSlow
+Egg Group: Flying
+Hatch Cycles: 15
+Height: 00.20 m, Weight: 001.8 kg, Color: Blue
+Evolves into Corvisquire-0 @ 18 (LevelUp) [0]
+
+
+======
+822 - Corvisquire (Stage: 2)
+======
+Galar Dex: #22
+Base Stats: 68.67.55.43.55.77 (BST: 365)
+EV Yield: 0.0.0.0.0.2
+Abilities: Keen Eye (1) | Unnerve (2) | Big Pecks (H)
+Type: Flying
+Items: None
+EXP Group: MediumSlow
+Egg Group: Flying
+Hatch Cycles: 15
+Height: 00.80 m, Weight: 016.0 kg, Color: Blue
+Evolves into Corviknight-0 @ 38 (LevelUp) [0]
+
+
+======
+823 - Corviknight (Stage: 3)
+======
+Galar Dex: #23
+Base Stats: 98.87.105.53.85.67 (BST: 495)
+EV Yield: 0.0.3.0.0.0
+Abilities: Pressure (1) | Unnerve (2) | Mirror Armor (H)
+Type: Flying / Steel
+Items: None
+EXP Group: MediumSlow
+Egg Group: Flying
+Hatch Cycles: 15
+Height: 02.20 m, Weight: 075.0 kg, Color: Purple
+
+======
+824 - Blipbug (Stage: 1)
+======
+Galar Dex: #10
+Base Stats: 25.20.20.25.45.45 (BST: 180)
+EV Yield: 0.0.0.0.1.0
+Abilities: Swarm (1) | Compound Eyes (2) | Telepathy (H)
+Type: Bug
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 008.0 kg, Color: Blue
+Evolves into Dottler-0 @ 10 (LevelUp) [0]
+
+
+======
+825 - Dottler (Stage: 2)
+======
+Galar Dex: #11
+Base Stats: 50.35.80.50.90.30 (BST: 335)
+EV Yield: 0.0.0.0.2.0
+Abilities: Swarm (1) | Compound Eyes (2) | Telepathy (H)
+Type: Bug / Psychic
+Item 1 (50%): None
+Item 2 (5%): Psychic Seed
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 019.5 kg, Color: Yellow
+Evolves into Orbeetle-0 @ 30 (LevelUp) [0]
+
+
+======
+826 - Orbeetle (Stage: 3)
+======
+Galar Dex: #12
+Base Stats: 60.45.110.80.120.90 (BST: 505)
+EV Yield: 0.0.0.0.3.0
+Abilities: Swarm (1) | Frisk (2) | Telepathy (H)
+Type: Bug / Psychic
+Item 1 (50%): None
+Item 2 (5%): Psychic Seed
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 15
+Height: 00.40 m, Weight: 040.8 kg, Color: Red
+
+======
+827 - Nickit (Stage: 1)
+======
+Galar Dex: #29
+Base Stats: 40.28.28.47.52.50 (BST: 245)
+EV Yield: 0.0.0.0.1.0
+Abilities: Run Away (1) | Unburden (2) | Stakeout (H)
+Type: Dark
+Items: None
+EXP Group: Fast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 00.60 m, Weight: 008.9 kg, Color: Brown
+Evolves into Thievul-0 @ 18 (LevelUp) [0]
+
+
+======
+828 - Thievul (Stage: 2)
+======
+Galar Dex: #30
+Base Stats: 70.58.58.87.92.90 (BST: 455)
+EV Yield: 0.0.0.0.2.0
+Abilities: Run Away (1) | Unburden (2) | Stakeout (H)
+Type: Dark
+Items: None
+EXP Group: Fast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 01.20 m, Weight: 019.9 kg, Color: Brown
+
+======
+829 - Gossifleur (Stage: 1)
+======
+Galar Dex: #126
+Base Stats: 40.40.60.40.60.10 (BST: 250)
+EV Yield: 0.0.0.0.1.0
+Abilities: Cotton Down (1) | Regenerator (2) | Effect Spore (H)
+Type: Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Grass
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 002.2 kg, Color: Green
+Evolves into Eldegoss-0 @ 20 (LevelUp) [0]
+
+
+======
+830 - Eldegoss (Stage: 2)
+======
+Galar Dex: #127
+Base Stats: 60.50.90.80.120.60 (BST: 460)
+EV Yield: 0.0.0.0.2.0
+Abilities: Cotton Down (1) | Regenerator (2) | Effect Spore (H)
+Type: Grass
+Items: None
+EXP Group: MediumFast
+Egg Group: Grass
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 002.5 kg, Color: Green
+
+======
+831 - Wooloo (Stage: 1)
+======
+Galar Dex: #34
+Base Stats: 42.40.55.40.45.48 (BST: 270)
+EV Yield: 0.0.1.0.0.0
+Abilities: Fluffy (1) | Run Away (2) | Bulletproof (H)
+Type: Normal
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 00.60 m, Weight: 006.0 kg, Color: White
+Evolves into Dubwool-0 @ 24 (LevelUp) [0]
+
+
+======
+832 - Dubwool (Stage: 2)
+======
+Galar Dex: #35
+Base Stats: 72.80.100.60.90.88 (BST: 490)
+EV Yield: 0.0.2.0.0.0
+Abilities: Fluffy (1) | Steadfast (2) | Bulletproof (H)
+Type: Normal
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 01.30 m, Weight: 043.0 kg, Color: White
+
+======
+833 - Chewtle (Stage: 1)
+======
+Galar Dex: #42
+Base Stats: 50.64.50.38.38.44 (BST: 284)
+EV Yield: 0.1.0.0.0.0
+Abilities: Strong Jaw (1) | Shell Armor (2) | Swift Swim (H)
+Type: Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Monster / Water1
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 008.5 kg, Color: Green
+Evolves into Drednaw-0 @ 22 (LevelUp) [0]
+
+
+======
+834 - Drednaw (Stage: 2)
+======
+Galar Dex: #43
+Base Stats: 90.115.90.48.68.74 (BST: 485)
+EV Yield: 0.2.0.0.0.0
+Abilities: Strong Jaw (1) | Shell Armor (2) | Swift Swim (H)
+Type: Water / Rock
+Items: None
+EXP Group: MediumFast
+Egg Group: Monster / Water1
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 115.5 kg, Color: Green
+
+======
+835 - Yamper (Stage: 1)
+======
+Galar Dex: #46
+Base Stats: 59.45.50.40.50.26 (BST: 270)
+EV Yield: 1.0.0.0.0.0
+Abilities: Ball Fetch (1) | Ball Fetch (2) | Rattled (H)
+Type: Electric
+Items: None
+EXP Group: Fast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 013.5 kg, Color: Yellow
+Evolves into Boltund-0 @ 25 (LevelUp) [0]
+
+
+======
+836 - Boltund (Stage: 2)
+======
+Galar Dex: #47
+Base Stats: 69.90.60.90.60.121 (BST: 490)
+EV Yield: 0.0.0.0.0.2
+Abilities: Strong Jaw (1) | Strong Jaw (2) | Competitive (H)
+Type: Electric
+Items: None
+EXP Group: Fast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 034.0 kg, Color: Yellow
+
+======
+837 - Rolycoly (Stage: 1)
+======
+Galar Dex: #161
+Base Stats: 30.40.50.40.50.30 (BST: 240)
+EV Yield: 0.0.1.0.0.0
+Abilities: Steam Engine (1) | Heatproof (2) | Flash Fire (H)
+Type: Rock
+Items: None
+EXP Group: MediumSlow
+Egg Group: Mineral
+Hatch Cycles: 15
+Height: 00.30 m, Weight: 012.0 kg, Color: Black
+Evolves into Carkol-0 @ 18 (LevelUp) [0]
+
+
+======
+838 - Carkol (Stage: 2)
+======
+Galar Dex: #162
+Base Stats: 80.60.90.60.70.50 (BST: 410)
+EV Yield: 0.0.2.0.0.0
+Abilities: Steam Engine (1) | Flame Body (2) | Flash Fire (H)
+Type: Rock / Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Mineral
+Hatch Cycles: 15
+Height: 01.10 m, Weight: 078.0 kg, Color: Black
+Evolves into Coalossal-0 @ 34 (LevelUp) [0]
+
+
+======
+839 - Coalossal (Stage: 0)
+======
+Galar Dex: #163
+Base Stats: 110.80.120.80.90.30 (BST: 510)
+EV Yield: 0.0.3.0.0.0
+Abilities: Steam Engine (1) | Flame Body (2) | Flash Fire (H)
+Type: Rock / Fire
+Items: None
+EXP Group: MediumSlow
+Egg Group: Mineral
+Hatch Cycles: 15
+Height: 02.80 m, Weight: 310.5 kg, Color: Black
+
+======
+840 - Applin (Stage: 1)
+======
+Galar Dex: #205
+Base Stats: 40.40.80.40.40.20 (BST: 260)
+EV Yield: 0.0.1.0.0.0
+Abilities: Ripen (1) | Gluttony (2) | Bulletproof (H)
+Type: Grass / Dragon
+Items: None
+EXP Group: Erratic
+Egg Group: Grass / Dragon
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 000.5 kg, Color: Green
+Evolves into Flapple-0 @ 0 (UseItem) [1117]
+Evolves into Appletun-0 @ 0 (UseItem) [1116]
+
+
+======
+841 - Flapple (Stage: 2)
+======
+Galar Dex: #206
+Base Stats: 70.110.80.95.60.70 (BST: 485)
+EV Yield: 0.2.0.0.0.0
+Abilities: Ripen (1) | Gluttony (2) | Hustle (H)
+Type: Grass / Dragon
+Items: None
+EXP Group: Erratic
+Egg Group: Grass / Dragon
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 001.0 kg, Color: Green
+
+======
+842 - Appletun (Stage: 2)
+======
+Galar Dex: #207
+Base Stats: 110.85.80.100.80.30 (BST: 485)
+EV Yield: 2.0.0.0.0.0
+Abilities: Ripen (1) | Gluttony (2) | Thick Fat (H)
+Type: Grass / Dragon
+Items: None
+EXP Group: Erratic
+Egg Group: Grass / Dragon
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 013.0 kg, Color: Green
+
+======
+843 - Silicobra (Stage: 1)
+======
+Galar Dex: #312
+Base Stats: 52.57.75.35.50.46 (BST: 315)
+EV Yield: 0.0.1.0.0.0
+Abilities: Sand Spit (1) | Shed Skin (2) | Sand Veil (H)
+Type: Ground
+Items: None
+EXP Group: MediumFast
+Egg Group: Field / Dragon
+Hatch Cycles: 20
+Height: 02.20 m, Weight: 007.6 kg, Color: Green
+Evolves into Sandaconda-0 @ 36 (LevelUp) [0]
+
+
+======
+844 - Sandaconda (Stage: 2)
+======
+Galar Dex: #313
+Base Stats: 72.107.125.65.70.71 (BST: 510)
+EV Yield: 0.0.2.0.0.0
+Abilities: Sand Spit (1) | Shed Skin (2) | Sand Veil (H)
+Type: Ground
+Items: None
+EXP Group: MediumFast
+Egg Group: Field / Dragon
+Hatch Cycles: 20
+Height: 03.80 m, Weight: 065.5 kg, Color: Green
+
+======
+845 - Cramorant (Stage: 2)
+======
+Galar Dex: #309
+Base Stats: 70.85.55.85.95.85 (BST: 475)
+EV Yield: 0.0.0.0.2.0
+Abilities: Gulp Missile (1) | Gulp Missile (2) | Gulp Missile (H)
+Type: Flying / Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Flying
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 018.0 kg, Color: Blue
+
+======
+1152 - Cramorant 1 (Stage: 2)
+======
+Galar Dex: #309
+Base Stats: 70.85.55.85.95.85 (BST: 475)
+EV Yield: 0.0.0.0.2.0
+Abilities: Gulp Missile (1) | Gulp Missile (2) | Gulp Missile (H)
+Type: Flying / Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Flying
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 018.0 kg, Color: Blue
+
+======
+1153 - Cramorant 2 (Stage: 2)
+======
+Galar Dex: #309
+Base Stats: 70.85.55.85.95.85 (BST: 475)
+EV Yield: 0.0.0.0.2.0
+Abilities: Gulp Missile (1) | Gulp Missile (2) | Gulp Missile (H)
+Type: Flying / Water
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Flying
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 018.0 kg, Color: Blue
+
+======
+846 - Arrokuda (Stage: 1)
+======
+Galar Dex: #180
+Base Stats: 41.63.40.40.30.66 (BST: 280)
+EV Yield: 0.0.0.0.0.1
+Abilities: Swift Swim (1) | Swift Swim (2) | Propeller Tail (H)
+Type: Water
+Items: None
+EXP Group: Slow
+Egg Group: Water2
+Hatch Cycles: 20
+Height: 00.50 m, Weight: 001.0 kg, Color: Brown
+Evolves into Barraskewda-0 @ 26 (LevelUp) [0]
+
+
+======
+847 - Barraskewda (Stage: 2)
+======
+Galar Dex: #181
+Base Stats: 61.123.60.60.50.136 (BST: 490)
+EV Yield: 0.0.0.0.0.2
+Abilities: Swift Swim (1) | Swift Swim (2) | Propeller Tail (H)
+Type: Water
+Items: None
+EXP Group: Slow
+Egg Group: Water2
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 030.0 kg, Color: Brown
+
+======
+848 - Toxel (Stage: 1)
+======
+Galar Dex: #310
+Base Stats: 40.38.35.54.35.40 (BST: 242)
+EV Yield: 0.0.0.1.0.0
+Abilities: Rattled (1) | Static (2) | Klutz (H)
+Type: Electric / Poison
+Items: None
+EXP Group: MediumSlow
+Egg Group: Undiscovered
+Hatch Cycles: 25
+Height: 00.40 m, Weight: 011.0 kg, Color: Purple
+Evolves into Toxtricity-0 @ 30 (U46) [0]
+Evolves into Toxtricity-1 @ 30 (U47) [0]
+
+
+======
+849 - Toxtricity (Stage: 2)
+======
+Galar Dex: #311
+Base Stats: 75.98.70.114.70.75 (BST: 502)
+EV Yield: 0.0.0.2.0.0
+Abilities: Punk Rock (1) | Plus (2) | Technician (H)
+Type: Electric / Poison
+Items: None
+EXP Group: MediumSlow
+Egg Group: HumanLike
+Hatch Cycles: 25
+Height: 01.60 m, Weight: 040.0 kg, Color: Purple
+
+======
+1154 - Toxtricity 1 (Stage: 2)
+======
+Galar Dex: #311
+Base Stats: 75.98.70.114.70.75 (BST: 502)
+EV Yield: 0.0.0.2.0.0
+Abilities: Punk Rock (1) | Minus (2) | Technician (H)
+Type: Electric / Poison
+Items: None
+EXP Group: MediumSlow
+Egg Group: HumanLike
+Hatch Cycles: 25
+Height: 01.60 m, Weight: 040.0 kg, Color: Purple
+
+======
+850 - Sizzlipede (Stage: 1)
+======
+Galar Dex: #159
+Base Stats: 50.65.45.50.50.45 (BST: 305)
+EV Yield: 0.1.0.0.0.0
+Abilities: Flash Fire (1) | White Smoke (2) | Flame Body (H)
+Type: Fire / Bug
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 20
+Height: 00.70 m, Weight: 001.0 kg, Color: Red
+Evolves into Centiskorch-0 @ 28 (LevelUp) [0]
+
+
+======
+851 - Centiskorch (Stage: 2)
+======
+Galar Dex: #160
+Base Stats: 100.115.65.90.90.65 (BST: 525)
+EV Yield: 0.2.0.0.0.0
+Abilities: Flash Fire (1) | White Smoke (2) | Flame Body (H)
+Type: Fire / Bug
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 20
+Height: 03.00 m, Weight: 120.0 kg, Color: Red
+
+======
+852 - Clobbopus (Stage: 1)
+======
+Galar Dex: #351
+Base Stats: 50.68.60.50.50.32 (BST: 310)
+EV Yield: 0.1.0.0.0.0
+Abilities: Limber (1) | Limber (2) | Technician (H)
+Type: Fighting
+Items: None
+EXP Group: MediumSlow
+Egg Group: Water1 / HumanLike
+Hatch Cycles: 25
+Height: 00.60 m, Weight: 004.0 kg, Color: Brown
+Evolves into Grapploct-0 @ 0 (LevelUpKnowMove) [269]
+
+
+======
+853 - Grapploct (Stage: 2)
+======
+Galar Dex: #352
+Base Stats: 80.118.90.70.80.42 (BST: 480)
+EV Yield: 0.2.0.0.0.0
+Abilities: Limber (1) | Limber (2) | Technician (H)
+Type: Fighting
+Items: None
+EXP Group: MediumSlow
+Egg Group: Water1 / HumanLike
+Hatch Cycles: 25
+Height: 01.60 m, Weight: 039.0 kg, Color: Blue
+
+======
+854 - Sinistea (Stage: 1)
+======
+Galar Dex: #335
+Base Stats: 40.45.45.74.54.50 (BST: 308)
+EV Yield: 0.0.0.1.0.0
+Abilities: Weak Armor (1) | Weak Armor (2) | Cursed Body (H)
+Type: Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral / Amorphous
+Hatch Cycles: 20
+Height: 00.10 m, Weight: 000.2 kg, Color: Purple
+Evolves into Polteageist-0 @ 0 (UseItem) [1253]
+
+
+======
+1155 - Sinistea 1 (Stage: 1)
+======
+Galar Dex: #335
+Base Stats: 40.45.45.74.54.50 (BST: 308)
+EV Yield: 0.0.0.1.0.0
+Abilities: Weak Armor (1) | Weak Armor (2) | Cursed Body (H)
+Type: Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral / Amorphous
+Hatch Cycles: 20
+Height: 00.10 m, Weight: 000.2 kg, Color: Purple
+Evolves into Polteageist-1 @ 0 (UseItem) [1254]
+
+
+======
+855 - Polteageist (Stage: 2)
+======
+Galar Dex: #336
+Base Stats: 60.65.65.134.114.70 (BST: 508)
+EV Yield: 0.0.0.2.0.0
+Abilities: Weak Armor (1) | Weak Armor (2) | Cursed Body (H)
+Type: Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral / Amorphous
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 000.4 kg, Color: Purple
+
+======
+1156 - Polteageist 1 (Stage: 2)
+======
+Galar Dex: #336
+Base Stats: 60.65.65.134.114.70 (BST: 508)
+EV Yield: 0.0.0.2.0.0
+Abilities: Weak Armor (1) | Weak Armor (2) | Cursed Body (H)
+Type: Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral / Amorphous
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 000.4 kg, Color: Purple
+
+======
+856 - Hatenna (Stage: 1)
+======
+Galar Dex: #241
+Base Stats: 42.30.45.56.53.39 (BST: 265)
+EV Yield: 0.0.0.1.0.0
+Abilities: Healer (1) | Anticipation (2) | Magic Bounce (H)
+Type: Psychic
+Items: None
+EXP Group: Slow
+Egg Group: Fairy
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 003.4 kg, Color: Pink
+Evolves into Hattrem-0 @ 32 (LevelUp) [0]
+
+
+======
+857 - Hattrem (Stage: 2)
+======
+Galar Dex: #242
+Base Stats: 57.40.65.86.73.49 (BST: 370)
+EV Yield: 0.0.0.2.0.0
+Abilities: Healer (1) | Anticipation (2) | Magic Bounce (H)
+Type: Psychic
+Items: None
+EXP Group: Slow
+Egg Group: Fairy
+Hatch Cycles: 20
+Height: 00.60 m, Weight: 004.8 kg, Color: Pink
+Evolves into Hatterene-0 @ 42 (LevelUp) [0]
+
+
+======
+858 - Hatterene (Stage: 3)
+======
+Galar Dex: #243
+Base Stats: 57.90.95.136.103.29 (BST: 510)
+EV Yield: 0.0.0.3.0.0
+Abilities: Healer (1) | Anticipation (2) | Magic Bounce (H)
+Type: Psychic / Fairy
+Items: None
+EXP Group: Slow
+Egg Group: Fairy
+Hatch Cycles: 20
+Height: 02.10 m, Weight: 005.1 kg, Color: Pink
+
+======
+859 - Impidimp (Stage: 1)
+======
+Galar Dex: #238
+Base Stats: 45.45.30.55.40.50 (BST: 265)
+EV Yield: 0.0.0.1.0.0
+Abilities: Prankster (1) | Frisk (2) | Pickpocket (H)
+Type: Dark / Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / HumanLike
+Hatch Cycles: 20
+Height: 00.40 m, Weight: 005.5 kg, Color: Pink
+Evolves into Morgrem-0 @ 32 (LevelUp) [0]
+
+
+======
+860 - Morgrem (Stage: 2)
+======
+Galar Dex: #239
+Base Stats: 65.60.45.75.55.70 (BST: 370)
+EV Yield: 0.0.0.2.0.0
+Abilities: Prankster (1) | Frisk (2) | Pickpocket (H)
+Type: Dark / Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / HumanLike
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 012.5 kg, Color: Pink
+Evolves into Grimmsnarl-0 @ 42 (LevelUp) [0]
+
+
+======
+861 - Grimmsnarl (Stage: 3)
+======
+Galar Dex: #240
+Base Stats: 95.120.65.95.75.60 (BST: 510)
+EV Yield: 0.3.0.0.0.0
+Abilities: Prankster (1) | Frisk (2) | Pickpocket (H)
+Type: Dark / Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / HumanLike
+Hatch Cycles: 20
+Height: 01.50 m, Weight: 061.0 kg, Color: Purple
+
+======
+862 - Obstagoon (Stage: 3)
+======
+Galar Dex: #33
+Base Stats: 93.90.101.60.81.95 (BST: 520)
+EV Yield: 0.0.3.0.0.0
+Abilities: Reckless (1) | Guts (2) | Defiant (H)
+Type: Dark / Normal
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 15
+Height: 01.60 m, Weight: 046.0 kg, Color: Gray
+
+======
+863 - Perrserker (Stage: 2)
+======
+Galar Dex: #183
+Base Stats: 70.110.100.50.60.50 (BST: 440)
+EV Yield: 0.2.0.0.0.0
+Abilities: Battle Armor (1) | Tough Claws (2) | Steely Spirit (H)
+Type: Steel
+Items: None
+EXP Group: MediumFast
+Egg Group: Field
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 028.0 kg, Color: Brown
+
+======
+864 - Cursola (Stage: 2)
+======
+Galar Dex: #237
+Base Stats: 60.95.50.145.130.30 (BST: 510)
+EV Yield: 0.0.0.2.0.0
+Abilities: Weak Armor (1) | Weak Armor (2) | Perish Body (H)
+Type: Ghost
+Items: None
+EXP Group: Fast
+Egg Group: Water1 / Water3
+Hatch Cycles: 20
+Height: 01.00 m, Weight: 000.4 kg, Color: White
+
+======
+865 - Sirfetch’d (Stage: 2)
+======
+Galar Dex: #219
+Base Stats: 62.135.95.68.82.65 (BST: 507)
+EV Yield: 0.2.0.0.0.0
+Abilities: Steadfast (1) | Steadfast (2) | Scrappy (H)
+Type: Fighting
+Item 1 (50%): None
+Item 2 (5%): Leek
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Flying / Field
+Hatch Cycles: 20
+Height: 00.80 m, Weight: 117.0 kg, Color: White
+
+======
+866 - Mr. Rime (Stage: 2)
+======
+Galar Dex: #366
+Base Stats: 80.85.75.110.100.70 (BST: 520)
+EV Yield: 0.0.0.3.0.0
+Abilities: Tangled Feet (1) | Screen Cleaner (2) | Ice Body (H)
+Type: Ice / Psychic
+Items: None
+EXP Group: MediumFast
+Egg Group: HumanLike
+Hatch Cycles: 25
+Height: 01.50 m, Weight: 058.2 kg, Color: Purple
+
+======
+867 - Runerigus (Stage: 2)
+======
+Galar Dex: #328
+Base Stats: 58.95.145.50.105.30 (BST: 483)
+EV Yield: 0.0.2.0.0.0
+Abilities: Wandering Spirit (1) | Wandering Spirit (2) | Wandering Spirit (H)
+Type: Ground / Ghost
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral / Amorphous
+Hatch Cycles: 25
+Height: 01.60 m, Weight: 066.6 kg, Color: Gray
+
+======
+868 - Milcery (Stage: 1)
+======
+Galar Dex: #185
+Base Stats: 45.40.40.50.61.34 (BST: 270)
+EV Yield: 0.0.0.0.1.0
+Abilities: Sweet Veil (1) | Sweet Veil (2) | Aroma Veil (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Amorphous
+Hatch Cycles: 20
+Height: 00.20 m, Weight: 000.3 kg, Color: White
+Evolves into Alcremie-0 @ 0 (U45) [0]
+Evolves into Alcremie-1 @ 0 (U45) [0]
+Evolves into Alcremie-2 @ 0 (U45) [0]
+Evolves into Alcremie-3 @ 0 (U45) [0]
+Evolves into Alcremie-4 @ 0 (U45) [0]
+Evolves into Alcremie-5 @ 0 (U45) [0]
+Evolves into Alcremie-6 @ 0 (U45) [0]
+Evolves into Alcremie-7 @ 0 (U45) [0]
+Evolves into Alcremie-8 @ 0 (U45) [0]
+
+
+======
+869 - Alcremie (Stage: 2)
+======
+Galar Dex: #186
+Base Stats: 65.60.75.110.121.64 (BST: 495)
+EV Yield: 0.0.0.0.2.0
+Abilities: Sweet Veil (1) | Sweet Veil (2) | Aroma Veil (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.5 kg, Color: White
+
+======
+1157 - Alcremie 1 (Stage: 2)
+======
+Galar Dex: #186
+Base Stats: 65.60.75.110.121.64 (BST: 495)
+EV Yield: 0.0.0.0.2.0
+Abilities: Sweet Veil (1) | Sweet Veil (2) | Aroma Veil (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.5 kg, Color: Pink
+
+======
+1158 - Alcremie 2 (Stage: 2)
+======
+Galar Dex: #186
+Base Stats: 65.60.75.110.121.64 (BST: 495)
+EV Yield: 0.0.0.0.2.0
+Abilities: Sweet Veil (1) | Sweet Veil (2) | Aroma Veil (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.5 kg, Color: Green
+
+======
+1159 - Alcremie 3 (Stage: 2)
+======
+Galar Dex: #186
+Base Stats: 65.60.75.110.121.64 (BST: 495)
+EV Yield: 0.0.0.0.2.0
+Abilities: Sweet Veil (1) | Sweet Veil (2) | Aroma Veil (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.5 kg, Color: Blue
+
+======
+1160 - Alcremie 4 (Stage: 2)
+======
+Galar Dex: #186
+Base Stats: 65.60.75.110.121.64 (BST: 495)
+EV Yield: 0.0.0.0.2.0
+Abilities: Sweet Veil (1) | Sweet Veil (2) | Aroma Veil (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.5 kg, Color: Yellow
+
+======
+1161 - Alcremie 5 (Stage: 2)
+======
+Galar Dex: #186
+Base Stats: 65.60.75.110.121.64 (BST: 495)
+EV Yield: 0.0.0.0.2.0
+Abilities: Sweet Veil (1) | Sweet Veil (2) | Aroma Veil (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.5 kg, Color: White
+
+======
+1162 - Alcremie 6 (Stage: 2)
+======
+Galar Dex: #186
+Base Stats: 65.60.75.110.121.64 (BST: 495)
+EV Yield: 0.0.0.0.2.0
+Abilities: Sweet Veil (1) | Sweet Veil (2) | Aroma Veil (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.5 kg, Color: Yellow
+
+======
+1163 - Alcremie 7 (Stage: 2)
+======
+Galar Dex: #186
+Base Stats: 65.60.75.110.121.64 (BST: 495)
+EV Yield: 0.0.0.0.2.0
+Abilities: Sweet Veil (1) | Sweet Veil (2) | Aroma Veil (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.5 kg, Color: Brown
+
+======
+1164 - Alcremie 8 (Stage: 2)
+======
+Galar Dex: #186
+Base Stats: 65.60.75.110.121.64 (BST: 495)
+EV Yield: 0.0.0.0.2.0
+Abilities: Sweet Veil (1) | Sweet Veil (2) | Aroma Veil (H)
+Type: Fairy
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 000.5 kg, Color: Yellow
+
+======
+870 - Falinks (Stage: 2)
+======
+Galar Dex: #345
+Base Stats: 65.100.100.70.60.75 (BST: 470)
+EV Yield: 0.2.0.0.1.0
+Abilities: Battle Armor (1) | Battle Armor (2) | Defiant (H)
+Type: Fighting
+Items: None
+EXP Group: MediumFast
+Egg Group: Fairy / Mineral
+Hatch Cycles: 25
+Height: 03.00 m, Weight: 062.0 kg, Color: Yellow
+
+======
+871 - Pincurchin (Stage: 2)
+======
+Galar Dex: #353
+Base Stats: 48.101.95.91.85.15 (BST: 435)
+EV Yield: 0.2.0.0.0.0
+Abilities: Lightning Rod (1) | Lightning Rod (2) | Electric Surge (H)
+Type: Electric
+Items: None
+EXP Group: MediumFast
+Egg Group: Water1 / Amorphous
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 001.0 kg, Color: Purple
+
+======
+872 - Snom (Stage: 1)
+======
+Galar Dex: #349
+Base Stats: 30.25.35.45.30.20 (BST: 185)
+EV Yield: 0.0.0.1.0.0
+Abilities: Shield Dust (1) | Shield Dust (2) | Ice Scales (H)
+Type: Ice / Bug
+Item 1 (50%): None
+Item 2 (5%): Snowball
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 20
+Height: 00.30 m, Weight: 003.8 kg, Color: White
+Evolves into Frosmoth-0 @ 0 (LevelUpFriendshipNight) [0]
+
+
+======
+873 - Frosmoth (Stage: 2)
+======
+Galar Dex: #350
+Base Stats: 70.65.60.125.90.65 (BST: 475)
+EV Yield: 0.0.0.2.0.0
+Abilities: Shield Dust (1) | Shield Dust (2) | Ice Scales (H)
+Type: Ice / Bug
+Items: None
+EXP Group: MediumFast
+Egg Group: Bug
+Hatch Cycles: 20
+Height: 01.30 m, Weight: 042.0 kg, Color: White
+
+======
+874 - Stonjourner (Stage: 2)
+======
+Galar Dex: #369
+Base Stats: 100.125.135.20.20.70 (BST: 470)
+EV Yield: 0.0.2.0.0.0
+Abilities: Power Spot (1) | Power Spot (2) | Power Spot (H)
+Type: Rock
+Items: None
+EXP Group: Slow
+Egg Group: Mineral
+Hatch Cycles: 25
+Height: 02.50 m, Weight: 520.0 kg, Color: Gray
+
+======
+875 - Eiscue (Stage: 2)
+======
+Galar Dex: #370
+Base Stats: 75.80.110.65.90.50 (BST: 470)
+EV Yield: 0.0.2.0.0.0
+Abilities: Ice Face (1) | Ice Face (2) | Ice Face (H)
+Type: Ice
+Items: None
+EXP Group: Slow
+Egg Group: Water1 / Field
+Hatch Cycles: 25
+Height: 01.40 m, Weight: 089.0 kg, Color: Blue
+
+======
+1165 - Eiscue 1 (Stage: 2)
+======
+Galar Dex: #370
+Base Stats: 75.80.70.65.50.130 (BST: 470)
+EV Yield: 0.0.2.0.0.0
+Abilities: Ice Face (1) | Ice Face (2) | Ice Face (H)
+Type: Ice
+Items: None
+EXP Group: Slow
+Egg Group: Water1 / Field
+Hatch Cycles: 25
+Height: 01.40 m, Weight: 089.0 kg, Color: Blue
+
+======
+876 - Indeedee (Stage: 2)
+======
+Galar Dex: #337
+Base Stats: 60.65.55.105.95.95 (BST: 475)
+EV Yield: 0.0.0.2.0.0
+Abilities: Inner Focus (1) | Synchronize (2) | Psychic Surge (H)
+Type: Psychic / Normal
+Items: None
+EXP Group: Fast
+Egg Group: Fairy
+Hatch Cycles: 40
+Height: 00.90 m, Weight: 028.0 kg, Color: Purple
+
+======
+1166 - Indeedee 1 (Stage: 2)
+======
+Galar Dex: #337
+Base Stats: 70.55.65.95.105.85 (BST: 475)
+EV Yield: 0.0.0.0.2.0
+Abilities: Own Tempo (1) | Synchronize (2) | Psychic Surge (H)
+Type: Psychic / Normal
+Items: None
+EXP Group: Fast
+Egg Group: Fairy
+Hatch Cycles: 40
+Height: 00.90 m, Weight: 028.0 kg, Color: Purple
+
+======
+877 - Morpeko (Stage: 2)
+======
+Galar Dex: #344
+Base Stats: 58.95.58.70.58.97 (BST: 436)
+EV Yield: 0.0.0.0.0.2
+Abilities: Hunger Switch (1) | Hunger Switch (2) | Hunger Switch (H)
+Type: Electric / Dark
+Items: None
+EXP Group: MediumFast
+Egg Group: Field / Fairy
+Hatch Cycles: 10
+Height: 00.30 m, Weight: 003.0 kg, Color: Yellow
+
+======
+1167 - Morpeko 1 (Stage: 2)
+======
+Galar Dex: #344
+Base Stats: 58.95.58.70.58.97 (BST: 436)
+EV Yield: 0.0.0.0.0.2
+Abilities: Hunger Switch (1) | Hunger Switch (2) | Hunger Switch (H)
+Type: Electric / Dark
+Items: None
+EXP Group: MediumFast
+Egg Group: Field / Fairy
+Hatch Cycles: 10
+Height: 00.30 m, Weight: 003.0 kg, Color: Yellow
+
+======
+878 - Cufant (Stage: 1)
+======
+Galar Dex: #302
+Base Stats: 72.80.49.40.49.40 (BST: 330)
+EV Yield: 0.1.0.0.0.0
+Abilities: Sheer Force (1) | Sheer Force (2) | Heavy Metal (H)
+Type: Steel
+Item 1 (50%): None
+Item 2 (5%): Lagging Tail
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field / Mineral
+Hatch Cycles: 25
+Height: 01.20 m, Weight: 100.0 kg, Color: Yellow
+Evolves into Copperajah-0 @ 34 (LevelUp) [0]
+
+
+======
+879 - Copperajah (Stage: 2)
+======
+Galar Dex: #303
+Base Stats: 122.130.69.80.69.30 (BST: 500)
+EV Yield: 0.2.0.0.0.0
+Abilities: Sheer Force (1) | Sheer Force (2) | Heavy Metal (H)
+Type: Steel
+Item 1 (50%): None
+Item 2 (5%): Lagging Tail
+Item 3 (1%): None
+EXP Group: MediumFast
+Egg Group: Field / Mineral
+Hatch Cycles: 25
+Height: 03.00 m, Weight: 650.0 kg, Color: Green
+
+======
+880 - Dracozolt (Stage: 2)
+======
+Galar Dex: #374
+Base Stats: 90.100.90.80.70.75 (BST: 505)
+EV Yield: 0.2.0.0.0.0
+Abilities: Volt Absorb (1) | Hustle (2) | Sand Rush (H)
+Type: Electric / Dragon
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 35
+Height: 01.80 m, Weight: 190.0 kg, Color: Green
+
+======
+881 - Arctozolt (Stage: 2)
+======
+Galar Dex: #375
+Base Stats: 90.100.90.90.80.55 (BST: 505)
+EV Yield: 0.2.0.0.0.0
+Abilities: Volt Absorb (1) | Static (2) | Slush Rush (H)
+Type: Electric / Ice
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 35
+Height: 02.30 m, Weight: 150.0 kg, Color: Blue
+
+======
+882 - Dracovish (Stage: 2)
+======
+Galar Dex: #376
+Base Stats: 90.90.100.70.80.75 (BST: 505)
+EV Yield: 0.0.2.0.0.0
+Abilities: Water Absorb (1) | Strong Jaw (2) | Sand Rush (H)
+Type: Water / Dragon
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 35
+Height: 02.30 m, Weight: 215.0 kg, Color: Green
+
+======
+883 - Arctovish (Stage: 2)
+======
+Galar Dex: #377
+Base Stats: 90.90.100.80.90.55 (BST: 505)
+EV Yield: 0.0.2.0.0.0
+Abilities: Water Absorb (1) | Ice Body (2) | Slush Rush (H)
+Type: Water / Ice
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 35
+Height: 02.00 m, Weight: 175.0 kg, Color: Blue
+
+======
+884 - Duraludon (Stage: 2)
+======
+Galar Dex: #371
+Base Stats: 70.95.115.120.50.85 (BST: 535)
+EV Yield: 0.0.0.2.0.0
+Abilities: Light Metal (1) | Heavy Metal (2) | Stalwart (H)
+Type: Steel / Dragon
+Items: None
+EXP Group: MediumFast
+Egg Group: Mineral / Dragon
+Hatch Cycles: 30
+Height: 01.80 m, Weight: 040.0 kg, Color: White
+
+======
+885 - Dreepy (Stage: 1)
+======
+Galar Dex: #395
+Base Stats: 28.60.30.40.30.82 (BST: 270)
+EV Yield: 0.0.0.0.0.1
+Abilities: Clear Body (1) | Infiltrator (2) | Cursed Body (H)
+Type: Dragon / Ghost
+Items: None
+EXP Group: Slow
+Egg Group: Amorphous / Dragon
+Hatch Cycles: 40
+Height: 00.50 m, Weight: 002.0 kg, Color: Green
+Evolves into Drakloak-0 @ 50 (LevelUp) [0]
+
+
+======
+886 - Drakloak (Stage: 2)
+======
+Galar Dex: #396
+Base Stats: 68.80.50.60.50.102 (BST: 410)
+EV Yield: 0.0.0.0.0.2
+Abilities: Clear Body (1) | Infiltrator (2) | Cursed Body (H)
+Type: Dragon / Ghost
+Items: None
+EXP Group: Slow
+Egg Group: Amorphous / Dragon
+Hatch Cycles: 40
+Height: 01.40 m, Weight: 011.0 kg, Color: Green
+Evolves into Dragapult-0 @ 60 (LevelUp) [0]
+
+
+======
+887 - Dragapult (Stage: 3)
+======
+Galar Dex: #397
+Base Stats: 88.120.75.100.75.142 (BST: 600)
+EV Yield: 0.0.0.0.0.3
+Abilities: Clear Body (1) | Infiltrator (2) | Cursed Body (H)
+Type: Dragon / Ghost
+Items: None
+EXP Group: Slow
+Egg Group: Amorphous / Dragon
+Hatch Cycles: 40
+Height: 03.00 m, Weight: 050.0 kg, Color: Green
+
+======
+888 - Zacian (Stage: 3)
+======
+Galar Dex: #398
+Base Stats: 92.130.115.80.115.138 (BST: 670)
+EV Yield: 0.0.0.0.0.3
+Abilities: Intrepid Sword (1) | Intrepid Sword (2) | Intrepid Sword (H)
+Type: Fairy
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.80 m, Weight: 110.0 kg, Color: Blue
+
+======
+1168 - Zacian 1 (Stage: 3)
+======
+Galar Dex: #398
+Base Stats: 92.170.115.80.115.148 (BST: 720)
+EV Yield: 0.0.0.0.0.3
+Abilities: Intrepid Sword (1) | Intrepid Sword (2) | Intrepid Sword (H)
+Type: Fairy / Steel
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.80 m, Weight: 355.0 kg, Color: Blue
+
+======
+889 - Zamazenta (Stage: 3)
+======
+Galar Dex: #399
+Base Stats: 92.130.115.80.115.138 (BST: 670)
+EV Yield: 0.0.0.0.0.3
+Abilities: Dauntless Shield (1) | Dauntless Shield (2) | Dauntless Shield (H)
+Type: Fighting
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.90 m, Weight: 210.0 kg, Color: Red
+
+======
+1169 - Zamazenta 1 (Stage: 3)
+======
+Galar Dex: #399
+Base Stats: 92.130.145.80.145.128 (BST: 720)
+EV Yield: 0.0.0.0.0.3
+Abilities: Dauntless Shield (1) | Dauntless Shield (2) | Dauntless Shield (H)
+Type: Fighting / Steel
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 02.90 m, Weight: 785.0 kg, Color: Red
+
+======
+890 - Eternatus (Stage: 3)
+======
+Galar Dex: #400
+Base Stats: 140.85.95.145.95.130 (BST: 690)
+EV Yield: 3.0.0.0.0.0
+Abilities: Pressure (1) | Pressure (2) | Pressure (H)
+Type: Poison / Dragon
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 20.00 m, Weight: 950.0 kg, Color: Purple
+
+======
+1170 - Eternatus 1 (Stage: 3)
+======
+Galar Dex: #400
+Base Stats: 255.115.250.125.250.130 (BST: 1125)
+EV Yield: 3.0.0.0.0.0
+Abilities: Pressure (1) | Pressure (2) | Pressure (H)
+Type: Poison / Dragon
+Items: None
+EXP Group: Slow
+Egg Group: Undiscovered
+Hatch Cycles: 120
+Height: 100.00 m, Weight: 000.0 kg, Color: Purple
