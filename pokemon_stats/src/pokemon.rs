@@ -1,11 +1,51 @@
 pub use crate::moves::*;
 use crate::parsing::*;
 use serde_json::{Value};
+use std::ops::Mul;
+
+#[derive(PartialEq, Eq, Copy, Clone, PartialOrd, Ord)]
+pub enum Efficacy {
+    Zero,
+    Fourth,
+    Half,
+    X1,
+    X2,
+    X4,
+}
+
+impl Mul for Efficacy {
+    type Output = Self;
+
+    fn mul(self, rhs: Self) -> Self {
+        use Efficacy::*;
+        match (self, rhs) {
+            (X1, r) => r,
+            (l, X1) => l,
+            (Zero, _) => Zero,
+            (_, Zero) => Zero,
+            (X4, Half) => X2,
+            (Half, X4) => X2,
+            (X4, Fourth) => X1,
+            (Fourth, X4) => X1,
+            (X4, _) => panic!("Efficacy overflow"),
+            (_, X4) => panic!("Efficacy overflow"),
+            (X2, X2) => X4,
+            (X2, Half) => X1,
+            (X2, Fourth) => Half,
+            (Fourth, X2) => Half,
+            (Half, X2) => X1,
+            (Half, Half) => Fourth,
+            (Half, Fourth) => panic!("Efficacy underflow"),
+            (Fourth, Half) => panic!("Efficacy underflow"),
+            (Fourth, Fourth) => panic!("Efficacy underflow"),
+        }
+    }
+}
 
 /// A single type in the type chart
-#[allow(dead_code)]
-enum PureType {
-    Bug,
+#[derive(Copy, Clone, Debug)]
+pub enum PureType {
+    Bug = 0,
     Dark,
     Dragon,
     Electric,
@@ -25,11 +65,190 @@ enum PureType {
     Water,
 }
 
+impl PureType {
+    pub fn against(self, pokemon: &Pokemon) -> Efficacy {
+        pokemon.types.against(self)
+    }
+
+    pub fn efficacy(attack: PureType, defense: PureType) -> Efficacy {
+        use PureType::*;
+        use Efficacy::*;
+        match (attack, defense) {
+            (Bug, Fire) => Half,
+            (Bug, Grass) => X2,
+            (Bug, Fighting) => Half,
+            (Bug, Poison) => Half,
+            (Bug, Flying) => Half,
+            (Bug, Psychic) => X2,
+            (Bug, Ghost) => Half,
+            (Bug, Dark) => X2,
+            (Bug, Steel) => Half,
+            (Bug, Fairy) => Half,
+            (Bug, _) => X1,
+
+            (Dark, Poison) => Half,
+            (Dark, Psychic) => X2,
+            (Dark, Ghost) => X2,
+            (Dark, Dark) => Half,
+            (Dark, Fairy) => Half,
+            (Dark, _) => X1,
+
+            (Dragon, Dragon) => X2,
+            (Dragon, Steel) => Half,
+            (Dragon, Fairy) => Zero,
+            (Dragon, _) => X1,
+
+            (Electric, Water) => X2,
+            (Electric, Electric) => Half,
+            (Electric, Grass) => Half,
+            (Electric, Ground) => Zero,
+            (Electric, Flying) => X2,
+            (Electric, Dragon) => Half,
+            (Electric, _) => X1,
+
+            (Fairy, Fire) => Half,
+            (Fairy, Fighting) => X2,
+            (Fairy, Poison) => Half,
+            (Fairy, Dragon) => X2,
+            (Fairy, Dark) => X2,
+            (Fairy, Steel) => Half,
+            (Fairy, _) => X1,
+
+            (Fighting, Normal) => X2,
+            (Fighting, Ice) => X2,
+            (Fighting, Poison) => Half,
+            (Fighting, Flying) => Half,
+            (Fighting, Psychic) => Half,
+            (Fighting, Bug) => Half,
+            (Fighting, Rock) => X2,
+            (Fighting, Ghost) => Zero,
+            (Fighting, Dark) => X2,
+            (Fighting, Steel) => X2,
+            (Fighting, Fairy) => Half,
+            (Fighting, _) => X1,
+
+            (Fire, Fire) => Half,
+            (Fire, Water) => Half,
+            (Fire, Grass) => X2,
+            (Fire, Ice) => X2,
+            (Fire, Bug) => X2,
+            (Fire, Steel) => X2,
+            (Fire, Rock) => Half,
+            (Fire, Dragon) => Half,
+            (Fire, _) => X1,
+
+            (Flying, Electric) => Half,
+            (Flying, Grass) => X2,
+            (Flying, Fighting) => X2,
+            (Flying, Bug) => X2,
+            (Flying, Rock) => Half,
+            (Flying, Steel) => Half,
+            (Flying, _) => X1,
+
+            (Ghost, Normal) => Zero,
+            (Ghost, Psychic) => X2,
+            (Ghost, Ghost) => X2,
+            (Ghost, Dark) => Half,
+            (Ghost, _) => X1,
+
+            (Grass, Fire) => Half,
+            (Grass, Water) => X2,
+            (Grass, Poison) => Half,
+            (Grass, Ground) => X2,
+            (Grass, Flying) => Half,
+            (Grass, Bug) => Half,
+            (Grass, Rock) => X2,
+            (Grass, Dragon) => Half,
+            (Grass, Steel) => Half,
+            (Grass, _) => X1,
+
+            (Ground, Fire) => X2,
+            (Ground, Electric) => X2,
+            (Ground, Grass) => Half,
+            (Ground, Poison) => X2,
+            (Ground, Flying) => Zero,
+            (Ground, Bug) => Half,
+            (Ground, Rock) => X2,
+            (Ground, Steel) => X2,
+            (Ground, _) => X1,
+
+            (Ice, Fire) => Half,
+            (Ice, Water) => Half,
+            (Ice, Ice) => Half,
+            (Ice, Steel) => Half,
+            (Ice, Grass) => X2,
+            (Ice, Ground) => X2,
+            (Ice, Flying) => X2,
+            (Ice, Dragon) => X2,
+            (Ice, _) => X1,
+
+            (Normal, Rock) => Half,
+            (Normal, Steel) => Half,
+            (Normal, Ghost) => Zero,
+            (Normal, _) => X1,
+
+            (Poison, Poison) => Half,
+            (Poison, Ground) => Half,
+            (Poison, Rock) => Half,
+            (Poison, Ghost) => Half,
+            (Poison, Grass) => X2,
+            (Poison, Fairy) => X2,
+            (Poison, _) => X1,
+
+            (Psychic, Psychic) => Half,
+            (Psychic, Steel) => Half,
+            (Psychic, Fighting) => X2,
+            (Psychic, Poison) => X2,
+            (Psychic, Dark) => Zero,
+            (Psychic, _) => X1,
+
+            (Rock, Fighting) => Half,
+            (Rock, Ground) => Half,
+            (Rock, Steel) => Half,
+            (Rock, Fire) => X2,
+            (Rock, Ice) => X2,
+            (Rock, Flying) => X2,
+            (Rock, Bug) => X2,
+            (Rock, _) => X1,
+
+            (Steel, Fire) => Half,
+            (Steel, Water) => Half,
+            (Steel, Electric) => Half,
+            (Steel, Steel) => Half,
+            (Steel, Ice) => X2,
+            (Steel, Rock) => X2,
+            (Steel, Fairy) => X2,
+            (Steel, _) => X1,
+
+            (Water, Water) => Half,
+            (Water, Grass) => Half,
+            (Water, Dragon) => Half,
+            (Water, Fire) => X2,
+            (Water, Ground) => X2,
+            (Water, Rock) => X2,
+            (Water, _) => X1,
+        }
+    }
+}
+
 /// Pokemon can have either 1 or 2 types.
-#[allow(dead_code)]
-enum PokemonType {
+#[derive(Copy, Clone, Debug)]
+pub enum PokemonType {
     Single(PureType),
     Double(PureType, PureType),
+}
+
+impl PokemonType {
+    pub fn efficacy(attack: PureType, defense: PokemonType) -> Efficacy {
+        match defense {
+            PokemonType::Single(d) => PureType::efficacy(attack, d),
+            PokemonType::Double(d1, d2) => PureType::efficacy(attack, d1) * PureType::efficacy(attack, d2),
+        }
+    }
+
+    pub fn against(self, attack: PureType) -> Efficacy {
+        PokemonType::efficacy(attack, self)
+    }
 }
 
 #[derive(Debug)]
@@ -78,7 +297,7 @@ pub struct Pokemon {
     pub base_stats: Stats,
     pub ev_yield: Stats,
     pub abilities: Vec<String>,
-    pub types: Vec<String>,
+    pub types: PokemonType,
     pub items: Vec<(u64,String)>,
     pub exp_group: String,
     pub egg_groups: Vec<String>,
@@ -104,7 +323,8 @@ impl Pokemon {
             ev_yield: Stats::from_json(&json["ev_yield"])
                 .ok_or("ev_yield".to_string())?,
             abilities: str_vec(&json["abilities"], "abilities")?,
-            types: str_vec(&json["types"], "types")?,
+            types: pokemon_type(&json["types"])
+                .ok_or("types".to_string())?,
             exp_group: string(&json["exp_group"], "exp_group")?,
             egg_groups: str_vec(&json["egg_groups"], "egg_groups")?,
             hatch_cycles: u64_json(&json["hatch_cycles"])

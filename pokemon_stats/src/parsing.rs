@@ -1,5 +1,55 @@
-use crate::moves::*;
+use crate::{
+    pokemon::{PokemonType, PureType},
+    moves::*,
+};
 use serde_json::{Value};
+
+pub fn pokemon_type(json: &Value) -> Option<PokemonType> {
+    if let Value::Array(arr) = json {
+        if arr.len() == 1 {
+            Some(PokemonType::Single(pure_type(&arr[0])?))
+        } else if arr.len() == 2 {
+            Some(PokemonType::Double(
+                    pure_type(&arr[0])?,
+                    pure_type(&arr[1])?,
+                ))
+        } else {
+            None
+        }
+    } else {
+        None
+    }
+}
+
+fn pure_type(json: &Value) -> Option<PureType> {
+    use PureType::*;
+
+    if let Value::String(s) = json {
+        match s.as_str() {
+            "Bug" => Some(Bug),
+            "Dark" => Some(Dark),
+            "Dragon" => Some(Dragon),
+            "Electric" => Some(Electric),
+            "Fairy" => Some(Fairy),
+            "Fighting" => Some(Fighting),
+            "Fire" => Some(Fire),
+            "Flying" => Some(Flying),
+            "Ghost" => Some(Ghost),
+            "Grass" => Some(Grass),
+            "Ground" => Some(Ground),
+            "Ice" => Some(Ice),
+            "Normal" => Some(Normal),
+            "Poison" => Some(Poison),
+            "Psychic" => Some(Psychic),
+            "Rock" => Some(Rock),
+            "Steel" => Some(Steel),
+            "Water" => Some(Water),
+            _ => None,
+        }
+    } else {
+        None
+    }
+}
 
 pub fn tm_array(json: &Value) -> Option<Vec<TM>> {
     if let Value::Array(arr) = json {
