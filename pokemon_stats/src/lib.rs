@@ -38,14 +38,14 @@ pub fn print_population_stats(pokemon: Vec<Pokemon>) {
             .map(|p| p.base_stats.sp_attack as f32)
             .collect::<Vec<_>>();
         let (average, std) = average_and_stdev(vals.as_slice());
-        print_mean("special", average, std);
+        print_mean("sp attack", average, std);
 
         let vals = pokemon
             .iter()
             .map(|p| p.base_stats.sp_defense as f32)
             .collect::<Vec<_>>();
         let (average, std) = average_and_stdev(vals.as_slice());
-        print_mean("special", average, std);
+        print_mean("sp defense", average, std);
 
         let vals = pokemon
             .iter()
@@ -68,7 +68,7 @@ pub fn print_population_stats(pokemon: Vec<Pokemon>) {
 }
 
 fn print_mean<S: ToString>(measure: S, mean: f32, std_dev: f32) {
-    println!("{:<8} = {:>9.5} (σ = {:.5})", measure.to_string(), mean, std_dev);
+    println!("{:<10} = {:>9.5} (σ = {:.5})", measure.to_string(), mean, std_dev);
 }
 
 fn average_and_stdev<T>(v: &[T]) -> (T, T)
