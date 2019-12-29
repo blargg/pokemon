@@ -2,6 +2,8 @@ pub use crate::moves::*;
 use crate::parsing::*;
 use serde_json::{Value};
 use std::ops::Mul;
+pub use strum::IntoEnumIterator;
+use strum_macros::{EnumIter};
 
 #[derive(PartialEq, Eq, Copy, Clone, PartialOrd, Ord)]
 pub enum Efficacy {
@@ -43,7 +45,7 @@ impl Mul for Efficacy {
 }
 
 /// A single type in the type chart
-#[derive(Copy, Clone, Debug)]
+#[derive(Copy, Clone, Debug, EnumIter)]
 pub enum PureType {
     Bug = 0,
     Dark,
@@ -248,6 +250,45 @@ impl PokemonType {
 
     pub fn against(self, attack: PureType) -> Efficacy {
         PokemonType::efficacy(attack, self)
+    }
+
+    pub fn type_matchups(self) -> impl Iterator<Item = (PureType, Efficacy)> {
+        PureType::iter().map(move |attack| (attack, self.against(attack)))
+    }
+
+    pub fn weaknesses(self) -> impl Iterator<Item = PureType> {
+        self
+            .type_matchups()
+            .filter(|(_, eff)| eff >= &Efficacy::X2)
+            .map(|(ty, _)| ty)
+    }
+
+    pub fn resistances(self) -> impl Iterator<Item = PureType> {
+        self
+            .type_matchups()
+            .filter(|(_, eff)| eff <= &Efficacy::Half)
+            .map(|(ty, _)| ty)
+    }
+
+    pub fn iter() -> impl Iterator<Item = PokemonType> {
+        let vals = PokemonType::all_vec();
+        vals.into_iter()
+    }
+
+    fn all_vec() -> Vec<PokemonType> {
+        let mut all = Vec::new();
+
+        for first in PureType::iter() {
+            all.push(PokemonType::Single(first));
+        }
+
+        for first in PureType::iter() {
+            for second in PureType::iter() {
+                all.push(PokemonType::Double(first, second));
+            }
+        }
+
+        all
     }
 }
 
