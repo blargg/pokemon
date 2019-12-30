@@ -327,7 +327,7 @@ impl PartialEq for PokemonType {
 
 impl Eq for PokemonType { }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Stats {
     pub hp: u64,
     pub attack: u64,
@@ -365,7 +365,7 @@ impl Stats {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Pokemon {
     pub name: String,
     pub stage: i64,
@@ -424,6 +424,36 @@ impl Pokemon {
 
     pub fn is_galar(&self) -> bool {
         self.galar_dex.is_some()
+    }
+
+    /// Checks if the two pokemon can breed with each other
+    pub fn breeds_with(&self, other: &Pokemon) -> bool {
+        if self.egg_groups.iter().any(|group| group.as_str() == "Undiscovered")
+            || other.egg_groups.iter().any(|group| group.as_str() == "Undiscovered") {
+            return false;
+        }
+
+        // Any pokemon can breed with ditto, except itself and pokemon with the "Undiscovered" egg group
+        if (self.name == "Ditto".to_string()) && (other.name == "Ditto".to_string()) {
+            return false;
+        }
+        if (self.name == "Ditto".to_string()) ^ (other.name == "Ditto".to_string()) {
+            return true;
+        }
+
+        self.common_egg_group(other)
+    }
+
+    fn common_egg_group(&self, other: &Pokemon) -> bool {
+        for group1 in self.egg_groups.iter() {
+            for group2 in other.egg_groups.iter() {
+                if group1 == group2 {
+                    return true;
+                }
+            }
+        }
+
+        false
     }
 
     pub fn can_learn(&self, mv: &Move) -> bool {
