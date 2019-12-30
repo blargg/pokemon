@@ -11,6 +11,8 @@ pub use pokemon::{
 use statistical;
 
 pub fn print_population_stats(pokemon: Vec<Pokemon>) {
+    println!("population count = {}", pokemon.len());
+
     if pokemon.len() > 2 {
         let vals = pokemon
             .iter()
