@@ -45,7 +45,7 @@ impl Mul for Efficacy {
 }
 
 /// A single type in the type chart
-#[derive(Copy, Clone, Debug, EnumIter)]
+#[derive(Copy, Clone, Debug, EnumIter, PartialEq, Eq, PartialOrd, Ord)]
 pub enum PureType {
     Bug = 0,
     Dark,
@@ -241,8 +241,30 @@ pub enum PokemonType {
 }
 
 impl PokemonType {
+    /// PokemonType enum can represent meaningless values, like `Double(Fire, Fire)`.
+    /// This reduces those cases to their normal form: `Single(Fire)`.
+    ///
+    /// 1. Double(x, x) -> Single(x)
+    /// 2. Double(y, x) -> Double(x, y), ordered alphabetically
+    fn normalize(self) -> Self {
+        use PokemonType::*;
+
+        match self {
+            Double(x, y) => {
+                if x == y {
+                    Single(x)
+                } else if x < y{
+                    Double(x, y)
+                } else {
+                    Double(y, x)
+                }
+            }
+            ty => ty
+        }
+    }
+
     pub fn efficacy(attack: PureType, defense: PokemonType) -> Efficacy {
-        match defense {
+        match defense.normalize() {
             PokemonType::Single(d) => PureType::efficacy(attack, d),
             PokemonType::Double(d1, d2) => PureType::efficacy(attack, d1) * PureType::efficacy(attack, d2),
         }
@@ -291,6 +313,19 @@ impl PokemonType {
         all
     }
 }
+
+impl PartialEq for PokemonType {
+    fn eq(&self, other: &PokemonType) -> bool {
+        use PokemonType::*;
+        match (self.normalize(), other.normalize()) {
+            (Single(x), Single(y)) => x == y,
+            (Double(x, y), Double(w, z)) => x == w && y == z,
+            _ => false,
+        }
+    }
+}
+
+impl Eq for PokemonType { }
 
 #[derive(Debug)]
 pub struct Stats {
