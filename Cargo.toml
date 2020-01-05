@@ -1,6 +1,5 @@
 [workspace]
 
 members = [
-    "pokemon_query",
     "pokemon_stats",
 ]
