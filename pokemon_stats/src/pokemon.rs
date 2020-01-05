@@ -365,6 +365,17 @@ impl Stats {
     }
 }
 
+#[derive(Debug, PartialEq, Eq)]
+#[repr(u8)]
+pub enum Stat {
+    Hp,
+    Attack,
+    Defense,
+    SpDefense,
+    Speed,
+    SpAttack,
+}
+
 #[derive(Debug, Clone)]
 pub struct Pokemon {
     pub name: String,
@@ -456,37 +467,37 @@ impl Pokemon {
         false
     }
 
-    pub fn can_learn(&self, mv: &Move) -> bool {
+    pub fn can_learn(&self, mv: &MoveId) -> bool {
         self.by_level(mv)
             || self.by_egg(mv)
             || self.by_tm(mv)
             || self.by_tr(mv)
     }
 
-    fn by_level(&self, mv: &Move) -> bool {
+    fn by_level(&self, mv: &MoveId) -> bool {
         self
             .level_up_moves
             .iter()
-            .map(|(_lvl, name)| Move::from_name(name))
+            .map(|(_lvl, name)| MoveId::from_name(name))
             .any(|level_mv| mv == &level_mv)
     }
 
-    fn by_egg(&self, mv: &Move) -> bool {
+    fn by_egg(&self, mv: &MoveId) -> bool {
         self
             .egg_moves
             .iter()
-            .map(|name| Move::from_name(name))
+            .map(|name| MoveId::from_name(name))
             .any(|egg_move| mv == &egg_move)
     }
 
-    fn by_tm(&self, mv: &Move) -> bool {
+    fn by_tm(&self, mv: &MoveId) -> bool {
         self
             .tms
             .iter()
             .any(|tm| &tm.as_move() == mv)
     }
 
-    fn by_tr(&self, mv: &Move) -> bool {
+    fn by_tr(&self, mv: &MoveId) -> bool {
         self
             .trs
             .iter()

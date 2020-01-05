@@ -1,14 +1,119 @@
+use crate::pokemon::PureType;
+use serde::Deserialize;
+
 /// A move that a pokemon may know
-#[derive(PartialEq, Eq)]
-pub struct Move {
+#[derive(Debug, PartialEq, Eq, Deserialize)]
+pub struct MoveId {
+    #[serde(rename="Moves")]
     name: String
 }
 
-impl Move {
-    pub fn from_name(name: &String) -> Move {
-        Move {
+impl MoveId {
+    pub fn from_name(name: &String) -> MoveId {
+        MoveId {
             name: name.clone(),
         }
+    }
+}
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all="PascalCase")]
+pub struct Move {
+    #[serde(flatten)]
+    id: MoveId,
+    #[serde(rename="Type", deserialize_with = "deserialize::de_type")]
+    move_type: PureType,
+    category: u8,
+    power: u32,
+    accuracy: u32,
+    #[serde(rename="PP")]
+    pp: u32,
+    priority: u32,
+    hit_min: u8,
+    hit_max: u8,
+    inflict: u16,
+    inflict_percent: u8,
+    raw_inflict_count: u8,
+
+    turn_min: u8,
+    turn_max: u8,
+    crit_stage: u8,
+    flinch: u32,
+    effect_sequence: u32,
+    recoil: u32,
+    raw_healing: u32,
+    raw_target: u32,
+
+    #[serde(rename="Stat1")]
+    stat1: u8,
+    #[serde(rename="Stat1Stage")]
+    stat1_stage: u8,
+    #[serde(rename="Stat1Percent")]
+    stat1_percent: u8,
+    #[serde(rename="Stat2")]
+    stat2: u8,
+    #[serde(rename="Stat2Stage")]
+    stat2_stage: u8,
+    #[serde(rename="Stat2Percent")]
+    stat2_percent: u8,
+    #[serde(rename="Stat3")]
+    stat3: u8,
+    #[serde(rename="Stat3Stage")]
+    stat3_stage: u8,
+    #[serde(rename="Stat3Percent")]
+    stat3_percent: u8,
+    #[serde(rename="GigantimaxPower")]
+    dynamax_power: u8,
+    target: String,
+}
+
+mod deserialize {
+    use crate::pokemon::PureType;
+    use serde::*;
+    use serde::de;
+    use core::fmt;
+
+    pub(crate) fn de_type<'de, D>(deserializer: D) -> Result<PureType, D::Error>
+        where D: Deserializer<'de>
+    {
+        struct PureTypeVisitor;
+        impl<'de> de::Visitor<'de> for PureTypeVisitor {
+            type Value = PureType;
+
+            fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
+                formatter.write_str("a number representing a pokemon type")
+            }
+
+            fn visit_i8<E>(self, v: i8) -> Result<Self::Value, E>
+                where E: de::Error,
+            {
+                use PureType::*;
+                match v {
+                    0 => Ok(Normal),
+                    1 => Ok(Fighting),
+                    2 => Ok(Flying),
+                    3 => Ok(Poison),
+                    4 => Ok(Ground),
+                    5 => Ok(Rock),
+                    6 => Ok(Bug),
+                    7 => Ok(Ghost),
+                    8 => Ok(Steel),
+                    9 => Ok(Fire),
+                    10 => Ok(Water),
+                    11 => Ok(Grass),
+                    12 => Ok(Electric),
+                    13 => Ok(Psychic),
+                    14 => Ok(Ice),
+                    15 => Ok(Dragon),
+                    16 => Ok(Dark),
+                    17 => Ok(Fairy),
+
+                    _ => panic!("not a valid pokemon type"),
+                }
+            }
+        }
+
+        deserializer.deserialize_i8(PureTypeVisitor)
     }
 }
 
@@ -25,8 +130,8 @@ impl TM {
         }
     }
 
-    pub fn as_move(self) -> Move {
-        Move {
+    pub fn as_move(self) -> MoveId {
+        MoveId {
             name: TM_S[self.id as usize].to_string(),
         }
     }
@@ -45,8 +150,8 @@ impl TR {
         }
     }
 
-    pub fn as_move(self) -> Move {
-        Move {
+    pub fn as_move(self) -> MoveId {
+        MoveId {
             name: TR_S[self.id as usize].to_string(),
         }
     }

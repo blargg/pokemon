@@ -17,7 +17,7 @@ fn main() {
     let galar_pokemon = pokemon.into_iter().filter(|p| p.is_galar());
 
     let mut population = galar_pokemon
-        .filter(|p| p.can_learn(&Move::from_name(&"Trick Room".to_string())))
+        .filter(|p| p.can_learn(&MoveId::from_name(&"Trick Room".to_string())))
         .collect::<Vec<_>>();
     population.sort_by(|a, b| a.base_stats.speed.cmp(&b.base_stats.speed));
 
