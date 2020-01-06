@@ -58,23 +58,17 @@ pub struct Move {
     raw_healing: u32,
     raw_target: u32,
 
-    #[serde(rename="Stat1", deserialize_with = "deserialize::stat")]
+    #[serde(deserialize_with = "deserialize::stat")]
     stat1: EnumSet<Stat>,
-    #[serde(rename="Stat1Stage")]
     stat1_stage: u8,
-    #[serde(rename="Stat1Percent")]
     stat1_percent: u8,
-    #[serde(rename="Stat2", deserialize_with = "deserialize::stat")]
+    #[serde(deserialize_with = "deserialize::stat")]
     stat2: EnumSet<Stat>,
-    #[serde(rename="Stat2Stage")]
     stat2_stage: u8,
-    #[serde(rename="Stat2Percent")]
     stat2_percent: u8,
-    #[serde(rename="Stat3", deserialize_with = "deserialize::stat")]
+    #[serde(deserialize_with = "deserialize::stat")]
     stat3: EnumSet<Stat>,
-    #[serde(rename="Stat3Stage")]
     stat3_stage: u8,
-    #[serde(rename="Stat3Percent")]
     stat3_percent: u8,
     #[serde(rename="GigantimaxPower")]
     dynamax_power: u8,
