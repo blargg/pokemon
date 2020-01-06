@@ -4,6 +4,7 @@ use crate::pokemon::{
 };
 use enumset::EnumSet;
 use serde::Deserialize;
+use serde_repr::Deserialize_repr;
 
 /// A move that a pokemon may know
 #[derive(Debug, PartialEq, Eq, Deserialize)]
@@ -20,6 +21,15 @@ impl MoveId {
     }
 }
 
+/// Move Category, dictates the attack type
+#[derive(Deserialize_repr, Debug, PartialEq, Eq)]
+#[repr(u8)]
+pub enum Category {
+    Status = 0,
+    Physical = 1,
+    Special = 2,
+}
+
 #[derive(Debug, Deserialize)]
 #[serde(rename_all="PascalCase")]
 pub struct Move {
@@ -27,7 +37,7 @@ pub struct Move {
     id: MoveId,
     #[serde(rename="Type", deserialize_with = "deserialize::de_type")]
     move_type: PureType,
-    category: u8,
+    category: Category,
     power: u32,
     accuracy: u32,
     #[serde(rename="PP")]
