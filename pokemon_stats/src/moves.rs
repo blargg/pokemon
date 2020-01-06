@@ -80,7 +80,7 @@ impl Move {
         self.id.name.as_str()
     }
 
-    pub fn effec_on(&self, stat: Stat) -> Option<(u8, u8)> {
+    pub fn effect_on(&self, stat: Stat) -> Option<(u8, u8)> {
         if self.stat1.contains(stat) {
             return Some((self.stat1_percent, self.stat1_stage));
         }
