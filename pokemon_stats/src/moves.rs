@@ -1,4 +1,8 @@
-use crate::pokemon::PureType;
+use crate::pokemon::{
+    PureType,
+    Stat,
+};
+use enumset::EnumSet;
 use serde::Deserialize;
 
 /// A move that a pokemon may know
@@ -44,20 +48,20 @@ pub struct Move {
     raw_healing: u32,
     raw_target: u32,
 
-    #[serde(rename="Stat1")]
-    stat1: u8,
+    #[serde(rename="Stat1", deserialize_with = "deserialize::stat")]
+    stat1: EnumSet<Stat>,
     #[serde(rename="Stat1Stage")]
     stat1_stage: u8,
     #[serde(rename="Stat1Percent")]
     stat1_percent: u8,
-    #[serde(rename="Stat2")]
-    stat2: u8,
+    #[serde(rename="Stat2", deserialize_with = "deserialize::stat")]
+    stat2: EnumSet<Stat>,
     #[serde(rename="Stat2Stage")]
     stat2_stage: u8,
     #[serde(rename="Stat2Percent")]
     stat2_percent: u8,
-    #[serde(rename="Stat3")]
-    stat3: u8,
+    #[serde(rename="Stat3", deserialize_with = "deserialize::stat")]
+    stat3: EnumSet<Stat>,
     #[serde(rename="Stat3Stage")]
     stat3_stage: u8,
     #[serde(rename="Stat3Percent")]
@@ -67,8 +71,32 @@ pub struct Move {
     target: String,
 }
 
+impl Move {
+    pub fn name(&self) -> &str {
+        self.id.name.as_str()
+    }
+
+    pub fn effec_on(&self, stat: Stat) -> Option<(u8, u8)> {
+        if self.stat1.contains(stat) {
+            return Some((self.stat1_percent, self.stat1_stage));
+        }
+        if self.stat2.contains(stat) {
+            return Some((self.stat2_percent, self.stat2_stage));
+        }
+        if self.stat3.contains(stat) {
+            return Some((self.stat3_percent, self.stat3_stage));
+        }
+
+        None
+    }
+}
+
 mod deserialize {
-    use crate::pokemon::PureType;
+    use crate::pokemon::{
+        PureType,
+        Stat,
+    };
+    use enumset::EnumSet;
     use serde::*;
     use serde::de;
     use core::fmt;
@@ -114,6 +142,40 @@ mod deserialize {
         }
 
         deserializer.deserialize_i8(PureTypeVisitor)
+    }
+
+    pub(crate) fn stat<'de, D>(deserializer: D) -> Result<EnumSet<Stat>, D::Error>
+        where D: Deserializer<'de>
+    {
+        struct StatVisitor;
+        impl<'de> de::Visitor<'de> for StatVisitor {
+            type Value = EnumSet<Stat>;
+
+            fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
+                formatter.write_str("a number representing a pokemon stat")
+            }
+
+            fn visit_u8<E>(self, v: u8) -> Result<Self::Value, E>
+                where E: de::Error,
+            {
+                use Stat::*;
+                match v {
+                    0 => Ok(EnumSet::empty()),
+                    1 => Ok(EnumSet::only(Attack)),
+                    2 => Ok(EnumSet::only(Defense)),
+                    3 => Ok(EnumSet::only(SpAttack)),
+                    4 => Ok(EnumSet::only(SpDefense)),
+                    5 => Ok(EnumSet::only(Speed)),
+                    6 => Ok(EnumSet::only(Accuracy)),
+                    7 => Ok(EnumSet::only(Evasion)),
+                    8 => Ok(Attack | Defense | SpAttack | SpDefense | Speed | EnumSet::empty()),
+
+                    _ => panic!("not a valid pokemon stat"),
+                }
+            }
+        }
+
+        deserializer.deserialize_u8(StatVisitor)
     }
 }
 

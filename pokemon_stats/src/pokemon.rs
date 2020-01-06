@@ -1,5 +1,6 @@
 pub use crate::moves::*;
 use crate::parsing::*;
+use enumset::EnumSetType;
 use serde_json::{Value};
 use std::ops::Mul;
 pub use strum::IntoEnumIterator;
@@ -365,7 +366,7 @@ impl Stats {
     }
 }
 
-#[derive(Debug, PartialEq, Eq)]
+#[derive(Debug, EnumSetType)]
 #[repr(u8)]
 pub enum Stat {
     Hp,
@@ -374,6 +375,8 @@ pub enum Stat {
     SpDefense,
     Speed,
     SpAttack,
+    Evasion,
+    Accuracy,
 }
 
 #[derive(Debug, Clone)]
