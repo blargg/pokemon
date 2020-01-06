@@ -9,11 +9,7 @@ use strum_macros::{EnumIter};
 #[derive(PartialEq, Eq, Copy, Clone, PartialOrd, Ord)]
 pub enum Efficacy {
     Zero,
-    Fourth,
-    Half,
-    X1,
-    X2,
-    X4,
+    Pow2(i8),
 }
 
 impl Mul for Efficacy {
@@ -22,25 +18,9 @@ impl Mul for Efficacy {
     fn mul(self, rhs: Self) -> Self {
         use Efficacy::*;
         match (self, rhs) {
-            (X1, r) => r,
-            (l, X1) => l,
             (Zero, _) => Zero,
             (_, Zero) => Zero,
-            (X4, Half) => X2,
-            (Half, X4) => X2,
-            (X4, Fourth) => X1,
-            (Fourth, X4) => X1,
-            (X4, _) => panic!("Efficacy overflow"),
-            (_, X4) => panic!("Efficacy overflow"),
-            (X2, X2) => X4,
-            (X2, Half) => X1,
-            (X2, Fourth) => Half,
-            (Fourth, X2) => Half,
-            (Half, X2) => X1,
-            (Half, Half) => Fourth,
-            (Half, Fourth) => panic!("Efficacy underflow"),
-            (Fourth, Half) => panic!("Efficacy underflow"),
-            (Fourth, Fourth) => panic!("Efficacy underflow"),
+            (Pow2(x), Pow2(y)) => Pow2(x + y),
         }
     }
 }
@@ -77,159 +57,159 @@ impl PureType {
         use PureType::*;
         use Efficacy::*;
         match (attack, defense) {
-            (Bug, Fire) => Half,
-            (Bug, Grass) => X2,
-            (Bug, Fighting) => Half,
-            (Bug, Poison) => Half,
-            (Bug, Flying) => Half,
-            (Bug, Psychic) => X2,
-            (Bug, Ghost) => Half,
-            (Bug, Dark) => X2,
-            (Bug, Steel) => Half,
-            (Bug, Fairy) => Half,
-            (Bug, _) => X1,
+            (Bug, Fire) => Pow2(-1),
+            (Bug, Grass) => Pow2(1),
+            (Bug, Fighting) => Pow2(-1),
+            (Bug, Poison) => Pow2(-1),
+            (Bug, Flying) => Pow2(-1),
+            (Bug, Psychic) => Pow2(1),
+            (Bug, Ghost) => Pow2(-1),
+            (Bug, Dark) => Pow2(1),
+            (Bug, Steel) => Pow2(-1),
+            (Bug, Fairy) => Pow2(-1),
+            (Bug, _) => Pow2(0),
 
-            (Dark, Poison) => Half,
-            (Dark, Psychic) => X2,
-            (Dark, Ghost) => X2,
-            (Dark, Dark) => Half,
-            (Dark, Fairy) => Half,
-            (Dark, _) => X1,
+            (Dark, Poison) => Pow2(-1),
+            (Dark, Psychic) => Pow2(1),
+            (Dark, Ghost) => Pow2(1),
+            (Dark, Dark) => Pow2(-1),
+            (Dark, Fairy) => Pow2(-1),
+            (Dark, _) => Pow2(0),
 
-            (Dragon, Dragon) => X2,
-            (Dragon, Steel) => Half,
+            (Dragon, Dragon) => Pow2(1),
+            (Dragon, Steel) => Pow2(-1),
             (Dragon, Fairy) => Zero,
-            (Dragon, _) => X1,
+            (Dragon, _) => Pow2(0),
 
-            (Electric, Water) => X2,
-            (Electric, Electric) => Half,
-            (Electric, Grass) => Half,
+            (Electric, Water) => Pow2(1),
+            (Electric, Electric) => Pow2(-1),
+            (Electric, Grass) => Pow2(-1),
             (Electric, Ground) => Zero,
-            (Electric, Flying) => X2,
-            (Electric, Dragon) => Half,
-            (Electric, _) => X1,
+            (Electric, Flying) => Pow2(1),
+            (Electric, Dragon) => Pow2(-1),
+            (Electric, _) => Pow2(0),
 
-            (Fairy, Fire) => Half,
-            (Fairy, Fighting) => X2,
-            (Fairy, Poison) => Half,
-            (Fairy, Dragon) => X2,
-            (Fairy, Dark) => X2,
-            (Fairy, Steel) => Half,
-            (Fairy, _) => X1,
+            (Fairy, Fire) => Pow2(-1),
+            (Fairy, Fighting) => Pow2(1),
+            (Fairy, Poison) => Pow2(-1),
+            (Fairy, Dragon) => Pow2(1),
+            (Fairy, Dark) => Pow2(1),
+            (Fairy, Steel) => Pow2(-1),
+            (Fairy, _) => Pow2(0),
 
-            (Fighting, Normal) => X2,
-            (Fighting, Ice) => X2,
-            (Fighting, Poison) => Half,
-            (Fighting, Flying) => Half,
-            (Fighting, Psychic) => Half,
-            (Fighting, Bug) => Half,
-            (Fighting, Rock) => X2,
+            (Fighting, Normal) => Pow2(1),
+            (Fighting, Ice) => Pow2(1),
+            (Fighting, Poison) => Pow2(-1),
+            (Fighting, Flying) => Pow2(-1),
+            (Fighting, Psychic) => Pow2(-1),
+            (Fighting, Bug) => Pow2(-1),
+            (Fighting, Rock) => Pow2(1),
             (Fighting, Ghost) => Zero,
-            (Fighting, Dark) => X2,
-            (Fighting, Steel) => X2,
-            (Fighting, Fairy) => Half,
-            (Fighting, _) => X1,
+            (Fighting, Dark) => Pow2(1),
+            (Fighting, Steel) => Pow2(1),
+            (Fighting, Fairy) => Pow2(-1),
+            (Fighting, _) => Pow2(0),
 
-            (Fire, Fire) => Half,
-            (Fire, Water) => Half,
-            (Fire, Grass) => X2,
-            (Fire, Ice) => X2,
-            (Fire, Bug) => X2,
-            (Fire, Steel) => X2,
-            (Fire, Rock) => Half,
-            (Fire, Dragon) => Half,
-            (Fire, _) => X1,
+            (Fire, Fire) => Pow2(-1),
+            (Fire, Water) => Pow2(-1),
+            (Fire, Grass) => Pow2(1),
+            (Fire, Ice) => Pow2(1),
+            (Fire, Bug) => Pow2(1),
+            (Fire, Steel) => Pow2(1),
+            (Fire, Rock) => Pow2(-1),
+            (Fire, Dragon) => Pow2(-1),
+            (Fire, _) => Pow2(0),
 
-            (Flying, Electric) => Half,
-            (Flying, Grass) => X2,
-            (Flying, Fighting) => X2,
-            (Flying, Bug) => X2,
-            (Flying, Rock) => Half,
-            (Flying, Steel) => Half,
-            (Flying, _) => X1,
+            (Flying, Electric) => Pow2(-1),
+            (Flying, Grass) => Pow2(1),
+            (Flying, Fighting) => Pow2(1),
+            (Flying, Bug) => Pow2(1),
+            (Flying, Rock) => Pow2(-1),
+            (Flying, Steel) => Pow2(-1),
+            (Flying, _) => Pow2(0),
 
             (Ghost, Normal) => Zero,
-            (Ghost, Psychic) => X2,
-            (Ghost, Ghost) => X2,
-            (Ghost, Dark) => Half,
-            (Ghost, _) => X1,
+            (Ghost, Psychic) => Pow2(1),
+            (Ghost, Ghost) => Pow2(1),
+            (Ghost, Dark) => Pow2(-1),
+            (Ghost, _) => Pow2(0),
 
-            (Grass, Fire) => Half,
-            (Grass, Water) => X2,
-            (Grass, Poison) => Half,
-            (Grass, Ground) => X2,
-            (Grass, Flying) => Half,
-            (Grass, Bug) => Half,
-            (Grass, Rock) => X2,
-            (Grass, Dragon) => Half,
-            (Grass, Steel) => Half,
-            (Grass, _) => X1,
+            (Grass, Fire) => Pow2(-1),
+            (Grass, Water) => Pow2(1),
+            (Grass, Poison) => Pow2(-1),
+            (Grass, Ground) => Pow2(1),
+            (Grass, Flying) => Pow2(-1),
+            (Grass, Bug) => Pow2(-1),
+            (Grass, Rock) => Pow2(1),
+            (Grass, Dragon) => Pow2(-1),
+            (Grass, Steel) => Pow2(-1),
+            (Grass, _) => Pow2(0),
 
-            (Ground, Fire) => X2,
-            (Ground, Electric) => X2,
-            (Ground, Grass) => Half,
-            (Ground, Poison) => X2,
+            (Ground, Fire) => Pow2(1),
+            (Ground, Electric) => Pow2(1),
+            (Ground, Grass) => Pow2(-1),
+            (Ground, Poison) => Pow2(1),
             (Ground, Flying) => Zero,
-            (Ground, Bug) => Half,
-            (Ground, Rock) => X2,
-            (Ground, Steel) => X2,
-            (Ground, _) => X1,
+            (Ground, Bug) => Pow2(-1),
+            (Ground, Rock) => Pow2(1),
+            (Ground, Steel) => Pow2(1),
+            (Ground, _) => Pow2(0),
 
-            (Ice, Fire) => Half,
-            (Ice, Water) => Half,
-            (Ice, Ice) => Half,
-            (Ice, Steel) => Half,
-            (Ice, Grass) => X2,
-            (Ice, Ground) => X2,
-            (Ice, Flying) => X2,
-            (Ice, Dragon) => X2,
-            (Ice, _) => X1,
+            (Ice, Fire) => Pow2(-1),
+            (Ice, Water) => Pow2(-1),
+            (Ice, Ice) => Pow2(-1),
+            (Ice, Steel) => Pow2(-1),
+            (Ice, Grass) => Pow2(1),
+            (Ice, Ground) => Pow2(1),
+            (Ice, Flying) => Pow2(1),
+            (Ice, Dragon) => Pow2(1),
+            (Ice, _) => Pow2(0),
 
-            (Normal, Rock) => Half,
-            (Normal, Steel) => Half,
+            (Normal, Rock) => Pow2(-1),
+            (Normal, Steel) => Pow2(-1),
             (Normal, Ghost) => Zero,
-            (Normal, _) => X1,
+            (Normal, _) => Pow2(0),
 
-            (Poison, Poison) => Half,
-            (Poison, Ground) => Half,
-            (Poison, Rock) => Half,
-            (Poison, Ghost) => Half,
-            (Poison, Grass) => X2,
-            (Poison, Fairy) => X2,
-            (Poison, _) => X1,
+            (Poison, Poison) => Pow2(-1),
+            (Poison, Ground) => Pow2(-1),
+            (Poison, Rock) => Pow2(-1),
+            (Poison, Ghost) => Pow2(-1),
+            (Poison, Grass) => Pow2(1),
+            (Poison, Fairy) => Pow2(1),
+            (Poison, _) => Pow2(0),
 
-            (Psychic, Psychic) => Half,
-            (Psychic, Steel) => Half,
-            (Psychic, Fighting) => X2,
-            (Psychic, Poison) => X2,
+            (Psychic, Psychic) => Pow2(-1),
+            (Psychic, Steel) => Pow2(-1),
+            (Psychic, Fighting) => Pow2(1),
+            (Psychic, Poison) => Pow2(1),
             (Psychic, Dark) => Zero,
-            (Psychic, _) => X1,
+            (Psychic, _) => Pow2(0),
 
-            (Rock, Fighting) => Half,
-            (Rock, Ground) => Half,
-            (Rock, Steel) => Half,
-            (Rock, Fire) => X2,
-            (Rock, Ice) => X2,
-            (Rock, Flying) => X2,
-            (Rock, Bug) => X2,
-            (Rock, _) => X1,
+            (Rock, Fighting) => Pow2(-1),
+            (Rock, Ground) => Pow2(-1),
+            (Rock, Steel) => Pow2(-1),
+            (Rock, Fire) => Pow2(1),
+            (Rock, Ice) => Pow2(1),
+            (Rock, Flying) => Pow2(1),
+            (Rock, Bug) => Pow2(1),
+            (Rock, _) => Pow2(0),
 
-            (Steel, Fire) => Half,
-            (Steel, Water) => Half,
-            (Steel, Electric) => Half,
-            (Steel, Steel) => Half,
-            (Steel, Ice) => X2,
-            (Steel, Rock) => X2,
-            (Steel, Fairy) => X2,
-            (Steel, _) => X1,
+            (Steel, Fire) => Pow2(-1),
+            (Steel, Water) => Pow2(-1),
+            (Steel, Electric) => Pow2(-1),
+            (Steel, Steel) => Pow2(-1),
+            (Steel, Ice) => Pow2(1),
+            (Steel, Rock) => Pow2(1),
+            (Steel, Fairy) => Pow2(1),
+            (Steel, _) => Pow2(0),
 
-            (Water, Water) => Half,
-            (Water, Grass) => Half,
-            (Water, Dragon) => Half,
-            (Water, Fire) => X2,
-            (Water, Ground) => X2,
-            (Water, Rock) => X2,
-            (Water, _) => X1,
+            (Water, Water) => Pow2(-1),
+            (Water, Grass) => Pow2(-1),
+            (Water, Dragon) => Pow2(-1),
+            (Water, Fire) => Pow2(1),
+            (Water, Ground) => Pow2(1),
+            (Water, Rock) => Pow2(1),
+            (Water, _) => Pow2(0),
         }
     }
 }
@@ -282,14 +262,14 @@ impl PokemonType {
     pub fn weaknesses(self) -> impl Iterator<Item = PureType> {
         self
             .type_matchups()
-            .filter(|(_, eff)| eff >= &Efficacy::X2)
+            .filter(|(_, eff)| eff >= &Efficacy::Pow2(1))
             .map(|(ty, _)| ty)
     }
 
     pub fn resistances(self) -> impl Iterator<Item = PureType> {
         self
             .type_matchups()
-            .filter(|(_, eff)| eff <= &Efficacy::Half)
+            .filter(|(_, eff)| eff <= &Efficacy::Pow2(-1))
             .map(|(ty, _)| ty)
     }
 
@@ -519,4 +499,20 @@ pub fn pokemon_array(json: &Value) -> Result<Vec<Pokemon>, String> {
     } else {
         Err("Top level json is not an array".to_string())
     }
+}
+
+#[cfg(test)]
+mod test {
+    use super::*;
+
+    #[test]
+    fn efficacy_ord_test() {
+        use Efficacy::*;
+        assert!(Zero < Pow2(-2), "zero is less than any power of two");
+        assert!(Zero < Pow2(-100), "zero is less than any power of two");
+
+        assert!(Pow2(0) < Pow2(1));
+        assert!(Pow2(-1) < Pow2(0));
+    }
+
 }
