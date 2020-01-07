@@ -1,10 +1,10 @@
 pub use crate::moves::*;
 use crate::parsing::*;
 use enumset::EnumSetType;
+use num::FromPrimitive;
+use num_derive::FromPrimitive;
 use serde_json::{Value};
 use std::ops::Mul;
-pub use strum::IntoEnumIterator;
-use strum_macros::{EnumIter};
 
 #[derive(PartialEq, Eq, Copy, Clone, PartialOrd, Ord)]
 pub enum Efficacy {
@@ -26,7 +26,7 @@ impl Mul for Efficacy {
 }
 
 /// A single type in the type chart
-#[derive(Copy, Clone, Debug, EnumIter, PartialEq, Eq, PartialOrd, Ord)]
+#[derive(Copy, Clone, Debug, PartialEq, Eq, PartialOrd, Ord, FromPrimitive)]
 pub enum PureType {
     Bug = 0,
     Dark,
@@ -51,6 +51,15 @@ pub enum PureType {
 impl PureType {
     pub fn against(self, pokemon: &Pokemon) -> Efficacy {
         pokemon.types.against(self)
+    }
+
+    pub fn iter() -> impl Iterator<Item=PureType> {
+        (0..PureType::count())
+            .filter_map(PureType::from_usize)
+    }
+
+    fn count() -> usize {
+        18
     }
 
     pub fn efficacy(attack: PureType, defense: PureType) -> Efficacy {
@@ -285,8 +294,10 @@ impl PokemonType {
             all.push(PokemonType::Single(first));
         }
 
-        for first in PureType::iter() {
-            for second in PureType::iter() {
+        for i in 0..PureType::count() {
+            for j in (i + 1)..PureType::count() {
+                let first = PureType::from_usize(i).unwrap();
+                let second = PureType::from_usize(j).unwrap();
                 all.push(PokemonType::Double(first, second));
             }
         }
@@ -573,6 +584,15 @@ pub fn pokemon_array(json: &Value) -> Result<Vec<Pokemon>, String> {
 #[cfg(test)]
 mod test {
     use super::*;
+
+    #[test]
+    fn pure_type_count_test() {
+        assert!(PureType::count() > 0);
+        let last_type = PureType::from_usize(PureType::count() - 1);
+        assert!(last_type.is_some(), "The last type in the index exists");
+        let after_last = PureType::from_usize(PureType::count());
+        assert!(after_last.is_none(), "After the last, no types exist");
+    }
 
     #[test]
     fn efficacy_ord_test() {
