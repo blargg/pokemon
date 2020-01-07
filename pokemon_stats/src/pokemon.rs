@@ -569,15 +569,15 @@ impl<'a> Iterator for MoveIdIterator<'a> {
     }
 }
 
-pub fn pokemon_array(json: &Value) -> Result<Vec<Pokemon>, String> {
+pub fn pokemon_array(json: &Value) -> Option<Vec<Pokemon>> {
     if let Value::Array(vals) = json {
-        Ok(vals
+        Some(vals
             .iter()
             .filter_map(|v| Pokemon::from_json(v).ok())
             .collect::<Vec<_>>()
         )
     } else {
-        Err("Top level json is not an array".to_string())
+        None
     }
 }
 
