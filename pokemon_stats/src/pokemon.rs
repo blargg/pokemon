@@ -450,6 +450,10 @@ impl Pokemon {
         false
     }
 
+    pub fn moves<'a>(&'a self) -> impl Iterator<Item = MoveId> + 'a {
+        MoveIdIterator::new(self)
+    }
+
     pub fn can_learn(&self, mv: &MoveId) -> bool {
         self.by_level(mv)
             || self.by_egg(mv)
@@ -487,6 +491,71 @@ impl Pokemon {
             .any(|tr| &tr.as_move() == mv)
     }
 
+}
+
+pub struct MoveIdIterator<'a> {
+    pokemon: &'a Pokemon,
+    /// Indicates what source (level up, egg, tms, trs) we are on
+    source_index: u32,
+    mv_index: usize,
+}
+
+impl<'a> MoveIdIterator<'a> {
+    fn new(pokemon: &'a Pokemon) -> Self {
+        Self {
+            pokemon,
+            source_index: 0,
+            mv_index: 0,
+        }
+    }
+}
+
+impl<'a> Iterator for MoveIdIterator<'a> {
+    type Item = MoveId;
+
+    fn next(&mut self) -> Option<MoveId> {
+        if self.source_index == 0 {
+            if let Some((_lvl, move_id)) = self.pokemon.level_up_moves.get(self.mv_index) {
+                let val = move_id;
+                self.mv_index += 1;
+                Some(MoveId::from_name(val))
+            } else {
+                self.source_index += 1;
+                self.mv_index = 0;
+                self.next()
+            }
+        } else if self.source_index == 1 {
+            if let Some(name) = self.pokemon.egg_moves.get(self.mv_index) {
+                let val = MoveId::from_name(name);
+                self.mv_index += 1;
+                Some(val)
+            } else {
+                self.source_index += 1;
+                self.mv_index = 0;
+                self.next()
+            }
+        } else if self.source_index == 2 {
+            if let Some(tm) = self.pokemon.tms.get(self.mv_index) {
+                self.mv_index += 1;
+                Some(tm.as_move())
+            } else {
+                self.mv_index = 0;
+                self.source_index += 1;
+                self.next()
+            }
+        } else if self.source_index == 3 {
+            if let Some(tr) = self.pokemon.trs.get(self.mv_index) {
+                self.mv_index += 1;
+                Some(tr.as_move())
+            } else {
+                self.mv_index = 0;
+                self.source_index += 1;
+                self.next()
+            }
+        } else {
+            None
+        }
+    }
 }
 
 pub fn pokemon_array(json: &Value) -> Result<Vec<Pokemon>, String> {
