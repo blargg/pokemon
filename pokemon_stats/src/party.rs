@@ -1,5 +1,6 @@
 
 use crate::pokemon::*;
+use std::collections::BTreeMap;
 
 /// A group of pokemon that can be used all at once in a battle
 pub struct Party {
@@ -32,5 +33,18 @@ impl Party {
             self.members.push(pokemon);
         }
         self
+    }
+
+
+    pub fn type_matchups(&self) -> BTreeMap<(Efficacy, PureType), u32> {
+        let mut freq = BTreeMap::new();
+        for pokemon in self.members.iter() {
+            for ty in PureType::iter() {
+                let eff = ty.against(pokemon);
+                *freq.entry((eff, ty)).or_insert(0) += 1;
+            }
+        }
+
+        freq
     }
 }
