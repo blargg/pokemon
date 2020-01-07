@@ -1,6 +1,7 @@
 mod parsing;
-pub mod pokemon;
 pub mod moves;
+pub mod party;
+pub mod pokemon;
 
 pub use moves::*;
 pub use pokemon::{
