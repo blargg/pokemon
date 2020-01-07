@@ -19,6 +19,10 @@ impl MoveId {
             name: name.clone(),
         }
     }
+
+    pub fn name(&self) -> &str {
+        self.name.as_str()
+    }
 }
 
 /// Move Category, dictates the attack type
@@ -92,6 +96,34 @@ impl Move {
         }
 
         None
+    }
+
+    pub fn stat_effects(&self) -> Vec<(Stat, u8, u8)> {
+        let mut effs = Vec::new();
+
+        for stat in self.stat1.iter() {
+            effs.push((
+                    stat,
+                    self.stat1_percent,
+                    self.stat1_stage,
+            ));
+        }
+        for stat in self.stat2.iter() {
+            effs.push((
+                    stat,
+                    self.stat2_percent,
+                    self.stat2_stage,
+            ));
+        }
+        for stat in self.stat3.iter() {
+            effs.push((
+                    stat,
+                    self.stat3_percent,
+                    self.stat3_stage,
+            ));
+        }
+
+        effs
     }
 }
 
