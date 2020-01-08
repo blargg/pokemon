@@ -172,7 +172,7 @@ mod deserialize {
                     16 => Ok(Dark),
                     17 => Ok(Fairy),
 
-                    _ => panic!("not a valid pokemon type"),
+                    v => Err(E::invalid_value(de::Unexpected::Unsigned(v as u64), &self)),
                 }
             }
         }
@@ -206,7 +206,7 @@ mod deserialize {
                     7 => Ok(EnumSet::only(Evasion)),
                     8 => Ok(Attack | Defense | SpAttack | SpDefense | Speed | EnumSet::empty()),
 
-                    _ => panic!("not a valid pokemon stat"),
+                    v => Err(E::invalid_value(de::Unexpected::Unsigned(v as u64), &self)),
                 }
             }
         }
