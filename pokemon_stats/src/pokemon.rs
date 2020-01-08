@@ -1,12 +1,11 @@
 pub use crate::moves::*;
-use crate::parsing::*;
 use enumset::EnumSetType;
 use num::FromPrimitive;
 use num_derive::FromPrimitive;
-use serde_json::{Value};
+use serde::Deserialize;
 use std::ops::Mul;
 
-#[derive(PartialEq, Eq, Copy, Clone, PartialOrd, Ord)]
+#[derive(PartialEq, Eq, Debug, Copy, Clone, PartialOrd, Ord)]
 pub enum Efficacy {
     Zero,
     Pow2(i8),
@@ -319,7 +318,7 @@ impl PartialEq for PokemonType {
 
 impl Eq for PokemonType { }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, PartialEq, Eq)]
 pub struct Stats {
     pub hp: u64,
     pub attack: u64,
@@ -330,23 +329,6 @@ pub struct Stats {
 }
 
 impl Stats {
-    pub fn from_json(json: &Value) -> Option<Stats> {
-        if let Value::Array(vals) = json {
-            Some(
-                Stats {
-                    hp: u64_json(&vals[0])?,
-                    attack: u64_json(&vals[1])?,
-                    defense: u64_json(&vals[2])?,
-                    sp_attack: u64_json(&vals[3])?,
-                    sp_defense: u64_json(&vals[4])?,
-                    speed: u64_json(&vals[5])?,
-                }
-            )
-        } else {
-            None
-        }
-    }
-
     pub fn total(&self) -> u64 {
         self.hp
             + self.attack
@@ -370,16 +352,20 @@ pub enum Stat {
     Accuracy,
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Deserialize)]
 pub struct Pokemon {
     pub name: String,
     pub stage: i64,
+    #[serde(deserialize_with = "deserialize::galar_dex")]
     pub galar_dex: Option<u32>,
+    #[serde(deserialize_with = "deserialize::stat_vec")]
     pub base_stats: Stats,
+    #[serde(deserialize_with = "deserialize::stat_vec")]
     pub ev_yield: Stats,
     pub abilities: Vec<String>,
+    #[serde(deserialize_with = "deserialize::pokemon_type")]
     pub types: PokemonType,
-    pub items: Vec<(u64,String)>,
+    pub items: Vec<(String, u64)>,
     pub exp_group: String,
     pub egg_groups: Vec<String>,
     pub hatch_cycles: u64,
@@ -392,39 +378,130 @@ pub struct Pokemon {
     pub trs: Vec<TR>,
 }
 
-impl Pokemon {
-    pub fn from_json(json: &Value) -> Result<Pokemon, String> {
+mod deserialize {
+    use super::*;
+    use serde::*;
+    use serde::de;
+    use core::fmt;
 
-        Ok(Pokemon {
-            name: string(&json["name"], "name")?,
-            stage: i64_json(&json["stage"], "stage")?,
-            galar_dex: parse_dex(&json["galar_dex"])?,
-            base_stats: Stats::from_json(&json["base_stats"])
-                .ok_or("base_stats".to_string())?,
-            ev_yield: Stats::from_json(&json["ev_yield"])
-                .ok_or("ev_yield".to_string())?,
-            abilities: str_vec(&json["abilities"], "abilities")?,
-            types: pokemon_type(&json["types"])
-                .ok_or("types".to_string())?,
-            exp_group: string(&json["exp_group"], "exp_group")?,
-            egg_groups: str_vec(&json["egg_groups"], "egg_groups")?,
-            hatch_cycles: u64_json(&json["hatch_cycles"])
-                .ok_or("hatch_cycles".to_string())?,
-            height: f64_json(&json["height"])
-                .ok_or("height".to_string())?,
-            weight: f64_json(&json["weight"])
-                .ok_or("weight".to_string())?,
-            color: string(&json["color"], "color")?,
-            items: read_items(&json["items"])
-                .ok_or("items".to_string())?,
-            level_up_moves: read_lvl_moves(&json["level_up_moves"])
-                .ok_or("level_up_moves".to_string())?,
-            egg_moves: str_vec(&json["egg_moves"], "egg_moves")?,
-            tms: tm_array(&json["tms"])
-                .ok_or("could not read TMs".to_string())?,
-            trs: tr_array(&json["trs"])
-                .ok_or("could not read TRs".to_string())?,
-        })
+    pub(crate) fn stat_vec<'de, D>(deserializer: D) -> Result<Stats, D::Error>
+        where D: Deserializer<'de>
+    {
+        struct StatsVisitor;
+        impl<'de> de::Visitor<'de> for StatsVisitor {
+            type Value = Stats;
+
+            fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
+                formatter.write_str("An array of 6 values representing stats.")
+            }
+
+            fn visit_seq<A>(self, mut v: A) -> Result<Self::Value, A::Error>
+                where A: de::SeqAccess<'de>,
+            {
+                let hp = v.next_element()?.expect("missing hp");
+                let attack = v.next_element()?.expect("missing attack");
+                let defense = v.next_element()?.expect("missing defense");
+                let sp_attack = v.next_element()?.expect("missing special attack");
+                let sp_defense = v.next_element()?.expect("missing special defense");
+                let speed = v.next_element()?.expect("missing speed");
+
+                Ok(Stats {
+                    hp,
+                    attack,
+                    defense,
+                    sp_attack,
+                    sp_defense,
+                    speed,
+                })
+            }
+        }
+
+        deserializer.deserialize_seq(StatsVisitor)
+    }
+
+    pub(crate) fn pokemon_type<'de, D>(deserializer: D) -> Result<PokemonType, D::Error>
+        where D: Deserializer<'de>
+    {
+        struct PokemonTypeVisitor;
+        impl<'de> de::Visitor<'de> for PokemonTypeVisitor {
+            type Value = PokemonType;
+
+            fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
+                formatter.write_str("An array of 6 values representing stats.")
+            }
+
+            fn visit_seq<A>(self, mut v: A) -> Result<Self::Value, A::Error>
+                where A: de::SeqAccess<'de>,
+            {
+                let ty1 = v.next_element()?.expect("missing type");
+                let ty1 = pure_type(ty1).expect("could not parse");
+                let ty2 = v.next_element()?.map(pure_type);
+
+                if let Some(ty2) = ty2 {
+                    Ok(PokemonType::Double(ty1, ty2.expect("could not parse")))
+                } else {
+                    Ok(PokemonType::Single(ty1))
+                }
+            }
+        }
+
+        deserializer.deserialize_seq(PokemonTypeVisitor)
+    }
+
+    fn pure_type(val: String) -> Option<PureType> {
+        use PureType::*;
+
+        match val.as_str() {
+            "Bug" => Some(Bug),
+            "Dark" => Some(Dark),
+            "Dragon" => Some(Dragon),
+            "Electric" => Some(Electric),
+            "Fairy" => Some(Fairy),
+            "Fighting" => Some(Fighting),
+            "Fire" => Some(Fire),
+            "Flying" => Some(Flying),
+            "Ghost" => Some(Ghost),
+            "Grass" => Some(Grass),
+            "Ground" => Some(Ground),
+            "Ice" => Some(Ice),
+            "Normal" => Some(Normal),
+            "Poison" => Some(Poison),
+            "Psychic" => Some(Psychic),
+            "Rock" => Some(Rock),
+            "Steel" => Some(Steel),
+            "Water" => Some(Water),
+            _ => None,
+        }
+    }
+
+    pub(crate) fn galar_dex<'de, D>(deserializer: D) -> Result<Option<u32>, D::Error>
+        where D: Deserializer<'de>
+    {
+        struct GalarDexVisitor;
+        impl<'de> de::Visitor<'de> for GalarDexVisitor {
+            type Value = Option<u32>;
+
+            fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
+                formatter.write_str("a string representing a number representing a Galar pokedex entry")
+            }
+
+            fn visit_str<E>(self, v: &str) -> Result<Self::Value, E>
+                where E: de::Error,
+            {
+                match v {
+                    "foreign" => Ok(None),
+                    v => Ok(Some(v.parse::<u32>().expect("dex number parse error"))),
+                }
+            }
+        }
+
+        deserializer.deserialize_str(GalarDexVisitor)
+    }
+}
+
+impl Pokemon {
+    pub fn name(&self) -> &str {
+        self.name.as_str()
     }
 
     pub fn is_galar(&self) -> bool {
@@ -569,21 +646,10 @@ impl<'a> Iterator for MoveIdIterator<'a> {
     }
 }
 
-pub fn pokemon_array(json: &Value) -> Option<Vec<Pokemon>> {
-    if let Value::Array(vals) = json {
-        Some(vals
-            .iter()
-            .filter_map(|v| Pokemon::from_json(v).ok())
-            .collect::<Vec<_>>()
-        )
-    } else {
-        None
-    }
-}
-
 #[cfg(test)]
 mod test {
     use super::*;
+    use PureType::*;
 
     #[test]
     fn pure_type_count_test() {
@@ -602,6 +668,54 @@ mod test {
 
         assert!(Pow2(0) < Pow2(1));
         assert!(Pow2(-1) < Pow2(0));
+    }
+
+    #[test]
+    fn pokemon_parse_test() {
+        let example = r#"
+            {"id":1,
+            "name":"Bulbasaur",
+            "stage":1,
+            "galar_dex":"foreign",
+            "base_stats":[45,49,49,65,65,45],
+            "ev_yield":[0,0,0,1,0,0],
+            "abilities":["Overgrow","Overgrow","Chlorophyll"],
+            "types":["Grass","Poison"],
+            "items":[],
+            "exp_group":"MediumSlow",
+            "egg_groups":["Monster","Grass"],
+            "hatch_cycles":20,
+            "height":0.7,
+            "weight":6.9,
+            "color":"Green",
+            "level_up_moves":[[1,"Tackle"],[1,"Growl"],[3,"Vine Whip"],[6,"Growth"],[9,"Leech Seed"],[12,"Razor Leaf"],[15,"Poison Powder"],[15,"Sleep Powder"],[18,"Seed Bomb"],[21,"Take Down"],[24,"Sweet Scent"],[27,"Synthesis"],[30,"Worry Seed"],[33,"Double-Edge"],[36,"Solar Beam"]],
+            "egg_moves":["Skull Bash","Petal Dance","Curse","Ingrain","Nature Power","Toxic"],
+            "tms":[10,11,17,19,21,24,25,28,29,31,34,39,41,46,50,74,76,88,94],
+            "trs":[0,1,17,20,22,26,27,59,65,71,72,77,85],
+            "evolutions":[{"species":"Ivysaur-0","method":"LevelUp","method_value":16}],
+            "description":"While it is young, it uses the nutrients that are stored in the seed on its back in order to grow."}
+            "#;
+
+        match serde_json::from_str::<Pokemon>(example) {
+            Ok(p) => {
+                assert_eq!("Bulbasaur", p.name());
+                assert_eq!(PokemonType::Double(Grass, Poison), p.types);
+                let stats = Stats{
+                    hp: 45,
+                    attack: 49,
+                    defense: 49,
+                    sp_attack: 65,
+                    sp_defense: 65,
+                    speed: 45,
+                };
+                assert_eq!(stats, p.base_stats);
+                assert_eq!(
+                    vec!["Monster", "Grass"],
+                    p.egg_groups,
+                )
+            },
+            Err(err) => panic!("{:?}", err),
+        }
     }
 
 }

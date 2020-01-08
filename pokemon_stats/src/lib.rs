@@ -1,4 +1,3 @@
-mod parsing;
 pub mod moves;
 pub mod party;
 pub mod pokemon;
