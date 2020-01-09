@@ -542,6 +542,11 @@ impl Pokemon {
         MoveIdIterator::new(self)
     }
 
+    pub fn can_learn_by_name(&self, mv: &str) -> bool {
+        let mv = MoveId::from_name(&mv.to_string());
+        self.can_learn(&mv)
+    }
+
     pub fn can_learn(&self, mv: &MoveId) -> bool {
         self.by_level(mv)
             || self.by_egg(mv)
