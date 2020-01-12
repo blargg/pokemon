@@ -7,7 +7,8 @@ use serde::Deserialize;
 use serde_repr::Deserialize_repr;
 
 /// A move that a pokemon may know
-#[derive(Debug, PartialEq, Eq, Deserialize)]
+#[derive(Debug, PartialEq, Eq, Deserialize, Clone)]
+#[serde(transparent)]
 pub struct MoveId {
     #[serde(rename="Moves")]
     name: String

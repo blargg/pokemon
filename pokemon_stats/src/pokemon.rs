@@ -372,8 +372,8 @@ pub struct Pokemon {
     pub height: f64,
     pub weight: f64,
     pub color: String,
-    pub level_up_moves: Vec<(u64, String)>,
-    pub egg_moves: Vec<String>,
+    pub level_up_moves: Vec<(u64, MoveId)>,
+    pub egg_moves: Vec<MoveId>,
     pub tms: Vec<TM>,
     pub trs: Vec<TR>,
 }
@@ -558,16 +558,14 @@ impl Pokemon {
         self
             .level_up_moves
             .iter()
-            .map(|(_lvl, name)| MoveId::from_name(name))
-            .any(|level_mv| mv == &level_mv)
+            .any(|(_lvl, level_mv)| mv == level_mv)
     }
 
     fn by_egg(&self, mv: &MoveId) -> bool {
         self
             .egg_moves
             .iter()
-            .map(|name| MoveId::from_name(name))
-            .any(|egg_move| mv == &egg_move)
+            .any(|egg_move| mv == egg_move)
     }
 
     fn by_tm(&self, mv: &MoveId) -> bool {
@@ -611,7 +609,7 @@ impl<'a> Iterator for MoveIdIterator<'a> {
             if let Some((_lvl, move_id)) = self.pokemon.level_up_moves.get(self.mv_index) {
                 let val = move_id;
                 self.mv_index += 1;
-                Some(MoveId::from_name(val))
+                Some(val.clone())
             } else {
                 self.source_index += 1;
                 self.mv_index = 0;
@@ -619,7 +617,7 @@ impl<'a> Iterator for MoveIdIterator<'a> {
             }
         } else if self.source_index == 1 {
             if let Some(name) = self.pokemon.egg_moves.get(self.mv_index) {
-                let val = MoveId::from_name(name);
+                let val = name.clone();
                 self.mv_index += 1;
                 Some(val)
             } else {
@@ -717,7 +715,15 @@ mod test {
                 assert_eq!(
                     vec!["Monster", "Grass"],
                     p.egg_groups,
-                )
+                );
+                // level up move
+                assert!(p.can_learn(&MoveId::from_name(&"Tackle".to_string())));
+                // egg move
+                assert!(p.can_learn(&MoveId::from_name(&"Skull Bash".to_string())));
+                // tm move
+                assert!(p.can_learn(&MoveId::from_name(&"Magical Leaf".to_string())));
+                // tr move
+                assert!(p.can_learn(&MoveId::from_name(&"Swords Dance".to_string())));
             },
             Err(err) => panic!("{:?}", err),
         }
