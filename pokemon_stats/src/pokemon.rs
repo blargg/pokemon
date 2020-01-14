@@ -381,7 +381,10 @@ pub struct Pokemon {
 mod deserialize {
     use super::*;
     use serde::*;
-    use serde::de;
+    use serde::de::{
+        self,
+        Error,
+    };
     use core::fmt;
 
     pub(crate) fn stat_vec<'de, D>(deserializer: D) -> Result<Stats, D::Error>
@@ -398,12 +401,12 @@ mod deserialize {
             fn visit_seq<A>(self, mut v: A) -> Result<Self::Value, A::Error>
                 where A: de::SeqAccess<'de>,
             {
-                let hp = v.next_element()?.expect("missing hp");
-                let attack = v.next_element()?.expect("missing attack");
-                let defense = v.next_element()?.expect("missing defense");
-                let sp_attack = v.next_element()?.expect("missing special attack");
-                let sp_defense = v.next_element()?.expect("missing special defense");
-                let speed = v.next_element()?.expect("missing speed");
+                let hp = v.next_element()?.ok_or(A::Error::custom("missing hp"))?;
+                let attack = v.next_element()?.ok_or(A::Error::custom("missing attack"))?;
+                let defense = v.next_element()?.ok_or(A::Error::custom("missing defense"))?;
+                let sp_attack = v.next_element()?.ok_or(A::Error::custom("missing special attack"))?;
+                let sp_defense = v.next_element()?.ok_or(A::Error::custom("missing special defense"))?;
+                let speed = v.next_element()?.ok_or(A::Error::custom("missing speed"))?;
 
                 Ok(Stats {
                     hp,
@@ -433,12 +436,13 @@ mod deserialize {
             fn visit_seq<A>(self, mut v: A) -> Result<Self::Value, A::Error>
                 where A: de::SeqAccess<'de>,
             {
-                let ty1 = v.next_element()?.expect("missing type");
-                let ty1 = pure_type(ty1).expect("could not parse");
+                let ty1 = v.next_element()?.ok_or(A::Error::custom("missing type"))?;
+                let ty1 = pure_type(ty1).ok_or(A::Error::custom("could not parse first pokemon type"))?;
                 let ty2 = v.next_element()?.map(pure_type);
 
                 if let Some(ty2) = ty2 {
-                    Ok(PokemonType::Double(ty1, ty2.expect("could not parse")))
+                    let ty2 = ty2.ok_or(A::Error::custom("could not parse"))?;
+                    Ok(PokemonType::Double(ty1, ty2))
                 } else {
                     Ok(PokemonType::Single(ty1))
                 }
@@ -490,7 +494,11 @@ mod deserialize {
             {
                 match v {
                     "foreign" => Ok(None),
-                    v => Ok(Some(v.parse::<u32>().expect("dex number parse error"))),
+                    v => {
+                        let dex_num = v.parse::<u32>()
+                            .map_err(|parse_err| E::custom(format!("dex number error: {}", parse_err)))?;
+                        Ok(Some(dex_num))
+                    }
                 }
             }
         }
