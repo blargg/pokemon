@@ -38,8 +38,10 @@ pub enum Category {
 #[derive(Debug, Deserialize)]
 #[serde(rename_all="PascalCase")]
 pub struct Move {
-    #[serde(flatten)]
+    #[serde(rename="Moves")]
     id: MoveId,
+    #[serde(rename="CanUseMove", deserialize_with = "deserialize::tf")]
+    available_in_gen8: bool,
     #[serde(rename="Type", deserialize_with = "deserialize::de_type")]
     move_type: PureType,
     category: Category,
@@ -60,7 +62,6 @@ pub struct Move {
     flinch: u32,
     effect_sequence: u32,
     recoil: u32,
-    raw_healing: u32,
     raw_target: u32,
 
     #[serde(deserialize_with = "deserialize::stat")]
@@ -77,6 +78,49 @@ pub struct Move {
     stat3_percent: u8,
     #[serde(rename="GigantimaxPower")]
     dynamax_power: u8,
+    #[serde(rename="Flag_MakesContact", deserialize_with = "deserialize::tf")]
+    makes_contact: bool,
+    #[serde(rename="Flag_Charge", deserialize_with = "deserialize::tf")]
+    charge: bool,
+    #[serde(rename="Flag_Recharge", deserialize_with = "deserialize::tf")]
+    recharge: bool,
+    /// Moves like Protect will block this move from taking effect
+    #[serde(rename="Flag_Protect", deserialize_with = "deserialize::tf")]
+    protect_blocks: bool,
+    #[serde(rename="Flag_Reflectable", deserialize_with = "deserialize::tf")]
+    reflectable: bool,
+    #[serde(rename="Flag_Snatch", deserialize_with = "deserialize::tf")]
+    snatch: bool,
+    #[serde(rename="Flag_Mirror", deserialize_with = "deserialize::tf")]
+    mirror: bool,
+    #[serde(rename="Flag_Punch", deserialize_with = "deserialize::tf")]
+    punch: bool,
+    /// Indicates if this is a sound based ability
+    #[serde(rename="Flag_Sound", deserialize_with = "deserialize::tf")]
+    sound: bool,
+    #[serde(rename="Flag_Gravity", deserialize_with = "deserialize::tf")]
+    gravity: bool,
+    #[serde(rename="Flag_Defrost", deserialize_with = "deserialize::tf")]
+    defrost: bool,
+    #[serde(rename="Flag_DistanceTriple", deserialize_with = "deserialize::tf")]
+    distance_triple: bool,
+    #[serde(rename="Flag_IgnoreSubstitute", deserialize_with = "deserialize::tf")]
+    ignore_substitute: bool,
+    #[serde(rename="Flag_FailSkyBattle", deserialize_with = "deserialize::tf")]
+    fail_sky_battle: bool,
+    #[serde(rename="Flag_AnimateAlly", deserialize_with = "deserialize::tf")]
+    animate_ally: bool,
+    #[serde(rename="Flag_Dance", deserialize_with = "deserialize::tf")]
+    dance: bool,
+    #[serde(rename="Flag_18", deserialize_with = "deserialize::tf")]
+    flag18: bool,
+
+    /// Indicates that this move is a healing ability
+    #[serde(rename="Flag_Heal", deserialize_with = "deserialize::tf")]
+    heal: bool,
+    /// If the move heals, this is the amount of healing done (percentage?)
+    #[serde(deserialize_with="deserialize::optional_num")]
+    healing: Option<u32>,
     target: String,
 }
 
@@ -134,8 +178,13 @@ mod deserialize {
         Stat,
     };
     use enumset::EnumSet;
-    use serde::*;
-    use serde::de;
+    use serde::{
+        *,
+        de::{
+            self,
+            Unexpected
+        },
+    };
     use core::fmt;
 
     pub(crate) fn de_type<'de, D>(deserializer: D) -> Result<PureType, D::Error>
@@ -213,6 +262,44 @@ mod deserialize {
         }
 
         deserializer.deserialize_u8(StatVisitor)
+    }
+
+    pub(crate) fn tf<'de, D>(deserializer: D) -> Result<bool, D::Error>
+        where D: Deserializer<'de>
+    {
+        struct TFVisitor;
+        impl<'de> de::Visitor<'de> for TFVisitor {
+            type Value = bool;
+
+            fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
+                formatter.write_str("\"true\" or \"false\"")
+            }
+
+            fn visit_str<E>(self, v: &str) -> Result<Self::Value, E>
+                where E: de::Error,
+            {
+                match v.to_uppercase().as_str() {
+                    "TRUE" => Ok(true),
+                    "FALSE" => Ok(false),
+                    _ => Err(E::invalid_value(Unexpected::Str(v), &self)),
+                }
+            }
+        }
+
+        deserializer.deserialize_str(TFVisitor)
+    }
+
+    pub(crate) fn optional_num<'de, D>(deserializer: D) -> Result<Option<u32>, D::Error>
+        where D: Deserializer<'de>
+    {
+        match <&'de str>::deserialize(deserializer)? {
+            "None" => Ok(None),
+            s => {
+                let num = s.parse::<u32>()
+                    .map_err(|_| de::Error::custom("error deserializing optional number"))?;
+                Ok(Some(num))
+            }
+        }
     }
 }
 
@@ -463,3 +550,33 @@ pub const TR_S: &'static[&'static str] = &[
     "Liquidation",
     "Body Press",
 ];
+
+#[cfg(test)]
+mod test {
+    use super::*;
+
+    const TEST_DATA: &'static str = r#"
+Index	Moves	Version	MoveID	CanUseMove	Type	Quality	Category	Power	Accuracy	PP	Priority	HitMin	HitMax	Inflict	InflictPercent	RawInflictCount	TurnMin	TurnMax	CritStage	Flinch	EffectSequence	Recoil	RawHealing	RawTarget	Stat1	Stat2	Stat3	Stat1Stage	Stat2Stage	Stat3Stage	Stat1Percent	Stat2Percent	Stat3Percent	GigantimaxPower	Flag_MakesContact	Flag_Charge	Flag_Recharge	Flag_Protect	Flag_Reflectable	Flag_Snatch	Flag_Mirror	Flag_Punch	Flag_Sound	Flag_Gravity	Flag_Defrost	Flag_DistanceTriple	Flag_Heal	Flag_IgnoreSubstitute	Flag_FailSkyBattle	Flag_AnimateAlly	Flag_Dance	Flag_18	InflictCount	Healing	Target
+1	Pound	5	1	True	0	0	1	40	100	35	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	90	True	False	False	True	False	False	True	False	False	False	False	False	False	False	False	False	False	True	None	None	AnyExceptSelf
+105	Recover	5	105	True	0	3	0	0	101	10	0	0	0	0	0	0	0	0	0	0	32	0	50	7	0	0	0	0	0	0	0	0	0	0	False	False	False	False	False	True	False	False	False	False	False	False	True	False	False	False	False	True	None	50	Self
+"#;
+
+    #[test]
+    fn move_parse_test() {
+        let mut parser = csv::ReaderBuilder::new()
+            .delimiter(b'\t')
+            .from_reader(TEST_DATA.as_bytes());
+        let moves = parser.deserialize().collect::<Result<Vec<Move>,_>>()
+            .expect("Failed to parse all the test data");
+        let pound = moves.iter()
+            .find(|m| m.name() == "Pound")
+            .expect("Could not find the move named pound");
+        assert!(pound.makes_contact);
+        assert_eq!(None, pound.healing);
+
+        let recover = moves.iter()
+            .find(|m| m.name() == "Recover")
+            .expect("Could not find the move named pound");
+        assert_eq!(Some(50), recover.healing);
+    }
+}

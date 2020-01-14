@@ -17,4 +17,5 @@ serde_repr = "0.1"
 statistical = "1.0.0"
 
 [dev-dependencies]
+csv = "1.1.1"
 serde_json = "1.0.44"
