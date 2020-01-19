@@ -5,6 +5,19 @@ use num_derive::FromPrimitive;
 use serde::Deserialize;
 use std::ops::Mul;
 
+const POKEMON_JSON: &[u8] = include_bytes!("../../data/json/pokemon.json");
+
+/// Constructs a new vector of all the pokemon, returning the parsing error
+pub fn safe_load_pokemon() -> Result<Vec<Pokemon>, serde_json::error::Error> {
+    serde_json::from_reader::<_, Vec<Pokemon>>(POKEMON_JSON)
+}
+
+/// Constructs a new vector of all the pokemon.
+/// Parses the data from bytes stored in the binary.
+pub fn load_pokemon() -> Vec<Pokemon> {
+    safe_load_pokemon().expect("load_pokemon: issue loading from binary")
+}
+
 #[derive(PartialEq, Eq, Debug, Copy, Clone, PartialOrd, Ord)]
 pub enum Efficacy {
     Zero,
@@ -661,6 +674,14 @@ impl<'a> Iterator for MoveIdIterator<'a> {
 mod test {
     use super::*;
     use PureType::*;
+
+    #[test]
+    fn load_pokemon_test() {
+        match safe_load_pokemon() {
+            Ok(_) => {}
+            Err(e) => panic!("Could not load pokemon: {}", e),
+        }
+    }
 
     #[test]
     fn pure_type_count_test() {

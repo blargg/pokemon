@@ -6,6 +6,27 @@ use enumset::EnumSet;
 use serde::Deserialize;
 use serde_repr::Deserialize_repr;
 
+const MOVES_TSV: &[u8] = include_bytes!("../../data/raw/sword_shield_move_info.tsv");
+
+/// Loads a list of moves as a vector. Returns the parsing error.
+pub fn safe_load_moves() -> Result<Vec<Move>, csv::Error> {
+    let mut reader = csv::ReaderBuilder::new()
+        .delimiter(b'\t')
+        .from_reader(MOVES_TSV);
+    let mut all_moves = Vec::with_capacity(100);
+    for result in reader.deserialize() {
+        let mv: Move = result?;
+        all_moves.push(mv);
+    }
+
+    Ok(all_moves)
+}
+
+/// Loads the list of moves as a vector.
+pub fn load_moves() -> Vec<Move> {
+    safe_load_moves().expect("Could not load moves")
+}
+
 /// A move that a pokemon may know
 #[derive(Debug, PartialEq, Eq, Deserialize, Clone)]
 #[serde(transparent)]
@@ -578,5 +599,13 @@ Index	Moves	Version	MoveID	CanUseMove	Type	Quality	Category	Power	Accuracy	PP	Pr
             .find(|m| m.name() == "Recover")
             .expect("Could not find the move named pound");
         assert_eq!(Some(50), recover.healing);
+    }
+
+    #[test]
+    fn load_moves_test() {
+        assert!(
+            safe_load_moves().is_ok(),
+            "Could not load the vector",
+        );
     }
 }
