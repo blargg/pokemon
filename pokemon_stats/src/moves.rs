@@ -70,7 +70,8 @@ pub struct Move {
     accuracy: u32,
     #[serde(rename="PP")]
     pp: u32,
-    priority: u32,
+    #[serde(deserialize_with="deserialize::u8_to_i8")]
+    priority: i8,
     hit_min: u8,
     hit_max: u8,
     inflict: u16,
@@ -80,9 +81,10 @@ pub struct Move {
     turn_min: u8,
     turn_max: u8,
     crit_stage: u8,
-    flinch: u32,
+    flinch: u8,
     effect_sequence: u32,
-    recoil: u32,
+    #[serde(deserialize_with="deserialize::u8_to_i8")]
+    recoil: i8,
     raw_target: u32,
 
     #[serde(deserialize_with = "deserialize::stat")]
@@ -140,8 +142,8 @@ pub struct Move {
     #[serde(rename="Flag_Heal", deserialize_with = "deserialize::tf")]
     heal: bool,
     /// If the move heals, this is the amount of healing done (percentage?)
-    #[serde(deserialize_with="deserialize::optional_num")]
-    healing: Option<u32>,
+    #[serde(deserialize_with="deserialize::opt_u8_to_i8")]
+    healing: Option<i8>,
     target: String,
 }
 
@@ -150,7 +152,7 @@ impl Move {
         self.id.name.as_str()
     }
 
-    pub fn effect_on(&self, stat: Stat) -> Option<(u8, u8)> {
+    pub fn effect_on_stats(&self, stat: Stat) -> Option<(u8, u8)> {
         if self.stat1.contains(stat) {
             return Some((self.stat1_percent, self.stat1_stage));
         }
@@ -207,6 +209,26 @@ mod deserialize {
         },
     };
     use core::fmt;
+
+    pub(super) fn u8_to_i8<'de, D>(deserializer: D) -> Result<i8, D::Error>
+        where D: Deserializer<'de>
+    {
+        let unsigned = <u8>::deserialize(deserializer)?;
+        Ok(unsigned as i8)
+    }
+
+    pub(super) fn opt_u8_to_i8<'de, D>(deserializer: D) -> Result<Option<i8>, D::Error>
+        where D: Deserializer<'de>
+    {
+        match <&'de str>::deserialize(deserializer)? {
+            "None" => Ok(None),
+            s => {
+                let num = s.parse::<u8>()
+                    .map_err(|_| de::Error::custom("error deserializing optional number"))?;
+                Ok(Some(num as i8))
+            }
+        }
+    }
 
     pub(crate) fn de_type<'de, D>(deserializer: D) -> Result<PureType, D::Error>
         where D: Deserializer<'de>
@@ -308,19 +330,6 @@ mod deserialize {
         }
 
         deserializer.deserialize_str(TFVisitor)
-    }
-
-    pub(crate) fn optional_num<'de, D>(deserializer: D) -> Result<Option<u32>, D::Error>
-        where D: Deserializer<'de>
-    {
-        match <&'de str>::deserialize(deserializer)? {
-            "None" => Ok(None),
-            s => {
-                let num = s.parse::<u32>()
-                    .map_err(|_| de::Error::custom("error deserializing optional number"))?;
-                Ok(Some(num))
-            }
-        }
     }
 }
 
