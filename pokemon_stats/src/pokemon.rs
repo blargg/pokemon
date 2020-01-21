@@ -400,7 +400,7 @@ mod deserialize {
     };
     use core::fmt;
 
-    pub(crate) fn stat_vec<'de, D>(deserializer: D) -> Result<Stats, D::Error>
+    pub(super) fn stat_vec<'de, D>(deserializer: D) -> Result<Stats, D::Error>
         where D: Deserializer<'de>
     {
         struct StatsVisitor;
@@ -435,7 +435,7 @@ mod deserialize {
         deserializer.deserialize_seq(StatsVisitor)
     }
 
-    pub(crate) fn pokemon_type<'de, D>(deserializer: D) -> Result<PokemonType, D::Error>
+    pub(super) fn pokemon_type<'de, D>(deserializer: D) -> Result<PokemonType, D::Error>
         where D: Deserializer<'de>
     {
         struct PokemonTypeVisitor;
@@ -491,7 +491,7 @@ mod deserialize {
         }
     }
 
-    pub(crate) fn galar_dex<'de, D>(deserializer: D) -> Result<Option<u32>, D::Error>
+    pub(super) fn galar_dex<'de, D>(deserializer: D) -> Result<Option<u32>, D::Error>
         where D: Deserializer<'de>
     {
         struct GalarDexVisitor;

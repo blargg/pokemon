@@ -233,7 +233,7 @@ mod deserialize {
         }
     }
 
-    pub(crate) fn de_type<'de, D>(deserializer: D) -> Result<PureType, D::Error>
+    pub(super) fn de_type<'de, D>(deserializer: D) -> Result<PureType, D::Error>
         where D: Deserializer<'de>
     {
         struct PureTypeVisitor;
@@ -276,7 +276,7 @@ mod deserialize {
         deserializer.deserialize_i8(PureTypeVisitor)
     }
 
-    pub(crate) fn stat<'de, D>(deserializer: D) -> Result<EnumSet<Stat>, D::Error>
+    pub(super) fn stat<'de, D>(deserializer: D) -> Result<EnumSet<Stat>, D::Error>
         where D: Deserializer<'de>
     {
         struct StatVisitor;
@@ -310,7 +310,7 @@ mod deserialize {
         deserializer.deserialize_u8(StatVisitor)
     }
 
-    pub(crate) fn tf<'de, D>(deserializer: D) -> Result<bool, D::Error>
+    pub(super) fn tf<'de, D>(deserializer: D) -> Result<bool, D::Error>
         where D: Deserializer<'de>
     {
         struct TFVisitor;
