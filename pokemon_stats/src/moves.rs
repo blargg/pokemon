@@ -69,10 +69,10 @@ pub struct Move {
     #[serde(rename="Type", deserialize_with = "deserialize::de_type")]
     move_type: PureType,
     category: Category,
-    power: u32,
+    power: u8,
     accuracy: Percent,
     #[serde(rename="PP")]
-    pp: u32,
+    pp: u8,
     #[serde(deserialize_with="deserialize::u8_to_i8")]
     priority: i8,
     hit_min: u8,
