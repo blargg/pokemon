@@ -56,6 +56,9 @@ pub enum Category {
     Special = 2,
 }
 
+/// Represents a percent on the integers from 0 to 100 (inclusive).
+type Percent = u8;
+
 #[derive(Debug, Deserialize)]
 #[serde(rename_all="PascalCase")]
 pub struct Move {
@@ -67,7 +70,7 @@ pub struct Move {
     move_type: PureType,
     category: Category,
     power: u32,
-    accuracy: u32,
+    accuracy: Percent,
     #[serde(rename="PP")]
     pp: u32,
     #[serde(deserialize_with="deserialize::u8_to_i8")]
@@ -75,7 +78,7 @@ pub struct Move {
     hit_min: u8,
     hit_max: u8,
     inflict: u16,
-    inflict_percent: u8,
+    inflict_percent: Percent,
     raw_inflict_count: u8,
 
     turn_min: u8,
@@ -90,15 +93,15 @@ pub struct Move {
     #[serde(deserialize_with = "deserialize::stat")]
     stat1: EnumSet<Stat>,
     stat1_stage: u8,
-    stat1_percent: u8,
+    stat1_percent: Percent,
     #[serde(deserialize_with = "deserialize::stat")]
     stat2: EnumSet<Stat>,
     stat2_stage: u8,
-    stat2_percent: u8,
+    stat2_percent: Percent,
     #[serde(deserialize_with = "deserialize::stat")]
     stat3: EnumSet<Stat>,
     stat3_stage: u8,
-    stat3_percent: u8,
+    stat3_percent: Percent,
     #[serde(rename="GigantimaxPower")]
     dynamax_power: u8,
     #[serde(rename="Flag_MakesContact", deserialize_with = "deserialize::tf")]
