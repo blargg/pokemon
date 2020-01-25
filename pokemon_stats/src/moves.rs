@@ -63,91 +63,94 @@ type Percent = u8;
 #[serde(rename_all="PascalCase")]
 pub struct Move {
     #[serde(rename="Moves")]
-    id: MoveId,
+    pub id: MoveId,
     #[serde(rename="CanUseMove", deserialize_with = "deserialize::tf")]
-    available_in_gen8: bool,
+    pub available_in_gen8: bool,
     #[serde(rename="Type", deserialize_with = "deserialize::de_type")]
-    move_type: PureType,
-    category: Category,
-    power: u8,
-    accuracy: Percent,
+    pub move_type: PureType,
+    pub category: Category,
+    pub power: u8,
+    pub accuracy: Percent,
     #[serde(rename="PP")]
-    pp: u8,
+    pub pp: u8,
     #[serde(deserialize_with="deserialize::u8_to_i8")]
-    priority: i8,
-    hit_min: u8,
-    hit_max: u8,
-    inflict: u16,
-    inflict_percent: Percent,
-    raw_inflict_count: u8,
+    pub priority: i8,
+    pub hit_min: u8,
+    pub hit_max: u8,
+    pub inflict: u16,
+    pub inflict_percent: Percent,
+    pub raw_inflict_count: u8,
 
-    turn_min: u8,
-    turn_max: u8,
-    crit_stage: u8,
-    flinch: u8,
-    effect_sequence: u32,
+    pub turn_min: u8,
+    pub turn_max: u8,
+    pub crit_stage: u8,
+    pub flinch: u8,
+    pub effect_sequence: u32,
+    /// The damage drain percent of the move.
+    /// Positive values will heal the user based on the amount of damage done to the opponent.
+    /// Negative values (recoil, like in the move double edge) will damage the user.
     #[serde(deserialize_with="deserialize::u8_to_i8")]
-    recoil: i8,
-    raw_target: u32,
+    pub recoil: i8,
+    pub raw_target: u32,
 
     #[serde(deserialize_with = "deserialize::stat")]
-    stat1: EnumSet<Stat>,
-    stat1_stage: u8,
-    stat1_percent: Percent,
+    pub stat1: EnumSet<Stat>,
+    pub stat1_stage: u8,
+    pub stat1_percent: Percent,
     #[serde(deserialize_with = "deserialize::stat")]
-    stat2: EnumSet<Stat>,
-    stat2_stage: u8,
-    stat2_percent: Percent,
+    pub stat2: EnumSet<Stat>,
+    pub stat2_stage: u8,
+    pub stat2_percent: Percent,
     #[serde(deserialize_with = "deserialize::stat")]
-    stat3: EnumSet<Stat>,
-    stat3_stage: u8,
-    stat3_percent: Percent,
+    pub stat3: EnumSet<Stat>,
+    pub stat3_stage: u8,
+    pub stat3_percent: Percent,
     #[serde(rename="GigantimaxPower")]
-    dynamax_power: u8,
+    pub dynamax_power: u8,
     #[serde(rename="Flag_MakesContact", deserialize_with = "deserialize::tf")]
-    makes_contact: bool,
+    pub makes_contact: bool,
     #[serde(rename="Flag_Charge", deserialize_with = "deserialize::tf")]
-    charge: bool,
+    pub charge: bool,
     #[serde(rename="Flag_Recharge", deserialize_with = "deserialize::tf")]
-    recharge: bool,
+    pub recharge: bool,
     /// Moves like Protect will block this move from taking effect
     #[serde(rename="Flag_Protect", deserialize_with = "deserialize::tf")]
-    protect_blocks: bool,
+    pub protect_blocks: bool,
     #[serde(rename="Flag_Reflectable", deserialize_with = "deserialize::tf")]
-    reflectable: bool,
+    pub reflectable: bool,
     #[serde(rename="Flag_Snatch", deserialize_with = "deserialize::tf")]
-    snatch: bool,
+    pub snatch: bool,
     #[serde(rename="Flag_Mirror", deserialize_with = "deserialize::tf")]
-    mirror: bool,
+    pub mirror: bool,
     #[serde(rename="Flag_Punch", deserialize_with = "deserialize::tf")]
-    punch: bool,
+    pub punch: bool,
     /// Indicates if this is a sound based ability
     #[serde(rename="Flag_Sound", deserialize_with = "deserialize::tf")]
-    sound: bool,
+    pub sound: bool,
     #[serde(rename="Flag_Gravity", deserialize_with = "deserialize::tf")]
-    gravity: bool,
+    pub gravity: bool,
     #[serde(rename="Flag_Defrost", deserialize_with = "deserialize::tf")]
-    defrost: bool,
+    pub defrost: bool,
     #[serde(rename="Flag_DistanceTriple", deserialize_with = "deserialize::tf")]
-    distance_triple: bool,
+    pub distance_triple: bool,
     #[serde(rename="Flag_IgnoreSubstitute", deserialize_with = "deserialize::tf")]
-    ignore_substitute: bool,
+    pub ignore_substitute: bool,
     #[serde(rename="Flag_FailSkyBattle", deserialize_with = "deserialize::tf")]
-    fail_sky_battle: bool,
+    pub fail_sky_battle: bool,
     #[serde(rename="Flag_AnimateAlly", deserialize_with = "deserialize::tf")]
-    animate_ally: bool,
+    pub animate_ally: bool,
     #[serde(rename="Flag_Dance", deserialize_with = "deserialize::tf")]
-    dance: bool,
+    pub dance: bool,
     #[serde(rename="Flag_18", deserialize_with = "deserialize::tf")]
-    flag18: bool,
+    pub flag18: bool,
 
     /// Indicates that this move is a healing ability
     #[serde(rename="Flag_Heal", deserialize_with = "deserialize::tf")]
-    heal: bool,
-    /// If the move heals, this is the amount of healing done (percentage?)
+    pub heal: bool,
+    /// Healing done, as a percent of the users max health
     #[serde(deserialize_with="deserialize::opt_u8_to_i8")]
-    healing: Option<i8>,
-    target: String,
+    pub healing: Option<i8>,
+    pub target: String,
 }
 
 impl Move {
