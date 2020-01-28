@@ -563,16 +563,12 @@ impl Pokemon {
         MoveIdIterator::new(self)
     }
 
-    pub fn can_learn_by_name(&self, mv: &str) -> bool {
-        let mv = MoveId::from_name(&mv.to_string());
-        self.can_learn(&mv)
-    }
-
-    pub fn can_learn(&self, mv: &MoveId) -> bool {
-        self.by_level(mv)
-            || self.by_egg(mv)
-            || self.by_tm(mv)
-            || self.by_tr(mv)
+    pub fn can_learn<M: Into<MoveId>>(&self, mv: M) -> bool {
+        let mv = mv.into();
+        self.by_level(&mv)
+            || self.by_egg(&mv)
+            || self.by_tm(&mv)
+            || self.by_tr(&mv)
     }
 
     fn by_level(&self, mv: &MoveId) -> bool {
@@ -746,13 +742,13 @@ mod test {
                     p.egg_groups,
                 );
                 // level up move
-                assert!(p.can_learn(&MoveId::from_name(&"Tackle".to_string())));
+                assert!(p.can_learn("Tackle"));
                 // egg move
-                assert!(p.can_learn(&MoveId::from_name(&"Skull Bash".to_string())));
+                assert!(p.can_learn("Skull Bash"));
                 // tm move
-                assert!(p.can_learn(&MoveId::from_name(&"Magical Leaf".to_string())));
+                assert!(p.can_learn("Magical Leaf"));
                 // tr move
-                assert!(p.can_learn(&MoveId::from_name(&"Swords Dance".to_string())));
+                assert!(p.can_learn("Swords Dance"));
             },
             Err(err) => panic!("{:?}", err),
         }

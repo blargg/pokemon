@@ -5,6 +5,7 @@ use crate::pokemon::{
 use enumset::EnumSet;
 use serde::Deserialize;
 use serde_repr::Deserialize_repr;
+use std::convert::From;
 
 const MOVES_TSV: &[u8] = include_bytes!("../../data/raw/sword_shield_move_info.tsv");
 
@@ -35,10 +36,24 @@ pub struct MoveId {
     name: String
 }
 
-impl MoveId {
-    pub fn from_name(name: &String) -> MoveId {
+impl From<&str> for MoveId {
+    fn from(s: &str) -> Self {
+        MoveId::from_name(s)
+    }
+}
+
+impl From<String> for MoveId {
+    fn from(s: String) -> Self {
         MoveId {
-            name: name.clone(),
+            name: s,
+        }
+    }
+}
+
+impl MoveId {
+    pub fn from_name(name: &str) -> MoveId {
+        MoveId {
+            name: name.to_string(),
         }
     }
 

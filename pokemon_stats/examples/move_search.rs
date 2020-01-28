@@ -9,8 +9,8 @@ fn main() {
 
     // make a list of all the pokemon that know Reflect and Light Screen
     let mut knows_moves = galar_pokemon
-        .filter(|p| p.can_learn_by_name("Reflect")
-            && p.can_learn_by_name("Light Screen"))
+        .filter(|p| p.can_learn("Reflect")
+            && p.can_learn("Light Screen"))
         .collect::<Vec<_>>();
     // sort by base stats
     knows_moves.sort_by_key(|p| p.base_stats.total());
