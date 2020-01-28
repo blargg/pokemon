@@ -74,6 +74,25 @@ pub enum Category {
 /// Represents a percent on the integers from 0 to 100 (inclusive).
 type Percent = u8;
 
+/// Describes positions the move is allowed to target.
+#[derive(Debug)]
+pub enum Target {
+    All,
+    AllAdjacent,
+    AllAdjacentOpponents,
+    AllAllies,
+    Ally,
+    AllyOrSelf,
+    AnyExceptSelf,
+    Counter,
+    Opponent,
+    RandomOpponent,
+    SideAll,
+    SideOpponent,
+    SideSelf,
+    TargetSelf,
+}
+
 #[derive(Debug, Deserialize)]
 #[serde(rename_all="PascalCase")]
 pub struct Move {
@@ -165,7 +184,8 @@ pub struct Move {
     /// Healing done, as a percent of the users max health
     #[serde(deserialize_with="deserialize::opt_u8_to_i8")]
     pub healing: Option<i8>,
-    pub target: String,
+    #[serde(deserialize_with="deserialize::target")]
+    pub target: Target,
 }
 
 impl Move {
@@ -230,6 +250,33 @@ mod deserialize {
         },
     };
     use core::fmt;
+    use super::Target;
+
+    pub(super) fn target<'de, D>(deserializer: D) -> Result<Target, D::Error>
+        where D: Deserializer<'de>
+    {
+        use Target::*;
+
+        match <&'de str>::deserialize(deserializer)? {
+            "All" => Ok(All),
+            "AllAdjacent" => Ok(AllAdjacent),
+            "AllAdjacentOpponents" => Ok(AllAdjacentOpponents),
+            "AllAllies" => Ok(AllAllies),
+            "Ally" => Ok(Ally),
+            "AllyOrSelf" => Ok(AllyOrSelf),
+            "AnyExceptSelf" => Ok(AnyExceptSelf),
+            "Counter" => Ok(Counter),
+            "Opponent" => Ok(Opponent),
+            "RandomOpponent" => Ok(RandomOpponent),
+            "Self" => Ok(TargetSelf),
+            "SideAll" => Ok(SideAll),
+            "SideOpponent" => Ok(SideOpponent),
+            "SideSelf" => Ok(SideSelf),
+            s => Err(de::Error::custom(
+                    format!("unexpected value: {}", s)
+                    )),
+        }
+    }
 
     pub(super) fn u8_to_i8<'de, D>(deserializer: D) -> Result<i8, D::Error>
         where D: Deserializer<'de>
@@ -633,9 +680,12 @@ Index	Moves	Version	MoveID	CanUseMove	Type	Quality	Category	Power	Accuracy	PP	Pr
 
     #[test]
     fn load_moves_test() {
-        assert!(
-            safe_load_moves().is_ok(),
-            "Could not load the vector",
-        );
+        match safe_load_moves() {
+            Ok(_) => {/* pass test */}
+            Err(e) => {
+                println!("{:?}", e);
+                panic!("Failed to load moves");
+            }
+        }
     }
 }
