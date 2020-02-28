@@ -8,13 +8,13 @@ use std::ops::Mul;
 const POKEMON_JSON: &[u8] = include_bytes!("../../data/json/pokemon.json");
 
 /// Constructs a new vector of all the pokemon, returning the parsing error
-pub fn safe_load_pokemon() -> Result<Vec<Pokemon>, serde_json::error::Error> {
-    serde_json::from_reader::<_, Vec<Pokemon>>(POKEMON_JSON)
+pub fn safe_load_pokemon() -> Result<Vec<Species>, serde_json::error::Error> {
+    serde_json::from_reader::<_, Vec<Species>>(POKEMON_JSON)
 }
 
 /// Constructs a new vector of all the pokemon.
 /// Parses the data from bytes stored in the binary.
-pub fn load_pokemon() -> Vec<Pokemon> {
+pub fn load_pokemon() -> Vec<Species> {
     safe_load_pokemon().expect("load_pokemon: issue loading from binary")
 }
 
@@ -61,7 +61,7 @@ pub enum PureType {
 }
 
 impl PureType {
-    pub fn against(self, pokemon: &Pokemon) -> Efficacy {
+    pub fn against(self, pokemon: &Species) -> Efficacy {
         pokemon.types.against(self)
     }
 
@@ -365,8 +365,11 @@ pub enum Stat {
     Accuracy,
 }
 
+/// Defines traits common to a specific species of pokemon.
+/// Charmander and Bulbasaur are two examles of species.
+/// Evolutions, such as Bulbasaur, Ivysaur and Venusaur, are different species.
 #[derive(Debug, Clone, Deserialize)]
-pub struct Pokemon {
+pub struct Species {
     pub name: String,
     pub stage: i64,
     #[serde(deserialize_with = "deserialize::galar_dex")]
@@ -520,7 +523,7 @@ mod deserialize {
     }
 }
 
-impl Pokemon {
+impl Species {
     pub fn name(&self) -> &str {
         self.name.as_str()
     }
@@ -530,7 +533,7 @@ impl Pokemon {
     }
 
     /// Checks if the two pokemon can breed with each other
-    pub fn breeds_with(&self, other: &Pokemon) -> bool {
+    pub fn breeds_with(&self, other: &Species) -> bool {
         if self.egg_groups.iter().any(|group| group.as_str() == "Undiscovered")
             || other.egg_groups.iter().any(|group| group.as_str() == "Undiscovered") {
             return false;
@@ -547,7 +550,7 @@ impl Pokemon {
         self.common_egg_group(other)
     }
 
-    fn common_egg_group(&self, other: &Pokemon) -> bool {
+    fn common_egg_group(&self, other: &Species) -> bool {
         for group1 in self.egg_groups.iter() {
             for group2 in other.egg_groups.iter() {
                 if group1 == group2 {
@@ -602,14 +605,14 @@ impl Pokemon {
 }
 
 pub struct MoveIdIterator<'a> {
-    pokemon: &'a Pokemon,
+    pokemon: &'a Species,
     /// Indicates what source (level up, egg, tms, trs) we are on
     source_index: u32,
     mv_index: usize,
 }
 
 impl<'a> MoveIdIterator<'a> {
-    fn new(pokemon: &'a Pokemon) -> Self {
+    fn new(pokemon: &'a Species) -> Self {
         Self {
             pokemon,
             source_index: 0,
@@ -724,7 +727,7 @@ mod test {
             "description":"While it is young, it uses the nutrients that are stored in the seed on its back in order to grow."}
             "#;
 
-        match serde_json::from_str::<Pokemon>(example) {
+        match serde_json::from_str::<Species>(example) {
             Ok(p) => {
                 assert_eq!("Bulbasaur", p.name());
                 assert_eq!(PokemonType::Double(Grass, Poison), p.types);

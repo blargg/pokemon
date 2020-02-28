@@ -10,7 +10,7 @@ pub use pokemon::{
 
 use statistical;
 
-pub fn print_population_stats(pokemon: Vec<Pokemon>) {
+pub fn print_population_stats(pokemon: Vec<Species>) {
     println!("population count = {}", pokemon.len());
 
     if pokemon.len() > 2 {
