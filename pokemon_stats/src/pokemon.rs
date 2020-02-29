@@ -331,7 +331,7 @@ impl PartialEq for PokemonType {
 
 impl Eq for PokemonType { }
 
-#[derive(Debug, Clone, PartialEq, Eq)]
+#[derive(Debug, Copy, Clone, PartialEq, Eq)]
 pub struct Stats {
     pub hp: u64,
     pub attack: u64,
@@ -349,6 +349,36 @@ impl Stats {
             + self.sp_attack
             + self.sp_defense
             + self.speed
+    }
+
+    pub fn zeros() -> Self {
+        Stats::set_all(0)
+    }
+
+    pub fn set_all(n: u64) -> Self {
+        Stats {
+            hp: n,
+            attack: n,
+            defense: n,
+            sp_attack: n,
+            sp_defense: n,
+            speed: n,
+        }
+    }
+}
+
+impl std::ops::Add for Stats {
+    type Output = Self;
+
+    fn add(self, other: Self) -> Self {
+        Stats {
+            hp: self.hp + other.hp,
+            attack: self.attack + other.attack,
+            defense: self.defense + other.defense,
+            sp_attack: self.sp_attack + other.sp_attack,
+            sp_defense: self.sp_defense + other.sp_defense,
+            speed: self.speed + other.speed,
+        }
     }
 }
 
@@ -669,6 +699,169 @@ impl<'a> Iterator for MoveIdIterator<'a> {
     }
 }
 
+pub struct Pokemon {
+    species: Species,
+    name: Option<String>,
+    item: Option<String>,
+    ability: String,
+    evs: Stats,
+    ivs: Stats,
+    nature: String,
+    move_list: Vec<MoveId>,
+}
+
+impl Pokemon {
+    /// Loads a pokemon from the Pokemon Showdown format.
+    pub fn parse(s: &str) -> Option<Pokemon> {
+        let lines: Vec<&str> = s.lines().map(|l| l.trim()).collect();
+        let name_line = lines.get(0)?;
+        let (species_name, name) = Pokemon::parse_name(name_line)?;
+
+        let pokemon = load_pokemon();
+        let species = pokemon.iter().find(|p| p.name() == species_name)?;
+        let item = Pokemon::parse_item(name_line)
+            .map(|i| i.to_string());
+
+        let mut ability = "".to_string();
+        let mut evs = Stats::zeros();
+        let mut ivs = Stats::set_all(31);
+        let mut move_list = Vec::new();
+        let mut nature = "Serious".to_string(); // by default, Serious nature, with no changes to stats.
+        for line in lines {
+            if let Some(abl) = Pokemon::parse_ability(line) {
+                ability = abl.to_string();
+            } else if let Some(new_evs) = Pokemon::parse_evs(line) {
+                evs = new_evs;
+            } else if let Some(new_ivs) = Pokemon::parse_ivs(line) {
+                ivs = new_ivs;
+            } else if let Some(mv_name) = after_prefix(line, "- ") {
+                move_list.push(MoveId::from(mv_name));
+            } else if let Some(new_nature) = before_suffix(line, " Nature") {
+                nature = new_nature.to_string();
+            }
+        }
+
+        Some(Pokemon {
+            species: species.clone(),
+            name: name.map(|n| n.to_string()),
+            item,
+            ability,
+            evs,
+            ivs,
+            nature,
+            move_list,
+        })
+    }
+
+    pub fn nickname(&self) -> Option<&str> {
+        self.name.as_ref().map(|n| n.as_str())
+    }
+
+    pub fn species_name(&self) -> &str {
+        self.species.name()
+    }
+
+    pub fn species(&self) -> &Species {
+        &self.species
+    }
+
+    pub fn item(&self) -> Option<&str> {
+        self.item.as_ref().map(|i| i.as_str())
+    }
+
+    pub fn ability(&self) -> &str {
+        self.ability.as_str()
+    }
+
+    pub fn stats(&self) -> Stats {
+        self.evs + self.ivs + self.species.base_stats
+    }
+
+    pub fn nature(&self) -> &str {
+        self.nature.as_str()
+    }
+
+    pub fn moves(&self) -> &Vec<MoveId> {
+        &self.move_list
+    }
+
+    fn parse_item(line: &str) -> Option<&str> {
+        let mut parts = line.split(" @ ");
+        parts.next();
+        parts.next()
+    }
+
+    fn parse_name(line: &str) -> Option<(&str, Option<&str>)> {
+        let mut parts = line.split(" (");
+        match (parts.next(), parts.next()) {
+            (None, None) => None,
+            (None, Some(_)) => None,
+            (Some(species), None) => {
+                Some((species, None))
+            }
+            (Some(name), Some(species_part)) => {
+                let species = species_part.split(")").next()?;
+                Some((species, Some(name)))
+            }
+        }
+    }
+
+    fn parse_ability(line: &str) -> Option<&str> {
+        after_prefix(line, "Ability: ")
+    }
+
+    fn parse_evs(line: &str) -> Option<Stats> {
+        let ev_str = after_prefix(line, "EVs: ")?;
+        let evs = Stats::zeros();
+        Pokemon::update_stats(evs, ev_str)
+    }
+
+    fn parse_ivs(line: &str) -> Option<Stats> {
+        let iv_str = after_prefix(line, "IVs: ")?;
+        let default_ivs = Stats::set_all(31);
+        Pokemon::update_stats(default_ivs, iv_str)
+    }
+
+    /// Updates the given stats by setting any stat in the given **line**.
+    fn update_stats(mut stats: Stats, line: &str) -> Option<Stats> {
+        for stat_str in line.split(" / ") {
+            let parts: Vec<_> = stat_str.split(" ").collect();
+            let value = parts.get(0)?
+                .parse::<u64>()
+                .ok()?;
+            let stat = parts.get(1)?;
+
+            match *stat {
+                "HP" => stats.hp = value,
+                "Atk" => stats.attack = value,
+                "Def" => stats.defense = value,
+                "SpA" => stats.sp_attack = value,
+                "SpD" => stats.sp_defense = value,
+                "Spe" => stats.speed = value,
+                _ => return None,
+            }
+        }
+
+        Some(stats)
+    }
+}
+
+fn after_prefix<'a>(s: &'a str, prefix: &str) -> Option<&'a str> {
+    if s.starts_with(prefix) {
+        Some(s.trim_start_matches(prefix))
+    } else {
+        None
+    }
+}
+
+fn before_suffix<'a>(s: &'a str, suffix: &str) -> Option<&'a str> {
+    if s.ends_with(suffix) {
+        Some(s.trim_end_matches(suffix))
+    } else {
+        None
+    }
+}
+
 #[cfg(test)]
 mod test {
     use super::*;
@@ -755,6 +948,56 @@ mod test {
             },
             Err(err) => panic!("{:?}", err),
         }
+    }
+
+    #[test]
+    fn parse_pokemon_test() {
+        let example = r#"Glug (Avalugg) @ Heavy-Duty Boots
+Ability: Ice Body
+EVs: 252 HP / 4 Atk / 252 Def
+IVs: 0 Spe
+Impish Nature
+- Rapid Spin
+- Avalanche
+- Body Press
+- Recover
+            "#;
+
+        let pokemon = Pokemon::parse(example).unwrap();
+        assert_eq!(pokemon.nickname(), Some("Glug"), "wrong nickname");
+        assert_eq!(pokemon.species_name(), "Avalugg", "wrong species");
+        assert_eq!(pokemon.item(), Some("Heavy-Duty Boots"), "wrong item");
+
+        let expected_evs = Stats {
+            hp: 252,
+            attack: 4,
+            defense: 252,
+            sp_attack: 0,
+            sp_defense: 0,
+            speed: 0,
+        };
+        assert_eq!(pokemon.evs, expected_evs, "incorrect evs");
+
+        let expected_ivs = Stats {
+            hp: 31,
+            attack: 31,
+            defense: 31,
+            sp_attack: 31,
+            sp_defense: 31,
+            speed: 0,
+        };
+        assert_eq!(pokemon.ivs, expected_ivs, "incorrect ivs");
+
+        let expected_moves: Vec<_> = vec![
+            "Rapid Spin",
+            "Avalanche",
+            "Body Press",
+            "Recover",
+        ]
+            .iter()
+            .map(|mv| MoveId::from(*mv))
+            .collect();
+        assert_eq!(pokemon.move_list, expected_moves, "wrong move list");
     }
 
 }
