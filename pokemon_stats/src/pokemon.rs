@@ -352,10 +352,10 @@ impl Stats {
     }
 
     pub fn zeros() -> Self {
-        Stats::set_all(0)
+        Stats::all_valued(0)
     }
 
-    pub fn set_all(n: u64) -> Self {
+    pub fn all_valued(n: u64) -> Self {
         Stats {
             hp: n,
             attack: n,
@@ -724,7 +724,7 @@ impl Pokemon {
 
         let mut ability = "".to_string();
         let mut evs = Stats::zeros();
-        let mut ivs = Stats::set_all(31);
+        let mut ivs = Stats::all_valued(31);
         let mut move_list = Vec::new();
         let mut nature = "Serious".to_string(); // by default, Serious nature, with no changes to stats.
         for line in lines {
@@ -818,7 +818,7 @@ impl Pokemon {
 
     fn parse_ivs(line: &str) -> Option<Stats> {
         let iv_str = after_prefix(line, "IVs: ")?;
-        let default_ivs = Stats::set_all(31);
+        let default_ivs = Stats::all_valued(31);
         Pokemon::update_stats(default_ivs, iv_str)
     }
 
