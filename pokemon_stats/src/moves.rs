@@ -401,7 +401,7 @@ mod deserialize {
     }
 }
 
-#[derive(Copy, Clone, Debug, Deserialize)]
+#[derive(Copy, Clone, Debug, Deserialize, Eq, PartialEq, Hash)]
 #[serde(transparent)]
 pub struct TM {
     id: u64,
@@ -422,7 +422,7 @@ impl TM {
     }
 }
 
-#[derive(Copy, Clone, Debug, Deserialize)]
+#[derive(Copy, Clone, Debug, Deserialize, Eq, PartialEq, Hash)]
 #[serde(transparent)]
 pub struct TR {
     id: u64,

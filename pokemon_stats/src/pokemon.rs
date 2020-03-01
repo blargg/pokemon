@@ -38,7 +38,7 @@ impl Mul for Efficacy {
 }
 
 /// A single type in the type chart
-#[derive(Copy, Clone, Debug, PartialEq, Eq, PartialOrd, Ord, FromPrimitive)]
+#[derive(Copy, Clone, Debug, PartialEq, Eq, PartialOrd, Ord, FromPrimitive, Hash)]
 pub enum PureType {
     Bug = 0,
     Dark,
@@ -236,7 +236,7 @@ impl PureType {
 }
 
 /// Pokemon can have either 1 or 2 types.
-#[derive(Copy, Clone, Debug)]
+#[derive(Copy, Clone, Debug, PartialOrd, Ord, Hash)]
 pub enum PokemonType {
     Single(PureType),
     Double(PureType, PureType),
@@ -331,7 +331,7 @@ impl PartialEq for PokemonType {
 
 impl Eq for PokemonType { }
 
-#[derive(Debug, Copy, Clone, PartialEq, Eq)]
+#[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct Stats {
     pub hp: u64,
     pub attack: u64,
@@ -398,7 +398,7 @@ pub enum Stat {
 /// Defines traits common to a specific species of pokemon.
 /// Charmander and Bulbasaur are two examles of species.
 /// Evolutions, such as Bulbasaur, Ivysaur and Venusaur, are different species.
-#[derive(Debug, Clone, Deserialize)]
+#[derive(Debug, Clone, Deserialize, PartialEq)]
 pub struct Species {
     pub name: String,
     pub stage: i64,
@@ -699,6 +699,7 @@ impl<'a> Iterator for MoveIdIterator<'a> {
     }
 }
 
+#[derive(Clone, PartialEq, Debug)]
 pub struct Pokemon {
     species: Species,
     name: Option<String>,
