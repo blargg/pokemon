@@ -37,6 +37,21 @@ impl Mul for Efficacy {
     }
 }
 
+impl Efficacy {
+    pub fn is_not_effective(&self) -> bool {
+        self < &Efficacy::Pow2(0)
+    }
+
+    /// The efficacy is normal or super effective.
+    pub fn is_effective(&self) -> bool {
+        self >= &Efficacy::Pow2(0)
+    }
+
+    pub fn is_super_effective(&self) -> bool {
+        self > &Efficacy::Pow2(0)
+    }
+}
+
 /// A single type in the type chart
 #[derive(Copy, Clone, Debug, PartialEq, Eq, PartialOrd, Ord, FromPrimitive, Hash)]
 pub enum PureType {
@@ -708,7 +723,7 @@ pub struct Pokemon {
     evs: Stats,
     ivs: Stats,
     nature: String,
-    move_list: Vec<MoveId>,
+    move_list: Vec<Move>,
 }
 
 impl Pokemon {
@@ -716,12 +731,12 @@ impl Pokemon {
     pub fn parse(s: &str) -> Option<Pokemon> {
         let lines: Vec<&str> = s.lines().map(|l| l.trim()).collect();
         let name_line = lines.get(0)?;
-        let (species_name, name) = Pokemon::parse_name(name_line)?;
+        let (species_name, name, item) = Pokemon::parse_name_line(name_line)?;
+        let item = item.map(|i| i.to_string());
 
         let pokemon = load_pokemon();
+        let moves = load_moves();
         let species = pokemon.iter().find(|p| p.name() == species_name)?;
-        let item = Pokemon::parse_item(name_line)
-            .map(|i| i.to_string());
 
         let mut ability = "".to_string();
         let mut evs = Stats::zeros();
@@ -736,7 +751,11 @@ impl Pokemon {
             } else if let Some(new_ivs) = Pokemon::parse_ivs(line) {
                 ivs = new_ivs;
             } else if let Some(mv_name) = after_prefix(line, "- ") {
-                move_list.push(MoveId::from(mv_name));
+                let move_id = MoveId::from(mv_name);
+                let mv = moves.iter().find(|m| m.id == move_id);
+                if let Some(mv) = mv {
+                    move_list.push(mv.clone());
+                }
             } else if let Some(new_nature) = before_suffix(line, " Nature") {
                 nature = new_nature.to_string();
             }
@@ -782,19 +801,25 @@ impl Pokemon {
         self.nature.as_str()
     }
 
-    pub fn moves(&self) -> &Vec<MoveId> {
+    pub fn moves(&self) -> &Vec<Move> {
         &self.move_list
     }
 
-    fn parse_item(line: &str) -> Option<&str> {
-        let mut parts = line.split(" @ ");
-        parts.next();
-        parts.next()
+    pub fn has_super_effective_attack(&self, defender: &Species) -> bool {
+        for mv in self.move_list.iter() {
+            if mv.is_attack() && mv.move_type.against(defender).is_super_effective() {
+                return true;
+            }
+        }
+        false
     }
 
-    fn parse_name(line: &str) -> Option<(&str, Option<&str>)> {
-        let mut parts = line.split(" (");
-        match (parts.next(), parts.next()) {
+    fn parse_name_line(line: &str) -> Option<(&str, Option<&str>, Option<&str>)> {
+        let mut parts = line.trim().split(" @ ");
+        let name_species = parts.next()?;
+        let item = parts.next();
+        let mut parts = name_species.split(" (");
+        let (species, name) = match (parts.next(), parts.next()) {
             (None, None) => None,
             (None, Some(_)) => None,
             (Some(species), None) => {
@@ -804,7 +829,9 @@ impl Pokemon {
                 let species = species_part.split(")").next()?;
                 Some((species, Some(name)))
             }
-        }
+        }?;
+
+        Some((species, name, item))
     }
 
     fn parse_ability(line: &str) -> Option<&str> {
@@ -998,7 +1025,42 @@ Impish Nature
             .iter()
             .map(|mv| MoveId::from(*mv))
             .collect();
-        assert_eq!(pokemon.move_list, expected_moves, "wrong move list");
+        let actual_moves: Vec<_> = pokemon
+            .move_list
+            .iter()
+            .map(|mv| mv.id.clone())
+            .collect();
+        assert_eq!(actual_moves, expected_moves, "wrong move list");
+    }
+
+    #[test]
+    fn name_line_test() {
+        let line = "Gengar @ Life Orb  ";
+        let (species, nickname, item) = Pokemon::parse_name_line(line)
+            .expect("Couldn't parse name line");
+        assert_eq!("Gengar", species);
+        assert_eq!(None, nickname);
+        assert_eq!(Some("Life Orb"), item);
+    }
+
+    #[test]
+    fn without_item_test() {
+        let example = r#"Gengar @ Life Orb  
+Ability: Cursed Body  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Venoshock  
+- Hex  
+- Destiny Bond  
+            "#;
+
+        let pokemon = Pokemon::parse(example).unwrap();
+        assert_eq!(pokemon.nickname(), None, "wrong nickname");
+        assert_eq!(pokemon.species_name(), "Gengar", "wrong species");
+        assert_eq!(pokemon.item(), Some("Life Orb"), "wrong item");
+
     }
 
 }

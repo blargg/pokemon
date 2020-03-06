@@ -35,6 +35,10 @@ impl Party {
         self
     }
 
+    pub fn members(&self) -> &Vec<Pokemon> {
+        &self.members
+    }
+
     pub fn parse(s: &str) -> Self {
         let mut members = Vec::new();
 
@@ -60,6 +64,17 @@ impl Party {
         }
 
         freq
+    }
+
+    /// Checks if any member in the team has an effective attack against the target.
+    pub fn has_super_effective_attack(&self, p: &Species) -> bool {
+        for attacker in self.members.iter() {
+            if attacker.has_super_effective_attack(p) {
+                return true;
+            }
+        }
+
+        false
     }
 }
 

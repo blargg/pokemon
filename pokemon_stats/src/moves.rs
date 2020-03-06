@@ -63,7 +63,7 @@ impl MoveId {
 }
 
 /// Move Category, dictates the attack type
-#[derive(Deserialize_repr, Debug, PartialEq, Eq)]
+#[derive(Deserialize_repr, Clone, Debug, PartialEq, Eq, Hash)]
 #[repr(u8)]
 pub enum Category {
     Status = 0,
@@ -75,7 +75,7 @@ pub enum Category {
 type Percent = u8;
 
 /// Describes positions the move is allowed to target.
-#[derive(Debug)]
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub enum Target {
     All,
     AllAdjacent,
@@ -93,7 +93,7 @@ pub enum Target {
     TargetSelf,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Clone, Deserialize, PartialEq, Eq)]
 #[serde(rename_all="PascalCase")]
 pub struct Move {
     #[serde(rename="Moves")]
@@ -233,6 +233,16 @@ impl Move {
         }
 
         effs
+    }
+
+    /// Determins if the move is an attack.
+    pub fn is_attack(&self) -> bool {
+        use Category::*;
+        match self.category {
+            Physical => true,
+            Special => true,
+            Status => false,
+        }
     }
 }
 
