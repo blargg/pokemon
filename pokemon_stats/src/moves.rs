@@ -3,6 +3,7 @@ use crate::pokemon::{
     Stat,
 };
 use enumset::EnumSet;
+use lazy_static::lazy_static;
 use serde::Deserialize;
 use serde_repr::Deserialize_repr;
 use std::convert::From;
@@ -24,8 +25,16 @@ pub fn safe_load_moves() -> Result<Vec<Move>, csv::Error> {
 }
 
 /// Loads the list of moves as a vector.
+#[deprecated(
+    since = "0.2.0",
+    note = "Please use or copy MOVE_VEC instead",
+)]
 pub fn load_moves() -> Vec<Move> {
     safe_load_moves().expect("Could not load moves")
+}
+
+lazy_static!{
+    pub static ref MOVE_VEC: Vec<Move> = safe_load_moves().expect("Could not load moves");
 }
 
 /// A move that a pokemon may know

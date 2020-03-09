@@ -9,6 +9,7 @@ edition = "2018"
 [dependencies]
 csv = "1.1.1"
 enumset = "0.4.4"
+lazy_static = "1.4.0"
 num = "0.2.0"
 num-derive = "0.3.0"
 num-traits = "0.2.10"

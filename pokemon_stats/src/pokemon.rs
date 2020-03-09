@@ -4,6 +4,7 @@ use num::FromPrimitive;
 use num_derive::FromPrimitive;
 use serde::Deserialize;
 use std::ops::Mul;
+use lazy_static::lazy_static;
 
 const POKEMON_JSON: &[u8] = include_bytes!("../../data/json/pokemon.json");
 
@@ -14,8 +15,16 @@ pub fn safe_load_pokemon() -> Result<Vec<Species>, serde_json::error::Error> {
 
 /// Constructs a new vector of all the pokemon.
 /// Parses the data from bytes stored in the binary.
+#[deprecated(
+    since = "0.2.0",
+    note = "Please use or copy POKEMON_VEC instead",
+)]
 pub fn load_pokemon() -> Vec<Species> {
     safe_load_pokemon().expect("load_pokemon: issue loading from binary")
+}
+
+lazy_static! {
+    pub static ref POKEMON_VEC: Vec<Species> = safe_load_pokemon().expect("load_pokemon: issue loading from binary");
 }
 
 #[derive(PartialEq, Eq, Debug, Copy, Clone, PartialOrd, Ord)]
@@ -734,8 +743,8 @@ impl Pokemon {
         let (species_name, name, item) = Pokemon::parse_name_line(name_line)?;
         let item = item.map(|i| i.to_string());
 
-        let pokemon = load_pokemon();
-        let moves = load_moves();
+        let pokemon = &POKEMON_VEC;
+        let moves = &MOVE_VEC;
         let species = pokemon.iter().find(|p| p.name() == species_name)?;
 
         let mut ability = "".to_string();
